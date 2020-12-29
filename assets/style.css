@@ -1,3 +1,5 @@
+/* Global styles */
+
 body {
   margin: 0;
 
@@ -8,57 +10,8 @@ body {
   background-color: #eee;
 }
 
-section.container {
-  margin: 1rem auto;
-  max-width: 1000px;
-
-  display: flex;
-  flex-flow: row nowrap;
-}
-
-nav {
-  width: 200px;
-}
-
-nav .icon {
-  margin: 1rem 3rem;
-  max-width: calc(200px - 6rem);
-}
-
-nav h1 {
-  margin: 0 0 1rem 0;
-  text-align: center;
-}
-
-nav input {
-  border: 1px solid #888;
-}
-
-nav .menu {
-  list-style: none;
-  padding-left: 0;
-}
-
-nav .menu > li {
-  font-weight: bold;
-}
-
-nav .submenu {
+li {
   list-style: square;
-  padding-left: 1.5rem;
-}
-
-nav .submenu li {
-  margin: 0.2rem 0;
-}
-
-section.content,
-section.search-results {
-  flex-grow: 1;
-}
-
-section.search-results {
-  display: none;
 }
 
 a {
@@ -77,17 +30,109 @@ a:hover {
   border-bottom: 1px solid #111;
 }
 
+footer {
+  color: #888;
+  text-align: center;
+  font-style: italic;
+}
+
+/* Layout */
+
+section.container,
+table.nav {
+  margin: 1rem auto;
+  max-width: 1000px;
+}
+
+section.container {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+nav {
+  width: 200px;
+  margin-right: 1rem;
+}
+
+section.content,
+section.search-results {
+  flex-grow: 1;
+}
+
+section.search-results {
+  display: none;
+}
+
+/* Navbar */
+
+nav .icon {
+  margin: 1rem 3rem;
+  max-width: calc(200px - 6rem);
+}
+
+nav input {
+  border: 1px solid #888;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+nav footer {
+  margin-top: 1rem;
+}
+
+/* Tables */
+
+table {
+  border-spacing: 0;
+  border: 1px solid #aaa;
+  background-color: #fff;
+}
+
+td.number {
+  text-align: center;
+}
+
+td {
+  padding: 0.2rem;
+}
+
+th {
+  background-color: #eee;
+  padding: 0.1rem;
+  border: 0.1rem solid #fff;
+
+  text-align: center;
+}
+
+/* Navtable */
+
+table.nav th.category,
+table.nav th.group {
+  white-space: nowrap;
+}
+
+table.nav th.group {
+  color: #888;
+}
+
+/* Craft tables */
+
+table.crafts tr:nth-child(2n + 1) {
+  background-color: #f8f8f8;
+}
+
+/* Misc */
+
 .sprite {
   display: inline-block;
 }
 
 h2 .type {
-  font-size: 0.8rem;
   font-weight: normal;
   font-style: italic;
   color: #888;
 }
 
-th {
-  text-align: left;
+h2 .type:after {
+  content: ': ';
 }

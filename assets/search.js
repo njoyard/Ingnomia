@@ -19,13 +19,17 @@
       queryDisplay.textContent = value
 
       let query = value.toLowerCase().replace(/ /g, '')
-      let lastMatch = null
+      let firstMatch = null
       let matchCount = 0
 
       for (let { element, keywords } of entries) {
         if (keywords.includes(query)) {
           matchCount++
-          lastMatch = element
+
+          if (!firstMatch) {
+            firstMatch = element
+          }
+
           element.style.display = 'list-item'
         } else {
           element.style.display = 'none'
@@ -37,8 +41,8 @@
       results.style.display = 'block'
       content.style.display = 'none'
 
-      if (matchCount === 1 && e.keyCode === 13) {
-        lastMatch.querySelector('a').click()
+      if (firstMatch && e.keyCode === 13) {
+        firstMatch.querySelector('a').click()
       }
     } else {
       results.style.display = 'none'
