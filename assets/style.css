@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+
+  font-family: sans-serif;
+  font-size: 0.8rem;
+
+  color: #444;
+  background-color: #eee;
+}
+
+section.container {
+  margin: 1rem auto;
+  max-width: 1000px;
+
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+nav {
+  width: 200px;
+}
+
+nav .icon {
+  margin: 1rem 3rem;
+  max-width: calc(200px - 6rem);
+}
+
+nav h1 {
+  margin: 0 0 1rem 0;
+  text-align: center;
+}
+
+nav input {
+  border: 1px solid #888;
+}
+
+nav .menu {
+  list-style: none;
+  padding-left: 0;
+}
+
+nav .menu > li {
+  font-weight: bold;
+}
+
+nav .submenu {
+  list-style: square;
+  padding-left: 1.5rem;
+}
+
+nav .submenu li {
+  margin: 0.2rem 0;
+}
+
+section.content,
+section.search-results {
+  flex-grow: 1;
+}
+
+section.search-results {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited,
+a:active {
+  color: #444;
+  border-bottom: 1px dotted #444;
+}
+
+a:hover {
+  color: #111;
+  border-bottom: 1px solid #111;
+}
+
+.sprite {
+  display: inline-block;
+}
+
+h2 .type {
+  font-size: 0.8rem;
+  font-weight: normal;
+  font-style: italic;
+  color: #888;
+}
+
+th {
+  text-align: left;
+}
