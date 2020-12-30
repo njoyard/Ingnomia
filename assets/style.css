@@ -115,6 +115,10 @@ table.nav th.group {
   color: #888;
 }
 
+table.nav .entry {
+  white-space: nowrap;
+}
+
 /* Craft tables */
 
 table.crafts tr:nth-child(2n + 1) {
@@ -125,7 +129,7 @@ table.crafts tr:nth-child(2n + 1) {
 
 .sprite {
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: text-bottom;
 }
 
 h2 .type {
