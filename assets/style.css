@@ -125,6 +125,7 @@ table.crafts tr:nth-child(2n + 1) {
 
 .sprite {
   display: inline-block;
+  vertical-align: middle;
 }
 
 h2 .type {
@@ -135,4 +136,8 @@ h2 .type {
 
 h2 .type:after {
   content: ': ';
+}
+
+table.iteminfo th {
+  white-space: nowrap;
 }
