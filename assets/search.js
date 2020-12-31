@@ -1,4 +1,4 @@
-;(function init() {
+;(function () {
   let input = document.querySelector('input[type="search"]')
   let queryDisplay = document.querySelector('.search-query')
   let results = document.querySelector('section.search-results')

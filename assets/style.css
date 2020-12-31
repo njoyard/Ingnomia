@@ -98,7 +98,7 @@ td {
 
 th {
   background-color: #eee;
-  padding: 0.1rem;
+  padding: 0.1rem 0.3rem;
   border: 0.1rem solid #fff;
 
   text-align: center;
@@ -111,7 +111,8 @@ table.nav th.group {
   white-space: nowrap;
 }
 
-table.nav th.group {
+table.nav th.group,
+table.nav th.group a {
   color: #888;
 }
 
@@ -126,11 +127,6 @@ table.crafts tr:nth-child(2n + 1) {
 }
 
 /* Misc */
-
-.sprite {
-  display: inline-block;
-  vertical-align: text-bottom;
-}
 
 h2 .type {
   font-weight: normal;

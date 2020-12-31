@@ -5,7 +5,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 0.9411764705882353 0" />
     </filter>
   
     <filter id="Grass" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -13,7 +13,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Dirt" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -21,7 +21,7 @@
         values="0.6705882352941176 0 0 0 0
                 0 0.49019607843137253 0 0 0
                 0 0 0.13725490196078433 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Sand" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -29,7 +29,7 @@
         values="0.9215686274509803 0 0 0 0
                 0 0.9215686274509803 0 0 0
                 0 0 0.39215686274509803 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Clay" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -37,7 +37,7 @@
         values="0.5647058823529412 0 0 0 0
                 0 0.34509803921568627 0 0 0
                 0 0 0.3058823529411765 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Granite" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -45,7 +45,7 @@
         values="0.5019607843137255 0 0 0 0
                 0 0.5019607843137255 0 0 0
                 0 0 0.5019607843137255 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Basalt" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -53,7 +53,7 @@
         values="0.25098039215686274 0 0 0 0
                 0 0.25098039215686274 0 0 0
                 0 0 0.25098039215686274 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Marble" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -61,7 +61,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Sandstone" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -69,7 +69,7 @@
         values="0.7529411764705882 0 0 0 0
                 0 0.4627450980392157 0 0 0
                 0 0 0.2627450980392157 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Bauxite" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -77,7 +77,7 @@
         values="0.4980392156862745 0 0 0 0
                 0 0.24705882352941178 0 0 0
                 0 0 0.24705882352941178 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Serpentine" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -85,7 +85,7 @@
         values="0.5372549019607843 0 0 0 0
                 0 0.6588235294117647 0 0 0
                 0 0 0.41568627450980394 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="LapisLazuli" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -93,7 +93,7 @@
         values="0.29411764705882354 0 0 0 0
                 0 0.36470588235294116 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Obsidian" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -101,7 +101,7 @@
         values="0.06274509803921569 0 0 0 0
                 0 0.06274509803921569 0 0 0
                 0 0 0.06274509803921569 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Water" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -109,7 +109,7 @@
         values="0.0 0 0 0 0
                 0 0.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 0.5019607843137255 0" />
     </filter>
   
     <filter id="Lava" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -117,7 +117,7 @@
         values="1.0 0 0 0 0
                 0 0.35294117647058826 0 0 0
                 0 0 0.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Pine" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -125,7 +125,7 @@
         values="0.7803921568627451 0 0 0 0
                 0 0.5254901960784314 0 0 0
                 0 0 0.21176470588235294 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Oak" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -133,7 +133,7 @@
         values="0.6627450980392157 0 0 0 0
                 0 0.40784313725490196 0 0 0
                 0 0 0.21176470588235294 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="AppleWood" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -141,7 +141,7 @@
         values="0.7803921568627451 0 0 0 0
                 0 0.396078431372549 0 0 0
                 0 0 0.21176470588235294 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Birch" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -149,7 +149,7 @@
         values="0.9490196078431372 0 0 0 0
                 0 0.8235294117647058 0 0 0
                 0 0 0.4117647058823529 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Coal" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -157,7 +157,7 @@
         values="0.25098039215686274 0 0 0 0
                 0 0.25098039215686274 0 0 0
                 0 0 0.25098039215686274 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Copper" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -165,7 +165,7 @@
         values="0.8392156862745098 0 0 0 0
                 0 0.2901960784313726 0 0 0
                 0 0 0.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Malachite" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -173,7 +173,7 @@
         values="0.10980392156862745 0 0 0 0
                 0 0.5490196078431373 0 0 0
                 0 0 0.27450980392156865 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Tin" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -181,7 +181,7 @@
         values="0.4980392156862745 0 0 0 0
                 0 0.4980392156862745 0 0 0
                 0 0 0.4980392156862745 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Bronze" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -189,7 +189,7 @@
         values="0.6509803921568628 0 0 0 0
                 0 0.49019607843137253 0 0 0
                 0 0 0.23921568627450981 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Iron" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -197,7 +197,7 @@
         values="0.2980392156862745 0 0 0 0
                 0 0.2980392156862745 0 0 0
                 0 0 0.2980392156862745 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Steel" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -205,7 +205,7 @@
         values="0.27450980392156865 0 0 0 0
                 0 0.5098039215686274 0 0 0
                 0 0 0.7058823529411765 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Lead" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -213,7 +213,7 @@
         values="0.4627450980392157 0 0 0 0
                 0 0.5333333333333333 0 0 0
                 0 0 0.5607843137254902 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Silver" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -221,7 +221,7 @@
         values="0.7529411764705882 0 0 0 0
                 0 0.7529411764705882 0 0 0
                 0 0 0.7529411764705882 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Gold" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -229,7 +229,7 @@
         values="1.0 0 0 0 0
                 0 0.8431372549019608 0 0 0
                 0 0 0.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="RoseGold" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -237,7 +237,7 @@
         values="0.7176470588235294 0 0 0 0
                 0 0.43137254901960786 0 0 0
                 0 0 0.4745098039215686 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Platinum" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -245,7 +245,7 @@
         values="0.8980392156862745 0 0 0 0
                 0 0.8941176470588236 0 0 0
                 0 0 0.8862745098039215 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="FlintStone" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -253,7 +253,7 @@
         values="0.0392156862745098 0 0 0 0
                 0 0.0392156862745098 0 0 0
                 0 0 0.0392156862745098 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Emerald" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -261,7 +261,7 @@
         values="0.09803921568627451 0 0 0 0
                 0 0.9137254901960784 0 0 0
                 0 0 0.09803921568627451 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Amethyst" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -269,7 +269,7 @@
         values="0.6784313725490196 0 0 0 0
                 0 0.058823529411764705 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Diamond" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -277,7 +277,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Sapphire" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -285,7 +285,7 @@
         values="0.0 0 0 0 0
                 0 0.0 0 0 0
                 0 0 0.6274509803921569 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Ruby" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -293,7 +293,7 @@
         values="1.0 0 0 0 0
                 0 0.0 0 0 0
                 0 0 0.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Amber" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -301,7 +301,7 @@
         values="0.9372549019607843 0 0 0 0
                 0 0.29411764705882354 0 0 0
                 0 0 0.0196078431372549 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Beryll" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -309,7 +309,7 @@
         values="0.0 0 0 0 0
                 0 0.6039215686274509 0 0 0
                 0 0 0.22745098039215686 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Topaz" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -317,7 +317,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 0.5019607843137255 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Wool" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -325,7 +325,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="OrangeWood" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -333,7 +333,7 @@
         values="0.7764705882352941 0 0 0 0
                 0 0.6313725490196078 0 0 0
                 0 0 0.45098039215686275 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Mushroom" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -341,7 +341,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Ceramic" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -349,7 +349,7 @@
         values="0.6431372549019608 0 0 0 0
                 0 0.30980392156862746 0 0 0
                 0 0 0.22745098039215686 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Glass" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -357,7 +357,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Chicken" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -365,7 +365,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Emu" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -373,7 +373,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Yak" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -381,7 +381,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Sheep" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -389,7 +389,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Pig" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -397,7 +397,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Cow" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -405,7 +405,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Rabbit" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -413,7 +413,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Llama" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -421,7 +421,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Duck" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -429,7 +429,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Goose" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -437,7 +437,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Dog" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -445,7 +445,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Cat" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -453,7 +453,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Porcupine" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -461,7 +461,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Fox" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -469,7 +469,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Wolf" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -477,7 +477,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Deer" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -485,7 +485,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Badger" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -493,7 +493,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="BlackBear" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -501,7 +501,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Goat" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -509,7 +509,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Squirrel" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -517,7 +517,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="GreyFish" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -525,7 +525,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="GreenFish" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -533,7 +533,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="ChickenBone" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -541,7 +541,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="EmuBone" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -549,7 +549,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="YakBone" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -557,7 +557,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="SheepBone" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -565,7 +565,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="PigBone" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -573,7 +573,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="CowBone" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -581,7 +581,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="RabbitBone" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -589,7 +589,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="LlamaBone" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -597,7 +597,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="DuckBone" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -605,7 +605,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="GooseBone" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -613,7 +613,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="DogBone" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -621,7 +621,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="CatBone" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -629,7 +629,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="PorcupineBone" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -637,7 +637,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="FoxBone" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -645,7 +645,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="WolfBone" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -653,7 +653,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="DeerBone" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -661,7 +661,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="GoatBone" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -669,7 +669,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="BadgerBone" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -677,7 +677,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="BlackBearBone" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -685,7 +685,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="SquirrelBone" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -693,7 +693,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="GreyFishBone" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -701,7 +701,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="GreenFishBone" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -709,7 +709,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="JobYellow" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -717,7 +717,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 0.0 0 0
-                0 0 0 1 0" />
+                0 0 0 0.23529411764705882 0" />
     </filter>
   
     <filter id="JobGreen" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -725,7 +725,7 @@
         values="0.5019607843137255 0 0 0 0
                 0 1.0 0 0 0
                 0 0 0.5019607843137255 0 0
-                0 0 0 1 0" />
+                0 0 0 0.23529411764705882 0" />
     </filter>
   
     <filter id="JobPurple" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -733,7 +733,7 @@
         values="1.0 0 0 0 0
                 0 0.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 0.23529411764705882 0" />
     </filter>
   
     <filter id="RendererStockpile" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -741,7 +741,7 @@
         values="0.7843137254901961 0 0 0 0
                 0 1.0 0 0 0
                 0 0 0.19607843137254902 0 0
-                0 0 0 1 0" />
+                0 0 0 0.25098039215686274 0" />
     </filter>
   
     <filter id="RendererGrove" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -749,7 +749,7 @@
         values="0.5019607843137255 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 0.25098039215686274 0" />
     </filter>
   
     <filter id="RendererFarm" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -757,7 +757,7 @@
         values="1.0 0 0 0 0
                 0 0.5019607843137255 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 0.25098039215686274 0" />
     </filter>
   
     <filter id="RendererWorkshop" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -765,7 +765,7 @@
         values="0.9607843137254902 0 0 0 0
                 0 0.5490196078431373 0 0 0
                 0 0 0.7058823529411765 0 0
-                0 0 0 1 0" />
+                0 0 0 0.25098039215686274 0" />
     </filter>
   
     <filter id="Green" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -773,7 +773,7 @@
         values="0.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 0.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Red" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -781,7 +781,7 @@
         values="1.0 0 0 0 0
                 0 0.0 0 0 0
                 0 0 0.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Blue" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -789,7 +789,7 @@
         values="0.0 0 0 0 0
                 0 0.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Purple" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -797,7 +797,7 @@
         values="1.0 0 0 0 0
                 0 0.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Cyan" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -805,7 +805,7 @@
         values="0.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Yellow" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -813,7 +813,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 0.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Grey" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -821,7 +821,7 @@
         values="0.47058823529411764 0 0 0 0
                 0 0.47058823529411764 0 0 0
                 0 0 0.47058823529411764 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Goblin" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -829,7 +829,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Strawberry" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -837,7 +837,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Apple" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -845,7 +845,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Orange" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -853,7 +853,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Wheat" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -861,7 +861,7 @@
         values="0.9921568627450981 0 0 0 0
                 0 0.7686274509803922 0 0 0
                 0 0 0.09019607843137255 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Cotton" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -869,7 +869,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Carrot" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -877,7 +877,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Onion" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -885,7 +885,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Potato" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -893,7 +893,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Cabbage" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -901,7 +901,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Asparagus" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -909,7 +909,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Broccoli" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -917,7 +917,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Cauliflower" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -925,7 +925,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Cucumber" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -933,7 +933,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Garlic" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -941,7 +941,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Parsnip" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -949,7 +949,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Radish" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -957,7 +957,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Turnip" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -965,7 +965,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Lettuce" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -973,7 +973,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Melon" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -981,7 +981,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Sugarbeet" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -989,7 +989,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Pumpkin" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -997,7 +997,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Peas" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -1005,7 +1005,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Tea" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -1013,7 +1013,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Tobacco" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -1021,7 +1021,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Pineapple" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -1029,7 +1029,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Leek" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -1037,7 +1037,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Corn" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -1045,7 +1045,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Beans" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -1053,7 +1053,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Blackberry" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -1061,7 +1061,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Artichoke" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -1069,7 +1069,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Bottlegourd" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -1077,7 +1077,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Tomato" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -1085,7 +1085,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Capsicum" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -1093,7 +1093,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Grape" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -1101,7 +1101,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="BeetRoot" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -1109,7 +1109,7 @@
         values="1.0 0 0 0 0
                 0 0.0 0 0 0
                 0 0 0.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Woad" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -1117,7 +1117,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="DyersWeed" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -1125,7 +1125,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Barley" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -1133,7 +1133,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Oat" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -1141,7 +1141,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Millet" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -1149,7 +1149,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Flower1" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -1157,7 +1157,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Flower2" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -1165,7 +1165,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Flower3" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -1173,7 +1173,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Flower4" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -1181,7 +1181,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Flower5" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -1189,7 +1189,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Flower6" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -1197,7 +1197,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Flower7" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -1205,7 +1205,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Flower8" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -1213,7 +1213,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Bee" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -1221,7 +1221,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="YakLeather" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -1229,7 +1229,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="CowLeather" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -1237,7 +1237,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="EmuLeather" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -1245,7 +1245,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="BearLeather" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -1253,7 +1253,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="WolfLeather" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -1261,7 +1261,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="StagLeather" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -1269,7 +1269,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Glass" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -1277,7 +1277,7 @@
         values="1.0 0 0 0 0
                 0 1.0 0 0 0
                 0 0 1.0 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
     <filter id="Willow" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
@@ -1285,7 +1285,7 @@
         values="0.7411764705882353 0 0 0 0
                 0 0.48627450980392156 0 0 0
                 0 0 0.2901960784313726 0 0
-                0 0 0 1 0" />
+                0 0 0 1.0 0" />
     </filter>
   
 </svg>
