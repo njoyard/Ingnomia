@@ -11,6 +11,28 @@
   position: absolute;
 }
 
+.sprite-background {
+  top: 16px;
+  width: 32px;
+  height: 20px;
+}
+
+.sprite-background-plain {
+  background-image: url(terrain.png);
+  background-position: -32px 0;
+}
+
+.sprite-background-sand {
+  background-image: url(terrain.png);
+  background-position: -256px 0px;
+  filter: url(tints.svg#Sand);
+}
+
+.sprite-background-grass {
+  background-image: url(seasonalgrass.png);
+  background-position: 0 -20px;
+}
+
 
 .base-sprite-EmptyFloor {
   background-image: url(terrain.png);

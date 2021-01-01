@@ -39,9 +39,11 @@ footer {
 /* Layout */
 
 section.container,
-table.nav {
+table.nav,
+footer {
   margin: 1rem auto;
   max-width: 1000px;
+  width: 100%;
 }
 
 section.container {
@@ -76,8 +78,14 @@ nav input {
   width: 100%;
 }
 
-nav footer {
-  margin-top: 1rem;
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  margin: 0.5rem 0;
+  list-style: none;
+  font-weight: bold;
 }
 
 /* Tables */
@@ -116,12 +124,18 @@ table.nav th.group a {
   color: #888;
 }
 
+table.nav a.collapse-trigger {
+  margin-left: 0.5rem;
+  font-weight: normal;
+}
+
 table.nav .entry {
   white-space: nowrap;
 }
 
 /* Craft tables */
 
+table.workshop-components tr:nth-child(2n + 1),
 table.crafts tr:nth-child(2n + 1) {
   background-color: #f8f8f8;
 }
