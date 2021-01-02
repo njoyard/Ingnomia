@@ -95,7 +95,10 @@ function setupCollapse() {
   }
 }
 
+function syncAnimations() {}
+
 ;(function () {
   setupSearch()
   setupCollapse()
+  syncAnimations()
 })()
