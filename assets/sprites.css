@@ -59,10 +59,10 @@
 /* RawSoil */
 @keyframes sprite-RawSoil-TSoilTSand-1 {
   0.0% {
-    filter: url(tints.svg#Dirt);
+    filter: url(tints.svg#Sand);
   }
   50.0% {
-    filter: url(tints.svg#Sand);
+    filter: url(tints.svg#Dirt);
   }
 }
 .sprite-id-RawSoil.sprite-material-any .sprite-layer:nth-child(1),
@@ -92,10 +92,10 @@
 }
 @keyframes sprite-RawSoil-MClayMSand-1 {
   0.0% {
-    filter: url(tints.svg#Clay);
+    filter: url(tints.svg#Sand);
   }
   50.0% {
-    filter: url(tints.svg#Sand);
+    filter: url(tints.svg#Clay);
   }
 }
 .sprite-id-RawSoil.sprite-material-MClayMSand .sprite-layer:nth-child(1)
@@ -117,10 +117,10 @@
 /* Block */
 @keyframes sprite-Block-MClayMSand-1 {
   0.0% {
-    filter: url(tints.svg#Clay);
+    filter: url(tints.svg#Sand);
   }
   50.0% {
-    filter: url(tints.svg#Sand);
+    filter: url(tints.svg#Clay);
   }
 }
 .sprite-id-Block.sprite-material-MClayMSand .sprite-layer:nth-child(1)
@@ -146,31 +146,31 @@
 }
 @keyframes sprite-Block-TStone-1 {
   0.0% {
-    filter: url(tints.svg#Ceramic);
+    filter: url(tints.svg#Sandstone);
   }
   11.11% {
-    filter: url(tints.svg#Granite);
+    filter: url(tints.svg#Obsidian);
   }
   22.22% {
-    filter: url(tints.svg#Bauxite);
-  }
-  33.33% {
     filter: url(tints.svg#Marble);
   }
+  33.33% {
+    filter: url(tints.svg#Basalt);
+  }
   44.44% {
-    filter: url(tints.svg#LapisLazuli);
+    filter: url(tints.svg#Granite);
   }
   55.56% {
     filter: url(tints.svg#Serpentine);
   }
   66.67% {
-    filter: url(tints.svg#Basalt);
+    filter: url(tints.svg#Bauxite);
   }
   77.78% {
-    filter: url(tints.svg#Obsidian);
+    filter: url(tints.svg#Ceramic);
   }
   88.89% {
-    filter: url(tints.svg#Sandstone);
+    filter: url(tints.svg#LapisLazuli);
   }
 }
 .sprite-id-Block.sprite-material-any .sprite-layer:nth-child(1),
@@ -247,31 +247,31 @@
 /* RawStone */
 @keyframes sprite-RawStone-TStone-1 {
   0.0% {
-    filter: url(tints.svg#Ceramic);
+    filter: url(tints.svg#Sandstone);
   }
   11.11% {
-    filter: url(tints.svg#Granite);
+    filter: url(tints.svg#Obsidian);
   }
   22.22% {
-    filter: url(tints.svg#Bauxite);
-  }
-  33.33% {
     filter: url(tints.svg#Marble);
   }
+  33.33% {
+    filter: url(tints.svg#Basalt);
+  }
   44.44% {
-    filter: url(tints.svg#LapisLazuli);
+    filter: url(tints.svg#Granite);
   }
   55.56% {
     filter: url(tints.svg#Serpentine);
   }
   66.67% {
-    filter: url(tints.svg#Basalt);
+    filter: url(tints.svg#Bauxite);
   }
   77.78% {
-    filter: url(tints.svg#Obsidian);
+    filter: url(tints.svg#Ceramic);
   }
   88.89% {
-    filter: url(tints.svg#Sandstone);
+    filter: url(tints.svg#LapisLazuli);
   }
 }
 .sprite-id-RawStone.sprite-material-any .sprite-layer:nth-child(1),
@@ -358,19 +358,19 @@
 /* RawWood */
 @keyframes sprite-RawWood-TWood-1 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
-  }
-  16.67% {
-    filter: url(tints.svg#Pine);
-  }
-  33.33% {
     filter: url(tints.svg#OrangeWood);
   }
-  50.0% {
+  16.67% {
     filter: url(tints.svg#Oak);
   }
-  66.67% {
+  33.33% {
+    filter: url(tints.svg#AppleWood);
+  }
+  50.0% {
     filter: url(tints.svg#Birch);
+  }
+  66.67% {
+    filter: url(tints.svg#Pine);
   }
   83.33% {
     filter: url(tints.svg#Willow);
@@ -459,19 +459,19 @@
 /* FellingAxeBase */
 @keyframes sprite-FellingAxeBase-TWood-1 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
-  }
-  16.67% {
-    filter: url(tints.svg#Pine);
-  }
-  33.33% {
     filter: url(tints.svg#OrangeWood);
   }
-  50.0% {
+  16.67% {
     filter: url(tints.svg#Oak);
   }
-  66.67% {
+  33.33% {
+    filter: url(tints.svg#AppleWood);
+  }
+  50.0% {
     filter: url(tints.svg#Birch);
+  }
+  66.67% {
+    filter: url(tints.svg#Pine);
   }
   83.33% {
     filter: url(tints.svg#Willow);
@@ -528,37 +528,37 @@
 }
 @keyframes sprite-FellingAxeBase-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-FellingAxeBase.sprite-material-any .sprite-layer:nth-child(1),
@@ -649,19 +649,19 @@
 /* Plank */
 @keyframes sprite-Plank-TWood-1 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
-  }
-  16.67% {
-    filter: url(tints.svg#Pine);
-  }
-  33.33% {
     filter: url(tints.svg#OrangeWood);
   }
-  50.0% {
+  16.67% {
     filter: url(tints.svg#Oak);
   }
-  66.67% {
+  33.33% {
+    filter: url(tints.svg#AppleWood);
+  }
+  50.0% {
     filter: url(tints.svg#Birch);
+  }
+  66.67% {
+    filter: url(tints.svg#Pine);
   }
   83.33% {
     filter: url(tints.svg#Willow);
@@ -720,37 +720,37 @@
 /* RawOre */
 @keyframes sprite-RawOre-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-RawOre.sprite-material-any .sprite-layer:nth-child(1),
@@ -853,37 +853,37 @@
 /* Bar */
 @keyframes sprite-Bar-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-Bar.sprite-material-any .sprite-layer:nth-child(1),
@@ -974,37 +974,37 @@
 /* MetalSliver */
 @keyframes sprite-MetalSliver-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-MetalSliver.sprite-material-any .sprite-layer:nth-child(1),
@@ -1095,31 +1095,31 @@
 /* RawGem */
 @keyframes sprite-RawGem-TGem-1 {
   0.0% {
-    filter: url(tints.svg#Ruby);
-  }
-  11.11% {
     filter: url(tints.svg#Emerald);
   }
+  11.11% {
+    filter: url(tints.svg#Ruby);
+  }
   22.22% {
-    filter: url(tints.svg#Sapphire);
-  }
-  33.33% {
-    filter: url(tints.svg#Diamond);
-  }
-  44.44% {
-    filter: url(tints.svg#Topaz);
-  }
-  55.56% {
     filter: url(tints.svg#Amethyst);
   }
-  66.67% {
-    filter: url(tints.svg#Amber);
-  }
-  77.78% {
+  33.33% {
     filter: url(tints.svg#FlintStone);
   }
-  88.89% {
+  44.44% {
     filter: url(tints.svg#Beryll);
+  }
+  55.56% {
+    filter: url(tints.svg#Sapphire);
+  }
+  66.67% {
+    filter: url(tints.svg#Diamond);
+  }
+  77.78% {
+    filter: url(tints.svg#Amber);
+  }
+  88.89% {
+    filter: url(tints.svg#Topaz);
   }
 }
 .sprite-id-RawGem.sprite-material-any .sprite-layer:nth-child(1),
@@ -1206,31 +1206,31 @@
 /* Gem */
 @keyframes sprite-Gem-TGem-1 {
   0.0% {
-    filter: url(tints.svg#Ruby);
-  }
-  11.11% {
     filter: url(tints.svg#Emerald);
   }
+  11.11% {
+    filter: url(tints.svg#Ruby);
+  }
   22.22% {
-    filter: url(tints.svg#Sapphire);
-  }
-  33.33% {
-    filter: url(tints.svg#Diamond);
-  }
-  44.44% {
-    filter: url(tints.svg#Topaz);
-  }
-  55.56% {
     filter: url(tints.svg#Amethyst);
   }
-  66.67% {
-    filter: url(tints.svg#Amber);
-  }
-  77.78% {
+  33.33% {
     filter: url(tints.svg#FlintStone);
   }
-  88.89% {
+  44.44% {
     filter: url(tints.svg#Beryll);
+  }
+  55.56% {
+    filter: url(tints.svg#Sapphire);
+  }
+  66.67% {
+    filter: url(tints.svg#Diamond);
+  }
+  77.78% {
+    filter: url(tints.svg#Amber);
+  }
+  88.89% {
+    filter: url(tints.svg#Topaz);
   }
 }
 .sprite-id-Gem.sprite-material-any .sprite-layer:nth-child(1),
@@ -1762,19 +1762,19 @@
 /* WoodBedFrame */
 @keyframes sprite-WoodBedFrame-TWood-1 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
-  }
-  16.67% {
-    filter: url(tints.svg#Pine);
-  }
-  33.33% {
     filter: url(tints.svg#OrangeWood);
   }
-  50.0% {
+  16.67% {
     filter: url(tints.svg#Oak);
   }
-  66.67% {
+  33.33% {
+    filter: url(tints.svg#AppleWood);
+  }
+  50.0% {
     filter: url(tints.svg#Birch);
+  }
+  66.67% {
+    filter: url(tints.svg#Pine);
   }
   83.33% {
     filter: url(tints.svg#Willow);
@@ -2397,19 +2397,19 @@
 /* FancyWoodBedFrame */
 @keyframes sprite-FancyWoodBedFrame-TWood-1 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
-  }
-  16.67% {
-    filter: url(tints.svg#Pine);
-  }
-  33.33% {
     filter: url(tints.svg#OrangeWood);
   }
-  50.0% {
+  16.67% {
     filter: url(tints.svg#Oak);
   }
-  66.67% {
+  33.33% {
+    filter: url(tints.svg#AppleWood);
+  }
+  50.0% {
     filter: url(tints.svg#Birch);
+  }
+  66.67% {
+    filter: url(tints.svg#Pine);
   }
   83.33% {
     filter: url(tints.svg#Willow);
@@ -2461,19 +2461,19 @@
 /* FancyBed */
 @keyframes sprite-FancyBed-TWood-1 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
-  }
-  16.67% {
-    filter: url(tints.svg#Pine);
-  }
-  33.33% {
     filter: url(tints.svg#OrangeWood);
   }
-  50.0% {
+  16.67% {
     filter: url(tints.svg#Oak);
   }
-  66.67% {
+  33.33% {
+    filter: url(tints.svg#AppleWood);
+  }
+  50.0% {
     filter: url(tints.svg#Birch);
+  }
+  66.67% {
+    filter: url(tints.svg#Pine);
   }
   83.33% {
     filter: url(tints.svg#Willow);
@@ -2584,19 +2584,19 @@
 /* AlarmBellBase */
 @keyframes sprite-AlarmBellBase-TWood-1 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
-  }
-  16.67% {
-    filter: url(tints.svg#Pine);
-  }
-  33.33% {
     filter: url(tints.svg#OrangeWood);
   }
-  50.0% {
+  16.67% {
     filter: url(tints.svg#Oak);
   }
-  66.67% {
+  33.33% {
+    filter: url(tints.svg#AppleWood);
+  }
+  50.0% {
     filter: url(tints.svg#Birch);
+  }
+  66.67% {
+    filter: url(tints.svg#Pine);
   }
   83.33% {
     filter: url(tints.svg#Willow);
@@ -2648,37 +2648,37 @@
 /* AlarmBellBell */
 @keyframes sprite-AlarmBellBell-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-AlarmBellBell.sprite-material-any .sprite-layer:nth-child(1),
@@ -3511,19 +3511,19 @@
 /* Cabinet */
 @keyframes sprite-Cabinet-TWood-1 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
-  }
-  16.67% {
-    filter: url(tints.svg#Pine);
-  }
-  33.33% {
     filter: url(tints.svg#OrangeWood);
   }
-  50.0% {
+  16.67% {
     filter: url(tints.svg#Oak);
   }
-  66.67% {
+  33.33% {
+    filter: url(tints.svg#AppleWood);
+  }
+  50.0% {
     filter: url(tints.svg#Birch);
+  }
+  66.67% {
+    filter: url(tints.svg#Pine);
   }
   83.33% {
     filter: url(tints.svg#Willow);
@@ -3575,19 +3575,19 @@
 /* Dresser */
 @keyframes sprite-Dresser-TWood-1 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
-  }
-  16.67% {
-    filter: url(tints.svg#Pine);
-  }
-  33.33% {
     filter: url(tints.svg#OrangeWood);
   }
-  50.0% {
+  16.67% {
     filter: url(tints.svg#Oak);
   }
-  66.67% {
+  33.33% {
+    filter: url(tints.svg#AppleWood);
+  }
+  50.0% {
     filter: url(tints.svg#Birch);
+  }
+  66.67% {
+    filter: url(tints.svg#Pine);
   }
   83.33% {
     filter: url(tints.svg#Willow);
@@ -3639,19 +3639,19 @@
 /* Bookshelf */
 @keyframes sprite-Bookshelf-TWood-1 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
-  }
-  16.67% {
-    filter: url(tints.svg#Pine);
-  }
-  33.33% {
     filter: url(tints.svg#OrangeWood);
   }
-  50.0% {
+  16.67% {
     filter: url(tints.svg#Oak);
   }
-  66.67% {
+  33.33% {
+    filter: url(tints.svg#AppleWood);
+  }
+  50.0% {
     filter: url(tints.svg#Birch);
+  }
+  66.67% {
+    filter: url(tints.svg#Pine);
   }
   83.33% {
     filter: url(tints.svg#Willow);
@@ -3958,82 +3958,82 @@
 /* Statue */
 @keyframes sprite-Statue-TWoodTStoneTMetal-1 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
+    filter: url(tints.svg#Copper);
   }
   3.85% {
-    filter: url(tints.svg#Birch);
-  }
-  7.69% {
     filter: url(tints.svg#Gold);
   }
-  11.54% {
-    filter: url(tints.svg#Bronze);
-  }
-  15.38% {
-    filter: url(tints.svg#Tin);
-  }
-  19.23% {
-    filter: url(tints.svg#Malachite);
-  }
-  23.08% {
-    filter: url(tints.svg#LapisLazuli);
-  }
-  26.92% {
-    filter: url(tints.svg#Basalt);
-  }
-  30.77% {
-    filter: url(tints.svg#Pine);
-  }
-  34.62% {
-    filter: url(tints.svg#Granite);
-  }
-  38.46% {
-    filter: url(tints.svg#Oak);
-  }
-  42.31% {
-    filter: url(tints.svg#Bauxite);
-  }
-  46.15% {
-    filter: url(tints.svg#Sandstone);
-  }
-  50.0% {
-    filter: url(tints.svg#Willow);
-  }
-  53.85% {
-    filter: url(tints.svg#Steel);
-  }
-  57.69% {
-    filter: url(tints.svg#Obsidian);
-  }
-  61.54% {
-    filter: url(tints.svg#Silver);
-  }
-  65.38% {
-    filter: url(tints.svg#Platinum);
-  }
-  69.23% {
-    filter: url(tints.svg#Ceramic);
-  }
-  73.08% {
+  7.69% {
     filter: url(tints.svg#RoseGold);
   }
-  76.92% {
-    filter: url(tints.svg#OrangeWood);
-  }
-  80.77% {
-    filter: url(tints.svg#Lead);
-  }
-  84.62% {
-    filter: url(tints.svg#Iron);
-  }
-  88.46% {
-    filter: url(tints.svg#Marble);
-  }
-  92.31% {
+  11.54% {
     filter: url(tints.svg#Serpentine);
   }
+  15.38% {
+    filter: url(tints.svg#Birch);
+  }
+  19.23% {
+    filter: url(tints.svg#Lead);
+  }
+  23.08% {
+    filter: url(tints.svg#Willow);
+  }
+  26.92% {
+    filter: url(tints.svg#Marble);
+  }
+  30.77% {
+    filter: url(tints.svg#Sandstone);
+  }
+  34.62% {
+    filter: url(tints.svg#Obsidian);
+  }
+  38.46% {
+    filter: url(tints.svg#Steel);
+  }
+  42.31% {
+    filter: url(tints.svg#Silver);
+  }
+  46.15% {
+    filter: url(tints.svg#Basalt);
+  }
+  50.0% {
+    filter: url(tints.svg#AppleWood);
+  }
+  53.85% {
+    filter: url(tints.svg#Bauxite);
+  }
+  57.69% {
+    filter: url(tints.svg#Tin);
+  }
+  61.54% {
+    filter: url(tints.svg#Iron);
+  }
+  65.38% {
+    filter: url(tints.svg#Bronze);
+  }
+  69.23% {
+    filter: url(tints.svg#Platinum);
+  }
+  73.08% {
+    filter: url(tints.svg#OrangeWood);
+  }
+  76.92% {
+    filter: url(tints.svg#Oak);
+  }
+  80.77% {
+    filter: url(tints.svg#Granite);
+  }
+  84.62% {
+    filter: url(tints.svg#Malachite);
+  }
+  88.46% {
+    filter: url(tints.svg#Pine);
+  }
+  92.31% {
+    filter: url(tints.svg#Ceramic);
+  }
   96.15% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#LapisLazuli);
   }
 }
 .sprite-id-Statue.sprite-material-any .sprite-layer:nth-child(1),
@@ -4201,19 +4201,19 @@
 }
 @keyframes sprite-Statue-TWood-1 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
-  }
-  16.67% {
-    filter: url(tints.svg#Pine);
-  }
-  33.33% {
     filter: url(tints.svg#OrangeWood);
   }
-  50.0% {
+  16.67% {
     filter: url(tints.svg#Oak);
   }
-  66.67% {
+  33.33% {
+    filter: url(tints.svg#AppleWood);
+  }
+  50.0% {
     filter: url(tints.svg#Birch);
+  }
+  66.67% {
+    filter: url(tints.svg#Pine);
   }
   83.33% {
     filter: url(tints.svg#Willow);
@@ -4227,31 +4227,31 @@
 }
 @keyframes sprite-Statue-TStone-1 {
   0.0% {
-    filter: url(tints.svg#Ceramic);
+    filter: url(tints.svg#Sandstone);
   }
   11.11% {
-    filter: url(tints.svg#Granite);
+    filter: url(tints.svg#Obsidian);
   }
   22.22% {
-    filter: url(tints.svg#Bauxite);
-  }
-  33.33% {
     filter: url(tints.svg#Marble);
   }
+  33.33% {
+    filter: url(tints.svg#Basalt);
+  }
   44.44% {
-    filter: url(tints.svg#LapisLazuli);
+    filter: url(tints.svg#Granite);
   }
   55.56% {
     filter: url(tints.svg#Serpentine);
   }
   66.67% {
-    filter: url(tints.svg#Basalt);
+    filter: url(tints.svg#Bauxite);
   }
   77.78% {
-    filter: url(tints.svg#Obsidian);
+    filter: url(tints.svg#Ceramic);
   }
   88.89% {
-    filter: url(tints.svg#Sandstone);
+    filter: url(tints.svg#LapisLazuli);
   }
 }
 .sprite-id-Statue.sprite-material-TStone .sprite-layer:nth-child(1)
@@ -4262,37 +4262,37 @@
 }
 @keyframes sprite-Statue-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-Statue.sprite-material-TMetal .sprite-layer:nth-child(1)
@@ -4304,82 +4304,82 @@
 /* Statuette */
 @keyframes sprite-Statuette-TWoodTStoneTMetal-1 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
+    filter: url(tints.svg#Copper);
   }
   3.85% {
-    filter: url(tints.svg#Birch);
-  }
-  7.69% {
     filter: url(tints.svg#Gold);
   }
-  11.54% {
-    filter: url(tints.svg#Bronze);
-  }
-  15.38% {
-    filter: url(tints.svg#Tin);
-  }
-  19.23% {
-    filter: url(tints.svg#Malachite);
-  }
-  23.08% {
-    filter: url(tints.svg#LapisLazuli);
-  }
-  26.92% {
-    filter: url(tints.svg#Basalt);
-  }
-  30.77% {
-    filter: url(tints.svg#Pine);
-  }
-  34.62% {
-    filter: url(tints.svg#Granite);
-  }
-  38.46% {
-    filter: url(tints.svg#Oak);
-  }
-  42.31% {
-    filter: url(tints.svg#Bauxite);
-  }
-  46.15% {
-    filter: url(tints.svg#Sandstone);
-  }
-  50.0% {
-    filter: url(tints.svg#Willow);
-  }
-  53.85% {
-    filter: url(tints.svg#Steel);
-  }
-  57.69% {
-    filter: url(tints.svg#Obsidian);
-  }
-  61.54% {
-    filter: url(tints.svg#Silver);
-  }
-  65.38% {
-    filter: url(tints.svg#Platinum);
-  }
-  69.23% {
-    filter: url(tints.svg#Ceramic);
-  }
-  73.08% {
+  7.69% {
     filter: url(tints.svg#RoseGold);
   }
-  76.92% {
-    filter: url(tints.svg#OrangeWood);
-  }
-  80.77% {
-    filter: url(tints.svg#Lead);
-  }
-  84.62% {
-    filter: url(tints.svg#Iron);
-  }
-  88.46% {
-    filter: url(tints.svg#Marble);
-  }
-  92.31% {
+  11.54% {
     filter: url(tints.svg#Serpentine);
   }
+  15.38% {
+    filter: url(tints.svg#Birch);
+  }
+  19.23% {
+    filter: url(tints.svg#Lead);
+  }
+  23.08% {
+    filter: url(tints.svg#Willow);
+  }
+  26.92% {
+    filter: url(tints.svg#Marble);
+  }
+  30.77% {
+    filter: url(tints.svg#Sandstone);
+  }
+  34.62% {
+    filter: url(tints.svg#Obsidian);
+  }
+  38.46% {
+    filter: url(tints.svg#Steel);
+  }
+  42.31% {
+    filter: url(tints.svg#Silver);
+  }
+  46.15% {
+    filter: url(tints.svg#Basalt);
+  }
+  50.0% {
+    filter: url(tints.svg#AppleWood);
+  }
+  53.85% {
+    filter: url(tints.svg#Bauxite);
+  }
+  57.69% {
+    filter: url(tints.svg#Tin);
+  }
+  61.54% {
+    filter: url(tints.svg#Iron);
+  }
+  65.38% {
+    filter: url(tints.svg#Bronze);
+  }
+  69.23% {
+    filter: url(tints.svg#Platinum);
+  }
+  73.08% {
+    filter: url(tints.svg#OrangeWood);
+  }
+  76.92% {
+    filter: url(tints.svg#Oak);
+  }
+  80.77% {
+    filter: url(tints.svg#Granite);
+  }
+  84.62% {
+    filter: url(tints.svg#Malachite);
+  }
+  88.46% {
+    filter: url(tints.svg#Pine);
+  }
+  92.31% {
+    filter: url(tints.svg#Ceramic);
+  }
   96.15% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#LapisLazuli);
   }
 }
 .sprite-id-Statuette.sprite-material-any .sprite-layer:nth-child(1),
@@ -4617,19 +4617,19 @@
 }
 @keyframes sprite-Statuette-TWood-1 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
-  }
-  16.67% {
-    filter: url(tints.svg#Pine);
-  }
-  33.33% {
     filter: url(tints.svg#OrangeWood);
   }
-  50.0% {
+  16.67% {
     filter: url(tints.svg#Oak);
   }
-  66.67% {
+  33.33% {
+    filter: url(tints.svg#AppleWood);
+  }
+  50.0% {
     filter: url(tints.svg#Birch);
+  }
+  66.67% {
+    filter: url(tints.svg#Pine);
   }
   83.33% {
     filter: url(tints.svg#Willow);
@@ -4645,31 +4645,31 @@
 }
 @keyframes sprite-Statuette-TStone-1 {
   0.0% {
-    filter: url(tints.svg#Ceramic);
+    filter: url(tints.svg#Sandstone);
   }
   11.11% {
-    filter: url(tints.svg#Granite);
+    filter: url(tints.svg#Obsidian);
   }
   22.22% {
-    filter: url(tints.svg#Bauxite);
-  }
-  33.33% {
     filter: url(tints.svg#Marble);
   }
+  33.33% {
+    filter: url(tints.svg#Basalt);
+  }
   44.44% {
-    filter: url(tints.svg#LapisLazuli);
+    filter: url(tints.svg#Granite);
   }
   55.56% {
     filter: url(tints.svg#Serpentine);
   }
   66.67% {
-    filter: url(tints.svg#Basalt);
+    filter: url(tints.svg#Bauxite);
   }
   77.78% {
-    filter: url(tints.svg#Obsidian);
+    filter: url(tints.svg#Ceramic);
   }
   88.89% {
-    filter: url(tints.svg#Sandstone);
+    filter: url(tints.svg#LapisLazuli);
   }
 }
 .sprite-id-Statuette.sprite-material-TStone .sprite-layer:nth-child(1)
@@ -4683,37 +4683,37 @@
 /* Coin */
 @keyframes sprite-Coin-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-Coin.sprite-material-any .sprite-layer:nth-child(1),
@@ -4816,31 +4816,31 @@
 /* StonePillar */
 @keyframes sprite-StonePillar-TStone-1 {
   0.0% {
-    filter: url(tints.svg#Ceramic);
+    filter: url(tints.svg#Sandstone);
   }
   11.11% {
-    filter: url(tints.svg#Granite);
+    filter: url(tints.svg#Obsidian);
   }
   22.22% {
-    filter: url(tints.svg#Bauxite);
-  }
-  33.33% {
     filter: url(tints.svg#Marble);
   }
+  33.33% {
+    filter: url(tints.svg#Basalt);
+  }
   44.44% {
-    filter: url(tints.svg#LapisLazuli);
+    filter: url(tints.svg#Granite);
   }
   55.56% {
     filter: url(tints.svg#Serpentine);
   }
   66.67% {
-    filter: url(tints.svg#Basalt);
+    filter: url(tints.svg#Bauxite);
   }
   77.78% {
-    filter: url(tints.svg#Obsidian);
+    filter: url(tints.svg#Ceramic);
   }
   88.89% {
-    filter: url(tints.svg#Sandstone);
+    filter: url(tints.svg#LapisLazuli);
   }
 }
 .sprite-id-StonePillar.sprite-material-any .sprite-layer:nth-child(1),
@@ -4907,31 +4907,31 @@
 /* PetRock */
 @keyframes sprite-PetRock-TStone-1 {
   0.0% {
-    filter: url(tints.svg#Ceramic);
+    filter: url(tints.svg#Sandstone);
   }
   11.11% {
-    filter: url(tints.svg#Granite);
+    filter: url(tints.svg#Obsidian);
   }
   22.22% {
-    filter: url(tints.svg#Bauxite);
-  }
-  33.33% {
     filter: url(tints.svg#Marble);
   }
+  33.33% {
+    filter: url(tints.svg#Basalt);
+  }
   44.44% {
-    filter: url(tints.svg#LapisLazuli);
+    filter: url(tints.svg#Granite);
   }
   55.56% {
     filter: url(tints.svg#Serpentine);
   }
   66.67% {
-    filter: url(tints.svg#Basalt);
+    filter: url(tints.svg#Bauxite);
   }
   77.78% {
-    filter: url(tints.svg#Obsidian);
+    filter: url(tints.svg#Ceramic);
   }
   88.89% {
-    filter: url(tints.svg#Sandstone);
+    filter: url(tints.svg#LapisLazuli);
   }
 }
 .sprite-id-PetRock.sprite-material-any .sprite-layer:nth-child(1),
@@ -5008,19 +5008,19 @@
 /* PuzzleBox */
 @keyframes sprite-PuzzleBox-TWood-1 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
-  }
-  16.67% {
-    filter: url(tints.svg#Pine);
-  }
-  33.33% {
     filter: url(tints.svg#OrangeWood);
   }
-  50.0% {
+  16.67% {
     filter: url(tints.svg#Oak);
   }
-  66.67% {
+  33.33% {
+    filter: url(tints.svg#AppleWood);
+  }
+  50.0% {
     filter: url(tints.svg#Birch);
+  }
+  66.67% {
+    filter: url(tints.svg#Pine);
   }
   83.33% {
     filter: url(tints.svg#Willow);
@@ -5086,64 +5086,64 @@
 /* Gear */
 @keyframes sprite-Gear-TMetalTStone-1 {
   0.0% {
-    filter: url(tints.svg#Gold);
-  }
-  5.0% {
-    filter: url(tints.svg#Bronze);
-  }
-  10.0% {
-    filter: url(tints.svg#Tin);
-  }
-  15.0% {
-    filter: url(tints.svg#Malachite);
-  }
-  20.0% {
-    filter: url(tints.svg#LapisLazuli);
-  }
-  25.0% {
-    filter: url(tints.svg#Basalt);
-  }
-  30.0% {
-    filter: url(tints.svg#Granite);
-  }
-  35.0% {
-    filter: url(tints.svg#Bauxite);
-  }
-  40.0% {
     filter: url(tints.svg#Copper);
   }
-  45.0% {
-    filter: url(tints.svg#Steel);
+  5.0% {
+    filter: url(tints.svg#Gold);
   }
-  50.0% {
-    filter: url(tints.svg#Serpentine);
-  }
-  55.0% {
-    filter: url(tints.svg#Obsidian);
-  }
-  60.0% {
-    filter: url(tints.svg#Platinum);
-  }
-  65.0% {
-    filter: url(tints.svg#Ceramic);
-  }
-  70.0% {
+  10.0% {
     filter: url(tints.svg#RoseGold);
   }
-  75.0% {
+  15.0% {
+    filter: url(tints.svg#Serpentine);
+  }
+  20.0% {
     filter: url(tints.svg#Lead);
   }
-  80.0% {
-    filter: url(tints.svg#Iron);
-  }
-  85.0% {
+  25.0% {
     filter: url(tints.svg#Marble);
   }
-  90.0% {
+  30.0% {
+    filter: url(tints.svg#Sandstone);
+  }
+  35.0% {
+    filter: url(tints.svg#Obsidian);
+  }
+  40.0% {
+    filter: url(tints.svg#Steel);
+  }
+  45.0% {
     filter: url(tints.svg#Silver);
   }
+  50.0% {
+    filter: url(tints.svg#Basalt);
+  }
+  55.0% {
+    filter: url(tints.svg#Bauxite);
+  }
+  60.0% {
+    filter: url(tints.svg#Tin);
+  }
+  65.0% {
+    filter: url(tints.svg#Iron);
+  }
+  70.0% {
+    filter: url(tints.svg#Bronze);
+  }
+  75.0% {
+    filter: url(tints.svg#Platinum);
+  }
+  80.0% {
+    filter: url(tints.svg#Granite);
+  }
+  85.0% {
+    filter: url(tints.svg#Malachite);
+  }
+  90.0% {
+    filter: url(tints.svg#Ceramic);
+  }
   95.0% {
-    filter: url(tints.svg#Sandstone);
+    filter: url(tints.svg#LapisLazuli);
   }
 }
 .sprite-id-Gear.sprite-material-TMetalTStone .sprite-layer:nth-child(1)
@@ -5295,37 +5295,37 @@
 }
 @keyframes sprite-Gear-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-Gear.sprite-material-any .sprite-layer:nth-child(1),
@@ -5338,31 +5338,31 @@
 }
 @keyframes sprite-Gear-TStone-1 {
   0.0% {
-    filter: url(tints.svg#Ceramic);
+    filter: url(tints.svg#Sandstone);
   }
   11.11% {
-    filter: url(tints.svg#Granite);
+    filter: url(tints.svg#Obsidian);
   }
   22.22% {
-    filter: url(tints.svg#Bauxite);
-  }
-  33.33% {
     filter: url(tints.svg#Marble);
   }
+  33.33% {
+    filter: url(tints.svg#Basalt);
+  }
   44.44% {
-    filter: url(tints.svg#LapisLazuli);
+    filter: url(tints.svg#Granite);
   }
   55.56% {
     filter: url(tints.svg#Serpentine);
   }
   66.67% {
-    filter: url(tints.svg#Basalt);
+    filter: url(tints.svg#Bauxite);
   }
   77.78% {
-    filter: url(tints.svg#Obsidian);
+    filter: url(tints.svg#Ceramic);
   }
   88.89% {
-    filter: url(tints.svg#Sandstone);
+    filter: url(tints.svg#LapisLazuli);
   }
 }
 .sprite-id-Gear.sprite-material-TStone .sprite-layer:nth-child(1)
@@ -5375,31 +5375,31 @@
 /* Chisel */
 @keyframes sprite-Chisel-TStone-1 {
   0.0% {
-    filter: url(tints.svg#Ceramic);
+    filter: url(tints.svg#Sandstone);
   }
   11.11% {
-    filter: url(tints.svg#Granite);
+    filter: url(tints.svg#Obsidian);
   }
   22.22% {
-    filter: url(tints.svg#Bauxite);
-  }
-  33.33% {
     filter: url(tints.svg#Marble);
   }
+  33.33% {
+    filter: url(tints.svg#Basalt);
+  }
   44.44% {
-    filter: url(tints.svg#LapisLazuli);
+    filter: url(tints.svg#Granite);
   }
   55.56% {
     filter: url(tints.svg#Serpentine);
   }
   66.67% {
-    filter: url(tints.svg#Basalt);
+    filter: url(tints.svg#Bauxite);
   }
   77.78% {
-    filter: url(tints.svg#Obsidian);
+    filter: url(tints.svg#Ceramic);
   }
   88.89% {
-    filter: url(tints.svg#Sandstone);
+    filter: url(tints.svg#LapisLazuli);
   }
 }
 .sprite-id-Chisel.sprite-material-any .sprite-layer:nth-child(1),
@@ -5476,64 +5476,64 @@
 /* KnifeBlade */
 @keyframes sprite-KnifeBlade-TStoneTMetal-1 {
   0.0% {
-    filter: url(tints.svg#Gold);
-  }
-  5.0% {
-    filter: url(tints.svg#Bronze);
-  }
-  10.0% {
-    filter: url(tints.svg#Tin);
-  }
-  15.0% {
-    filter: url(tints.svg#Malachite);
-  }
-  20.0% {
-    filter: url(tints.svg#LapisLazuli);
-  }
-  25.0% {
-    filter: url(tints.svg#Basalt);
-  }
-  30.0% {
-    filter: url(tints.svg#Granite);
-  }
-  35.0% {
-    filter: url(tints.svg#Bauxite);
-  }
-  40.0% {
     filter: url(tints.svg#Copper);
   }
-  45.0% {
-    filter: url(tints.svg#Steel);
+  5.0% {
+    filter: url(tints.svg#Gold);
   }
-  50.0% {
-    filter: url(tints.svg#Serpentine);
-  }
-  55.0% {
-    filter: url(tints.svg#Obsidian);
-  }
-  60.0% {
-    filter: url(tints.svg#Platinum);
-  }
-  65.0% {
-    filter: url(tints.svg#Ceramic);
-  }
-  70.0% {
+  10.0% {
     filter: url(tints.svg#RoseGold);
   }
-  75.0% {
+  15.0% {
+    filter: url(tints.svg#Serpentine);
+  }
+  20.0% {
     filter: url(tints.svg#Lead);
   }
-  80.0% {
-    filter: url(tints.svg#Iron);
-  }
-  85.0% {
+  25.0% {
     filter: url(tints.svg#Marble);
   }
-  90.0% {
+  30.0% {
+    filter: url(tints.svg#Sandstone);
+  }
+  35.0% {
+    filter: url(tints.svg#Obsidian);
+  }
+  40.0% {
+    filter: url(tints.svg#Steel);
+  }
+  45.0% {
     filter: url(tints.svg#Silver);
   }
+  50.0% {
+    filter: url(tints.svg#Basalt);
+  }
+  55.0% {
+    filter: url(tints.svg#Bauxite);
+  }
+  60.0% {
+    filter: url(tints.svg#Tin);
+  }
+  65.0% {
+    filter: url(tints.svg#Iron);
+  }
+  70.0% {
+    filter: url(tints.svg#Bronze);
+  }
+  75.0% {
+    filter: url(tints.svg#Platinum);
+  }
+  80.0% {
+    filter: url(tints.svg#Granite);
+  }
+  85.0% {
+    filter: url(tints.svg#Malachite);
+  }
+  90.0% {
+    filter: url(tints.svg#Ceramic);
+  }
   95.0% {
-    filter: url(tints.svg#Sandstone);
+    filter: url(tints.svg#LapisLazuli);
   }
 }
 .sprite-id-KnifeBlade.sprite-material-any .sprite-layer:nth-child(1),
@@ -5707,31 +5707,31 @@
 }
 @keyframes sprite-KnifeBlade-TStone-1 {
   0.0% {
-    filter: url(tints.svg#Ceramic);
+    filter: url(tints.svg#Sandstone);
   }
   11.11% {
-    filter: url(tints.svg#Granite);
+    filter: url(tints.svg#Obsidian);
   }
   22.22% {
-    filter: url(tints.svg#Bauxite);
-  }
-  33.33% {
     filter: url(tints.svg#Marble);
   }
+  33.33% {
+    filter: url(tints.svg#Basalt);
+  }
   44.44% {
-    filter: url(tints.svg#LapisLazuli);
+    filter: url(tints.svg#Granite);
   }
   55.56% {
     filter: url(tints.svg#Serpentine);
   }
   66.67% {
-    filter: url(tints.svg#Basalt);
+    filter: url(tints.svg#Bauxite);
   }
   77.78% {
-    filter: url(tints.svg#Obsidian);
+    filter: url(tints.svg#Ceramic);
   }
   88.89% {
-    filter: url(tints.svg#Sandstone);
+    filter: url(tints.svg#LapisLazuli);
   }
 }
 .sprite-id-KnifeBlade.sprite-material-TStone .sprite-layer:nth-child(1)
@@ -5796,64 +5796,64 @@
 /* Knife */
 @keyframes sprite-Knife-TStoneTMetal-1 {
   0.0% {
-    filter: url(tints.svg#Gold);
-  }
-  5.0% {
-    filter: url(tints.svg#Bronze);
-  }
-  10.0% {
-    filter: url(tints.svg#Tin);
-  }
-  15.0% {
-    filter: url(tints.svg#Malachite);
-  }
-  20.0% {
-    filter: url(tints.svg#LapisLazuli);
-  }
-  25.0% {
-    filter: url(tints.svg#Basalt);
-  }
-  30.0% {
-    filter: url(tints.svg#Granite);
-  }
-  35.0% {
-    filter: url(tints.svg#Bauxite);
-  }
-  40.0% {
     filter: url(tints.svg#Copper);
   }
-  45.0% {
-    filter: url(tints.svg#Steel);
+  5.0% {
+    filter: url(tints.svg#Gold);
   }
-  50.0% {
-    filter: url(tints.svg#Serpentine);
-  }
-  55.0% {
-    filter: url(tints.svg#Obsidian);
-  }
-  60.0% {
-    filter: url(tints.svg#Platinum);
-  }
-  65.0% {
-    filter: url(tints.svg#Ceramic);
-  }
-  70.0% {
+  10.0% {
     filter: url(tints.svg#RoseGold);
   }
-  75.0% {
+  15.0% {
+    filter: url(tints.svg#Serpentine);
+  }
+  20.0% {
     filter: url(tints.svg#Lead);
   }
-  80.0% {
-    filter: url(tints.svg#Iron);
-  }
-  85.0% {
+  25.0% {
     filter: url(tints.svg#Marble);
   }
-  90.0% {
+  30.0% {
+    filter: url(tints.svg#Sandstone);
+  }
+  35.0% {
+    filter: url(tints.svg#Obsidian);
+  }
+  40.0% {
+    filter: url(tints.svg#Steel);
+  }
+  45.0% {
     filter: url(tints.svg#Silver);
   }
+  50.0% {
+    filter: url(tints.svg#Basalt);
+  }
+  55.0% {
+    filter: url(tints.svg#Bauxite);
+  }
+  60.0% {
+    filter: url(tints.svg#Tin);
+  }
+  65.0% {
+    filter: url(tints.svg#Iron);
+  }
+  70.0% {
+    filter: url(tints.svg#Bronze);
+  }
+  75.0% {
+    filter: url(tints.svg#Platinum);
+  }
+  80.0% {
+    filter: url(tints.svg#Granite);
+  }
+  85.0% {
+    filter: url(tints.svg#Malachite);
+  }
+  90.0% {
+    filter: url(tints.svg#Ceramic);
+  }
   95.0% {
-    filter: url(tints.svg#Sandstone);
+    filter: url(tints.svg#LapisLazuli);
   }
 }
 .sprite-id-Knife.sprite-material-any .sprite-layer:nth-child(1),
@@ -6176,82 +6176,82 @@
 /* PickaxeHead */
 @keyframes sprite-PickaxeHead-TWoodTStoneTMetal-1 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
+    filter: url(tints.svg#Copper);
   }
   3.85% {
-    filter: url(tints.svg#Birch);
-  }
-  7.69% {
     filter: url(tints.svg#Gold);
   }
-  11.54% {
-    filter: url(tints.svg#Bronze);
-  }
-  15.38% {
-    filter: url(tints.svg#Tin);
-  }
-  19.23% {
-    filter: url(tints.svg#Malachite);
-  }
-  23.08% {
-    filter: url(tints.svg#LapisLazuli);
-  }
-  26.92% {
-    filter: url(tints.svg#Basalt);
-  }
-  30.77% {
-    filter: url(tints.svg#Pine);
-  }
-  34.62% {
-    filter: url(tints.svg#Granite);
-  }
-  38.46% {
-    filter: url(tints.svg#Oak);
-  }
-  42.31% {
-    filter: url(tints.svg#Bauxite);
-  }
-  46.15% {
-    filter: url(tints.svg#Sandstone);
-  }
-  50.0% {
-    filter: url(tints.svg#Willow);
-  }
-  53.85% {
-    filter: url(tints.svg#Steel);
-  }
-  57.69% {
-    filter: url(tints.svg#Obsidian);
-  }
-  61.54% {
-    filter: url(tints.svg#Silver);
-  }
-  65.38% {
-    filter: url(tints.svg#Platinum);
-  }
-  69.23% {
-    filter: url(tints.svg#Ceramic);
-  }
-  73.08% {
+  7.69% {
     filter: url(tints.svg#RoseGold);
   }
-  76.92% {
-    filter: url(tints.svg#OrangeWood);
-  }
-  80.77% {
-    filter: url(tints.svg#Lead);
-  }
-  84.62% {
-    filter: url(tints.svg#Iron);
-  }
-  88.46% {
-    filter: url(tints.svg#Marble);
-  }
-  92.31% {
+  11.54% {
     filter: url(tints.svg#Serpentine);
   }
+  15.38% {
+    filter: url(tints.svg#Birch);
+  }
+  19.23% {
+    filter: url(tints.svg#Lead);
+  }
+  23.08% {
+    filter: url(tints.svg#Willow);
+  }
+  26.92% {
+    filter: url(tints.svg#Marble);
+  }
+  30.77% {
+    filter: url(tints.svg#Sandstone);
+  }
+  34.62% {
+    filter: url(tints.svg#Obsidian);
+  }
+  38.46% {
+    filter: url(tints.svg#Steel);
+  }
+  42.31% {
+    filter: url(tints.svg#Silver);
+  }
+  46.15% {
+    filter: url(tints.svg#Basalt);
+  }
+  50.0% {
+    filter: url(tints.svg#AppleWood);
+  }
+  53.85% {
+    filter: url(tints.svg#Bauxite);
+  }
+  57.69% {
+    filter: url(tints.svg#Tin);
+  }
+  61.54% {
+    filter: url(tints.svg#Iron);
+  }
+  65.38% {
+    filter: url(tints.svg#Bronze);
+  }
+  69.23% {
+    filter: url(tints.svg#Platinum);
+  }
+  73.08% {
+    filter: url(tints.svg#OrangeWood);
+  }
+  76.92% {
+    filter: url(tints.svg#Oak);
+  }
+  80.77% {
+    filter: url(tints.svg#Granite);
+  }
+  84.62% {
+    filter: url(tints.svg#Malachite);
+  }
+  88.46% {
+    filter: url(tints.svg#Pine);
+  }
+  92.31% {
+    filter: url(tints.svg#Ceramic);
+  }
   96.15% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#LapisLazuli);
   }
 }
 .sprite-id-PickaxeHead.sprite-material-any .sprite-layer:nth-child(1),
@@ -6453,19 +6453,19 @@
 }
 @keyframes sprite-PickaxeHead-TWood-1 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
-  }
-  16.67% {
-    filter: url(tints.svg#Pine);
-  }
-  33.33% {
     filter: url(tints.svg#OrangeWood);
   }
-  50.0% {
+  16.67% {
     filter: url(tints.svg#Oak);
   }
-  66.67% {
+  33.33% {
+    filter: url(tints.svg#AppleWood);
+  }
+  50.0% {
     filter: url(tints.svg#Birch);
+  }
+  66.67% {
+    filter: url(tints.svg#Pine);
   }
   83.33% {
     filter: url(tints.svg#Willow);
@@ -6480,31 +6480,31 @@
 }
 @keyframes sprite-PickaxeHead-TStone-1 {
   0.0% {
-    filter: url(tints.svg#Ceramic);
+    filter: url(tints.svg#Sandstone);
   }
   11.11% {
-    filter: url(tints.svg#Granite);
+    filter: url(tints.svg#Obsidian);
   }
   22.22% {
-    filter: url(tints.svg#Bauxite);
-  }
-  33.33% {
     filter: url(tints.svg#Marble);
   }
+  33.33% {
+    filter: url(tints.svg#Basalt);
+  }
   44.44% {
-    filter: url(tints.svg#LapisLazuli);
+    filter: url(tints.svg#Granite);
   }
   55.56% {
     filter: url(tints.svg#Serpentine);
   }
   66.67% {
-    filter: url(tints.svg#Basalt);
+    filter: url(tints.svg#Bauxite);
   }
   77.78% {
-    filter: url(tints.svg#Obsidian);
+    filter: url(tints.svg#Ceramic);
   }
   88.89% {
-    filter: url(tints.svg#Sandstone);
+    filter: url(tints.svg#LapisLazuli);
   }
 }
 .sprite-id-PickaxeHead.sprite-material-TStone .sprite-layer:nth-child(1)
@@ -6516,37 +6516,37 @@
 }
 @keyframes sprite-PickaxeHead-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-PickaxeHead.sprite-material-TMetal .sprite-layer:nth-child(1)
@@ -6559,19 +6559,19 @@
 /* PickaxeBase */
 @keyframes sprite-PickaxeBase-TWood-1 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
-  }
-  16.67% {
-    filter: url(tints.svg#Pine);
-  }
-  33.33% {
     filter: url(tints.svg#OrangeWood);
   }
-  50.0% {
+  16.67% {
     filter: url(tints.svg#Oak);
   }
-  66.67% {
+  33.33% {
+    filter: url(tints.svg#AppleWood);
+  }
+  50.0% {
     filter: url(tints.svg#Birch);
+  }
+  66.67% {
+    filter: url(tints.svg#Pine);
   }
   83.33% {
     filter: url(tints.svg#Willow);
@@ -6630,82 +6630,82 @@
 /* Pickaxe */
 @keyframes sprite-Pickaxe-TWoodTStoneTMetal-1 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
+    filter: url(tints.svg#Copper);
   }
   3.85% {
-    filter: url(tints.svg#Birch);
-  }
-  7.69% {
     filter: url(tints.svg#Gold);
   }
-  11.54% {
-    filter: url(tints.svg#Bronze);
-  }
-  15.38% {
-    filter: url(tints.svg#Tin);
-  }
-  19.23% {
-    filter: url(tints.svg#Malachite);
-  }
-  23.08% {
-    filter: url(tints.svg#LapisLazuli);
-  }
-  26.92% {
-    filter: url(tints.svg#Basalt);
-  }
-  30.77% {
-    filter: url(tints.svg#Pine);
-  }
-  34.62% {
-    filter: url(tints.svg#Granite);
-  }
-  38.46% {
-    filter: url(tints.svg#Oak);
-  }
-  42.31% {
-    filter: url(tints.svg#Bauxite);
-  }
-  46.15% {
-    filter: url(tints.svg#Sandstone);
-  }
-  50.0% {
-    filter: url(tints.svg#Willow);
-  }
-  53.85% {
-    filter: url(tints.svg#Steel);
-  }
-  57.69% {
-    filter: url(tints.svg#Obsidian);
-  }
-  61.54% {
-    filter: url(tints.svg#Silver);
-  }
-  65.38% {
-    filter: url(tints.svg#Platinum);
-  }
-  69.23% {
-    filter: url(tints.svg#Ceramic);
-  }
-  73.08% {
+  7.69% {
     filter: url(tints.svg#RoseGold);
   }
-  76.92% {
-    filter: url(tints.svg#OrangeWood);
-  }
-  80.77% {
-    filter: url(tints.svg#Lead);
-  }
-  84.62% {
-    filter: url(tints.svg#Iron);
-  }
-  88.46% {
-    filter: url(tints.svg#Marble);
-  }
-  92.31% {
+  11.54% {
     filter: url(tints.svg#Serpentine);
   }
+  15.38% {
+    filter: url(tints.svg#Birch);
+  }
+  19.23% {
+    filter: url(tints.svg#Lead);
+  }
+  23.08% {
+    filter: url(tints.svg#Willow);
+  }
+  26.92% {
+    filter: url(tints.svg#Marble);
+  }
+  30.77% {
+    filter: url(tints.svg#Sandstone);
+  }
+  34.62% {
+    filter: url(tints.svg#Obsidian);
+  }
+  38.46% {
+    filter: url(tints.svg#Steel);
+  }
+  42.31% {
+    filter: url(tints.svg#Silver);
+  }
+  46.15% {
+    filter: url(tints.svg#Basalt);
+  }
+  50.0% {
+    filter: url(tints.svg#AppleWood);
+  }
+  53.85% {
+    filter: url(tints.svg#Bauxite);
+  }
+  57.69% {
+    filter: url(tints.svg#Tin);
+  }
+  61.54% {
+    filter: url(tints.svg#Iron);
+  }
+  65.38% {
+    filter: url(tints.svg#Bronze);
+  }
+  69.23% {
+    filter: url(tints.svg#Platinum);
+  }
+  73.08% {
+    filter: url(tints.svg#OrangeWood);
+  }
+  76.92% {
+    filter: url(tints.svg#Oak);
+  }
+  80.77% {
+    filter: url(tints.svg#Granite);
+  }
+  84.62% {
+    filter: url(tints.svg#Malachite);
+  }
+  88.46% {
+    filter: url(tints.svg#Pine);
+  }
+  92.31% {
+    filter: url(tints.svg#Ceramic);
+  }
   96.15% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#LapisLazuli);
   }
 }
 .sprite-id-Pickaxe.sprite-material-any .sprite-layer:nth-child(1),
@@ -6718,82 +6718,82 @@
 }
 @keyframes sprite-Pickaxe-TWoodTStoneTMetal-2 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
+    filter: url(tints.svg#Copper);
   }
   3.85% {
-    filter: url(tints.svg#Birch);
-  }
-  7.69% {
     filter: url(tints.svg#Gold);
   }
-  11.54% {
-    filter: url(tints.svg#Bronze);
-  }
-  15.38% {
-    filter: url(tints.svg#Tin);
-  }
-  19.23% {
-    filter: url(tints.svg#Malachite);
-  }
-  23.08% {
-    filter: url(tints.svg#LapisLazuli);
-  }
-  26.92% {
-    filter: url(tints.svg#Basalt);
-  }
-  30.77% {
-    filter: url(tints.svg#Pine);
-  }
-  34.62% {
-    filter: url(tints.svg#Granite);
-  }
-  38.46% {
-    filter: url(tints.svg#Oak);
-  }
-  42.31% {
-    filter: url(tints.svg#Bauxite);
-  }
-  46.15% {
-    filter: url(tints.svg#Sandstone);
-  }
-  50.0% {
-    filter: url(tints.svg#Willow);
-  }
-  53.85% {
-    filter: url(tints.svg#Steel);
-  }
-  57.69% {
-    filter: url(tints.svg#Obsidian);
-  }
-  61.54% {
-    filter: url(tints.svg#Silver);
-  }
-  65.38% {
-    filter: url(tints.svg#Platinum);
-  }
-  69.23% {
-    filter: url(tints.svg#Ceramic);
-  }
-  73.08% {
+  7.69% {
     filter: url(tints.svg#RoseGold);
   }
-  76.92% {
-    filter: url(tints.svg#OrangeWood);
-  }
-  80.77% {
-    filter: url(tints.svg#Lead);
-  }
-  84.62% {
-    filter: url(tints.svg#Iron);
-  }
-  88.46% {
-    filter: url(tints.svg#Marble);
-  }
-  92.31% {
+  11.54% {
     filter: url(tints.svg#Serpentine);
   }
+  15.38% {
+    filter: url(tints.svg#Birch);
+  }
+  19.23% {
+    filter: url(tints.svg#Lead);
+  }
+  23.08% {
+    filter: url(tints.svg#Willow);
+  }
+  26.92% {
+    filter: url(tints.svg#Marble);
+  }
+  30.77% {
+    filter: url(tints.svg#Sandstone);
+  }
+  34.62% {
+    filter: url(tints.svg#Obsidian);
+  }
+  38.46% {
+    filter: url(tints.svg#Steel);
+  }
+  42.31% {
+    filter: url(tints.svg#Silver);
+  }
+  46.15% {
+    filter: url(tints.svg#Basalt);
+  }
+  50.0% {
+    filter: url(tints.svg#AppleWood);
+  }
+  53.85% {
+    filter: url(tints.svg#Bauxite);
+  }
+  57.69% {
+    filter: url(tints.svg#Tin);
+  }
+  61.54% {
+    filter: url(tints.svg#Iron);
+  }
+  65.38% {
+    filter: url(tints.svg#Bronze);
+  }
+  69.23% {
+    filter: url(tints.svg#Platinum);
+  }
+  73.08% {
+    filter: url(tints.svg#OrangeWood);
+  }
+  76.92% {
+    filter: url(tints.svg#Oak);
+  }
+  80.77% {
+    filter: url(tints.svg#Granite);
+  }
+  84.62% {
+    filter: url(tints.svg#Malachite);
+  }
+  88.46% {
+    filter: url(tints.svg#Pine);
+  }
+  92.31% {
+    filter: url(tints.svg#Ceramic);
+  }
   96.15% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#LapisLazuli);
   }
 }
 .sprite-id-Pickaxe.sprite-material-any .sprite-layer:nth-child(2),
@@ -7171,31 +7171,31 @@
 /* Mold */
 @keyframes sprite-Mold-TStone-1 {
   0.0% {
-    filter: url(tints.svg#Ceramic);
+    filter: url(tints.svg#Sandstone);
   }
   11.11% {
-    filter: url(tints.svg#Granite);
+    filter: url(tints.svg#Obsidian);
   }
   22.22% {
-    filter: url(tints.svg#Bauxite);
-  }
-  33.33% {
     filter: url(tints.svg#Marble);
   }
+  33.33% {
+    filter: url(tints.svg#Basalt);
+  }
   44.44% {
-    filter: url(tints.svg#LapisLazuli);
+    filter: url(tints.svg#Granite);
   }
   55.56% {
     filter: url(tints.svg#Serpentine);
   }
   66.67% {
-    filter: url(tints.svg#Basalt);
+    filter: url(tints.svg#Bauxite);
   }
   77.78% {
-    filter: url(tints.svg#Obsidian);
+    filter: url(tints.svg#Ceramic);
   }
   88.89% {
-    filter: url(tints.svg#Sandstone);
+    filter: url(tints.svg#LapisLazuli);
   }
 }
 .sprite-id-Mold.sprite-material-any .sprite-layer:nth-child(1),
@@ -7262,31 +7262,31 @@
 /* Forge */
 @keyframes sprite-Forge-TStone-1 {
   0.0% {
-    filter: url(tints.svg#Ceramic);
+    filter: url(tints.svg#Sandstone);
   }
   11.11% {
-    filter: url(tints.svg#Granite);
+    filter: url(tints.svg#Obsidian);
   }
   22.22% {
-    filter: url(tints.svg#Bauxite);
-  }
-  33.33% {
     filter: url(tints.svg#Marble);
   }
+  33.33% {
+    filter: url(tints.svg#Basalt);
+  }
   44.44% {
-    filter: url(tints.svg#LapisLazuli);
+    filter: url(tints.svg#Granite);
   }
   55.56% {
     filter: url(tints.svg#Serpentine);
   }
   66.67% {
-    filter: url(tints.svg#Basalt);
+    filter: url(tints.svg#Bauxite);
   }
   77.78% {
-    filter: url(tints.svg#Obsidian);
+    filter: url(tints.svg#Ceramic);
   }
   88.89% {
-    filter: url(tints.svg#Sandstone);
+    filter: url(tints.svg#LapisLazuli);
   }
 }
 .sprite-id-Forge.sprite-material-any .sprite-layer:nth-child(1),
@@ -7353,19 +7353,19 @@
 /* BellowsWithNozzle */
 @keyframes sprite-BellowsWithNozzle-TWood-1 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
-  }
-  16.67% {
-    filter: url(tints.svg#Pine);
-  }
-  33.33% {
     filter: url(tints.svg#OrangeWood);
   }
-  50.0% {
+  16.67% {
     filter: url(tints.svg#Oak);
   }
-  66.67% {
+  33.33% {
+    filter: url(tints.svg#AppleWood);
+  }
+  50.0% {
     filter: url(tints.svg#Birch);
+  }
+  66.67% {
+    filter: url(tints.svg#Pine);
   }
   83.33% {
     filter: url(tints.svg#Willow);
@@ -7453,82 +7453,82 @@
 /* FellingAxeHead */
 @keyframes sprite-FellingAxeHead-TWoodTStoneTMetal-1 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
+    filter: url(tints.svg#Copper);
   }
   3.85% {
-    filter: url(tints.svg#Birch);
-  }
-  7.69% {
     filter: url(tints.svg#Gold);
   }
-  11.54% {
-    filter: url(tints.svg#Bronze);
-  }
-  15.38% {
-    filter: url(tints.svg#Tin);
-  }
-  19.23% {
-    filter: url(tints.svg#Malachite);
-  }
-  23.08% {
-    filter: url(tints.svg#LapisLazuli);
-  }
-  26.92% {
-    filter: url(tints.svg#Basalt);
-  }
-  30.77% {
-    filter: url(tints.svg#Pine);
-  }
-  34.62% {
-    filter: url(tints.svg#Granite);
-  }
-  38.46% {
-    filter: url(tints.svg#Oak);
-  }
-  42.31% {
-    filter: url(tints.svg#Bauxite);
-  }
-  46.15% {
-    filter: url(tints.svg#Sandstone);
-  }
-  50.0% {
-    filter: url(tints.svg#Willow);
-  }
-  53.85% {
-    filter: url(tints.svg#Steel);
-  }
-  57.69% {
-    filter: url(tints.svg#Obsidian);
-  }
-  61.54% {
-    filter: url(tints.svg#Silver);
-  }
-  65.38% {
-    filter: url(tints.svg#Platinum);
-  }
-  69.23% {
-    filter: url(tints.svg#Ceramic);
-  }
-  73.08% {
+  7.69% {
     filter: url(tints.svg#RoseGold);
   }
-  76.92% {
-    filter: url(tints.svg#OrangeWood);
-  }
-  80.77% {
-    filter: url(tints.svg#Lead);
-  }
-  84.62% {
-    filter: url(tints.svg#Iron);
-  }
-  88.46% {
-    filter: url(tints.svg#Marble);
-  }
-  92.31% {
+  11.54% {
     filter: url(tints.svg#Serpentine);
   }
+  15.38% {
+    filter: url(tints.svg#Birch);
+  }
+  19.23% {
+    filter: url(tints.svg#Lead);
+  }
+  23.08% {
+    filter: url(tints.svg#Willow);
+  }
+  26.92% {
+    filter: url(tints.svg#Marble);
+  }
+  30.77% {
+    filter: url(tints.svg#Sandstone);
+  }
+  34.62% {
+    filter: url(tints.svg#Obsidian);
+  }
+  38.46% {
+    filter: url(tints.svg#Steel);
+  }
+  42.31% {
+    filter: url(tints.svg#Silver);
+  }
+  46.15% {
+    filter: url(tints.svg#Basalt);
+  }
+  50.0% {
+    filter: url(tints.svg#AppleWood);
+  }
+  53.85% {
+    filter: url(tints.svg#Bauxite);
+  }
+  57.69% {
+    filter: url(tints.svg#Tin);
+  }
+  61.54% {
+    filter: url(tints.svg#Iron);
+  }
+  65.38% {
+    filter: url(tints.svg#Bronze);
+  }
+  69.23% {
+    filter: url(tints.svg#Platinum);
+  }
+  73.08% {
+    filter: url(tints.svg#OrangeWood);
+  }
+  76.92% {
+    filter: url(tints.svg#Oak);
+  }
+  80.77% {
+    filter: url(tints.svg#Granite);
+  }
+  84.62% {
+    filter: url(tints.svg#Malachite);
+  }
+  88.46% {
+    filter: url(tints.svg#Pine);
+  }
+  92.31% {
+    filter: url(tints.svg#Ceramic);
+  }
   96.15% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#LapisLazuli);
   }
 }
 .sprite-id-FellingAxeHead.sprite-material-any .sprite-layer:nth-child(1),
@@ -7723,37 +7723,37 @@
 }
 @keyframes sprite-FellingAxeHead-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-FellingAxeHead.sprite-material-TMetal .sprite-layer:nth-child(1)
@@ -7766,82 +7766,82 @@
 /* FellingAxe */
 @keyframes sprite-FellingAxe-TWoodTStoneTMetal-1 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
+    filter: url(tints.svg#Copper);
   }
   3.85% {
-    filter: url(tints.svg#Birch);
-  }
-  7.69% {
     filter: url(tints.svg#Gold);
   }
-  11.54% {
-    filter: url(tints.svg#Bronze);
-  }
-  15.38% {
-    filter: url(tints.svg#Tin);
-  }
-  19.23% {
-    filter: url(tints.svg#Malachite);
-  }
-  23.08% {
-    filter: url(tints.svg#LapisLazuli);
-  }
-  26.92% {
-    filter: url(tints.svg#Basalt);
-  }
-  30.77% {
-    filter: url(tints.svg#Pine);
-  }
-  34.62% {
-    filter: url(tints.svg#Granite);
-  }
-  38.46% {
-    filter: url(tints.svg#Oak);
-  }
-  42.31% {
-    filter: url(tints.svg#Bauxite);
-  }
-  46.15% {
-    filter: url(tints.svg#Sandstone);
-  }
-  50.0% {
-    filter: url(tints.svg#Willow);
-  }
-  53.85% {
-    filter: url(tints.svg#Steel);
-  }
-  57.69% {
-    filter: url(tints.svg#Obsidian);
-  }
-  61.54% {
-    filter: url(tints.svg#Silver);
-  }
-  65.38% {
-    filter: url(tints.svg#Platinum);
-  }
-  69.23% {
-    filter: url(tints.svg#Ceramic);
-  }
-  73.08% {
+  7.69% {
     filter: url(tints.svg#RoseGold);
   }
-  76.92% {
-    filter: url(tints.svg#OrangeWood);
-  }
-  80.77% {
-    filter: url(tints.svg#Lead);
-  }
-  84.62% {
-    filter: url(tints.svg#Iron);
-  }
-  88.46% {
-    filter: url(tints.svg#Marble);
-  }
-  92.31% {
+  11.54% {
     filter: url(tints.svg#Serpentine);
   }
+  15.38% {
+    filter: url(tints.svg#Birch);
+  }
+  19.23% {
+    filter: url(tints.svg#Lead);
+  }
+  23.08% {
+    filter: url(tints.svg#Willow);
+  }
+  26.92% {
+    filter: url(tints.svg#Marble);
+  }
+  30.77% {
+    filter: url(tints.svg#Sandstone);
+  }
+  34.62% {
+    filter: url(tints.svg#Obsidian);
+  }
+  38.46% {
+    filter: url(tints.svg#Steel);
+  }
+  42.31% {
+    filter: url(tints.svg#Silver);
+  }
+  46.15% {
+    filter: url(tints.svg#Basalt);
+  }
+  50.0% {
+    filter: url(tints.svg#AppleWood);
+  }
+  53.85% {
+    filter: url(tints.svg#Bauxite);
+  }
+  57.69% {
+    filter: url(tints.svg#Tin);
+  }
+  61.54% {
+    filter: url(tints.svg#Iron);
+  }
+  65.38% {
+    filter: url(tints.svg#Bronze);
+  }
+  69.23% {
+    filter: url(tints.svg#Platinum);
+  }
+  73.08% {
+    filter: url(tints.svg#OrangeWood);
+  }
+  76.92% {
+    filter: url(tints.svg#Oak);
+  }
+  80.77% {
+    filter: url(tints.svg#Granite);
+  }
+  84.62% {
+    filter: url(tints.svg#Malachite);
+  }
+  88.46% {
+    filter: url(tints.svg#Pine);
+  }
+  92.31% {
+    filter: url(tints.svg#Ceramic);
+  }
   96.15% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#LapisLazuli);
   }
 }
 .sprite-id-FellingAxe.sprite-material-any .sprite-layer:nth-child(1),
@@ -7854,82 +7854,82 @@
 }
 @keyframes sprite-FellingAxe-TWoodTStoneTMetal-2 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
+    filter: url(tints.svg#Copper);
   }
   3.85% {
-    filter: url(tints.svg#Birch);
-  }
-  7.69% {
     filter: url(tints.svg#Gold);
   }
-  11.54% {
-    filter: url(tints.svg#Bronze);
-  }
-  15.38% {
-    filter: url(tints.svg#Tin);
-  }
-  19.23% {
-    filter: url(tints.svg#Malachite);
-  }
-  23.08% {
-    filter: url(tints.svg#LapisLazuli);
-  }
-  26.92% {
-    filter: url(tints.svg#Basalt);
-  }
-  30.77% {
-    filter: url(tints.svg#Pine);
-  }
-  34.62% {
-    filter: url(tints.svg#Granite);
-  }
-  38.46% {
-    filter: url(tints.svg#Oak);
-  }
-  42.31% {
-    filter: url(tints.svg#Bauxite);
-  }
-  46.15% {
-    filter: url(tints.svg#Sandstone);
-  }
-  50.0% {
-    filter: url(tints.svg#Willow);
-  }
-  53.85% {
-    filter: url(tints.svg#Steel);
-  }
-  57.69% {
-    filter: url(tints.svg#Obsidian);
-  }
-  61.54% {
-    filter: url(tints.svg#Silver);
-  }
-  65.38% {
-    filter: url(tints.svg#Platinum);
-  }
-  69.23% {
-    filter: url(tints.svg#Ceramic);
-  }
-  73.08% {
+  7.69% {
     filter: url(tints.svg#RoseGold);
   }
-  76.92% {
-    filter: url(tints.svg#OrangeWood);
-  }
-  80.77% {
-    filter: url(tints.svg#Lead);
-  }
-  84.62% {
-    filter: url(tints.svg#Iron);
-  }
-  88.46% {
-    filter: url(tints.svg#Marble);
-  }
-  92.31% {
+  11.54% {
     filter: url(tints.svg#Serpentine);
   }
+  15.38% {
+    filter: url(tints.svg#Birch);
+  }
+  19.23% {
+    filter: url(tints.svg#Lead);
+  }
+  23.08% {
+    filter: url(tints.svg#Willow);
+  }
+  26.92% {
+    filter: url(tints.svg#Marble);
+  }
+  30.77% {
+    filter: url(tints.svg#Sandstone);
+  }
+  34.62% {
+    filter: url(tints.svg#Obsidian);
+  }
+  38.46% {
+    filter: url(tints.svg#Steel);
+  }
+  42.31% {
+    filter: url(tints.svg#Silver);
+  }
+  46.15% {
+    filter: url(tints.svg#Basalt);
+  }
+  50.0% {
+    filter: url(tints.svg#AppleWood);
+  }
+  53.85% {
+    filter: url(tints.svg#Bauxite);
+  }
+  57.69% {
+    filter: url(tints.svg#Tin);
+  }
+  61.54% {
+    filter: url(tints.svg#Iron);
+  }
+  65.38% {
+    filter: url(tints.svg#Bronze);
+  }
+  69.23% {
+    filter: url(tints.svg#Platinum);
+  }
+  73.08% {
+    filter: url(tints.svg#OrangeWood);
+  }
+  76.92% {
+    filter: url(tints.svg#Oak);
+  }
+  80.77% {
+    filter: url(tints.svg#Granite);
+  }
+  84.62% {
+    filter: url(tints.svg#Malachite);
+  }
+  88.46% {
+    filter: url(tints.svg#Pine);
+  }
+  92.31% {
+    filter: url(tints.svg#Ceramic);
+  }
   96.15% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#LapisLazuli);
   }
 }
 .sprite-id-FellingAxe.sprite-material-any .sprite-layer:nth-child(2),
@@ -8306,37 +8306,37 @@
 }
 @keyframes sprite-FellingAxe-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-FellingAxe.sprite-material-TMetal .sprite-layer:nth-child(1)
@@ -8348,37 +8348,37 @@
 }
 @keyframes sprite-FellingAxe-TMetal-2 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-FellingAxe.sprite-material-TMetal .sprite-layer:nth-child(2)
@@ -8551,40 +8551,40 @@
 /* BoneNeedle */
 @keyframes sprite-BoneNeedle-TMetalTBone-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   8.33% {
-    filter: url(tints.svg#Steel);
-  }
-  16.67% {
-    filter: url(tints.svg#Lead);
-  }
-  25.0% {
     filter: url(tints.svg#Gold);
   }
+  16.67% {
+    filter: url(tints.svg#BadgerBone);
+  }
+  25.0% {
+    filter: url(tints.svg#RoseGold);
+  }
   33.33% {
-    filter: url(tints.svg#Iron);
+    filter: url(tints.svg#Silver);
   }
   41.67% {
-    filter: url(tints.svg#Bronze);
+    filter: url(tints.svg#Malachite);
   }
   50.0% {
-    filter: url(tints.svg#Platinum);
+    filter: url(tints.svg#Steel);
   }
   58.33% {
     filter: url(tints.svg#Tin);
   }
   66.67% {
-    filter: url(tints.svg#BadgerBone);
+    filter: url(tints.svg#Iron);
   }
   75.0% {
-    filter: url(tints.svg#Malachite);
+    filter: url(tints.svg#Lead);
   }
   83.33% {
-    filter: url(tints.svg#Silver);
+    filter: url(tints.svg#Bronze);
   }
   91.67% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-BoneNeedle.sprite-material-any .sprite-layer:nth-child(1),
@@ -8835,37 +8835,37 @@
 }
 @keyframes sprite-BoneNeedle-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-BoneNeedle.sprite-material-TMetal .sprite-layer:nth-child(1)
@@ -8915,37 +8915,37 @@
 /* Wrench */
 @keyframes sprite-Wrench-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-Wrench.sprite-material-any .sprite-layer:nth-child(1),
@@ -9036,19 +9036,19 @@
 /* Workbench */
 @keyframes sprite-Workbench-TWood-1 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
-  }
-  16.67% {
-    filter: url(tints.svg#Pine);
-  }
-  33.33% {
     filter: url(tints.svg#OrangeWood);
   }
-  50.0% {
+  16.67% {
     filter: url(tints.svg#Oak);
   }
-  66.67% {
+  33.33% {
+    filter: url(tints.svg#AppleWood);
+  }
+  50.0% {
     filter: url(tints.svg#Birch);
+  }
+  66.67% {
+    filter: url(tints.svg#Pine);
   }
   83.33% {
     filter: url(tints.svg#Willow);
@@ -9100,31 +9100,31 @@
 /* Furnace */
 @keyframes sprite-Furnace-TStone-1 {
   0.0% {
-    filter: url(tints.svg#Ceramic);
+    filter: url(tints.svg#Sandstone);
   }
   11.11% {
-    filter: url(tints.svg#Granite);
+    filter: url(tints.svg#Obsidian);
   }
   22.22% {
-    filter: url(tints.svg#Bauxite);
-  }
-  33.33% {
     filter: url(tints.svg#Marble);
   }
+  33.33% {
+    filter: url(tints.svg#Basalt);
+  }
   44.44% {
-    filter: url(tints.svg#LapisLazuli);
+    filter: url(tints.svg#Granite);
   }
   55.56% {
     filter: url(tints.svg#Serpentine);
   }
   66.67% {
-    filter: url(tints.svg#Basalt);
+    filter: url(tints.svg#Bauxite);
   }
   77.78% {
-    filter: url(tints.svg#Obsidian);
+    filter: url(tints.svg#Ceramic);
   }
   88.89% {
-    filter: url(tints.svg#Sandstone);
+    filter: url(tints.svg#LapisLazuli);
   }
 }
 .sprite-id-Furnace.sprite-material-any .sprite-layer:nth-child(1),
@@ -9191,37 +9191,37 @@
 /* Anvil */
 @keyframes sprite-Anvil-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-Anvil.sprite-material-any .sprite-layer:nth-child(1),
@@ -9300,19 +9300,19 @@
 /* Loom */
 @keyframes sprite-Loom-TWood-1 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
-  }
-  16.67% {
-    filter: url(tints.svg#Pine);
-  }
-  33.33% {
     filter: url(tints.svg#OrangeWood);
   }
-  50.0% {
+  16.67% {
     filter: url(tints.svg#Oak);
   }
-  66.67% {
+  33.33% {
+    filter: url(tints.svg#AppleWood);
+  }
+  50.0% {
     filter: url(tints.svg#Birch);
+  }
+  66.67% {
+    filter: url(tints.svg#Pine);
   }
   83.33% {
     filter: url(tints.svg#Willow);
@@ -9364,19 +9364,19 @@
 /* WoodTub */
 @keyframes sprite-WoodTub-TWood-1 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
-  }
-  16.67% {
-    filter: url(tints.svg#Pine);
-  }
-  33.33% {
     filter: url(tints.svg#OrangeWood);
   }
-  50.0% {
+  16.67% {
     filter: url(tints.svg#Oak);
   }
-  66.67% {
+  33.33% {
+    filter: url(tints.svg#AppleWood);
+  }
+  50.0% {
     filter: url(tints.svg#Birch);
+  }
+  66.67% {
+    filter: url(tints.svg#Pine);
   }
   83.33% {
     filter: url(tints.svg#Willow);
@@ -9428,19 +9428,19 @@
 /* TrainingDummy */
 @keyframes sprite-TrainingDummy-TWood-1 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
-  }
-  16.67% {
-    filter: url(tints.svg#Pine);
-  }
-  33.33% {
     filter: url(tints.svg#OrangeWood);
   }
-  50.0% {
+  16.67% {
     filter: url(tints.svg#Oak);
   }
-  66.67% {
+  33.33% {
+    filter: url(tints.svg#AppleWood);
+  }
+  50.0% {
     filter: url(tints.svg#Birch);
+  }
+  66.67% {
+    filter: url(tints.svg#Pine);
   }
   83.33% {
     filter: url(tints.svg#Willow);
@@ -9492,25 +9492,25 @@
 /* Dye */
 @keyframes sprite-Dye-TDye-1 {
   0.0% {
-    filter: url(tints.svg#Yellow);
-  }
-  14.29% {
-    filter: url(tints.svg#Cyan);
-  }
-  28.57% {
     filter: url(tints.svg#Green);
   }
-  42.86% {
+  14.29% {
     filter: url(tints.svg#Red);
   }
-  57.14% {
-    filter: url(tints.svg#Blue);
+  28.57% {
+    filter: url(tints.svg#Cyan);
   }
-  71.43% {
+  42.86% {
+    filter: url(tints.svg#Yellow);
+  }
+  57.14% {
     filter: url(tints.svg#Purple);
   }
-  85.71% {
+  71.43% {
     filter: url(tints.svg#Grey);
+  }
+  85.71% {
+    filter: url(tints.svg#Blue);
   }
 }
 .sprite-id-Dye.sprite-material-any .sprite-layer:nth-child(1),
@@ -11412,19 +11412,19 @@
 /* Crate */
 @keyframes sprite-Crate-TWood-1 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
-  }
-  16.67% {
-    filter: url(tints.svg#Pine);
-  }
-  33.33% {
     filter: url(tints.svg#OrangeWood);
   }
-  50.0% {
+  16.67% {
     filter: url(tints.svg#Oak);
   }
-  66.67% {
+  33.33% {
+    filter: url(tints.svg#AppleWood);
+  }
+  50.0% {
     filter: url(tints.svg#Birch);
+  }
+  66.67% {
+    filter: url(tints.svg#Pine);
   }
   83.33% {
     filter: url(tints.svg#Willow);
@@ -11476,19 +11476,19 @@
 /* Barrel */
 @keyframes sprite-Barrel-TWood-1 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
-  }
-  16.67% {
-    filter: url(tints.svg#Pine);
-  }
-  33.33% {
     filter: url(tints.svg#OrangeWood);
   }
-  50.0% {
+  16.67% {
     filter: url(tints.svg#Oak);
   }
-  66.67% {
+  33.33% {
+    filter: url(tints.svg#AppleWood);
+  }
+  50.0% {
     filter: url(tints.svg#Birch);
+  }
+  66.67% {
+    filter: url(tints.svg#Pine);
   }
   83.33% {
     filter: url(tints.svg#Willow);
@@ -11560,19 +11560,19 @@
 /* Chest */
 @keyframes sprite-Chest-TWood-1 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
-  }
-  16.67% {
-    filter: url(tints.svg#Pine);
-  }
-  33.33% {
     filter: url(tints.svg#OrangeWood);
   }
-  50.0% {
+  16.67% {
     filter: url(tints.svg#Oak);
   }
-  66.67% {
+  33.33% {
+    filter: url(tints.svg#AppleWood);
+  }
+  50.0% {
     filter: url(tints.svg#Birch);
+  }
+  66.67% {
+    filter: url(tints.svg#Pine);
   }
   83.33% {
     filter: url(tints.svg#Willow);
@@ -11608,19 +11608,19 @@
 /* Bucket */
 @keyframes sprite-Bucket-TWood-1 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
-  }
-  16.67% {
-    filter: url(tints.svg#Pine);
-  }
-  33.33% {
     filter: url(tints.svg#OrangeWood);
   }
-  50.0% {
+  16.67% {
     filter: url(tints.svg#Oak);
   }
-  66.67% {
+  33.33% {
+    filter: url(tints.svg#AppleWood);
+  }
+  50.0% {
     filter: url(tints.svg#Birch);
+  }
+  66.67% {
+    filter: url(tints.svg#Pine);
   }
   83.33% {
     filter: url(tints.svg#Willow);
@@ -11672,19 +11672,19 @@
 /* Wheelbarrow */
 @keyframes sprite-Wheelbarrow-TWood-1 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
-  }
-  16.67% {
-    filter: url(tints.svg#Pine);
-  }
-  33.33% {
     filter: url(tints.svg#OrangeWood);
   }
-  50.0% {
+  16.67% {
     filter: url(tints.svg#Oak);
   }
-  66.67% {
+  33.33% {
+    filter: url(tints.svg#AppleWood);
+  }
+  50.0% {
     filter: url(tints.svg#Birch);
+  }
+  66.67% {
+    filter: url(tints.svg#Pine);
   }
   83.33% {
     filter: url(tints.svg#Willow);
@@ -11736,19 +11736,19 @@
 /* SwordBase */
 @keyframes sprite-SwordBase-TWood-1 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
-  }
-  16.67% {
-    filter: url(tints.svg#Pine);
-  }
-  33.33% {
     filter: url(tints.svg#OrangeWood);
   }
-  50.0% {
+  16.67% {
     filter: url(tints.svg#Oak);
   }
-  66.67% {
+  33.33% {
+    filter: url(tints.svg#AppleWood);
+  }
+  50.0% {
     filter: url(tints.svg#Birch);
+  }
+  66.67% {
+    filter: url(tints.svg#Pine);
   }
   83.33% {
     filter: url(tints.svg#Willow);
@@ -11807,82 +11807,82 @@
 /* SwordBlade */
 @keyframes sprite-SwordBlade-TWoodTStoneTMetal-1 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
+    filter: url(tints.svg#Copper);
   }
   3.85% {
-    filter: url(tints.svg#Birch);
-  }
-  7.69% {
     filter: url(tints.svg#Gold);
   }
-  11.54% {
-    filter: url(tints.svg#Bronze);
-  }
-  15.38% {
-    filter: url(tints.svg#Tin);
-  }
-  19.23% {
-    filter: url(tints.svg#Malachite);
-  }
-  23.08% {
-    filter: url(tints.svg#LapisLazuli);
-  }
-  26.92% {
-    filter: url(tints.svg#Basalt);
-  }
-  30.77% {
-    filter: url(tints.svg#Pine);
-  }
-  34.62% {
-    filter: url(tints.svg#Granite);
-  }
-  38.46% {
-    filter: url(tints.svg#Oak);
-  }
-  42.31% {
-    filter: url(tints.svg#Bauxite);
-  }
-  46.15% {
-    filter: url(tints.svg#Sandstone);
-  }
-  50.0% {
-    filter: url(tints.svg#Willow);
-  }
-  53.85% {
-    filter: url(tints.svg#Steel);
-  }
-  57.69% {
-    filter: url(tints.svg#Obsidian);
-  }
-  61.54% {
-    filter: url(tints.svg#Silver);
-  }
-  65.38% {
-    filter: url(tints.svg#Platinum);
-  }
-  69.23% {
-    filter: url(tints.svg#Ceramic);
-  }
-  73.08% {
+  7.69% {
     filter: url(tints.svg#RoseGold);
   }
-  76.92% {
-    filter: url(tints.svg#OrangeWood);
-  }
-  80.77% {
-    filter: url(tints.svg#Lead);
-  }
-  84.62% {
-    filter: url(tints.svg#Iron);
-  }
-  88.46% {
-    filter: url(tints.svg#Marble);
-  }
-  92.31% {
+  11.54% {
     filter: url(tints.svg#Serpentine);
   }
+  15.38% {
+    filter: url(tints.svg#Birch);
+  }
+  19.23% {
+    filter: url(tints.svg#Lead);
+  }
+  23.08% {
+    filter: url(tints.svg#Willow);
+  }
+  26.92% {
+    filter: url(tints.svg#Marble);
+  }
+  30.77% {
+    filter: url(tints.svg#Sandstone);
+  }
+  34.62% {
+    filter: url(tints.svg#Obsidian);
+  }
+  38.46% {
+    filter: url(tints.svg#Steel);
+  }
+  42.31% {
+    filter: url(tints.svg#Silver);
+  }
+  46.15% {
+    filter: url(tints.svg#Basalt);
+  }
+  50.0% {
+    filter: url(tints.svg#AppleWood);
+  }
+  53.85% {
+    filter: url(tints.svg#Bauxite);
+  }
+  57.69% {
+    filter: url(tints.svg#Tin);
+  }
+  61.54% {
+    filter: url(tints.svg#Iron);
+  }
+  65.38% {
+    filter: url(tints.svg#Bronze);
+  }
+  69.23% {
+    filter: url(tints.svg#Platinum);
+  }
+  73.08% {
+    filter: url(tints.svg#OrangeWood);
+  }
+  76.92% {
+    filter: url(tints.svg#Oak);
+  }
+  80.77% {
+    filter: url(tints.svg#Granite);
+  }
+  84.62% {
+    filter: url(tints.svg#Malachite);
+  }
+  88.46% {
+    filter: url(tints.svg#Pine);
+  }
+  92.31% {
+    filter: url(tints.svg#Ceramic);
+  }
   96.15% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#LapisLazuli);
   }
 }
 .sprite-id-SwordBlade.sprite-material-any .sprite-layer:nth-child(1),
@@ -12077,37 +12077,37 @@
 }
 @keyframes sprite-SwordBlade-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-SwordBlade.sprite-material-TMetal .sprite-layer:nth-child(1)
@@ -12120,64 +12120,64 @@
 /* HammerHead */
 @keyframes sprite-HammerHead-TMetalTStone-1 {
   0.0% {
-    filter: url(tints.svg#Gold);
-  }
-  5.0% {
-    filter: url(tints.svg#Bronze);
-  }
-  10.0% {
-    filter: url(tints.svg#Tin);
-  }
-  15.0% {
-    filter: url(tints.svg#Malachite);
-  }
-  20.0% {
-    filter: url(tints.svg#LapisLazuli);
-  }
-  25.0% {
-    filter: url(tints.svg#Basalt);
-  }
-  30.0% {
-    filter: url(tints.svg#Granite);
-  }
-  35.0% {
-    filter: url(tints.svg#Bauxite);
-  }
-  40.0% {
     filter: url(tints.svg#Copper);
   }
-  45.0% {
-    filter: url(tints.svg#Steel);
+  5.0% {
+    filter: url(tints.svg#Gold);
   }
-  50.0% {
-    filter: url(tints.svg#Serpentine);
-  }
-  55.0% {
-    filter: url(tints.svg#Obsidian);
-  }
-  60.0% {
-    filter: url(tints.svg#Platinum);
-  }
-  65.0% {
-    filter: url(tints.svg#Ceramic);
-  }
-  70.0% {
+  10.0% {
     filter: url(tints.svg#RoseGold);
   }
-  75.0% {
+  15.0% {
+    filter: url(tints.svg#Serpentine);
+  }
+  20.0% {
     filter: url(tints.svg#Lead);
   }
-  80.0% {
-    filter: url(tints.svg#Iron);
-  }
-  85.0% {
+  25.0% {
     filter: url(tints.svg#Marble);
   }
-  90.0% {
+  30.0% {
+    filter: url(tints.svg#Sandstone);
+  }
+  35.0% {
+    filter: url(tints.svg#Obsidian);
+  }
+  40.0% {
+    filter: url(tints.svg#Steel);
+  }
+  45.0% {
     filter: url(tints.svg#Silver);
   }
+  50.0% {
+    filter: url(tints.svg#Basalt);
+  }
+  55.0% {
+    filter: url(tints.svg#Bauxite);
+  }
+  60.0% {
+    filter: url(tints.svg#Tin);
+  }
+  65.0% {
+    filter: url(tints.svg#Iron);
+  }
+  70.0% {
+    filter: url(tints.svg#Bronze);
+  }
+  75.0% {
+    filter: url(tints.svg#Platinum);
+  }
+  80.0% {
+    filter: url(tints.svg#Granite);
+  }
+  85.0% {
+    filter: url(tints.svg#Malachite);
+  }
+  90.0% {
+    filter: url(tints.svg#Ceramic);
+  }
   95.0% {
-    filter: url(tints.svg#Sandstone);
+    filter: url(tints.svg#LapisLazuli);
   }
 }
 .sprite-id-HammerHead.sprite-material-any .sprite-layer:nth-child(1),
@@ -12309,37 +12309,37 @@
 }
 @keyframes sprite-HammerHead-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-HammerHead.sprite-material-TMetal .sprite-layer:nth-child(1)
@@ -12351,64 +12351,64 @@
 /* WarhammerHead */
 @keyframes sprite-WarhammerHead-TMetalTStone-1 {
   0.0% {
-    filter: url(tints.svg#Gold);
-  }
-  5.0% {
-    filter: url(tints.svg#Bronze);
-  }
-  10.0% {
-    filter: url(tints.svg#Tin);
-  }
-  15.0% {
-    filter: url(tints.svg#Malachite);
-  }
-  20.0% {
-    filter: url(tints.svg#LapisLazuli);
-  }
-  25.0% {
-    filter: url(tints.svg#Basalt);
-  }
-  30.0% {
-    filter: url(tints.svg#Granite);
-  }
-  35.0% {
-    filter: url(tints.svg#Bauxite);
-  }
-  40.0% {
     filter: url(tints.svg#Copper);
   }
-  45.0% {
-    filter: url(tints.svg#Steel);
+  5.0% {
+    filter: url(tints.svg#Gold);
   }
-  50.0% {
-    filter: url(tints.svg#Serpentine);
-  }
-  55.0% {
-    filter: url(tints.svg#Obsidian);
-  }
-  60.0% {
-    filter: url(tints.svg#Platinum);
-  }
-  65.0% {
-    filter: url(tints.svg#Ceramic);
-  }
-  70.0% {
+  10.0% {
     filter: url(tints.svg#RoseGold);
   }
-  75.0% {
+  15.0% {
+    filter: url(tints.svg#Serpentine);
+  }
+  20.0% {
     filter: url(tints.svg#Lead);
   }
-  80.0% {
-    filter: url(tints.svg#Iron);
-  }
-  85.0% {
+  25.0% {
     filter: url(tints.svg#Marble);
   }
-  90.0% {
+  30.0% {
+    filter: url(tints.svg#Sandstone);
+  }
+  35.0% {
+    filter: url(tints.svg#Obsidian);
+  }
+  40.0% {
+    filter: url(tints.svg#Steel);
+  }
+  45.0% {
     filter: url(tints.svg#Silver);
   }
+  50.0% {
+    filter: url(tints.svg#Basalt);
+  }
+  55.0% {
+    filter: url(tints.svg#Bauxite);
+  }
+  60.0% {
+    filter: url(tints.svg#Tin);
+  }
+  65.0% {
+    filter: url(tints.svg#Iron);
+  }
+  70.0% {
+    filter: url(tints.svg#Bronze);
+  }
+  75.0% {
+    filter: url(tints.svg#Platinum);
+  }
+  80.0% {
+    filter: url(tints.svg#Granite);
+  }
+  85.0% {
+    filter: url(tints.svg#Malachite);
+  }
+  90.0% {
+    filter: url(tints.svg#Ceramic);
+  }
   95.0% {
-    filter: url(tints.svg#Sandstone);
+    filter: url(tints.svg#LapisLazuli);
   }
 }
 .sprite-id-WarhammerHead.sprite-material-any .sprite-layer:nth-child(1),
@@ -12540,37 +12540,37 @@
 }
 @keyframes sprite-WarhammerHead-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-WarhammerHead.sprite-material-TMetal .sprite-layer:nth-child(1)
@@ -12582,64 +12582,64 @@
 /* ClaymoreBlade */
 @keyframes sprite-ClaymoreBlade-TMetalTStone-1 {
   0.0% {
-    filter: url(tints.svg#Gold);
-  }
-  5.0% {
-    filter: url(tints.svg#Bronze);
-  }
-  10.0% {
-    filter: url(tints.svg#Tin);
-  }
-  15.0% {
-    filter: url(tints.svg#Malachite);
-  }
-  20.0% {
-    filter: url(tints.svg#LapisLazuli);
-  }
-  25.0% {
-    filter: url(tints.svg#Basalt);
-  }
-  30.0% {
-    filter: url(tints.svg#Granite);
-  }
-  35.0% {
-    filter: url(tints.svg#Bauxite);
-  }
-  40.0% {
     filter: url(tints.svg#Copper);
   }
-  45.0% {
-    filter: url(tints.svg#Steel);
+  5.0% {
+    filter: url(tints.svg#Gold);
   }
-  50.0% {
-    filter: url(tints.svg#Serpentine);
-  }
-  55.0% {
-    filter: url(tints.svg#Obsidian);
-  }
-  60.0% {
-    filter: url(tints.svg#Platinum);
-  }
-  65.0% {
-    filter: url(tints.svg#Ceramic);
-  }
-  70.0% {
+  10.0% {
     filter: url(tints.svg#RoseGold);
   }
-  75.0% {
+  15.0% {
+    filter: url(tints.svg#Serpentine);
+  }
+  20.0% {
     filter: url(tints.svg#Lead);
   }
-  80.0% {
-    filter: url(tints.svg#Iron);
-  }
-  85.0% {
+  25.0% {
     filter: url(tints.svg#Marble);
   }
-  90.0% {
+  30.0% {
+    filter: url(tints.svg#Sandstone);
+  }
+  35.0% {
+    filter: url(tints.svg#Obsidian);
+  }
+  40.0% {
+    filter: url(tints.svg#Steel);
+  }
+  45.0% {
     filter: url(tints.svg#Silver);
   }
+  50.0% {
+    filter: url(tints.svg#Basalt);
+  }
+  55.0% {
+    filter: url(tints.svg#Bauxite);
+  }
+  60.0% {
+    filter: url(tints.svg#Tin);
+  }
+  65.0% {
+    filter: url(tints.svg#Iron);
+  }
+  70.0% {
+    filter: url(tints.svg#Bronze);
+  }
+  75.0% {
+    filter: url(tints.svg#Platinum);
+  }
+  80.0% {
+    filter: url(tints.svg#Granite);
+  }
+  85.0% {
+    filter: url(tints.svg#Malachite);
+  }
+  90.0% {
+    filter: url(tints.svg#Ceramic);
+  }
   95.0% {
-    filter: url(tints.svg#Sandstone);
+    filter: url(tints.svg#LapisLazuli);
   }
 }
 .sprite-id-ClaymoreBlade.sprite-material-any .sprite-layer:nth-child(1),
@@ -12771,37 +12771,37 @@
 }
 @keyframes sprite-ClaymoreBlade-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-ClaymoreBlade.sprite-material-TMetal .sprite-layer:nth-child(1)
@@ -12813,37 +12813,37 @@
 /* HandAxeHead */
 @keyframes sprite-HandAxeHead-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-HandAxeHead.sprite-material-any .sprite-layer:nth-child(1),
@@ -12922,37 +12922,37 @@
 /* BattleAxeHead */
 @keyframes sprite-BattleAxeHead-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-BattleAxeHead.sprite-material-any .sprite-layer:nth-child(1),
@@ -13031,82 +13031,82 @@
 /* Sword */
 @keyframes sprite-Sword-TWoodTStoneTMetal-1 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
+    filter: url(tints.svg#Copper);
   }
   3.85% {
-    filter: url(tints.svg#Birch);
-  }
-  7.69% {
     filter: url(tints.svg#Gold);
   }
-  11.54% {
-    filter: url(tints.svg#Bronze);
-  }
-  15.38% {
-    filter: url(tints.svg#Tin);
-  }
-  19.23% {
-    filter: url(tints.svg#Malachite);
-  }
-  23.08% {
-    filter: url(tints.svg#LapisLazuli);
-  }
-  26.92% {
-    filter: url(tints.svg#Basalt);
-  }
-  30.77% {
-    filter: url(tints.svg#Pine);
-  }
-  34.62% {
-    filter: url(tints.svg#Granite);
-  }
-  38.46% {
-    filter: url(tints.svg#Oak);
-  }
-  42.31% {
-    filter: url(tints.svg#Bauxite);
-  }
-  46.15% {
-    filter: url(tints.svg#Sandstone);
-  }
-  50.0% {
-    filter: url(tints.svg#Willow);
-  }
-  53.85% {
-    filter: url(tints.svg#Steel);
-  }
-  57.69% {
-    filter: url(tints.svg#Obsidian);
-  }
-  61.54% {
-    filter: url(tints.svg#Silver);
-  }
-  65.38% {
-    filter: url(tints.svg#Platinum);
-  }
-  69.23% {
-    filter: url(tints.svg#Ceramic);
-  }
-  73.08% {
+  7.69% {
     filter: url(tints.svg#RoseGold);
   }
-  76.92% {
-    filter: url(tints.svg#OrangeWood);
-  }
-  80.77% {
-    filter: url(tints.svg#Lead);
-  }
-  84.62% {
-    filter: url(tints.svg#Iron);
-  }
-  88.46% {
-    filter: url(tints.svg#Marble);
-  }
-  92.31% {
+  11.54% {
     filter: url(tints.svg#Serpentine);
   }
+  15.38% {
+    filter: url(tints.svg#Birch);
+  }
+  19.23% {
+    filter: url(tints.svg#Lead);
+  }
+  23.08% {
+    filter: url(tints.svg#Willow);
+  }
+  26.92% {
+    filter: url(tints.svg#Marble);
+  }
+  30.77% {
+    filter: url(tints.svg#Sandstone);
+  }
+  34.62% {
+    filter: url(tints.svg#Obsidian);
+  }
+  38.46% {
+    filter: url(tints.svg#Steel);
+  }
+  42.31% {
+    filter: url(tints.svg#Silver);
+  }
+  46.15% {
+    filter: url(tints.svg#Basalt);
+  }
+  50.0% {
+    filter: url(tints.svg#AppleWood);
+  }
+  53.85% {
+    filter: url(tints.svg#Bauxite);
+  }
+  57.69% {
+    filter: url(tints.svg#Tin);
+  }
+  61.54% {
+    filter: url(tints.svg#Iron);
+  }
+  65.38% {
+    filter: url(tints.svg#Bronze);
+  }
+  69.23% {
+    filter: url(tints.svg#Platinum);
+  }
+  73.08% {
+    filter: url(tints.svg#OrangeWood);
+  }
+  76.92% {
+    filter: url(tints.svg#Oak);
+  }
+  80.77% {
+    filter: url(tints.svg#Granite);
+  }
+  84.62% {
+    filter: url(tints.svg#Malachite);
+  }
+  88.46% {
+    filter: url(tints.svg#Pine);
+  }
+  92.31% {
+    filter: url(tints.svg#Ceramic);
+  }
   96.15% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#LapisLazuli);
   }
 }
 .sprite-id-Sword.sprite-material-any .sprite-layer:nth-child(1),
@@ -13119,82 +13119,82 @@
 }
 @keyframes sprite-Sword-TWoodTStoneTMetal-2 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
+    filter: url(tints.svg#Copper);
   }
   3.85% {
-    filter: url(tints.svg#Birch);
-  }
-  7.69% {
     filter: url(tints.svg#Gold);
   }
-  11.54% {
-    filter: url(tints.svg#Bronze);
-  }
-  15.38% {
-    filter: url(tints.svg#Tin);
-  }
-  19.23% {
-    filter: url(tints.svg#Malachite);
-  }
-  23.08% {
-    filter: url(tints.svg#LapisLazuli);
-  }
-  26.92% {
-    filter: url(tints.svg#Basalt);
-  }
-  30.77% {
-    filter: url(tints.svg#Pine);
-  }
-  34.62% {
-    filter: url(tints.svg#Granite);
-  }
-  38.46% {
-    filter: url(tints.svg#Oak);
-  }
-  42.31% {
-    filter: url(tints.svg#Bauxite);
-  }
-  46.15% {
-    filter: url(tints.svg#Sandstone);
-  }
-  50.0% {
-    filter: url(tints.svg#Willow);
-  }
-  53.85% {
-    filter: url(tints.svg#Steel);
-  }
-  57.69% {
-    filter: url(tints.svg#Obsidian);
-  }
-  61.54% {
-    filter: url(tints.svg#Silver);
-  }
-  65.38% {
-    filter: url(tints.svg#Platinum);
-  }
-  69.23% {
-    filter: url(tints.svg#Ceramic);
-  }
-  73.08% {
+  7.69% {
     filter: url(tints.svg#RoseGold);
   }
-  76.92% {
-    filter: url(tints.svg#OrangeWood);
-  }
-  80.77% {
-    filter: url(tints.svg#Lead);
-  }
-  84.62% {
-    filter: url(tints.svg#Iron);
-  }
-  88.46% {
-    filter: url(tints.svg#Marble);
-  }
-  92.31% {
+  11.54% {
     filter: url(tints.svg#Serpentine);
   }
+  15.38% {
+    filter: url(tints.svg#Birch);
+  }
+  19.23% {
+    filter: url(tints.svg#Lead);
+  }
+  23.08% {
+    filter: url(tints.svg#Willow);
+  }
+  26.92% {
+    filter: url(tints.svg#Marble);
+  }
+  30.77% {
+    filter: url(tints.svg#Sandstone);
+  }
+  34.62% {
+    filter: url(tints.svg#Obsidian);
+  }
+  38.46% {
+    filter: url(tints.svg#Steel);
+  }
+  42.31% {
+    filter: url(tints.svg#Silver);
+  }
+  46.15% {
+    filter: url(tints.svg#Basalt);
+  }
+  50.0% {
+    filter: url(tints.svg#AppleWood);
+  }
+  53.85% {
+    filter: url(tints.svg#Bauxite);
+  }
+  57.69% {
+    filter: url(tints.svg#Tin);
+  }
+  61.54% {
+    filter: url(tints.svg#Iron);
+  }
+  65.38% {
+    filter: url(tints.svg#Bronze);
+  }
+  69.23% {
+    filter: url(tints.svg#Platinum);
+  }
+  73.08% {
+    filter: url(tints.svg#OrangeWood);
+  }
+  76.92% {
+    filter: url(tints.svg#Oak);
+  }
+  80.77% {
+    filter: url(tints.svg#Granite);
+  }
+  84.62% {
+    filter: url(tints.svg#Malachite);
+  }
+  88.46% {
+    filter: url(tints.svg#Pine);
+  }
+  92.31% {
+    filter: url(tints.svg#Ceramic);
+  }
   96.15% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#LapisLazuli);
   }
 }
 .sprite-id-Sword.sprite-material-any .sprite-layer:nth-child(2),
@@ -13571,37 +13571,37 @@
 }
 @keyframes sprite-Sword-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-Sword.sprite-material-TMetal .sprite-layer:nth-child(1)
@@ -13613,37 +13613,37 @@
 }
 @keyframes sprite-Sword-TMetal-2 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-Sword.sprite-material-TMetal .sprite-layer:nth-child(2)
@@ -13923,19 +13923,19 @@
 }
 @keyframes sprite-GroundTorch-TWood-2 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
-  }
-  16.67% {
-    filter: url(tints.svg#Pine);
-  }
-  33.33% {
     filter: url(tints.svg#OrangeWood);
   }
-  50.0% {
+  16.67% {
     filter: url(tints.svg#Oak);
   }
-  66.67% {
+  33.33% {
+    filter: url(tints.svg#AppleWood);
+  }
+  50.0% {
     filter: url(tints.svg#Birch);
+  }
+  66.67% {
+    filter: url(tints.svg#Pine);
   }
   83.33% {
     filter: url(tints.svg#Willow);
@@ -14101,19 +14101,19 @@
 /* WallTorch */
 @keyframes sprite-WallTorch-TWood-1 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
-  }
-  16.67% {
-    filter: url(tints.svg#Pine);
-  }
-  33.33% {
     filter: url(tints.svg#OrangeWood);
   }
-  50.0% {
+  16.67% {
     filter: url(tints.svg#Oak);
   }
-  66.67% {
+  33.33% {
+    filter: url(tints.svg#AppleWood);
+  }
+  50.0% {
     filter: url(tints.svg#Birch);
+  }
+  66.67% {
+    filter: url(tints.svg#Pine);
   }
   83.33% {
     filter: url(tints.svg#Willow);
@@ -14299,37 +14299,37 @@
 /* BigTorch */
 @keyframes sprite-BigTorch-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-BigTorch.sprite-material-any .sprite-layer:nth-child(1),
@@ -14637,37 +14637,37 @@
 /* Brazier */
 @keyframes sprite-Brazier-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-Brazier.sprite-material-any .sprite-layer:nth-child(1),
@@ -14975,37 +14975,37 @@
 /* AlarmBell */
 @keyframes sprite-AlarmBell-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-AlarmBell.sprite-material-any .sprite-layer:nth-child(1),
@@ -15017,37 +15017,37 @@
 }
 @keyframes sprite-AlarmBell-TMetal-2 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-AlarmBell.sprite-material-any .sprite-layer:nth-child(2),
@@ -15192,31 +15192,31 @@
 /* Trough */
 @keyframes sprite-Trough-TStone-1 {
   0.0% {
-    filter: url(tints.svg#Ceramic);
+    filter: url(tints.svg#Sandstone);
   }
   11.11% {
-    filter: url(tints.svg#Granite);
+    filter: url(tints.svg#Obsidian);
   }
   22.22% {
-    filter: url(tints.svg#Bauxite);
-  }
-  33.33% {
     filter: url(tints.svg#Marble);
   }
+  33.33% {
+    filter: url(tints.svg#Basalt);
+  }
   44.44% {
-    filter: url(tints.svg#LapisLazuli);
+    filter: url(tints.svg#Granite);
   }
   55.56% {
     filter: url(tints.svg#Serpentine);
   }
   66.67% {
-    filter: url(tints.svg#Basalt);
+    filter: url(tints.svg#Bauxite);
   }
   77.78% {
-    filter: url(tints.svg#Obsidian);
+    filter: url(tints.svg#Ceramic);
   }
   88.89% {
-    filter: url(tints.svg#Sandstone);
+    filter: url(tints.svg#LapisLazuli);
   }
 }
 .sprite-id-Trough.sprite-material-any .sprite-layer:nth-child(1),
@@ -15283,19 +15283,19 @@
 /* Shed */
 @keyframes sprite-Shed-TWood-1 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
-  }
-  16.67% {
-    filter: url(tints.svg#Pine);
-  }
-  33.33% {
     filter: url(tints.svg#OrangeWood);
   }
-  50.0% {
+  16.67% {
     filter: url(tints.svg#Oak);
   }
-  66.67% {
+  33.33% {
+    filter: url(tints.svg#AppleWood);
+  }
+  50.0% {
     filter: url(tints.svg#Birch);
+  }
+  66.67% {
+    filter: url(tints.svg#Pine);
   }
   83.33% {
     filter: url(tints.svg#Willow);
@@ -15389,37 +15389,37 @@
 /* GearBoxBase */
 @keyframes sprite-GearBoxBase-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-GearBoxBase.sprite-material-any .sprite-layer:nth-child(1),
@@ -15598,37 +15598,37 @@
 /* SteamEngine */
 @keyframes sprite-SteamEngine-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-SteamEngine.sprite-material-any .sprite-layer:nth-child(1),
@@ -15937,179 +15937,179 @@
 @keyframes sprite-Axle-TMetal-1 {
   0.0% {
     background-position: -96px -256px;
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   2.27% {
     background-position: -96px -256px;
-    filter: url(tints.svg#Steel);
+    filter: url(tints.svg#Gold);
   }
   4.55% {
     background-position: -96px -256px;
-    filter: url(tints.svg#Lead);
+    filter: url(tints.svg#RoseGold);
   }
   6.82% {
     background-position: -96px -256px;
-    filter: url(tints.svg#Gold);
+    filter: url(tints.svg#Silver);
   }
   9.09% {
     background-position: -96px -256px;
-    filter: url(tints.svg#Iron);
+    filter: url(tints.svg#Malachite);
   }
   11.36% {
     background-position: -96px -256px;
-    filter: url(tints.svg#Bronze);
+    filter: url(tints.svg#Steel);
   }
   13.64% {
     background-position: -96px -256px;
-    filter: url(tints.svg#Platinum);
+    filter: url(tints.svg#Tin);
   }
   15.91% {
     background-position: -96px -256px;
-    filter: url(tints.svg#Tin);
+    filter: url(tints.svg#Iron);
   }
   18.18% {
     background-position: -96px -256px;
-    filter: url(tints.svg#Malachite);
+    filter: url(tints.svg#Lead);
   }
   20.45% {
     background-position: -96px -256px;
-    filter: url(tints.svg#Silver);
+    filter: url(tints.svg#Bronze);
   }
   22.73% {
     background-position: -96px -256px;
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
   25.0% {
     background-position: -128px -256px;
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   27.27% {
     background-position: -128px -256px;
-    filter: url(tints.svg#Steel);
+    filter: url(tints.svg#Gold);
   }
   29.55% {
     background-position: -128px -256px;
-    filter: url(tints.svg#Lead);
+    filter: url(tints.svg#RoseGold);
   }
   31.82% {
     background-position: -128px -256px;
-    filter: url(tints.svg#Gold);
+    filter: url(tints.svg#Silver);
   }
   34.09% {
     background-position: -128px -256px;
-    filter: url(tints.svg#Iron);
+    filter: url(tints.svg#Malachite);
   }
   36.36% {
     background-position: -128px -256px;
-    filter: url(tints.svg#Bronze);
+    filter: url(tints.svg#Steel);
   }
   38.64% {
     background-position: -128px -256px;
-    filter: url(tints.svg#Platinum);
+    filter: url(tints.svg#Tin);
   }
   40.91% {
     background-position: -128px -256px;
-    filter: url(tints.svg#Tin);
+    filter: url(tints.svg#Iron);
   }
   43.18% {
     background-position: -128px -256px;
-    filter: url(tints.svg#Malachite);
+    filter: url(tints.svg#Lead);
   }
   45.45% {
     background-position: -128px -256px;
-    filter: url(tints.svg#Silver);
+    filter: url(tints.svg#Bronze);
   }
   47.73% {
     background-position: -128px -256px;
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
   50.0% {
     background-position: -160px -256px;
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   52.27% {
     background-position: -160px -256px;
-    filter: url(tints.svg#Steel);
+    filter: url(tints.svg#Gold);
   }
   54.55% {
     background-position: -160px -256px;
-    filter: url(tints.svg#Lead);
+    filter: url(tints.svg#RoseGold);
   }
   56.82% {
     background-position: -160px -256px;
-    filter: url(tints.svg#Gold);
+    filter: url(tints.svg#Silver);
   }
   59.09% {
     background-position: -160px -256px;
-    filter: url(tints.svg#Iron);
+    filter: url(tints.svg#Malachite);
   }
   61.36% {
     background-position: -160px -256px;
-    filter: url(tints.svg#Bronze);
+    filter: url(tints.svg#Steel);
   }
   63.64% {
     background-position: -160px -256px;
-    filter: url(tints.svg#Platinum);
+    filter: url(tints.svg#Tin);
   }
   65.91% {
     background-position: -160px -256px;
-    filter: url(tints.svg#Tin);
+    filter: url(tints.svg#Iron);
   }
   68.18% {
     background-position: -160px -256px;
-    filter: url(tints.svg#Malachite);
+    filter: url(tints.svg#Lead);
   }
   70.45% {
     background-position: -160px -256px;
-    filter: url(tints.svg#Silver);
+    filter: url(tints.svg#Bronze);
   }
   72.73% {
     background-position: -160px -256px;
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
   75.0% {
     background-position: -192px -256px;
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   77.27% {
     background-position: -192px -256px;
-    filter: url(tints.svg#Steel);
+    filter: url(tints.svg#Gold);
   }
   79.55% {
     background-position: -192px -256px;
-    filter: url(tints.svg#Lead);
+    filter: url(tints.svg#RoseGold);
   }
   81.82% {
     background-position: -192px -256px;
-    filter: url(tints.svg#Gold);
+    filter: url(tints.svg#Silver);
   }
   84.09% {
     background-position: -192px -256px;
-    filter: url(tints.svg#Iron);
+    filter: url(tints.svg#Malachite);
   }
   86.36% {
     background-position: -192px -256px;
-    filter: url(tints.svg#Bronze);
+    filter: url(tints.svg#Steel);
   }
   88.64% {
     background-position: -192px -256px;
-    filter: url(tints.svg#Platinum);
+    filter: url(tints.svg#Tin);
   }
   90.91% {
     background-position: -192px -256px;
-    filter: url(tints.svg#Tin);
+    filter: url(tints.svg#Iron);
   }
   93.18% {
     background-position: -192px -256px;
-    filter: url(tints.svg#Malachite);
+    filter: url(tints.svg#Lead);
   }
   95.45% {
     background-position: -192px -256px;
-    filter: url(tints.svg#Silver);
+    filter: url(tints.svg#Bronze);
   }
   97.73% {
     background-position: -192px -256px;
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-Axle.sprite-material-any .sprite-layer:nth-child(1),
@@ -16375,135 +16375,135 @@
 @keyframes sprite-VerticalAxle-TMetal-1 {
   0.0% {
     background-position: -96px -288px;
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   3.03% {
     background-position: -96px -288px;
-    filter: url(tints.svg#Steel);
+    filter: url(tints.svg#Gold);
   }
   6.06% {
     background-position: -96px -288px;
-    filter: url(tints.svg#Lead);
+    filter: url(tints.svg#RoseGold);
   }
   9.09% {
     background-position: -96px -288px;
-    filter: url(tints.svg#Gold);
+    filter: url(tints.svg#Silver);
   }
   12.12% {
     background-position: -96px -288px;
-    filter: url(tints.svg#Iron);
+    filter: url(tints.svg#Malachite);
   }
   15.15% {
     background-position: -96px -288px;
-    filter: url(tints.svg#Bronze);
+    filter: url(tints.svg#Steel);
   }
   18.18% {
     background-position: -96px -288px;
-    filter: url(tints.svg#Platinum);
+    filter: url(tints.svg#Tin);
   }
   21.21% {
     background-position: -96px -288px;
-    filter: url(tints.svg#Tin);
+    filter: url(tints.svg#Iron);
   }
   24.24% {
     background-position: -96px -288px;
-    filter: url(tints.svg#Malachite);
+    filter: url(tints.svg#Lead);
   }
   27.27% {
     background-position: -96px -288px;
-    filter: url(tints.svg#Silver);
+    filter: url(tints.svg#Bronze);
   }
   30.3% {
     background-position: -96px -288px;
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
   33.33% {
     background-position: -160px -288px;
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   36.36% {
     background-position: -160px -288px;
-    filter: url(tints.svg#Steel);
+    filter: url(tints.svg#Gold);
   }
   39.39% {
     background-position: -160px -288px;
-    filter: url(tints.svg#Lead);
+    filter: url(tints.svg#RoseGold);
   }
   42.42% {
     background-position: -160px -288px;
-    filter: url(tints.svg#Gold);
+    filter: url(tints.svg#Silver);
   }
   45.45% {
     background-position: -160px -288px;
-    filter: url(tints.svg#Iron);
+    filter: url(tints.svg#Malachite);
   }
   48.48% {
     background-position: -160px -288px;
-    filter: url(tints.svg#Bronze);
+    filter: url(tints.svg#Steel);
   }
   51.52% {
     background-position: -160px -288px;
-    filter: url(tints.svg#Platinum);
+    filter: url(tints.svg#Tin);
   }
   54.55% {
     background-position: -160px -288px;
-    filter: url(tints.svg#Tin);
+    filter: url(tints.svg#Iron);
   }
   57.58% {
     background-position: -160px -288px;
-    filter: url(tints.svg#Malachite);
+    filter: url(tints.svg#Lead);
   }
   60.61% {
     background-position: -160px -288px;
-    filter: url(tints.svg#Silver);
+    filter: url(tints.svg#Bronze);
   }
   63.64% {
     background-position: -160px -288px;
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
   66.67% {
     background-position: -128px -288px;
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   69.7% {
     background-position: -128px -288px;
-    filter: url(tints.svg#Steel);
+    filter: url(tints.svg#Gold);
   }
   72.73% {
     background-position: -128px -288px;
-    filter: url(tints.svg#Lead);
+    filter: url(tints.svg#RoseGold);
   }
   75.76% {
     background-position: -128px -288px;
-    filter: url(tints.svg#Gold);
+    filter: url(tints.svg#Silver);
   }
   78.79% {
     background-position: -128px -288px;
-    filter: url(tints.svg#Iron);
+    filter: url(tints.svg#Malachite);
   }
   81.82% {
     background-position: -128px -288px;
-    filter: url(tints.svg#Bronze);
+    filter: url(tints.svg#Steel);
   }
   84.85% {
     background-position: -128px -288px;
-    filter: url(tints.svg#Platinum);
+    filter: url(tints.svg#Tin);
   }
   87.88% {
     background-position: -128px -288px;
-    filter: url(tints.svg#Tin);
+    filter: url(tints.svg#Iron);
   }
   90.91% {
     background-position: -128px -288px;
-    filter: url(tints.svg#Malachite);
+    filter: url(tints.svg#Lead);
   }
   93.94% {
     background-position: -128px -288px;
-    filter: url(tints.svg#Silver);
+    filter: url(tints.svg#Bronze);
   }
   96.97% {
     background-position: -128px -288px;
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-VerticalAxle.sprite-material-any .sprite-layer:nth-child(1),
@@ -16736,37 +16736,37 @@
 /* LeverBase */
 @keyframes sprite-LeverBase-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-LeverBase.sprite-material-any .sprite-layer:nth-child(1),
@@ -16845,37 +16845,37 @@
 /* LeverOff */
 @keyframes sprite-LeverOff-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-LeverOff.sprite-material-any .sprite-layer:nth-child(1),
@@ -17015,37 +17015,37 @@
 /* Handcrank */
 @keyframes sprite-Handcrank-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-Handcrank.sprite-material-any .sprite-layer:nth-child(1),
@@ -17186,37 +17186,37 @@
 /* BladeTrapItemBlade */
 @keyframes sprite-BladeTrapItemBlade-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-BladeTrapItemBlade.sprite-material-any .sprite-layer:nth-child(1),
@@ -17295,37 +17295,37 @@
 /* MechanicalWallItem */
 @keyframes sprite-MechanicalWallItem-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-MechanicalWallItem.sprite-material-any .sprite-layer:nth-child(1),
@@ -17404,37 +17404,37 @@
 /* MechanicalWallOpen */
 @keyframes sprite-MechanicalWallOpen-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-MechanicalWallOpen.sprite-material-any .sprite-layer:nth-child(1),
@@ -17513,37 +17513,37 @@
 /* HatchFrameItem */
 @keyframes sprite-HatchFrameItem-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-HatchFrameItem.sprite-material-any .sprite-layer:nth-child(1),
@@ -17622,37 +17622,37 @@
 /* PipeItem */
 @keyframes sprite-PipeItem-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-PipeItem.sprite-material-any .sprite-layer:nth-child(1),
@@ -17731,37 +17731,37 @@
 /* PipeFittingItem */
 @keyframes sprite-PipeFittingItem-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-PipeFittingItem.sprite-material-any .sprite-layer:nth-child(1),
@@ -17840,37 +17840,37 @@
 /* Pump */
 @keyframes sprite-Pump-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-Pump.sprite-material-any .sprite-layer:nth-child(1),
@@ -17882,37 +17882,37 @@
 }
 @keyframes sprite-Pump-TMetal-2 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-Pump.sprite-material-any .sprite-layer:nth-child(2),
@@ -17925,135 +17925,135 @@
 @keyframes sprite-Pump-TMetal-3 {
   0.0% {
     background-position: -480px -32px;
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   3.03% {
     background-position: -480px -32px;
-    filter: url(tints.svg#Steel);
+    filter: url(tints.svg#Gold);
   }
   6.06% {
     background-position: -480px -32px;
-    filter: url(tints.svg#Lead);
+    filter: url(tints.svg#RoseGold);
   }
   9.09% {
     background-position: -480px -32px;
-    filter: url(tints.svg#Gold);
+    filter: url(tints.svg#Silver);
   }
   12.12% {
     background-position: -480px -32px;
-    filter: url(tints.svg#Iron);
+    filter: url(tints.svg#Malachite);
   }
   15.15% {
     background-position: -480px -32px;
-    filter: url(tints.svg#Bronze);
+    filter: url(tints.svg#Steel);
   }
   18.18% {
     background-position: -480px -32px;
-    filter: url(tints.svg#Platinum);
+    filter: url(tints.svg#Tin);
   }
   21.21% {
     background-position: -480px -32px;
-    filter: url(tints.svg#Tin);
+    filter: url(tints.svg#Iron);
   }
   24.24% {
     background-position: -480px -32px;
-    filter: url(tints.svg#Malachite);
+    filter: url(tints.svg#Lead);
   }
   27.27% {
     background-position: -480px -32px;
-    filter: url(tints.svg#Silver);
+    filter: url(tints.svg#Bronze);
   }
   30.3% {
     background-position: -480px -32px;
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
   33.33% {
     background-position: -480px -64px;
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   36.36% {
     background-position: -480px -64px;
-    filter: url(tints.svg#Steel);
+    filter: url(tints.svg#Gold);
   }
   39.39% {
     background-position: -480px -64px;
-    filter: url(tints.svg#Lead);
+    filter: url(tints.svg#RoseGold);
   }
   42.42% {
     background-position: -480px -64px;
-    filter: url(tints.svg#Gold);
+    filter: url(tints.svg#Silver);
   }
   45.45% {
     background-position: -480px -64px;
-    filter: url(tints.svg#Iron);
+    filter: url(tints.svg#Malachite);
   }
   48.48% {
     background-position: -480px -64px;
-    filter: url(tints.svg#Bronze);
+    filter: url(tints.svg#Steel);
   }
   51.52% {
     background-position: -480px -64px;
-    filter: url(tints.svg#Platinum);
+    filter: url(tints.svg#Tin);
   }
   54.55% {
     background-position: -480px -64px;
-    filter: url(tints.svg#Tin);
+    filter: url(tints.svg#Iron);
   }
   57.58% {
     background-position: -480px -64px;
-    filter: url(tints.svg#Malachite);
+    filter: url(tints.svg#Lead);
   }
   60.61% {
     background-position: -480px -64px;
-    filter: url(tints.svg#Silver);
+    filter: url(tints.svg#Bronze);
   }
   63.64% {
     background-position: -480px -64px;
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
   66.67% {
     background-position: -480px -96px;
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   69.7% {
     background-position: -480px -96px;
-    filter: url(tints.svg#Steel);
+    filter: url(tints.svg#Gold);
   }
   72.73% {
     background-position: -480px -96px;
-    filter: url(tints.svg#Lead);
+    filter: url(tints.svg#RoseGold);
   }
   75.76% {
     background-position: -480px -96px;
-    filter: url(tints.svg#Gold);
+    filter: url(tints.svg#Silver);
   }
   78.79% {
     background-position: -480px -96px;
-    filter: url(tints.svg#Iron);
+    filter: url(tints.svg#Malachite);
   }
   81.82% {
     background-position: -480px -96px;
-    filter: url(tints.svg#Bronze);
+    filter: url(tints.svg#Steel);
   }
   84.85% {
     background-position: -480px -96px;
-    filter: url(tints.svg#Platinum);
+    filter: url(tints.svg#Tin);
   }
   87.88% {
     background-position: -480px -96px;
-    filter: url(tints.svg#Tin);
+    filter: url(tints.svg#Iron);
   }
   90.91% {
     background-position: -480px -96px;
-    filter: url(tints.svg#Malachite);
+    filter: url(tints.svg#Lead);
   }
   93.94% {
     background-position: -480px -96px;
-    filter: url(tints.svg#Silver);
+    filter: url(tints.svg#Bronze);
   }
   96.97% {
     background-position: -480px -96px;
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-Pump.sprite-material-any .sprite-layer:nth-child(3),
@@ -18406,37 +18406,37 @@
 /* Automaton */
 @keyframes sprite-Automaton-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-Automaton.sprite-material-any .sprite-layer:nth-child(1),
@@ -18448,37 +18448,37 @@
 }
 @keyframes sprite-Automaton-TMetal-2 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-Automaton.sprite-material-any .sprite-layer:nth-child(2),
@@ -18490,37 +18490,37 @@
 }
 @keyframes sprite-Automaton-TMetal-3 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-Automaton.sprite-material-any .sprite-layer:nth-child(3),
@@ -18532,37 +18532,37 @@
 }
 @keyframes sprite-Automaton-TMetal-4 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-Automaton.sprite-material-any .sprite-layer:nth-child(4),
@@ -18574,37 +18574,37 @@
 }
 @keyframes sprite-Automaton-TMetal-5 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-Automaton.sprite-material-any .sprite-layer:nth-child(5),
@@ -22003,37 +22003,37 @@
 /* ChainArmorHead */
 @keyframes sprite-ChainArmorHead-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-ChainArmorHead.sprite-material-any .sprite-layer:nth-child(1),
@@ -22112,37 +22112,37 @@
 /* ChainArmorChest */
 @keyframes sprite-ChainArmorChest-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-ChainArmorChest.sprite-material-any .sprite-layer:nth-child(1),
@@ -22221,37 +22221,37 @@
 /* ChainArmorArms */
 @keyframes sprite-ChainArmorArms-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-ChainArmorArms.sprite-material-any .sprite-layer:nth-child(1),
@@ -22330,37 +22330,37 @@
 /* ChainArmorHands */
 @keyframes sprite-ChainArmorHands-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-ChainArmorHands.sprite-material-any .sprite-layer:nth-child(1),
@@ -22439,37 +22439,37 @@
 /* ChainArmorLegs */
 @keyframes sprite-ChainArmorLegs-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-ChainArmorLegs.sprite-material-any .sprite-layer:nth-child(1),
@@ -22548,37 +22548,37 @@
 /* ChainArmorFeet */
 @keyframes sprite-ChainArmorFeet-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-ChainArmorFeet.sprite-material-any .sprite-layer:nth-child(1),
@@ -22657,37 +22657,37 @@
 /* PlateArmorHead */
 @keyframes sprite-PlateArmorHead-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-PlateArmorHead.sprite-material-any .sprite-layer:nth-child(1),
@@ -22766,37 +22766,37 @@
 /* PlateArmorChest */
 @keyframes sprite-PlateArmorChest-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-PlateArmorChest.sprite-material-any .sprite-layer:nth-child(1),
@@ -22875,37 +22875,37 @@
 /* PlateArmorArms */
 @keyframes sprite-PlateArmorArms-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-PlateArmorArms.sprite-material-any .sprite-layer:nth-child(1),
@@ -22984,37 +22984,37 @@
 /* PlateArmorHands */
 @keyframes sprite-PlateArmorHands-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-PlateArmorHands.sprite-material-any .sprite-layer:nth-child(1),
@@ -23093,37 +23093,37 @@
 /* PlateArmorLegs */
 @keyframes sprite-PlateArmorLegs-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-PlateArmorLegs.sprite-material-any .sprite-layer:nth-child(1),
@@ -23202,37 +23202,37 @@
 /* PlateArmorFeet */
 @keyframes sprite-PlateArmorFeet-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-PlateArmorFeet.sprite-material-any .sprite-layer:nth-child(1),
@@ -23311,37 +23311,37 @@
 /* ArmorPlate */
 @keyframes sprite-ArmorPlate-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-ArmorPlate.sprite-material-any .sprite-layer:nth-child(1),
@@ -23432,37 +23432,37 @@
 /* HeavyPlateArmorHead */
 @keyframes sprite-HeavyPlateArmorHead-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-HeavyPlateArmorHead.sprite-material-any .sprite-layer:nth-child(1),
@@ -23541,37 +23541,37 @@
 /* HeavyPlateArmorChest */
 @keyframes sprite-HeavyPlateArmorChest-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-HeavyPlateArmorChest.sprite-material-any .sprite-layer:nth-child(1),
@@ -23650,37 +23650,37 @@
 /* HeavyPlateArmorArms */
 @keyframes sprite-HeavyPlateArmorArms-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-HeavyPlateArmorArms.sprite-material-any .sprite-layer:nth-child(1),
@@ -23759,37 +23759,37 @@
 /* HeavyPlateArmorHands */
 @keyframes sprite-HeavyPlateArmorHands-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-HeavyPlateArmorHands.sprite-material-any .sprite-layer:nth-child(1),
@@ -23868,37 +23868,37 @@
 /* HeavyPlateArmorLegs */
 @keyframes sprite-HeavyPlateArmorLegs-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-HeavyPlateArmorLegs.sprite-material-any .sprite-layer:nth-child(1),
@@ -23977,37 +23977,37 @@
 /* HeavyPlateArmorFeet */
 @keyframes sprite-HeavyPlateArmorFeet-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-HeavyPlateArmorFeet.sprite-material-any .sprite-layer:nth-child(1),
@@ -24241,37 +24241,37 @@
 /* Spring */
 @keyframes sprite-Spring-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-Spring.sprite-material-any .sprite-layer:nth-child(1),
@@ -24350,37 +24350,37 @@
 /* Cylinder */
 @keyframes sprite-Cylinder-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-Cylinder.sprite-material-any .sprite-layer:nth-child(1),
@@ -24459,37 +24459,37 @@
 /* Spike */
 @keyframes sprite-Spike-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-Spike.sprite-material-any .sprite-layer:nth-child(1),
@@ -24568,37 +24568,37 @@
 /* Screw */
 @keyframes sprite-Screw-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-Screw.sprite-material-any .sprite-layer:nth-child(1),
@@ -24677,19 +24677,19 @@
 /* WindmillBlade */
 @keyframes sprite-WindmillBlade-TWood-1 {
   0.0% {
-    filter: url(tints.svg#AppleWood);
-  }
-  16.67% {
-    filter: url(tints.svg#Pine);
-  }
-  33.33% {
     filter: url(tints.svg#OrangeWood);
   }
-  50.0% {
+  16.67% {
     filter: url(tints.svg#Oak);
   }
-  66.67% {
+  33.33% {
+    filter: url(tints.svg#AppleWood);
+  }
+  50.0% {
     filter: url(tints.svg#Birch);
+  }
+  66.67% {
+    filter: url(tints.svg#Pine);
   }
   83.33% {
     filter: url(tints.svg#Willow);
@@ -24741,37 +24741,37 @@
 /* AutomatonHead */
 @keyframes sprite-AutomatonHead-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-AutomatonHead.sprite-material-any .sprite-layer:nth-child(1),
@@ -24850,37 +24850,37 @@
 /* AutomatonTorso */
 @keyframes sprite-AutomatonTorso-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-AutomatonTorso.sprite-material-any .sprite-layer:nth-child(1),
@@ -24959,37 +24959,37 @@
 /* AutomatonArm */
 @keyframes sprite-AutomatonArm-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-AutomatonArm.sprite-material-any .sprite-layer:nth-child(1),
@@ -25068,37 +25068,37 @@
 /* AutomatonFoot */
 @keyframes sprite-AutomatonFoot-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-AutomatonFoot.sprite-material-any .sprite-layer:nth-child(1),
@@ -25177,37 +25177,37 @@
 /* AutomatonCore */
 @keyframes sprite-AutomatonCore-TMetal-1 {
   0.0% {
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Copper);
   }
   9.09% {
-    filter: url(tints.svg#Steel);
-  }
-  18.18% {
-    filter: url(tints.svg#Lead);
-  }
-  27.27% {
     filter: url(tints.svg#Gold);
   }
-  36.36% {
-    filter: url(tints.svg#Iron);
+  18.18% {
+    filter: url(tints.svg#RoseGold);
   }
-  45.45% {
-    filter: url(tints.svg#Bronze);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#Tin);
-  }
-  72.73% {
-    filter: url(tints.svg#Malachite);
-  }
-  81.82% {
+  27.27% {
     filter: url(tints.svg#Silver);
   }
+  36.36% {
+    filter: url(tints.svg#Malachite);
+  }
+  45.45% {
+    filter: url(tints.svg#Steel);
+  }
+  54.55% {
+    filter: url(tints.svg#Tin);
+  }
+  63.64% {
+    filter: url(tints.svg#Iron);
+  }
+  72.73% {
+    filter: url(tints.svg#Lead);
+  }
+  81.82% {
+    filter: url(tints.svg#Bronze);
+  }
   90.91% {
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Platinum);
   }
 }
 .sprite-id-AutomatonCore.sprite-material-any .sprite-layer:nth-child(1),
