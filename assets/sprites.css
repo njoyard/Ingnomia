@@ -31250,3 +31250,7 @@
   background-position: -96px -160px;
   top: -8px;
 }
+/* FIXME find out why this specific sprite does not have correct offsets */
+.sprite-id-constr-BlockStairs .sprite-layer:nth-child(2) {
+  top: -4px !important;
+}
