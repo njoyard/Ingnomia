@@ -25220,255 +25220,61 @@
   top: -4px;
   filter: url(tints.svg#Dirt);
 }
-@keyframes constr-SoilRamp-MDirt-1 {
-  0.0% {
-    background-position: -352px -160px;
-    filter: url(tints.svg#Clay);
-  }
-  10.0% {
-    background-position: -32px -224px;
-    filter: url(tints.svg#Basalt);
-  }
-  20.0% {
-    background-position: -32px -224px;
-    filter: url(tints.svg#Bauxite);
-  }
-  30.0% {
-    background-position: -32px -224px;
-    filter: url(tints.svg#Ceramic);
-  }
-  40.0% {
-    background-position: -32px -224px;
-    filter: url(tints.svg#Granite);
-  }
-  50.0% {
-    background-position: -32px -224px;
-    filter: url(tints.svg#LapisLazuli);
-  }
-  60.0% {
-    background-position: -32px -224px;
-    filter: url(tints.svg#Marble);
-  }
-  70.0% {
-    background-position: -32px -224px;
-    filter: url(tints.svg#Obsidian);
-  }
-  80.0% {
-    background-position: -32px -224px;
-    filter: url(tints.svg#Sandstone);
-  }
-  90.0% {
-    background-position: -32px -224px;
-    filter: url(tints.svg#Serpentine);
-  }
-}
 .s-constr-SoilRamp.m-MDirt .layer:nth-child(1)
 {
-  animation: constr-SoilRamp-MDirt-1 10s infinite step-end;
   background-image: url(terrain.png);
-}
-@keyframes constr-SoilRamp-MDirt-2 {
-  0.0% {
-    filter: url(tints.svg#Basalt);
-  }
-  11.11% {
-    filter: url(tints.svg#Bauxite);
-  }
-  22.22% {
-    filter: url(tints.svg#Ceramic);
-  }
-  33.33% {
-    filter: url(tints.svg#Granite);
-  }
-  44.44% {
-    filter: url(tints.svg#LapisLazuli);
-  }
-  55.56% {
-    filter: url(tints.svg#Marble);
-  }
-  66.67% {
-    filter: url(tints.svg#Obsidian);
-  }
-  77.78% {
-    filter: url(tints.svg#Sandstone);
-  }
-  88.89% {
-    filter: url(tints.svg#Serpentine);
-  }
+  background-position: -32px -160px;
+  filter: url(tints.svg#Dirt);
 }
 .s-constr-SoilRamp.m-MDirt .layer:nth-child(2)
 {
-  animation: constr-SoilRamp-MDirt-2 9s infinite step-end;
   background-image: url(terrain.png);
-  background-position: -32px -192px;
+  background-position: -32px -128px;
   top: -4px;
-}
-@keyframes constr-SoilRamp-MSand-1 {
-  0.0% {
-    background-position: -352px -160px;
-    filter: url(tints.svg#Clay);
-  }
-  10.0% {
-    background-position: -32px -224px;
-    filter: url(tints.svg#Basalt);
-  }
-  20.0% {
-    background-position: -32px -224px;
-    filter: url(tints.svg#Bauxite);
-  }
-  30.0% {
-    background-position: -32px -224px;
-    filter: url(tints.svg#Ceramic);
-  }
-  40.0% {
-    background-position: -32px -224px;
-    filter: url(tints.svg#Granite);
-  }
-  50.0% {
-    background-position: -32px -224px;
-    filter: url(tints.svg#LapisLazuli);
-  }
-  60.0% {
-    background-position: -32px -224px;
-    filter: url(tints.svg#Marble);
-  }
-  70.0% {
-    background-position: -32px -224px;
-    filter: url(tints.svg#Obsidian);
-  }
-  80.0% {
-    background-position: -32px -224px;
-    filter: url(tints.svg#Sandstone);
-  }
-  90.0% {
-    background-position: -32px -224px;
-    filter: url(tints.svg#Serpentine);
-  }
+  filter: url(tints.svg#Dirt);
 }
 .s-constr-SoilRamp.m-MSand .layer:nth-child(1)
 {
-  animation: constr-SoilRamp-MSand-1 10s infinite step-end;
   background-image: url(terrain.png);
-}
-@keyframes constr-SoilRamp-MSand-2 {
-  0.0% {
-    filter: url(tints.svg#Basalt);
-  }
-  11.11% {
-    filter: url(tints.svg#Bauxite);
-  }
-  22.22% {
-    filter: url(tints.svg#Ceramic);
-  }
-  33.33% {
-    filter: url(tints.svg#Granite);
-  }
-  44.44% {
-    filter: url(tints.svg#LapisLazuli);
-  }
-  55.56% {
-    filter: url(tints.svg#Marble);
-  }
-  66.67% {
-    filter: url(tints.svg#Obsidian);
-  }
-  77.78% {
-    filter: url(tints.svg#Sandstone);
-  }
-  88.89% {
-    filter: url(tints.svg#Serpentine);
-  }
+  background-position: -32px -160px;
+  filter: url(tints.svg#Sand);
 }
 .s-constr-SoilRamp.m-MSand .layer:nth-child(2)
 {
-  animation: constr-SoilRamp-MSand-2 9s infinite step-end;
   background-image: url(terrain.png);
-  background-position: -32px -192px;
+  background-position: -32px -128px;
   top: -4px;
+  filter: url(tints.svg#Sand);
 }
 @keyframes constr-SoilRamp-TSandTSoil-1 {
   0.0% {
-    background-position: -352px -160px;
-    filter: url(tints.svg#Clay);
-  }
-  10.0% {
-    background-position: -32px -224px;
-    filter: url(tints.svg#Basalt);
-  }
-  20.0% {
-    background-position: -32px -224px;
-    filter: url(tints.svg#Bauxite);
-  }
-  30.0% {
-    background-position: -32px -224px;
-    filter: url(tints.svg#Ceramic);
-  }
-  40.0% {
-    background-position: -32px -224px;
-    filter: url(tints.svg#Granite);
+    filter: url(tints.svg#Dirt);
   }
   50.0% {
-    background-position: -32px -224px;
-    filter: url(tints.svg#LapisLazuli);
-  }
-  60.0% {
-    background-position: -32px -224px;
-    filter: url(tints.svg#Marble);
-  }
-  70.0% {
-    background-position: -32px -224px;
-    filter: url(tints.svg#Obsidian);
-  }
-  80.0% {
-    background-position: -32px -224px;
-    filter: url(tints.svg#Sandstone);
-  }
-  90.0% {
-    background-position: -32px -224px;
-    filter: url(tints.svg#Serpentine);
+    filter: url(tints.svg#Sand);
   }
 }
 .s-constr-SoilRamp.m-any .layer:nth-child(1),
 .s-constr-SoilRamp.m-TSandTSoil .layer:nth-child(1)
 {
-  animation: constr-SoilRamp-TSandTSoil-1 10s infinite step-end;
+  animation: constr-SoilRamp-TSandTSoil-1 2s infinite step-end;
   background-image: url(terrain.png);
+  background-position: -32px -160px;
 }
 @keyframes constr-SoilRamp-TSandTSoil-2 {
   0.0% {
-    filter: url(tints.svg#Basalt);
+    filter: url(tints.svg#Dirt);
   }
-  11.11% {
-    filter: url(tints.svg#Bauxite);
-  }
-  22.22% {
-    filter: url(tints.svg#Ceramic);
-  }
-  33.33% {
-    filter: url(tints.svg#Granite);
-  }
-  44.44% {
-    filter: url(tints.svg#LapisLazuli);
-  }
-  55.56% {
-    filter: url(tints.svg#Marble);
-  }
-  66.67% {
-    filter: url(tints.svg#Obsidian);
-  }
-  77.78% {
-    filter: url(tints.svg#Sandstone);
-  }
-  88.89% {
-    filter: url(tints.svg#Serpentine);
+  50.0% {
+    filter: url(tints.svg#Sand);
   }
 }
 .s-constr-SoilRamp.m-any .layer:nth-child(2),
 .s-constr-SoilRamp.m-TSandTSoil .layer:nth-child(2)
 {
-  animation: constr-SoilRamp-TSandTSoil-2 9s infinite step-end;
+  animation: constr-SoilRamp-TSandTSoil-2 2s infinite step-end;
   background-image: url(terrain.png);
-  background-position: -32px -192px;
+  background-position: -32px -128px;
   top: -4px;
 }
 .s-constr-SoilWallFloor.m-MDirt .layer:nth-child(1)
