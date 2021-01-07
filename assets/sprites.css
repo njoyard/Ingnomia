@@ -96,7 +96,7 @@
   top: 12px;
   filter: url(tints.svg#Sand);
 }
-@keyframes sprite-RawSoil-TSoilTSand-1 {
+@keyframes sprite-RawSoil-TSandTSoil-1 {
   0.0% {
     filter: url(tints.svg#Dirt);
   }
@@ -105,9 +105,9 @@
   }
 }
 .sprite-id-RawSoil.sprite-material-any .sprite-layer:nth-child(1),
-.sprite-id-RawSoil.sprite-material-TSoilTSand .sprite-layer:nth-child(1)
+.sprite-id-RawSoil.sprite-material-TSandTSoil .sprite-layer:nth-child(1)
 {
-  animation: sprite-RawSoil-TSoilTSand-1 2s infinite step-end;
+  animation: sprite-RawSoil-TSandTSoil-1 2s infinite step-end;
   background-image: url(default.png);
   background-position: -96px -352px;
   left: 8px;
@@ -1441,7 +1441,7 @@
   top: 16px;
 }
 .sprite-id-Seed.sprite-material-any .sprite-layer:nth-child(1),
-.sprite-id-Seed.sprite-material-MCottonTVegetableTFruitTFlowerTGrainTLeavesTBerries .sprite-layer:nth-child(1)
+.sprite-id-Seed.sprite-material-MCottonTBerriesTFlowerTFruitTGrainTLeavesTVegetable .sprite-layer:nth-child(1)
 {
   background-image: url(plants.png);
   background-position: -256px -512px;
@@ -2259,6 +2259,71 @@
   background-image: url(furniture.png);
   background-position: -288px -288px;
 }
+@keyframes sprite-Bed-TBoneTWood-1 {
+  0.0% {
+    background-position: -32px -384px;
+    filter: url(tints.svg#AppleWood);
+  }
+  14.29% {
+    background-position: -32px -384px;
+    filter: url(tints.svg#Birch);
+  }
+  28.57% {
+    background-position: -32px -384px;
+    filter: url(tints.svg#Oak);
+  }
+  42.86% {
+    background-position: -32px -384px;
+    filter: url(tints.svg#OrangeWood);
+  }
+  57.14% {
+    background-position: -32px -384px;
+    filter: url(tints.svg#Pine);
+  }
+  71.43% {
+    background-position: -32px -384px;
+    filter: url(tints.svg#Willow);
+  }
+  85.71% {
+    background-position: -224px -288px;
+    filter: url(tints.svg#BadgerBone);
+  }
+}
+.sprite-id-Bed.sprite-material-any .sprite-layer:nth-child(1),
+.sprite-id-Bed.sprite-material-TBoneTWood .sprite-layer:nth-child(1)
+{
+  animation: sprite-Bed-TBoneTWood-1 7s infinite step-end;
+  background-image: url(furniture.png);
+}
+@keyframes sprite-Bed-TBoneTWood-2 {
+  0.0% {
+    background-position: -96px -384px;
+  }
+  14.29% {
+    background-position: -96px -384px;
+  }
+  28.57% {
+    background-position: -96px -384px;
+  }
+  42.86% {
+    background-position: -96px -384px;
+  }
+  57.14% {
+    background-position: -96px -384px;
+  }
+  71.43% {
+    background-position: -96px -384px;
+  }
+  85.71% {
+    background-position: -288px -288px;
+  }
+}
+.sprite-id-Bed.sprite-material-any .sprite-layer:nth-child(2),
+.sprite-id-Bed.sprite-material-TBoneTWood .sprite-layer:nth-child(2)
+{
+  animation: sprite-Bed-TBoneTWood-2 7s infinite step-end;
+  background-image: url(furniture.png);
+}
 @keyframes sprite-Bed-TWood-1 {
   0.0% {
     filter: url(tints.svg#AppleWood);
@@ -2304,71 +2369,6 @@
   animation: sprite-Bed-TWood-2 6s infinite step-end;
   background-image: url(furniture.png);
   background-position: -96px -384px;
-}
-@keyframes sprite-Bed-TWoodTBone-1 {
-  0.0% {
-    background-position: -32px -384px;
-    filter: url(tints.svg#AppleWood);
-  }
-  14.29% {
-    background-position: -32px -384px;
-    filter: url(tints.svg#Birch);
-  }
-  28.57% {
-    background-position: -32px -384px;
-    filter: url(tints.svg#Oak);
-  }
-  42.86% {
-    background-position: -32px -384px;
-    filter: url(tints.svg#OrangeWood);
-  }
-  57.14% {
-    background-position: -32px -384px;
-    filter: url(tints.svg#Pine);
-  }
-  71.43% {
-    background-position: -32px -384px;
-    filter: url(tints.svg#Willow);
-  }
-  85.71% {
-    background-position: -224px -288px;
-    filter: url(tints.svg#BadgerBone);
-  }
-}
-.sprite-id-Bed.sprite-material-any .sprite-layer:nth-child(1),
-.sprite-id-Bed.sprite-material-TWoodTBone .sprite-layer:nth-child(1)
-{
-  animation: sprite-Bed-TWoodTBone-1 7s infinite step-end;
-  background-image: url(furniture.png);
-}
-@keyframes sprite-Bed-TWoodTBone-2 {
-  0.0% {
-    background-position: -96px -384px;
-  }
-  14.29% {
-    background-position: -96px -384px;
-  }
-  28.57% {
-    background-position: -96px -384px;
-  }
-  42.86% {
-    background-position: -96px -384px;
-  }
-  57.14% {
-    background-position: -96px -384px;
-  }
-  71.43% {
-    background-position: -96px -384px;
-  }
-  85.71% {
-    background-position: -288px -288px;
-  }
-}
-.sprite-id-Bed.sprite-material-any .sprite-layer:nth-child(2),
-.sprite-id-Bed.sprite-material-TWoodTBone .sprite-layer:nth-child(2)
-{
-  animation: sprite-Bed-TWoodTBone-2 7s infinite step-end;
-  background-image: url(furniture.png);
 }
 .sprite-id-FancyWoodBedFrame.sprite-material-MAppleWood .sprite-layer:nth-child(1)
 {
@@ -2953,68 +2953,7 @@
   background-position: -224px -192px;
   filter: url(tints.svg#BadgerBone);
 }
-@keyframes sprite-Chair-TStone-1 {
-  0.0% {
-    filter: url(tints.svg#Basalt);
-  }
-  11.11% {
-    filter: url(tints.svg#Bauxite);
-  }
-  22.22% {
-    filter: url(tints.svg#Ceramic);
-  }
-  33.33% {
-    filter: url(tints.svg#Granite);
-  }
-  44.44% {
-    filter: url(tints.svg#LapisLazuli);
-  }
-  55.56% {
-    filter: url(tints.svg#Marble);
-  }
-  66.67% {
-    filter: url(tints.svg#Obsidian);
-  }
-  77.78% {
-    filter: url(tints.svg#Sandstone);
-  }
-  88.89% {
-    filter: url(tints.svg#Serpentine);
-  }
-}
-.sprite-id-Chair.sprite-material-TStone .sprite-layer:nth-child(1)
-{
-  animation: sprite-Chair-TStone-1 9s infinite step-end;
-  background-image: url(default.png);
-  background-position: -640px -416px;
-}
-@keyframes sprite-Chair-TWood-1 {
-  0.0% {
-    filter: url(tints.svg#AppleWood);
-  }
-  16.67% {
-    filter: url(tints.svg#Birch);
-  }
-  33.33% {
-    filter: url(tints.svg#Oak);
-  }
-  50.0% {
-    filter: url(tints.svg#OrangeWood);
-  }
-  66.67% {
-    filter: url(tints.svg#Pine);
-  }
-  83.33% {
-    filter: url(tints.svg#Willow);
-  }
-}
-.sprite-id-Chair.sprite-material-TWood .sprite-layer:nth-child(1)
-{
-  animation: sprite-Chair-TWood-1 6s infinite step-end;
-  background-image: url(default.png);
-  background-position: -832px -480px;
-}
-@keyframes sprite-Chair-TWoodTStoneTBone-1 {
+@keyframes sprite-Chair-TBoneTStoneTWood-1 {
   0.0% {
     background-image: url(default.png);
     background-position: -640px -416px;
@@ -3097,9 +3036,70 @@
   }
 }
 .sprite-id-Chair.sprite-material-any .sprite-layer:nth-child(1),
-.sprite-id-Chair.sprite-material-TWoodTStoneTBone .sprite-layer:nth-child(1)
+.sprite-id-Chair.sprite-material-TBoneTStoneTWood .sprite-layer:nth-child(1)
 {
-  animation: sprite-Chair-TWoodTStoneTBone-1 16s infinite step-end;
+  animation: sprite-Chair-TBoneTStoneTWood-1 16s infinite step-end;
+}
+@keyframes sprite-Chair-TStone-1 {
+  0.0% {
+    filter: url(tints.svg#Basalt);
+  }
+  11.11% {
+    filter: url(tints.svg#Bauxite);
+  }
+  22.22% {
+    filter: url(tints.svg#Ceramic);
+  }
+  33.33% {
+    filter: url(tints.svg#Granite);
+  }
+  44.44% {
+    filter: url(tints.svg#LapisLazuli);
+  }
+  55.56% {
+    filter: url(tints.svg#Marble);
+  }
+  66.67% {
+    filter: url(tints.svg#Obsidian);
+  }
+  77.78% {
+    filter: url(tints.svg#Sandstone);
+  }
+  88.89% {
+    filter: url(tints.svg#Serpentine);
+  }
+}
+.sprite-id-Chair.sprite-material-TStone .sprite-layer:nth-child(1)
+{
+  animation: sprite-Chair-TStone-1 9s infinite step-end;
+  background-image: url(default.png);
+  background-position: -640px -416px;
+}
+@keyframes sprite-Chair-TWood-1 {
+  0.0% {
+    filter: url(tints.svg#AppleWood);
+  }
+  16.67% {
+    filter: url(tints.svg#Birch);
+  }
+  33.33% {
+    filter: url(tints.svg#Oak);
+  }
+  50.0% {
+    filter: url(tints.svg#OrangeWood);
+  }
+  66.67% {
+    filter: url(tints.svg#Pine);
+  }
+  83.33% {
+    filter: url(tints.svg#Willow);
+  }
+}
+.sprite-id-Chair.sprite-material-TWood .sprite-layer:nth-child(1)
+{
+  animation: sprite-Chair-TWood-1 6s infinite step-end;
+  background-image: url(default.png);
+  background-position: -832px -480px;
 }
 .sprite-id-Table.sprite-material-MAppleWood .sprite-layer:nth-child(1)
 {
@@ -3329,68 +3329,7 @@
   background-position: -224px -224px;
   filter: url(tints.svg#BadgerBone);
 }
-@keyframes sprite-Table-TStone-1 {
-  0.0% {
-    filter: url(tints.svg#Basalt);
-  }
-  11.11% {
-    filter: url(tints.svg#Bauxite);
-  }
-  22.22% {
-    filter: url(tints.svg#Ceramic);
-  }
-  33.33% {
-    filter: url(tints.svg#Granite);
-  }
-  44.44% {
-    filter: url(tints.svg#LapisLazuli);
-  }
-  55.56% {
-    filter: url(tints.svg#Marble);
-  }
-  66.67% {
-    filter: url(tints.svg#Obsidian);
-  }
-  77.78% {
-    filter: url(tints.svg#Sandstone);
-  }
-  88.89% {
-    filter: url(tints.svg#Serpentine);
-  }
-}
-.sprite-id-Table.sprite-material-TStone .sprite-layer:nth-child(1)
-{
-  animation: sprite-Table-TStone-1 9s infinite step-end;
-  background-image: url(default.png);
-  background-position: -992px -416px;
-}
-@keyframes sprite-Table-TWood-1 {
-  0.0% {
-    filter: url(tints.svg#AppleWood);
-  }
-  16.67% {
-    filter: url(tints.svg#Birch);
-  }
-  33.33% {
-    filter: url(tints.svg#Oak);
-  }
-  50.0% {
-    filter: url(tints.svg#OrangeWood);
-  }
-  66.67% {
-    filter: url(tints.svg#Pine);
-  }
-  83.33% {
-    filter: url(tints.svg#Willow);
-  }
-}
-.sprite-id-Table.sprite-material-TWood .sprite-layer:nth-child(1)
-{
-  animation: sprite-Table-TWood-1 6s infinite step-end;
-  background-image: url(default.png);
-  background-position: -96px -512px;
-}
-@keyframes sprite-Table-TWoodTStoneTBone-1 {
+@keyframes sprite-Table-TBoneTStoneTWood-1 {
   0.0% {
     background-image: url(default.png);
     background-position: -96px -512px;
@@ -3473,9 +3412,70 @@
   }
 }
 .sprite-id-Table.sprite-material-any .sprite-layer:nth-child(1),
-.sprite-id-Table.sprite-material-TWoodTStoneTBone .sprite-layer:nth-child(1)
+.sprite-id-Table.sprite-material-TBoneTStoneTWood .sprite-layer:nth-child(1)
 {
-  animation: sprite-Table-TWoodTStoneTBone-1 16s infinite step-end;
+  animation: sprite-Table-TBoneTStoneTWood-1 16s infinite step-end;
+}
+@keyframes sprite-Table-TStone-1 {
+  0.0% {
+    filter: url(tints.svg#Basalt);
+  }
+  11.11% {
+    filter: url(tints.svg#Bauxite);
+  }
+  22.22% {
+    filter: url(tints.svg#Ceramic);
+  }
+  33.33% {
+    filter: url(tints.svg#Granite);
+  }
+  44.44% {
+    filter: url(tints.svg#LapisLazuli);
+  }
+  55.56% {
+    filter: url(tints.svg#Marble);
+  }
+  66.67% {
+    filter: url(tints.svg#Obsidian);
+  }
+  77.78% {
+    filter: url(tints.svg#Sandstone);
+  }
+  88.89% {
+    filter: url(tints.svg#Serpentine);
+  }
+}
+.sprite-id-Table.sprite-material-TStone .sprite-layer:nth-child(1)
+{
+  animation: sprite-Table-TStone-1 9s infinite step-end;
+  background-image: url(default.png);
+  background-position: -992px -416px;
+}
+@keyframes sprite-Table-TWood-1 {
+  0.0% {
+    filter: url(tints.svg#AppleWood);
+  }
+  16.67% {
+    filter: url(tints.svg#Birch);
+  }
+  33.33% {
+    filter: url(tints.svg#Oak);
+  }
+  50.0% {
+    filter: url(tints.svg#OrangeWood);
+  }
+  66.67% {
+    filter: url(tints.svg#Pine);
+  }
+  83.33% {
+    filter: url(tints.svg#Willow);
+  }
+}
+.sprite-id-Table.sprite-material-TWood .sprite-layer:nth-child(1)
+{
+  animation: sprite-Table-TWood-1 6s infinite step-end;
+  background-image: url(default.png);
+  background-position: -96px -512px;
 }
 .sprite-id-Cabinet.sprite-material-MAppleWood .sprite-layer:nth-child(1)
 {
@@ -4117,68 +4117,7 @@
   background-image: url(default.png);
   background-position: -960px -416px;
 }
-@keyframes sprite-Statue-TStone-1 {
-  0.0% {
-    filter: url(tints.svg#Basalt);
-  }
-  11.11% {
-    filter: url(tints.svg#Bauxite);
-  }
-  22.22% {
-    filter: url(tints.svg#Ceramic);
-  }
-  33.33% {
-    filter: url(tints.svg#Granite);
-  }
-  44.44% {
-    filter: url(tints.svg#LapisLazuli);
-  }
-  55.56% {
-    filter: url(tints.svg#Marble);
-  }
-  66.67% {
-    filter: url(tints.svg#Obsidian);
-  }
-  77.78% {
-    filter: url(tints.svg#Sandstone);
-  }
-  88.89% {
-    filter: url(tints.svg#Serpentine);
-  }
-}
-.sprite-id-Statue.sprite-material-TStone .sprite-layer:nth-child(1)
-{
-  animation: sprite-Statue-TStone-1 9s infinite step-end;
-  background-image: url(default.png);
-  background-position: -960px -416px;
-}
-@keyframes sprite-Statue-TWood-1 {
-  0.0% {
-    filter: url(tints.svg#AppleWood);
-  }
-  16.67% {
-    filter: url(tints.svg#Birch);
-  }
-  33.33% {
-    filter: url(tints.svg#Oak);
-  }
-  50.0% {
-    filter: url(tints.svg#OrangeWood);
-  }
-  66.67% {
-    filter: url(tints.svg#Pine);
-  }
-  83.33% {
-    filter: url(tints.svg#Willow);
-  }
-}
-.sprite-id-Statue.sprite-material-TWood .sprite-layer:nth-child(1)
-{
-  animation: sprite-Statue-TWood-1 6s infinite step-end;
-  background-image: url(default.png);
-  background-position: -960px -416px;
-}
-@keyframes sprite-Statue-TWoodTStoneTMetal-1 {
+@keyframes sprite-Statue-TMetalTStoneTWood-1 {
   0.0% {
     filter: url(tints.svg#AppleWood);
   }
@@ -4259,9 +4198,70 @@
   }
 }
 .sprite-id-Statue.sprite-material-any .sprite-layer:nth-child(1),
-.sprite-id-Statue.sprite-material-TWoodTStoneTMetal .sprite-layer:nth-child(1)
+.sprite-id-Statue.sprite-material-TMetalTStoneTWood .sprite-layer:nth-child(1)
 {
-  animation: sprite-Statue-TWoodTStoneTMetal-1 26s infinite step-end;
+  animation: sprite-Statue-TMetalTStoneTWood-1 26s infinite step-end;
+  background-image: url(default.png);
+  background-position: -960px -416px;
+}
+@keyframes sprite-Statue-TStone-1 {
+  0.0% {
+    filter: url(tints.svg#Basalt);
+  }
+  11.11% {
+    filter: url(tints.svg#Bauxite);
+  }
+  22.22% {
+    filter: url(tints.svg#Ceramic);
+  }
+  33.33% {
+    filter: url(tints.svg#Granite);
+  }
+  44.44% {
+    filter: url(tints.svg#LapisLazuli);
+  }
+  55.56% {
+    filter: url(tints.svg#Marble);
+  }
+  66.67% {
+    filter: url(tints.svg#Obsidian);
+  }
+  77.78% {
+    filter: url(tints.svg#Sandstone);
+  }
+  88.89% {
+    filter: url(tints.svg#Serpentine);
+  }
+}
+.sprite-id-Statue.sprite-material-TStone .sprite-layer:nth-child(1)
+{
+  animation: sprite-Statue-TStone-1 9s infinite step-end;
+  background-image: url(default.png);
+  background-position: -960px -416px;
+}
+@keyframes sprite-Statue-TWood-1 {
+  0.0% {
+    filter: url(tints.svg#AppleWood);
+  }
+  16.67% {
+    filter: url(tints.svg#Birch);
+  }
+  33.33% {
+    filter: url(tints.svg#Oak);
+  }
+  50.0% {
+    filter: url(tints.svg#OrangeWood);
+  }
+  66.67% {
+    filter: url(tints.svg#Pine);
+  }
+  83.33% {
+    filter: url(tints.svg#Willow);
+  }
+}
+.sprite-id-Statue.sprite-material-TWood .sprite-layer:nth-child(1)
+{
+  animation: sprite-Statue-TWood-1 6s infinite step-end;
   background-image: url(default.png);
   background-position: -960px -416px;
 }
@@ -4489,72 +4489,7 @@
   top: 10px;
   filter: url(tints.svg#BadgerBone);
 }
-@keyframes sprite-Statuette-TStone-1 {
-  0.0% {
-    filter: url(tints.svg#Basalt);
-  }
-  11.11% {
-    filter: url(tints.svg#Bauxite);
-  }
-  22.22% {
-    filter: url(tints.svg#Ceramic);
-  }
-  33.33% {
-    filter: url(tints.svg#Granite);
-  }
-  44.44% {
-    filter: url(tints.svg#LapisLazuli);
-  }
-  55.56% {
-    filter: url(tints.svg#Marble);
-  }
-  66.67% {
-    filter: url(tints.svg#Obsidian);
-  }
-  77.78% {
-    filter: url(tints.svg#Sandstone);
-  }
-  88.89% {
-    filter: url(tints.svg#Serpentine);
-  }
-}
-.sprite-id-Statuette.sprite-material-TStone .sprite-layer:nth-child(1)
-{
-  animation: sprite-Statuette-TStone-1 9s infinite step-end;
-  background-image: url(default.png);
-  background-position: -288px -384px;
-  left: 10px;
-  top: 10px;
-}
-@keyframes sprite-Statuette-TWood-1 {
-  0.0% {
-    filter: url(tints.svg#AppleWood);
-  }
-  16.67% {
-    filter: url(tints.svg#Birch);
-  }
-  33.33% {
-    filter: url(tints.svg#Oak);
-  }
-  50.0% {
-    filter: url(tints.svg#OrangeWood);
-  }
-  66.67% {
-    filter: url(tints.svg#Pine);
-  }
-  83.33% {
-    filter: url(tints.svg#Willow);
-  }
-}
-.sprite-id-Statuette.sprite-material-TWood .sprite-layer:nth-child(1)
-{
-  animation: sprite-Statuette-TWood-1 6s infinite step-end;
-  background-image: url(default.png);
-  background-position: -288px -384px;
-  left: 10px;
-  top: 10px;
-}
-@keyframes sprite-Statuette-TWoodTStoneTMetal-1 {
+@keyframes sprite-Statuette-TMetalTStoneTWood-1 {
   0.0% {
     filter: url(tints.svg#AppleWood);
   }
@@ -4635,9 +4570,74 @@
   }
 }
 .sprite-id-Statuette.sprite-material-any .sprite-layer:nth-child(1),
-.sprite-id-Statuette.sprite-material-TWoodTStoneTMetal .sprite-layer:nth-child(1)
+.sprite-id-Statuette.sprite-material-TMetalTStoneTWood .sprite-layer:nth-child(1)
 {
-  animation: sprite-Statuette-TWoodTStoneTMetal-1 26s infinite step-end;
+  animation: sprite-Statuette-TMetalTStoneTWood-1 26s infinite step-end;
+  background-image: url(default.png);
+  background-position: -288px -384px;
+  left: 10px;
+  top: 10px;
+}
+@keyframes sprite-Statuette-TStone-1 {
+  0.0% {
+    filter: url(tints.svg#Basalt);
+  }
+  11.11% {
+    filter: url(tints.svg#Bauxite);
+  }
+  22.22% {
+    filter: url(tints.svg#Ceramic);
+  }
+  33.33% {
+    filter: url(tints.svg#Granite);
+  }
+  44.44% {
+    filter: url(tints.svg#LapisLazuli);
+  }
+  55.56% {
+    filter: url(tints.svg#Marble);
+  }
+  66.67% {
+    filter: url(tints.svg#Obsidian);
+  }
+  77.78% {
+    filter: url(tints.svg#Sandstone);
+  }
+  88.89% {
+    filter: url(tints.svg#Serpentine);
+  }
+}
+.sprite-id-Statuette.sprite-material-TStone .sprite-layer:nth-child(1)
+{
+  animation: sprite-Statuette-TStone-1 9s infinite step-end;
+  background-image: url(default.png);
+  background-position: -288px -384px;
+  left: 10px;
+  top: 10px;
+}
+@keyframes sprite-Statuette-TWood-1 {
+  0.0% {
+    filter: url(tints.svg#AppleWood);
+  }
+  16.67% {
+    filter: url(tints.svg#Birch);
+  }
+  33.33% {
+    filter: url(tints.svg#Oak);
+  }
+  50.0% {
+    filter: url(tints.svg#OrangeWood);
+  }
+  66.67% {
+    filter: url(tints.svg#Pine);
+  }
+  83.33% {
+    filter: url(tints.svg#Willow);
+  }
+}
+.sprite-id-Statuette.sprite-material-TWood .sprite-layer:nth-child(1)
+{
+  animation: sprite-Statuette-TWood-1 6s infinite step-end;
   background-image: url(default.png);
   background-position: -288px -384px;
   left: 10px;
@@ -5590,44 +5590,7 @@
   top: 16px;
   filter: url(tints.svg#Tin);
 }
-@keyframes sprite-KnifeBlade-TStone-1 {
-  0.0% {
-    filter: url(tints.svg#Basalt);
-  }
-  11.11% {
-    filter: url(tints.svg#Bauxite);
-  }
-  22.22% {
-    filter: url(tints.svg#Ceramic);
-  }
-  33.33% {
-    filter: url(tints.svg#Granite);
-  }
-  44.44% {
-    filter: url(tints.svg#LapisLazuli);
-  }
-  55.56% {
-    filter: url(tints.svg#Marble);
-  }
-  66.67% {
-    filter: url(tints.svg#Obsidian);
-  }
-  77.78% {
-    filter: url(tints.svg#Sandstone);
-  }
-  88.89% {
-    filter: url(tints.svg#Serpentine);
-  }
-}
-.sprite-id-KnifeBlade.sprite-material-TStone .sprite-layer:nth-child(1)
-{
-  animation: sprite-KnifeBlade-TStone-1 9s infinite step-end;
-  background-image: url(default.png);
-  background-position: -128px -256px;
-  left: 8px;
-  top: 16px;
-}
-@keyframes sprite-KnifeBlade-TStoneTMetal-1 {
+@keyframes sprite-KnifeBlade-TMetalTStone-1 {
   0.0% {
     filter: url(tints.svg#Basalt);
   }
@@ -5690,9 +5653,46 @@
   }
 }
 .sprite-id-KnifeBlade.sprite-material-any .sprite-layer:nth-child(1),
-.sprite-id-KnifeBlade.sprite-material-TStoneTMetal .sprite-layer:nth-child(1)
+.sprite-id-KnifeBlade.sprite-material-TMetalTStone .sprite-layer:nth-child(1)
 {
-  animation: sprite-KnifeBlade-TStoneTMetal-1 20s infinite step-end;
+  animation: sprite-KnifeBlade-TMetalTStone-1 20s infinite step-end;
+  background-image: url(default.png);
+  background-position: -128px -256px;
+  left: 8px;
+  top: 16px;
+}
+@keyframes sprite-KnifeBlade-TStone-1 {
+  0.0% {
+    filter: url(tints.svg#Basalt);
+  }
+  11.11% {
+    filter: url(tints.svg#Bauxite);
+  }
+  22.22% {
+    filter: url(tints.svg#Ceramic);
+  }
+  33.33% {
+    filter: url(tints.svg#Granite);
+  }
+  44.44% {
+    filter: url(tints.svg#LapisLazuli);
+  }
+  55.56% {
+    filter: url(tints.svg#Marble);
+  }
+  66.67% {
+    filter: url(tints.svg#Obsidian);
+  }
+  77.78% {
+    filter: url(tints.svg#Sandstone);
+  }
+  88.89% {
+    filter: url(tints.svg#Serpentine);
+  }
+}
+.sprite-id-KnifeBlade.sprite-material-TStone .sprite-layer:nth-child(1)
+{
+  animation: sprite-KnifeBlade-TStone-1 9s infinite step-end;
   background-image: url(default.png);
   background-position: -128px -256px;
   left: 8px;
@@ -6048,7 +6048,7 @@
   left: 8px;
   top: 16px;
 }
-@keyframes sprite-Knife-TStoneTMetal-1 {
+@keyframes sprite-Knife-TMetalTStone-1 {
   0.0% {
     filter: url(tints.svg#Basalt);
   }
@@ -6111,16 +6111,16 @@
   }
 }
 .sprite-id-Knife.sprite-material-any .sprite-layer:nth-child(1),
-.sprite-id-Knife.sprite-material-TStoneTMetal .sprite-layer:nth-child(1)
+.sprite-id-Knife.sprite-material-TMetalTStone .sprite-layer:nth-child(1)
 {
-  animation: sprite-Knife-TStoneTMetal-1 20s infinite step-end;
+  animation: sprite-Knife-TMetalTStone-1 20s infinite step-end;
   background-image: url(default.png);
   background-position: -128px -256px;
   left: 8px;
   top: 16px;
 }
 .sprite-id-Knife.sprite-material-any .sprite-layer:nth-child(2),
-.sprite-id-Knife.sprite-material-TStoneTMetal .sprite-layer:nth-child(2)
+.sprite-id-Knife.sprite-material-TMetalTStone .sprite-layer:nth-child(2)
 {
   background-image: url(default.png);
   background-position: -160px -256px;
@@ -6358,70 +6358,7 @@
   background-position: -160px -320px;
   top: 16px;
 }
-@keyframes sprite-PickaxeHead-TStone-1 {
-  0.0% {
-    filter: url(tints.svg#Basalt);
-  }
-  11.11% {
-    filter: url(tints.svg#Bauxite);
-  }
-  22.22% {
-    filter: url(tints.svg#Ceramic);
-  }
-  33.33% {
-    filter: url(tints.svg#Granite);
-  }
-  44.44% {
-    filter: url(tints.svg#LapisLazuli);
-  }
-  55.56% {
-    filter: url(tints.svg#Marble);
-  }
-  66.67% {
-    filter: url(tints.svg#Obsidian);
-  }
-  77.78% {
-    filter: url(tints.svg#Sandstone);
-  }
-  88.89% {
-    filter: url(tints.svg#Serpentine);
-  }
-}
-.sprite-id-PickaxeHead.sprite-material-TStone .sprite-layer:nth-child(1)
-{
-  animation: sprite-PickaxeHead-TStone-1 9s infinite step-end;
-  background-image: url(default.png);
-  background-position: -160px -320px;
-  top: 16px;
-}
-@keyframes sprite-PickaxeHead-TWood-1 {
-  0.0% {
-    filter: url(tints.svg#AppleWood);
-  }
-  16.67% {
-    filter: url(tints.svg#Birch);
-  }
-  33.33% {
-    filter: url(tints.svg#Oak);
-  }
-  50.0% {
-    filter: url(tints.svg#OrangeWood);
-  }
-  66.67% {
-    filter: url(tints.svg#Pine);
-  }
-  83.33% {
-    filter: url(tints.svg#Willow);
-  }
-}
-.sprite-id-PickaxeHead.sprite-material-TWood .sprite-layer:nth-child(1)
-{
-  animation: sprite-PickaxeHead-TWood-1 6s infinite step-end;
-  background-image: url(default.png);
-  background-position: -160px -320px;
-  top: 16px;
-}
-@keyframes sprite-PickaxeHead-TWoodTStoneTMetal-1 {
+@keyframes sprite-PickaxeHead-TMetalTStoneTWood-1 {
   0.0% {
     filter: url(tints.svg#AppleWood);
   }
@@ -6502,9 +6439,72 @@
   }
 }
 .sprite-id-PickaxeHead.sprite-material-any .sprite-layer:nth-child(1),
-.sprite-id-PickaxeHead.sprite-material-TWoodTStoneTMetal .sprite-layer:nth-child(1)
+.sprite-id-PickaxeHead.sprite-material-TMetalTStoneTWood .sprite-layer:nth-child(1)
 {
-  animation: sprite-PickaxeHead-TWoodTStoneTMetal-1 26s infinite step-end;
+  animation: sprite-PickaxeHead-TMetalTStoneTWood-1 26s infinite step-end;
+  background-image: url(default.png);
+  background-position: -160px -320px;
+  top: 16px;
+}
+@keyframes sprite-PickaxeHead-TStone-1 {
+  0.0% {
+    filter: url(tints.svg#Basalt);
+  }
+  11.11% {
+    filter: url(tints.svg#Bauxite);
+  }
+  22.22% {
+    filter: url(tints.svg#Ceramic);
+  }
+  33.33% {
+    filter: url(tints.svg#Granite);
+  }
+  44.44% {
+    filter: url(tints.svg#LapisLazuli);
+  }
+  55.56% {
+    filter: url(tints.svg#Marble);
+  }
+  66.67% {
+    filter: url(tints.svg#Obsidian);
+  }
+  77.78% {
+    filter: url(tints.svg#Sandstone);
+  }
+  88.89% {
+    filter: url(tints.svg#Serpentine);
+  }
+}
+.sprite-id-PickaxeHead.sprite-material-TStone .sprite-layer:nth-child(1)
+{
+  animation: sprite-PickaxeHead-TStone-1 9s infinite step-end;
+  background-image: url(default.png);
+  background-position: -160px -320px;
+  top: 16px;
+}
+@keyframes sprite-PickaxeHead-TWood-1 {
+  0.0% {
+    filter: url(tints.svg#AppleWood);
+  }
+  16.67% {
+    filter: url(tints.svg#Birch);
+  }
+  33.33% {
+    filter: url(tints.svg#Oak);
+  }
+  50.0% {
+    filter: url(tints.svg#OrangeWood);
+  }
+  66.67% {
+    filter: url(tints.svg#Pine);
+  }
+  83.33% {
+    filter: url(tints.svg#Willow);
+  }
+}
+.sprite-id-PickaxeHead.sprite-material-TWood .sprite-layer:nth-child(1)
+{
+  animation: sprite-PickaxeHead-TWood-1 6s infinite step-end;
   background-image: url(default.png);
   background-position: -160px -320px;
   top: 16px;
@@ -6943,7 +6943,7 @@
   top: 16px;
   filter: url(tints.svg#Willow);
 }
-@keyframes sprite-Pickaxe-TWoodTStoneTMetal-1 {
+@keyframes sprite-Pickaxe-TMetalTStoneTWood-1 {
   0.0% {
     filter: url(tints.svg#AppleWood);
   }
@@ -7024,14 +7024,14 @@
   }
 }
 .sprite-id-Pickaxe.sprite-material-any .sprite-layer:nth-child(1),
-.sprite-id-Pickaxe.sprite-material-TWoodTStoneTMetal .sprite-layer:nth-child(1)
+.sprite-id-Pickaxe.sprite-material-TMetalTStoneTWood .sprite-layer:nth-child(1)
 {
-  animation: sprite-Pickaxe-TWoodTStoneTMetal-1 26s infinite step-end;
+  animation: sprite-Pickaxe-TMetalTStoneTWood-1 26s infinite step-end;
   background-image: url(default.png);
   background-position: -160px -320px;
   top: 16px;
 }
-@keyframes sprite-Pickaxe-TWoodTStoneTMetal-2 {
+@keyframes sprite-Pickaxe-TMetalTStoneTWood-2 {
   0.0% {
     filter: url(tints.svg#AppleWood);
   }
@@ -7112,9 +7112,9 @@
   }
 }
 .sprite-id-Pickaxe.sprite-material-any .sprite-layer:nth-child(2),
-.sprite-id-Pickaxe.sprite-material-TWoodTStoneTMetal .sprite-layer:nth-child(2)
+.sprite-id-Pickaxe.sprite-material-TMetalTStoneTWood .sprite-layer:nth-child(2)
 {
-  animation: sprite-Pickaxe-TWoodTStoneTMetal-2 26s infinite step-end;
+  animation: sprite-Pickaxe-TMetalTStoneTWood-2 26s infinite step-end;
   background-image: url(default.png);
   background-position: -128px -320px;
   top: 16px;
@@ -7622,7 +7622,7 @@
   background-position: -32px -128px;
   top: 16px;
 }
-@keyframes sprite-FellingAxeHead-TWoodTStoneTMetal-1 {
+@keyframes sprite-FellingAxeHead-TMetalTStoneTWood-1 {
   0.0% {
     filter: url(tints.svg#AppleWood);
   }
@@ -7703,9 +7703,9 @@
   }
 }
 .sprite-id-FellingAxeHead.sprite-material-any .sprite-layer:nth-child(1),
-.sprite-id-FellingAxeHead.sprite-material-TWoodTStoneTMetal .sprite-layer:nth-child(1)
+.sprite-id-FellingAxeHead.sprite-material-TMetalTStoneTWood .sprite-layer:nth-child(1)
 {
-  animation: sprite-FellingAxeHead-TWoodTStoneTMetal-1 26s infinite step-end;
+  animation: sprite-FellingAxeHead-TMetalTStoneTWood-1 26s infinite step-end;
   background-image: url(default.png);
   background-position: -32px -128px;
   top: 16px;
@@ -8158,7 +8158,7 @@
   background-position: -0px -128px;
   top: 16px;
 }
-@keyframes sprite-FellingAxe-TWoodTStoneTMetal-1 {
+@keyframes sprite-FellingAxe-TMetalTStoneTWood-1 {
   0.0% {
     filter: url(tints.svg#AppleWood);
   }
@@ -8239,14 +8239,14 @@
   }
 }
 .sprite-id-FellingAxe.sprite-material-any .sprite-layer:nth-child(1),
-.sprite-id-FellingAxe.sprite-material-TWoodTStoneTMetal .sprite-layer:nth-child(1)
+.sprite-id-FellingAxe.sprite-material-TMetalTStoneTWood .sprite-layer:nth-child(1)
 {
-  animation: sprite-FellingAxe-TWoodTStoneTMetal-1 26s infinite step-end;
+  animation: sprite-FellingAxe-TMetalTStoneTWood-1 26s infinite step-end;
   background-image: url(default.png);
   background-position: -32px -128px;
   top: 16px;
 }
-@keyframes sprite-FellingAxe-TWoodTStoneTMetal-2 {
+@keyframes sprite-FellingAxe-TMetalTStoneTWood-2 {
   0.0% {
     filter: url(tints.svg#AppleWood);
   }
@@ -8327,9 +8327,9 @@
   }
 }
 .sprite-id-FellingAxe.sprite-material-any .sprite-layer:nth-child(2),
-.sprite-id-FellingAxe.sprite-material-TWoodTStoneTMetal .sprite-layer:nth-child(2)
+.sprite-id-FellingAxe.sprite-material-TMetalTStoneTWood .sprite-layer:nth-child(2)
 {
-  animation: sprite-FellingAxe-TWoodTStoneTMetal-2 26s infinite step-end;
+  animation: sprite-FellingAxe-TMetalTStoneTWood-2 26s infinite step-end;
   background-image: url(default.png);
   background-position: -0px -128px;
   top: 16px;
@@ -8730,49 +8730,7 @@
   top: 16px;
   filter: url(tints.svg#BadgerBone);
 }
-@keyframes sprite-BoneNeedle-TMetal-1 {
-  0.0% {
-    filter: url(tints.svg#Bronze);
-  }
-  9.09% {
-    filter: url(tints.svg#Copper);
-  }
-  18.18% {
-    filter: url(tints.svg#Gold);
-  }
-  27.27% {
-    filter: url(tints.svg#Iron);
-  }
-  36.36% {
-    filter: url(tints.svg#Lead);
-  }
-  45.45% {
-    filter: url(tints.svg#Malachite);
-  }
-  54.55% {
-    filter: url(tints.svg#Platinum);
-  }
-  63.64% {
-    filter: url(tints.svg#RoseGold);
-  }
-  72.73% {
-    filter: url(tints.svg#Silver);
-  }
-  81.82% {
-    filter: url(tints.svg#Steel);
-  }
-  90.91% {
-    filter: url(tints.svg#Tin);
-  }
-}
-.sprite-id-BoneNeedle.sprite-material-TMetal .sprite-layer:nth-child(1)
-{
-  animation: sprite-BoneNeedle-TMetal-1 11s infinite step-end;
-  background-image: url(default.png);
-  background-position: -896px -64px;
-  top: 16px;
-}
-@keyframes sprite-BoneNeedle-TMetalTBone-1 {
+@keyframes sprite-BoneNeedle-TBoneTMetal-1 {
   0.0% {
     filter: url(tints.svg#BadgerBone);
   }
@@ -8811,9 +8769,51 @@
   }
 }
 .sprite-id-BoneNeedle.sprite-material-any .sprite-layer:nth-child(1),
-.sprite-id-BoneNeedle.sprite-material-TMetalTBone .sprite-layer:nth-child(1)
+.sprite-id-BoneNeedle.sprite-material-TBoneTMetal .sprite-layer:nth-child(1)
 {
-  animation: sprite-BoneNeedle-TMetalTBone-1 12s infinite step-end;
+  animation: sprite-BoneNeedle-TBoneTMetal-1 12s infinite step-end;
+  background-image: url(default.png);
+  background-position: -896px -64px;
+  top: 16px;
+}
+@keyframes sprite-BoneNeedle-TMetal-1 {
+  0.0% {
+    filter: url(tints.svg#Bronze);
+  }
+  9.09% {
+    filter: url(tints.svg#Copper);
+  }
+  18.18% {
+    filter: url(tints.svg#Gold);
+  }
+  27.27% {
+    filter: url(tints.svg#Iron);
+  }
+  36.36% {
+    filter: url(tints.svg#Lead);
+  }
+  45.45% {
+    filter: url(tints.svg#Malachite);
+  }
+  54.55% {
+    filter: url(tints.svg#Platinum);
+  }
+  63.64% {
+    filter: url(tints.svg#RoseGold);
+  }
+  72.73% {
+    filter: url(tints.svg#Silver);
+  }
+  81.82% {
+    filter: url(tints.svg#Steel);
+  }
+  90.91% {
+    filter: url(tints.svg#Tin);
+  }
+}
+.sprite-id-BoneNeedle.sprite-material-TMetal .sprite-layer:nth-child(1)
+{
+  animation: sprite-BoneNeedle-TMetal-1 11s infinite step-end;
   background-image: url(default.png);
   background-position: -896px -64px;
   top: 16px;
@@ -9928,7 +9928,7 @@
   top: 17px;
 }
 .sprite-id-RawHide.sprite-material-any .sprite-layer:nth-child(1),
-.sprite-id-RawHide.sprite-material-MCowMYakMEmu .sprite-layer:nth-child(1)
+.sprite-id-RawHide.sprite-material-MCowMEmuMYak .sprite-layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -32px -352px;
@@ -11302,7 +11302,7 @@
   filter: url(tints.svg#CowLeather);
 }
 .sprite-id-LeatherStrip.sprite-material-any .sprite-layer:nth-child(1),
-.sprite-id-LeatherStrip.sprite-material-MCowLeatherMYakLeatherMEmuLeather .sprite-layer:nth-child(1)
+.sprite-id-LeatherStrip.sprite-material-MCowLeatherMEmuLeatherMYakLeather .sprite-layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -224px -256px;
@@ -11941,7 +11941,7 @@
   background-position: -64px -448px;
   top: 16px;
 }
-@keyframes sprite-SwordBlade-TWoodTStoneTMetal-1 {
+@keyframes sprite-SwordBlade-TMetalTStoneTWood-1 {
   0.0% {
     filter: url(tints.svg#AppleWood);
   }
@@ -12022,9 +12022,9 @@
   }
 }
 .sprite-id-SwordBlade.sprite-material-any .sprite-layer:nth-child(1),
-.sprite-id-SwordBlade.sprite-material-TWoodTStoneTMetal .sprite-layer:nth-child(1)
+.sprite-id-SwordBlade.sprite-material-TMetalTStoneTWood .sprite-layer:nth-child(1)
 {
-  animation: sprite-SwordBlade-TWoodTStoneTMetal-1 26s infinite step-end;
+  animation: sprite-SwordBlade-TMetalTStoneTWood-1 26s infinite step-end;
   background-image: url(default.png);
   background-position: -64px -448px;
   top: 16px;
@@ -13383,7 +13383,7 @@
   background-position: -96px -448px;
   top: 16px;
 }
-@keyframes sprite-Sword-TWoodTStoneTMetal-1 {
+@keyframes sprite-Sword-TMetalTStoneTWood-1 {
   0.0% {
     filter: url(tints.svg#AppleWood);
   }
@@ -13464,14 +13464,14 @@
   }
 }
 .sprite-id-Sword.sprite-material-any .sprite-layer:nth-child(1),
-.sprite-id-Sword.sprite-material-TWoodTStoneTMetal .sprite-layer:nth-child(1)
+.sprite-id-Sword.sprite-material-TMetalTStoneTWood .sprite-layer:nth-child(1)
 {
-  animation: sprite-Sword-TWoodTStoneTMetal-1 26s infinite step-end;
+  animation: sprite-Sword-TMetalTStoneTWood-1 26s infinite step-end;
   background-image: url(default.png);
   background-position: -64px -448px;
   top: 16px;
 }
-@keyframes sprite-Sword-TWoodTStoneTMetal-2 {
+@keyframes sprite-Sword-TMetalTStoneTWood-2 {
   0.0% {
     filter: url(tints.svg#AppleWood);
   }
@@ -13552,9 +13552,9 @@
   }
 }
 .sprite-id-Sword.sprite-material-any .sprite-layer:nth-child(2),
-.sprite-id-Sword.sprite-material-TWoodTStoneTMetal .sprite-layer:nth-child(2)
+.sprite-id-Sword.sprite-material-TMetalTStoneTWood .sprite-layer:nth-child(2)
 {
-  animation: sprite-Sword-TWoodTStoneTMetal-2 26s infinite step-end;
+  animation: sprite-Sword-TMetalTStoneTWood-2 26s infinite step-end;
   background-image: url(default.png);
   background-position: -96px -448px;
   top: 16px;
@@ -13710,33 +13710,7 @@
   background-image: url(default.png);
   background-position: -800px -416px;
 }
-@keyframes sprite-Door-TWood-1 {
-  0.0% {
-    filter: url(tints.svg#AppleWood);
-  }
-  16.67% {
-    filter: url(tints.svg#Birch);
-  }
-  33.33% {
-    filter: url(tints.svg#Oak);
-  }
-  50.0% {
-    filter: url(tints.svg#OrangeWood);
-  }
-  66.67% {
-    filter: url(tints.svg#Pine);
-  }
-  83.33% {
-    filter: url(tints.svg#Willow);
-  }
-}
-.sprite-id-Door.sprite-material-TWood .sprite-layer:nth-child(1)
-{
-  animation: sprite-Door-TWood-1 6s infinite step-end;
-  background-image: url(default.png);
-  background-position: -992px -480px;
-}
-@keyframes sprite-Door-TWoodTStone-1 {
+@keyframes sprite-Door-TStoneTWood-1 {
   0.0% {
     background-position: -992px -480px;
     filter: url(tints.svg#AppleWood);
@@ -13799,10 +13773,36 @@
   }
 }
 .sprite-id-Door.sprite-material-any .sprite-layer:nth-child(1),
-.sprite-id-Door.sprite-material-TWoodTStone .sprite-layer:nth-child(1)
+.sprite-id-Door.sprite-material-TStoneTWood .sprite-layer:nth-child(1)
 {
-  animation: sprite-Door-TWoodTStone-1 15s infinite step-end;
+  animation: sprite-Door-TStoneTWood-1 15s infinite step-end;
   background-image: url(default.png);
+}
+@keyframes sprite-Door-TWood-1 {
+  0.0% {
+    filter: url(tints.svg#AppleWood);
+  }
+  16.67% {
+    filter: url(tints.svg#Birch);
+  }
+  33.33% {
+    filter: url(tints.svg#Oak);
+  }
+  50.0% {
+    filter: url(tints.svg#OrangeWood);
+  }
+  66.67% {
+    filter: url(tints.svg#Pine);
+  }
+  83.33% {
+    filter: url(tints.svg#Willow);
+  }
+}
+.sprite-id-Door.sprite-material-TWood .sprite-layer:nth-child(1)
+{
+  animation: sprite-Door-TWood-1 6s infinite step-end;
+  background-image: url(default.png);
+  background-position: -992px -480px;
 }
 @keyframes sprite-GroundTorch-MAppleWood-1 {
   0.0% {
@@ -19027,7 +19027,7 @@
   top: 12px;
 }
 .sprite-id-Egg.sprite-material-any .sprite-layer:nth-child(1),
-.sprite-id-Egg.sprite-material-MChickenMDuckMGooseMEmu .sprite-layer:nth-child(1)
+.sprite-id-Egg.sprite-material-MChickenMDuckMEmuMGoose .sprite-layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -832px -96px;
@@ -20690,7 +20690,7 @@
   background-position: -32px -64px;
 }
 .sprite-id-PickledEgg.sprite-material-any .sprite-layer:nth-child(1),
-.sprite-id-PickledEgg.sprite-material-MChickenMDuckMGooseMEmu .sprite-layer:nth-child(1)
+.sprite-id-PickledEgg.sprite-material-MChickenMDuckMEmuMGoose .sprite-layer:nth-child(1)
 {
   background-image: url(food_drink_ingredients.png);
   background-position: -32px -64px;
@@ -20847,7 +20847,7 @@
   background-position: -96px -64px;
 }
 .sprite-id-SmokedBird.sprite-material-any .sprite-layer:nth-child(1),
-.sprite-id-SmokedBird.sprite-material-MChickenMDuckMGooseMEmu .sprite-layer:nth-child(1)
+.sprite-id-SmokedBird.sprite-material-MChickenMDuckMEmuMGoose .sprite-layer:nth-child(1)
 {
   background-image: url(food_drink_ingredients.png);
   background-position: -96px -64px;
@@ -21578,7 +21578,7 @@
   filter: url(tints.svg#Cow);
 }
 .sprite-id-AmmoPouch.sprite-material-any .sprite-layer:nth-child(1),
-.sprite-id-AmmoPouch.sprite-material-MCowMYakMEmu .sprite-layer:nth-child(1)
+.sprite-id-AmmoPouch.sprite-material-MCowMEmuMYak .sprite-layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -448px -128px;
@@ -21610,7 +21610,7 @@
   filter: url(tints.svg#CowLeather);
 }
 .sprite-id-LeatherPanel.sprite-material-any .sprite-layer:nth-child(1),
-.sprite-id-LeatherPanel.sprite-material-MCowLeatherMYakLeatherMEmuLeather .sprite-layer:nth-child(1)
+.sprite-id-LeatherPanel.sprite-material-MCowLeatherMEmuLeatherMYakLeather .sprite-layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -192px -256px;
@@ -21644,7 +21644,7 @@
   background-position: -0px -0px;
 }
 .sprite-id-LeatherArmorHead.sprite-material-any .sprite-layer:nth-child(1),
-.sprite-id-LeatherArmorHead.sprite-material-MCowLeatherMYakLeatherMEmuLeather .sprite-layer:nth-child(1)
+.sprite-id-LeatherArmorHead.sprite-material-MCowLeatherMEmuLeatherMYakLeather .sprite-layer:nth-child(1)
 {
   background-image: url(weapons_armour.png);
   background-position: -0px -0px;
@@ -21670,7 +21670,7 @@
   background-position: -32px -0px;
 }
 .sprite-id-LeatherArmorChest.sprite-material-any .sprite-layer:nth-child(1),
-.sprite-id-LeatherArmorChest.sprite-material-MCowLeatherMYakLeatherMEmuLeather .sprite-layer:nth-child(1)
+.sprite-id-LeatherArmorChest.sprite-material-MCowLeatherMEmuLeatherMYakLeather .sprite-layer:nth-child(1)
 {
   background-image: url(weapons_armour.png);
   background-position: -32px -0px;
@@ -21696,7 +21696,7 @@
   background-position: -160px -0px;
 }
 .sprite-id-LeatherArmorFeet.sprite-material-any .sprite-layer:nth-child(1),
-.sprite-id-LeatherArmorFeet.sprite-material-MCowLeatherMYakLeatherMEmuLeather .sprite-layer:nth-child(1)
+.sprite-id-LeatherArmorFeet.sprite-material-MCowLeatherMEmuLeatherMYakLeather .sprite-layer:nth-child(1)
 {
   background-image: url(weapons_armour.png);
   background-position: -160px -0px;
@@ -21722,7 +21722,7 @@
   background-position: -128px -0px;
 }
 .sprite-id-LeatherArmorLegs.sprite-material-any .sprite-layer:nth-child(1),
-.sprite-id-LeatherArmorLegs.sprite-material-MCowLeatherMYakLeatherMEmuLeather .sprite-layer:nth-child(1)
+.sprite-id-LeatherArmorLegs.sprite-material-MCowLeatherMEmuLeatherMYakLeather .sprite-layer:nth-child(1)
 {
   background-image: url(weapons_armour.png);
   background-position: -128px -0px;
@@ -21748,7 +21748,7 @@
   background-position: -64px -0px;
 }
 .sprite-id-LeatherArmorArms.sprite-material-any .sprite-layer:nth-child(1),
-.sprite-id-LeatherArmorArms.sprite-material-MCowLeatherMYakLeatherMEmuLeather .sprite-layer:nth-child(1)
+.sprite-id-LeatherArmorArms.sprite-material-MCowLeatherMEmuLeatherMYakLeather .sprite-layer:nth-child(1)
 {
   background-image: url(weapons_armour.png);
   background-position: -64px -0px;
@@ -21774,7 +21774,7 @@
   background-position: -96px -0px;
 }
 .sprite-id-LeatherArmorHands.sprite-material-any .sprite-layer:nth-child(1),
-.sprite-id-LeatherArmorHands.sprite-material-MCowLeatherMYakLeatherMEmuLeather .sprite-layer:nth-child(1)
+.sprite-id-LeatherArmorHands.sprite-material-MCowLeatherMEmuLeatherMYakLeather .sprite-layer:nth-child(1)
 {
   background-image: url(weapons_armour.png);
   background-position: -96px -0px;
@@ -25188,14 +25188,14 @@
   top: 12px;
 }
 .sprite-id-constr-SoilStairs.sprite-material-any .sprite-layer:nth-child(1),
-.sprite-id-constr-SoilStairs.sprite-material-TSoilTSand .sprite-layer:nth-child(1)
+.sprite-id-constr-SoilStairs.sprite-material-TSandTSoil .sprite-layer:nth-child(1)
 {
   background-image: url(terrain.png);
   background-position: -32px -288px;
   filter: url(tints.svg#Dirt);
 }
 .sprite-id-constr-SoilStairs.sprite-material-any .sprite-layer:nth-child(2),
-.sprite-id-constr-SoilStairs.sprite-material-TSoilTSand .sprite-layer:nth-child(2)
+.sprite-id-constr-SoilStairs.sprite-material-TSandTSoil .sprite-layer:nth-child(2)
 {
   background-image: url(terrain.png);
   background-position: -32px -256px;
@@ -25368,7 +25368,7 @@
   background-position: -32px -192px;
   top: 12px;
 }
-@keyframes sprite-constr-SoilRamp-TSoilTSand-1 {
+@keyframes sprite-constr-SoilRamp-TSandTSoil-1 {
   0.0% {
     background-position: -352px -160px;
     filter: url(tints.svg#Clay);
@@ -25411,12 +25411,12 @@
   }
 }
 .sprite-id-constr-SoilRamp.sprite-material-any .sprite-layer:nth-child(1),
-.sprite-id-constr-SoilRamp.sprite-material-TSoilTSand .sprite-layer:nth-child(1)
+.sprite-id-constr-SoilRamp.sprite-material-TSandTSoil .sprite-layer:nth-child(1)
 {
-  animation: sprite-constr-SoilRamp-TSoilTSand-1 10s infinite step-end;
+  animation: sprite-constr-SoilRamp-TSandTSoil-1 10s infinite step-end;
   background-image: url(terrain.png);
 }
-@keyframes sprite-constr-SoilRamp-TSoilTSand-2 {
+@keyframes sprite-constr-SoilRamp-TSandTSoil-2 {
   0.0% {
     filter: url(tints.svg#Basalt);
   }
@@ -25446,9 +25446,9 @@
   }
 }
 .sprite-id-constr-SoilRamp.sprite-material-any .sprite-layer:nth-child(2),
-.sprite-id-constr-SoilRamp.sprite-material-TSoilTSand .sprite-layer:nth-child(2)
+.sprite-id-constr-SoilRamp.sprite-material-TSandTSoil .sprite-layer:nth-child(2)
 {
-  animation: sprite-constr-SoilRamp-TSoilTSand-2 9s infinite step-end;
+  animation: sprite-constr-SoilRamp-TSandTSoil-2 9s infinite step-end;
   background-image: url(terrain.png);
   background-position: -32px -192px;
   top: 12px;
@@ -25479,7 +25479,7 @@
   top: -4px;
   filter: url(tints.svg#Sand);
 }
-@keyframes sprite-constr-SoilWallFloor-TSoilTSand-1 {
+@keyframes sprite-constr-SoilWallFloor-TSandTSoil-1 {
   0.0% {
     background-position: -0px -96px;
     filter: url(tints.svg#Dirt);
@@ -25490,12 +25490,12 @@
   }
 }
 .sprite-id-constr-SoilWallFloor.sprite-material-any .sprite-layer:nth-child(1),
-.sprite-id-constr-SoilWallFloor.sprite-material-TSoilTSand .sprite-layer:nth-child(1)
+.sprite-id-constr-SoilWallFloor.sprite-material-TSandTSoil .sprite-layer:nth-child(1)
 {
-  animation: sprite-constr-SoilWallFloor-TSoilTSand-1 2s infinite step-end;
+  animation: sprite-constr-SoilWallFloor-TSandTSoil-1 2s infinite step-end;
   background-image: url(terrain.png);
 }
-@keyframes sprite-constr-SoilWallFloor-TSoilTSand-2 {
+@keyframes sprite-constr-SoilWallFloor-TSandTSoil-2 {
   0.0% {
     background-position: -0px -64px;
     filter: url(tints.svg#Dirt);
@@ -25506,9 +25506,9 @@
   }
 }
 .sprite-id-constr-SoilWallFloor.sprite-material-any .sprite-layer:nth-child(2),
-.sprite-id-constr-SoilWallFloor.sprite-material-TSoilTSand .sprite-layer:nth-child(2)
+.sprite-id-constr-SoilWallFloor.sprite-material-TSandTSoil .sprite-layer:nth-child(2)
 {
-  animation: sprite-constr-SoilWallFloor-TSoilTSand-2 2s infinite step-end;
+  animation: sprite-constr-SoilWallFloor-TSandTSoil-2 2s infinite step-end;
   background-image: url(terrain.png);
   top: -4px;
 }
@@ -25524,7 +25524,7 @@
   background-position: -384px -32px;
   filter: url(tints.svg#Sand);
 }
-@keyframes sprite-constr-SoilWall-TSoilTSand-1 {
+@keyframes sprite-constr-SoilWall-TSandTSoil-1 {
   0.0% {
     background-position: -0px -96px;
     filter: url(tints.svg#Dirt);
@@ -25535,9 +25535,9 @@
   }
 }
 .sprite-id-constr-SoilWall.sprite-material-any .sprite-layer:nth-child(1),
-.sprite-id-constr-SoilWall.sprite-material-TSoilTSand .sprite-layer:nth-child(1)
+.sprite-id-constr-SoilWall.sprite-material-TSandTSoil .sprite-layer:nth-child(1)
 {
-  animation: sprite-constr-SoilWall-TSoilTSand-1 2s infinite step-end;
+  animation: sprite-constr-SoilWall-TSandTSoil-1 2s infinite step-end;
   background-image: url(terrain.png);
 }
 .sprite-id-constr-SoilCornerRamp.sprite-material-MDirt .sprite-layer:nth-child(1)
@@ -25552,7 +25552,7 @@
   background-position: -512px -288px;
   filter: url(tints.svg#Sand);
 }
-@keyframes sprite-constr-SoilCornerRamp-TSoilTSand-1 {
+@keyframes sprite-constr-SoilCornerRamp-TSandTSoil-1 {
   0.0% {
     filter: url(tints.svg#Dirt);
   }
@@ -25561,9 +25561,9 @@
   }
 }
 .sprite-id-constr-SoilCornerRamp.sprite-material-any .sprite-layer:nth-child(1),
-.sprite-id-constr-SoilCornerRamp.sprite-material-TSoilTSand .sprite-layer:nth-child(1)
+.sprite-id-constr-SoilCornerRamp.sprite-material-TSandTSoil .sprite-layer:nth-child(1)
 {
-  animation: sprite-constr-SoilCornerRamp-TSoilTSand-1 2s infinite step-end;
+  animation: sprite-constr-SoilCornerRamp-TSandTSoil-1 2s infinite step-end;
   background-image: url(terrain.png);
   background-position: -512px -288px;
 }
@@ -25581,7 +25581,7 @@
   top: 16px;
   filter: url(tints.svg#Sand);
 }
-@keyframes sprite-constr-SoilFloor-TSoilTSand-1 {
+@keyframes sprite-constr-SoilFloor-TSandTSoil-1 {
   0.0% {
     background-position: -0px -64px;
     filter: url(tints.svg#Dirt);
@@ -25592,9 +25592,9 @@
   }
 }
 .sprite-id-constr-SoilFloor.sprite-material-any .sprite-layer:nth-child(1),
-.sprite-id-constr-SoilFloor.sprite-material-TSoilTSand .sprite-layer:nth-child(1)
+.sprite-id-constr-SoilFloor.sprite-material-TSandTSoil .sprite-layer:nth-child(1)
 {
-  animation: sprite-constr-SoilFloor-TSoilTSand-1 2s infinite step-end;
+  animation: sprite-constr-SoilFloor-TSandTSoil-1 2s infinite step-end;
   background-image: url(terrain.png);
   top: 16px;
 }
