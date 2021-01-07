@@ -24162,66 +24162,77 @@
 {
   background-image: url(default.png);
   background-position: -736px -96px;
+  top: 12px;
   filter: url(tints.svg#Bronze);
 }
 .sprite-id-Cylinder.sprite-material-MCopper .sprite-layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -736px -96px;
+  top: 12px;
   filter: url(tints.svg#Copper);
 }
 .sprite-id-Cylinder.sprite-material-MGold .sprite-layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -736px -96px;
+  top: 12px;
   filter: url(tints.svg#Gold);
 }
 .sprite-id-Cylinder.sprite-material-MIron .sprite-layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -736px -96px;
+  top: 12px;
   filter: url(tints.svg#Iron);
 }
 .sprite-id-Cylinder.sprite-material-MLead .sprite-layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -736px -96px;
+  top: 12px;
   filter: url(tints.svg#Lead);
 }
 .sprite-id-Cylinder.sprite-material-MMalachite .sprite-layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -736px -96px;
+  top: 12px;
   filter: url(tints.svg#Malachite);
 }
 .sprite-id-Cylinder.sprite-material-MPlatinum .sprite-layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -736px -96px;
+  top: 12px;
   filter: url(tints.svg#Platinum);
 }
 .sprite-id-Cylinder.sprite-material-MRoseGold .sprite-layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -736px -96px;
+  top: 12px;
   filter: url(tints.svg#RoseGold);
 }
 .sprite-id-Cylinder.sprite-material-MSilver .sprite-layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -736px -96px;
+  top: 12px;
   filter: url(tints.svg#Silver);
 }
 .sprite-id-Cylinder.sprite-material-MSteel .sprite-layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -736px -96px;
+  top: 12px;
   filter: url(tints.svg#Steel);
 }
 .sprite-id-Cylinder.sprite-material-MTin .sprite-layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -736px -96px;
+  top: 12px;
   filter: url(tints.svg#Tin);
 }
 @keyframes sprite-Cylinder-TMetal-1 {
@@ -24265,6 +24276,7 @@
   animation: sprite-Cylinder-TMetal-1 11s infinite step-end;
   background-image: url(default.png);
   background-position: -736px -96px;
+  top: 12px;
 }
 .sprite-id-Spike.sprite-material-MBronze .sprite-layer:nth-child(1)
 {
