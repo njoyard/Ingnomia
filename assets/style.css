@@ -214,6 +214,15 @@ table.item-materials {
   width: 100%;
 }
 
+.buildlist {
+  display: flex;
+  flex-flow: row;
+}
+
+.buildlist table + table {
+  margin-left: var(--margin-large);
+}
+
 .entry {
   white-space: nowrap;
 }
