@@ -19516,11 +19516,15 @@
 {
   background-image: url(default.png);
   background-position: -576px -288px;
+  left: 8px;
+  top: 16px;
 }
 .sprite-id-MushroomItem.sprite-material-any .sprite-layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -576px -288px;
+  left: 8px;
+  top: 16px;
 }
 .sprite-id-Honey.sprite-material-any .sprite-layer:nth-child(1),
 .sprite-id-Honey.sprite-material-MBee .sprite-layer:nth-child(1)
