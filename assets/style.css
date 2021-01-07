@@ -99,6 +99,8 @@ footer {
 nav .icon {
   margin: var(--margin-large) var(--margin-icon);
   max-width: calc(var(--layout-nav) - 2 * var(--margin-icon));
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
 }
 
 nav input {
