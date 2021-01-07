@@ -4,6 +4,8 @@
   display: inline-block;
   vertical-align: bottom;
   position: relative;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
 }
 .layers {
   position: absolute;
@@ -27,14 +29,10 @@
 }
 .zoomed .bg {
   transform: translate(-50%, -50%) scale(2, 2) translate(50%, 50%);
-  image-rendering: crisp-edges;
-  image-rendering: pixelated;
   top: 32px;
 }
 .zoomed .layers {
   transform: translate(-50%, -50%) scale(2, 2) translate(50%, 50%);
-  image-rendering: crisp-edges;
-  image-rendering: pixelated;
 }
 .bg-plain {
   background-image: url(terrain.png);
