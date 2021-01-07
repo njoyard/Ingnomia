@@ -28,11 +28,13 @@
 .sprite-zoomed .sprite-background {
   transform: translate(-50%, -50%) scale(2, 2) translate(50%, 50%);
   image-rendering: crisp-edges;
+  image-rendering: pixelated;
   top: 32px;
 }
 .sprite-zoomed .sprite-layers {
   transform: translate(-50%, -50%) scale(2, 2) translate(50%, 50%);
   image-rendering: crisp-edges;
+  image-rendering: pixelated;
 }
 .sprite-background-plain {
   background-image: url(terrain.png);
