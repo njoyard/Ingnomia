@@ -13,6 +13,9 @@ class Database:
             log("Loading database")
             self.conn.executescript(f.read())
 
+    def baseitems(self):
+        return [id for (id,) in self.conn.execute("SELECT id FROM BaseItems")]
+
     def basesprite(self, id):
         for row in self.conn.execute("SELECT sourcerectangle, tilesheet FROM BaseSprites WHERE id = ?", (id,)):
             return row
@@ -81,6 +84,9 @@ class Database:
             "SELECT amount, itemid, allowedmaterial, allowedmaterialtype FROM Crafts_Components WHERE id = ?",
             (craft,),
         )
+
+    def crafts(self):
+        return [id for (id,) in self.conn.execute("SELECT id FROM Crafts")]
 
     def crafts_using_item(self, item):
         return [

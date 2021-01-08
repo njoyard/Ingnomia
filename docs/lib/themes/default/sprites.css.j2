@@ -68,6 +68,12 @@
   filter: url(tints.svg#Pine);
 }
 
+.bg-planks {
+  background-image: url(terrain.png);
+  background-position: -224px -64px;
+  filter: url(tints.svg#Birch);
+}
+
 {% for anim in sprite_anims %}
   @keyframes {{ anim.id() }} {
     {% for frame in anim.frames %}

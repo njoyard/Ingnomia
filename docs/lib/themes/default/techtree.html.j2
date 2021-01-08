@@ -1,0 +1,45 @@
+{% extends "base.html.j2" %}
+{% import "macros.html.j2" as macros with context %}
+
+{% block title %}
+  Tech Tree - {{ super() }}
+{% endblock %}
+
+{% block content %}
+  <h2>Tech Tree</h2>
+
+  <table class="techtree">
+    <tr>
+      <th>Level</th>
+      <th>Available items</th>
+      <th>Buildable workshops</th>
+    </tr>
+
+    {% for level in techtree %}
+      <tr>
+        <th>
+          {% if loop.index0 == 0 %}
+            Start
+          {% else %}
+            {{ loop.index0 }}
+          {% endif %}
+        </th>
+        <td>
+          {% for item in level.craftable %}
+            <span class="entry">
+              {{ macros.item(item) }}
+              {% if not loop.last %}
+                &bull;
+              {% endif %}
+            </span>
+          {% endfor %}
+        </td>
+        <td>
+          {% for workshop in level.buildable %}
+            <div class="entry">{{ macros.workshop(workshop) }}</div>
+          {% endfor %}
+        </td>
+      </tr>
+    {% endfor %}
+  </table>
+{% endblock %}

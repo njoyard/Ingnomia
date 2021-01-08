@@ -4,6 +4,8 @@ import shutil
 from jinja2 import Environment, FileSystemLoader
 
 from ...util import DOCDIR, log, sort_translations, format_css
+from ...sprite import Sprite
+from ...material import MaterialSet
 from .sprites import generate_sprite_styles
 
 THEME_PATH = os.path.dirname(__file__)
@@ -28,6 +30,9 @@ class DefaultTheme:
 
         log("Gathering data")
 
+        # Register sprite for tech tree menu icon
+        Sprite.get("WorkshopTable_Blueprint").uses_material_set(MaterialSet("Pine", None))
+
         categories = store.categories()
         items = store.items()
         food = store.food()
@@ -36,6 +41,7 @@ class DefaultTheme:
         tints = store.tints()
         workshops = store.workshops()
         constructions = store.constructions()
+        techtree = store.techtree()
 
         sprites = store.sprites()
         tilesheets = set([v["tilesheet"] for sprite in sprites for v in sprite["basesprites"].values()])
@@ -168,6 +174,14 @@ class DefaultTheme:
             f.write(
                 self.env.get_template("constructions.html.j2").render(
                     base="", navtable_rendered=navtable_rendered_root, constructions=constructions, **global_context
+                )
+            )
+
+        # Generate tech tree
+        with open(os.path.join(output, "techtree.html"), mode="w") as f:
+            f.write(
+                self.env.get_template("techtree.html.j2").render(
+                    base="", navtable_rendered=navtable_rendered_root, techtree=techtree, **global_context
                 )
             )
 
