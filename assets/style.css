@@ -166,7 +166,8 @@ table.nav a.collapse-trigger {
 table.workshop-components tr:nth-child(2n + 1),
 table.workshops tr:nth-child(2n + 1),
 table.crafts tr:nth-child(2n + 1),
-table.constructions tr:nth-child(2n + 1) {
+table.constructions tr:nth-child(2n + 1),
+table.techtree tr:nth-child(2n + 1) {
   background-color: var(--color-bg-alt);
 }
 

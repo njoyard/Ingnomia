@@ -56,6 +56,11 @@
   background-position: -64px -64px;
   filter: url(tints.svg#Pine);
 }
+.bg-planks {
+  background-image: url(terrain.png);
+  background-position: -224px -64px;
+  filter: url(tints.svg#Birch);
+}
 @keyframes anim_0 {
   0.0% {
     filter: url(tints.svg#Clay);
@@ -2633,6 +2638,18 @@
     background-position: -128px -224px;
   }
 }
+.s-WorkshopTable_Blueprint.m-MPine .layer:nth-child(1)
+{
+  background-image: url(workshops.png);
+  background-position: -224px -256px;
+  filter: url(tints.svg#Pine);
+}
+.s-WorkshopTable_Blueprint.m-MPine .layer:nth-child(2)
+{
+  background-image: url(workshops.png);
+  background-position: -0px -352px;
+  top: -1px;
+}
 .s-RawSoil.m-MClay .layer:nth-child(1)
 {
   background-image: url(default.png);
@@ -2702,6 +2719,7 @@
   top: 16px;
   filter: url(tints.svg#Clay);
 }
+.s-Block.m-any .layer:nth-child(1),
 .s-Block.m-MClayMSand .layer:nth-child(1)
 {
   animation: anim_0 2s infinite step-end;
@@ -2758,7 +2776,6 @@
   top: 16px;
   filter: url(tints.svg#Serpentine);
 }
-.s-Block.m-any .layer:nth-child(1),
 .s-Block.m-TStone .layer:nth-child(1)
 {
   animation: anim_2 9s infinite step-end;
