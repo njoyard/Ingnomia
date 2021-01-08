@@ -56,11 +56,6 @@
   background-position: -64px -64px;
   filter: url(tints.svg#Pine);
 }
-.bg-planks {
-  background-image: url(terrain.png);
-  background-position: -224px -64px;
-  filter: url(tints.svg#Birch);
-}
 @keyframes anim_0 {
   0.0% {
     filter: url(tints.svg#Clay);
@@ -2638,18 +2633,6 @@
     background-position: -128px -224px;
   }
 }
-.s-WorkshopTable_Blueprint.m-MPine .layer:nth-child(1)
-{
-  background-image: url(workshops.png);
-  background-position: -224px -256px;
-  filter: url(tints.svg#Pine);
-}
-.s-WorkshopTable_Blueprint.m-MPine .layer:nth-child(2)
-{
-  background-image: url(workshops.png);
-  background-position: -0px -352px;
-  top: -1px;
-}
 .s-RawSoil.m-MClay .layer:nth-child(1)
 {
   background-image: url(default.png);
@@ -2719,7 +2702,6 @@
   top: 16px;
   filter: url(tints.svg#Clay);
 }
-.s-Block.m-any .layer:nth-child(1),
 .s-Block.m-MClayMSand .layer:nth-child(1)
 {
   animation: anim_0 2s infinite step-end;
@@ -2776,6 +2758,7 @@
   top: 16px;
   filter: url(tints.svg#Serpentine);
 }
+.s-Block.m-any .layer:nth-child(1),
 .s-Block.m-TStone .layer:nth-child(1)
 {
   animation: anim_2 9s infinite step-end;
@@ -3629,7 +3612,8 @@
 {
   background-image: url(plants.png);
   background-position: -256px -512px;
-  top: 16px;
+  left: 4px;
+  top: 12px;
 }
 .s-Straw.m-any .layer:nth-child(1),
 .s-Straw.m-MBarley .layer:nth-child(1),
@@ -3663,14 +3647,14 @@
 {
   background-image: url(plants.png);
   background-position: -320px -480px;
-  top: 16px;
+  top: 12px;
 }
 .s-Oak.m-any .layer:nth-child(1),
 .s-Oak.m-MOak .layer:nth-child(1)
 {
   background-image: url(plants.png);
   background-position: -352px -480px;
-  top: 16px;
+  top: 12px;
 }
 .s-Bed.m-MAppleWood .layer:nth-child(1),
 .s-WoodBedFrame.m-MAppleWood .layer:nth-child(1)
@@ -5657,63 +5641,63 @@
 {
   background-image: url(workshops.png);
   background-position: -288px -224px;
-  top: 16px;
+  top: 8px;
   filter: url(tints.svg#Basalt);
 }
 .s-Chisel.m-MBauxite .layer:nth-child(1)
 {
   background-image: url(workshops.png);
   background-position: -288px -224px;
-  top: 16px;
+  top: 8px;
   filter: url(tints.svg#Bauxite);
 }
 .s-Chisel.m-MCeramic .layer:nth-child(1)
 {
   background-image: url(workshops.png);
   background-position: -288px -224px;
-  top: 16px;
+  top: 8px;
   filter: url(tints.svg#Ceramic);
 }
 .s-Chisel.m-MGranite .layer:nth-child(1)
 {
   background-image: url(workshops.png);
   background-position: -288px -224px;
-  top: 16px;
+  top: 8px;
   filter: url(tints.svg#Granite);
 }
 .s-Chisel.m-MLapisLazuli .layer:nth-child(1)
 {
   background-image: url(workshops.png);
   background-position: -288px -224px;
-  top: 16px;
+  top: 8px;
   filter: url(tints.svg#LapisLazuli);
 }
 .s-Chisel.m-MMarble .layer:nth-child(1)
 {
   background-image: url(workshops.png);
   background-position: -288px -224px;
-  top: 16px;
+  top: 8px;
   filter: url(tints.svg#Marble);
 }
 .s-Chisel.m-MObsidian .layer:nth-child(1)
 {
   background-image: url(workshops.png);
   background-position: -288px -224px;
-  top: 16px;
+  top: 8px;
   filter: url(tints.svg#Obsidian);
 }
 .s-Chisel.m-MSandstone .layer:nth-child(1)
 {
   background-image: url(workshops.png);
   background-position: -288px -224px;
-  top: 16px;
+  top: 8px;
   filter: url(tints.svg#Sandstone);
 }
 .s-Chisel.m-MSerpentine .layer:nth-child(1)
 {
   background-image: url(workshops.png);
   background-position: -288px -224px;
-  top: 16px;
+  top: 8px;
   filter: url(tints.svg#Serpentine);
 }
 .s-Chisel.m-any .layer:nth-child(1),
@@ -5722,7 +5706,7 @@
   animation: anim_2 9s infinite step-end;
   background-image: url(workshops.png);
   background-position: -288px -224px;
-  top: 16px;
+  top: 8px;
 }
 .s-Knife.m-MBasalt .layer:nth-child(1),
 .s-KnifeBlade.m-MBasalt .layer:nth-child(1)
@@ -6535,6 +6519,7 @@
 {
   background-image: url(workshops.png);
   background-position: -256px -0px;
+  left: 4px;
   filter: url(tints.svg#AppleWood);
 }
 .s-BellowsWithNozzle.m-any .layer:nth-child(2),
@@ -6548,35 +6533,41 @@
 {
   background-image: url(workshops.png);
   background-position: -320px -0px;
+  left: 4px;
 }
 .s-BellowsWithNozzle.m-MBirch .layer:nth-child(1)
 {
   background-image: url(workshops.png);
   background-position: -256px -0px;
+  left: 4px;
   filter: url(tints.svg#Birch);
 }
 .s-BellowsWithNozzle.m-MOak .layer:nth-child(1)
 {
   background-image: url(workshops.png);
   background-position: -256px -0px;
+  left: 4px;
   filter: url(tints.svg#Oak);
 }
 .s-BellowsWithNozzle.m-MOrangeWood .layer:nth-child(1)
 {
   background-image: url(workshops.png);
   background-position: -256px -0px;
+  left: 4px;
   filter: url(tints.svg#OrangeWood);
 }
 .s-BellowsWithNozzle.m-MPine .layer:nth-child(1)
 {
   background-image: url(workshops.png);
   background-position: -256px -0px;
+  left: 4px;
   filter: url(tints.svg#Pine);
 }
 .s-BellowsWithNozzle.m-MWillow .layer:nth-child(1)
 {
   background-image: url(workshops.png);
   background-position: -256px -0px;
+  left: 4px;
   filter: url(tints.svg#Willow);
 }
 .s-BellowsWithNozzle.m-any .layer:nth-child(1),
@@ -6585,6 +6576,7 @@
   animation: anim_3 6s infinite step-end;
   background-image: url(workshops.png);
   background-position: -256px -0px;
+  left: 4px;
 }
 .s-FellingAxe.m-MAppleWood .layer:nth-child(1),
 .s-FellingAxeHead.m-MAppleWood .layer:nth-child(1)
@@ -8196,14 +8188,14 @@
 {
   background-image: url(plants.png);
   background-position: -352px -0px;
-  top: 16px;
+  top: 12px;
   filter: url(tints.svg#Cotton);
 }
 .s-Fiber.m-MWool .layer:nth-child(1)
 {
   background-image: url(plants.png);
   background-position: -352px -0px;
-  top: 16px;
+  top: 12px;
   filter: url(tints.svg#Wool);
 }
 .s-Bolt.m-any .layer:nth-child(1),
@@ -8779,120 +8771,140 @@
 {
   background-image: url(default.png);
   background-position: -288px -224px;
+  top: 16px;
   filter: url(tints.svg#Basalt);
 }
 .s-HammerHead.m-MBauxite .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -288px -224px;
+  top: 16px;
   filter: url(tints.svg#Bauxite);
 }
 .s-HammerHead.m-MBronze .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -288px -224px;
+  top: 16px;
   filter: url(tints.svg#Bronze);
 }
 .s-HammerHead.m-MCeramic .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -288px -224px;
+  top: 16px;
   filter: url(tints.svg#Ceramic);
 }
 .s-HammerHead.m-MCopper .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -288px -224px;
+  top: 16px;
   filter: url(tints.svg#Copper);
 }
 .s-HammerHead.m-MGold .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -288px -224px;
+  top: 16px;
   filter: url(tints.svg#Gold);
 }
 .s-HammerHead.m-MGranite .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -288px -224px;
+  top: 16px;
   filter: url(tints.svg#Granite);
 }
 .s-HammerHead.m-MIron .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -288px -224px;
+  top: 16px;
   filter: url(tints.svg#Iron);
 }
 .s-HammerHead.m-MLapisLazuli .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -288px -224px;
+  top: 16px;
   filter: url(tints.svg#LapisLazuli);
 }
 .s-HammerHead.m-MLead .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -288px -224px;
+  top: 16px;
   filter: url(tints.svg#Lead);
 }
 .s-HammerHead.m-MMalachite .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -288px -224px;
+  top: 16px;
   filter: url(tints.svg#Malachite);
 }
 .s-HammerHead.m-MMarble .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -288px -224px;
+  top: 16px;
   filter: url(tints.svg#Marble);
 }
 .s-HammerHead.m-MObsidian .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -288px -224px;
+  top: 16px;
   filter: url(tints.svg#Obsidian);
 }
 .s-HammerHead.m-MPlatinum .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -288px -224px;
+  top: 16px;
   filter: url(tints.svg#Platinum);
 }
 .s-HammerHead.m-MRoseGold .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -288px -224px;
+  top: 16px;
   filter: url(tints.svg#RoseGold);
 }
 .s-HammerHead.m-MSandstone .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -288px -224px;
+  top: 16px;
   filter: url(tints.svg#Sandstone);
 }
 .s-HammerHead.m-MSerpentine .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -288px -224px;
+  top: 16px;
   filter: url(tints.svg#Serpentine);
 }
 .s-HammerHead.m-MSilver .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -288px -224px;
+  top: 16px;
   filter: url(tints.svg#Silver);
 }
 .s-HammerHead.m-MSteel .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -288px -224px;
+  top: 16px;
   filter: url(tints.svg#Steel);
 }
 .s-HammerHead.m-MTin .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -288px -224px;
+  top: 16px;
   filter: url(tints.svg#Tin);
 }
 .s-HammerHead.m-TMetal .layer:nth-child(1)
@@ -8900,6 +8912,7 @@
   animation: anim_4 11s infinite step-end;
   background-image: url(default.png);
   background-position: -288px -224px;
+  top: 16px;
 }
 .s-HammerHead.m-any .layer:nth-child(1),
 .s-HammerHead.m-TMetalTStone .layer:nth-child(1)
@@ -8907,125 +8920,146 @@
   animation: anim_13 20s infinite step-end;
   background-image: url(default.png);
   background-position: -288px -224px;
+  top: 16px;
 }
 .s-WarhammerHead.m-MBasalt .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -160px -480px;
+  top: 16px;
   filter: url(tints.svg#Basalt);
 }
 .s-WarhammerHead.m-MBauxite .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -160px -480px;
+  top: 16px;
   filter: url(tints.svg#Bauxite);
 }
 .s-WarhammerHead.m-MBronze .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -160px -480px;
+  top: 16px;
   filter: url(tints.svg#Bronze);
 }
 .s-WarhammerHead.m-MCeramic .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -160px -480px;
+  top: 16px;
   filter: url(tints.svg#Ceramic);
 }
 .s-WarhammerHead.m-MCopper .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -160px -480px;
+  top: 16px;
   filter: url(tints.svg#Copper);
 }
 .s-WarhammerHead.m-MGold .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -160px -480px;
+  top: 16px;
   filter: url(tints.svg#Gold);
 }
 .s-WarhammerHead.m-MGranite .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -160px -480px;
+  top: 16px;
   filter: url(tints.svg#Granite);
 }
 .s-WarhammerHead.m-MIron .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -160px -480px;
+  top: 16px;
   filter: url(tints.svg#Iron);
 }
 .s-WarhammerHead.m-MLapisLazuli .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -160px -480px;
+  top: 16px;
   filter: url(tints.svg#LapisLazuli);
 }
 .s-WarhammerHead.m-MLead .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -160px -480px;
+  top: 16px;
   filter: url(tints.svg#Lead);
 }
 .s-WarhammerHead.m-MMalachite .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -160px -480px;
+  top: 16px;
   filter: url(tints.svg#Malachite);
 }
 .s-WarhammerHead.m-MMarble .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -160px -480px;
+  top: 16px;
   filter: url(tints.svg#Marble);
 }
 .s-WarhammerHead.m-MObsidian .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -160px -480px;
+  top: 16px;
   filter: url(tints.svg#Obsidian);
 }
 .s-WarhammerHead.m-MPlatinum .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -160px -480px;
+  top: 16px;
   filter: url(tints.svg#Platinum);
 }
 .s-WarhammerHead.m-MRoseGold .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -160px -480px;
+  top: 16px;
   filter: url(tints.svg#RoseGold);
 }
 .s-WarhammerHead.m-MSandstone .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -160px -480px;
+  top: 16px;
   filter: url(tints.svg#Sandstone);
 }
 .s-WarhammerHead.m-MSerpentine .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -160px -480px;
+  top: 16px;
   filter: url(tints.svg#Serpentine);
 }
 .s-WarhammerHead.m-MSilver .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -160px -480px;
+  top: 16px;
   filter: url(tints.svg#Silver);
 }
 .s-WarhammerHead.m-MSteel .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -160px -480px;
+  top: 16px;
   filter: url(tints.svg#Steel);
 }
 .s-WarhammerHead.m-MTin .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -160px -480px;
+  top: 16px;
   filter: url(tints.svg#Tin);
 }
 .s-WarhammerHead.m-TMetal .layer:nth-child(1)
@@ -9033,6 +9067,7 @@
   animation: anim_4 11s infinite step-end;
   background-image: url(default.png);
   background-position: -160px -480px;
+  top: 16px;
 }
 .s-WarhammerHead.m-any .layer:nth-child(1),
 .s-WarhammerHead.m-TMetalTStone .layer:nth-child(1)
@@ -9040,125 +9075,146 @@
   animation: anim_13 20s infinite step-end;
   background-image: url(default.png);
   background-position: -160px -480px;
+  top: 16px;
 }
 .s-ClaymoreBlade.m-MBasalt .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -352px -96px;
+  top: 16px;
   filter: url(tints.svg#Basalt);
 }
 .s-ClaymoreBlade.m-MBauxite .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -352px -96px;
+  top: 16px;
   filter: url(tints.svg#Bauxite);
 }
 .s-ClaymoreBlade.m-MBronze .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -352px -96px;
+  top: 16px;
   filter: url(tints.svg#Bronze);
 }
 .s-ClaymoreBlade.m-MCeramic .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -352px -96px;
+  top: 16px;
   filter: url(tints.svg#Ceramic);
 }
 .s-ClaymoreBlade.m-MCopper .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -352px -96px;
+  top: 16px;
   filter: url(tints.svg#Copper);
 }
 .s-ClaymoreBlade.m-MGold .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -352px -96px;
+  top: 16px;
   filter: url(tints.svg#Gold);
 }
 .s-ClaymoreBlade.m-MGranite .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -352px -96px;
+  top: 16px;
   filter: url(tints.svg#Granite);
 }
 .s-ClaymoreBlade.m-MIron .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -352px -96px;
+  top: 16px;
   filter: url(tints.svg#Iron);
 }
 .s-ClaymoreBlade.m-MLapisLazuli .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -352px -96px;
+  top: 16px;
   filter: url(tints.svg#LapisLazuli);
 }
 .s-ClaymoreBlade.m-MLead .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -352px -96px;
+  top: 16px;
   filter: url(tints.svg#Lead);
 }
 .s-ClaymoreBlade.m-MMalachite .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -352px -96px;
+  top: 16px;
   filter: url(tints.svg#Malachite);
 }
 .s-ClaymoreBlade.m-MMarble .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -352px -96px;
+  top: 16px;
   filter: url(tints.svg#Marble);
 }
 .s-ClaymoreBlade.m-MObsidian .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -352px -96px;
+  top: 16px;
   filter: url(tints.svg#Obsidian);
 }
 .s-ClaymoreBlade.m-MPlatinum .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -352px -96px;
+  top: 16px;
   filter: url(tints.svg#Platinum);
 }
 .s-ClaymoreBlade.m-MRoseGold .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -352px -96px;
+  top: 16px;
   filter: url(tints.svg#RoseGold);
 }
 .s-ClaymoreBlade.m-MSandstone .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -352px -96px;
+  top: 16px;
   filter: url(tints.svg#Sandstone);
 }
 .s-ClaymoreBlade.m-MSerpentine .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -352px -96px;
+  top: 16px;
   filter: url(tints.svg#Serpentine);
 }
 .s-ClaymoreBlade.m-MSilver .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -352px -96px;
+  top: 16px;
   filter: url(tints.svg#Silver);
 }
 .s-ClaymoreBlade.m-MSteel .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -352px -96px;
+  top: 16px;
   filter: url(tints.svg#Steel);
 }
 .s-ClaymoreBlade.m-MTin .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -352px -96px;
+  top: 16px;
   filter: url(tints.svg#Tin);
 }
 .s-ClaymoreBlade.m-TMetal .layer:nth-child(1)
@@ -9166,6 +9222,7 @@
   animation: anim_4 11s infinite step-end;
   background-image: url(default.png);
   background-position: -352px -96px;
+  top: 16px;
 }
 .s-ClaymoreBlade.m-any .layer:nth-child(1),
 .s-ClaymoreBlade.m-TMetalTStone .layer:nth-child(1)
@@ -9173,71 +9230,83 @@
   animation: anim_13 20s infinite step-end;
   background-image: url(default.png);
   background-position: -352px -96px;
+  top: 16px;
 }
 .s-HandAxeHead.m-MBronze .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -416px -224px;
+  top: 16px;
   filter: url(tints.svg#Bronze);
 }
 .s-HandAxeHead.m-MCopper .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -416px -224px;
+  top: 16px;
   filter: url(tints.svg#Copper);
 }
 .s-HandAxeHead.m-MGold .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -416px -224px;
+  top: 16px;
   filter: url(tints.svg#Gold);
 }
 .s-HandAxeHead.m-MIron .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -416px -224px;
+  top: 16px;
   filter: url(tints.svg#Iron);
 }
 .s-HandAxeHead.m-MLead .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -416px -224px;
+  top: 16px;
   filter: url(tints.svg#Lead);
 }
 .s-HandAxeHead.m-MMalachite .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -416px -224px;
+  top: 16px;
   filter: url(tints.svg#Malachite);
 }
 .s-HandAxeHead.m-MPlatinum .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -416px -224px;
+  top: 16px;
   filter: url(tints.svg#Platinum);
 }
 .s-HandAxeHead.m-MRoseGold .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -416px -224px;
+  top: 16px;
   filter: url(tints.svg#RoseGold);
 }
 .s-HandAxeHead.m-MSilver .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -416px -224px;
+  top: 16px;
   filter: url(tints.svg#Silver);
 }
 .s-HandAxeHead.m-MSteel .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -416px -224px;
+  top: 16px;
   filter: url(tints.svg#Steel);
 }
 .s-HandAxeHead.m-MTin .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -416px -224px;
+  top: 16px;
   filter: url(tints.svg#Tin);
 }
 .s-HandAxeHead.m-any .layer:nth-child(1),
@@ -9246,71 +9315,83 @@
   animation: anim_4 11s infinite step-end;
   background-image: url(default.png);
   background-position: -416px -224px;
+  top: 16px;
 }
 .s-BattleAxeHead.m-MBronze .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -896px -32px;
+  top: 16px;
   filter: url(tints.svg#Bronze);
 }
 .s-BattleAxeHead.m-MCopper .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -896px -32px;
+  top: 16px;
   filter: url(tints.svg#Copper);
 }
 .s-BattleAxeHead.m-MGold .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -896px -32px;
+  top: 16px;
   filter: url(tints.svg#Gold);
 }
 .s-BattleAxeHead.m-MIron .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -896px -32px;
+  top: 16px;
   filter: url(tints.svg#Iron);
 }
 .s-BattleAxeHead.m-MLead .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -896px -32px;
+  top: 16px;
   filter: url(tints.svg#Lead);
 }
 .s-BattleAxeHead.m-MMalachite .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -896px -32px;
+  top: 16px;
   filter: url(tints.svg#Malachite);
 }
 .s-BattleAxeHead.m-MPlatinum .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -896px -32px;
+  top: 16px;
   filter: url(tints.svg#Platinum);
 }
 .s-BattleAxeHead.m-MRoseGold .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -896px -32px;
+  top: 16px;
   filter: url(tints.svg#RoseGold);
 }
 .s-BattleAxeHead.m-MSilver .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -896px -32px;
+  top: 16px;
   filter: url(tints.svg#Silver);
 }
 .s-BattleAxeHead.m-MSteel .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -896px -32px;
+  top: 16px;
   filter: url(tints.svg#Steel);
 }
 .s-BattleAxeHead.m-MTin .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -896px -32px;
+  top: 16px;
   filter: url(tints.svg#Tin);
 }
 .s-BattleAxeHead.m-any .layer:nth-child(1),
@@ -9319,6 +9400,7 @@
   animation: anim_4 11s infinite step-end;
   background-image: url(default.png);
   background-position: -896px -32px;
+  top: 16px;
 }
 .s-Sword.m-MBasalt .layer:nth-child(2)
 {
@@ -11706,44 +11788,44 @@
 {
   background-image: url(plants.png);
   background-position: -256px -480px;
-  top: 12px;
+  top: 8px;
 }
 .s-Fruit.m-MMelon .layer:nth-child(1)
 {
   background-image: url(plants.png);
   background-position: -160px -96px;
-  top: 12px;
+  top: 8px;
 }
 .s-Fruit.m-MOrange .layer:nth-child(1)
 {
   background-image: url(plants.png);
   background-position: -288px -480px;
-  top: 12px;
+  top: 8px;
 }
 .s-Fruit.m-MPineapple .layer:nth-child(1)
 {
   background-image: url(plants.png);
   background-position: -64px -192px;
-  top: 12px;
+  top: 8px;
 }
 .s-Fruit.m-MPumpkin .layer:nth-child(1)
 {
   background-image: url(plants.png);
   background-position: -224px -96px;
-  top: 12px;
+  top: 8px;
 }
 .s-Fruit.m-MStrawberry .layer:nth-child(1)
 {
   background-image: url(plants.png);
   background-position: -320px -0px;
-  top: 12px;
+  top: 8px;
 }
 .s-Fruit.m-any .layer:nth-child(1),
 .s-Fruit.m-TFruit .layer:nth-child(1)
 {
   animation: anim_60 6s infinite step-end;
   background-image: url(plants.png);
-  top: 12px;
+  top: 8px;
 }
 .s-Vegetable.m-MArtichoke .layer:nth-child(1)
 {
@@ -11928,7 +12010,7 @@
   background-image: url(default.png);
   background-position: -576px -288px;
   left: 8px;
-  top: 16px;
+  top: 12px;
 }
 .s-Honey.m-any .layer:nth-child(1),
 .s-Honey.m-MBee .layer:nth-child(1)
@@ -12578,24 +12660,32 @@
 {
   background-image: url(default.png);
   background-position: -448px -128px;
+  left: 8px;
+  top: 8px;
   filter: url(tints.svg#Cow);
 }
 .s-AmmoPouch.m-MEmu .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -448px -128px;
+  left: 8px;
+  top: 8px;
   filter: url(tints.svg#Emu);
 }
 .s-AmmoPouch.m-MYak .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -448px -128px;
+  left: 8px;
+  top: 8px;
   filter: url(tints.svg#Yak);
 }
 .s-AmmoPouch.m-TCloth .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -448px -128px;
+  left: 8px;
+  top: 8px;
   filter: url(tints.svg#Cotton);
 }
 .s-LeatherPanel.m-any .layer:nth-child(1),
@@ -13580,77 +13670,77 @@
 {
   background-image: url(default.png);
   background-position: -128px -0px;
-  top: 12px;
+  top: 16px;
   filter: url(tints.svg#Bronze);
 }
 .s-ArmorPlate.m-MCopper .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -128px -0px;
-  top: 12px;
+  top: 16px;
   filter: url(tints.svg#Copper);
 }
 .s-ArmorPlate.m-MGold .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -128px -0px;
-  top: 12px;
+  top: 16px;
   filter: url(tints.svg#Gold);
 }
 .s-ArmorPlate.m-MIron .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -128px -0px;
-  top: 12px;
+  top: 16px;
   filter: url(tints.svg#Iron);
 }
 .s-ArmorPlate.m-MLead .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -128px -0px;
-  top: 12px;
+  top: 16px;
   filter: url(tints.svg#Lead);
 }
 .s-ArmorPlate.m-MMalachite .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -128px -0px;
-  top: 12px;
+  top: 16px;
   filter: url(tints.svg#Malachite);
 }
 .s-ArmorPlate.m-MPlatinum .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -128px -0px;
-  top: 12px;
+  top: 16px;
   filter: url(tints.svg#Platinum);
 }
 .s-ArmorPlate.m-MRoseGold .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -128px -0px;
-  top: 12px;
+  top: 16px;
   filter: url(tints.svg#RoseGold);
 }
 .s-ArmorPlate.m-MSilver .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -128px -0px;
-  top: 12px;
+  top: 16px;
   filter: url(tints.svg#Silver);
 }
 .s-ArmorPlate.m-MSteel .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -128px -0px;
-  top: 12px;
+  top: 16px;
   filter: url(tints.svg#Steel);
 }
 .s-ArmorPlate.m-MTin .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -128px -0px;
-  top: 12px;
+  top: 16px;
   filter: url(tints.svg#Tin);
 }
 .s-ArmorPlate.m-any .layer:nth-child(1),
@@ -13659,7 +13749,7 @@
   animation: anim_4 11s infinite step-end;
   background-image: url(default.png);
   background-position: -128px -0px;
-  top: 12px;
+  top: 16px;
 }
 .s-HeavyPlateArmorHead.m-MBronze .layer:nth-child(1)
 {
@@ -14312,66 +14402,88 @@
 {
   background-image: url(default.png);
   background-position: -96px -384px;
+  left: 8px;
+  top: 12px;
   filter: url(tints.svg#Bronze);
 }
 .s-Spike.m-MCopper .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -96px -384px;
+  left: 8px;
+  top: 12px;
   filter: url(tints.svg#Copper);
 }
 .s-Spike.m-MGold .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -96px -384px;
+  left: 8px;
+  top: 12px;
   filter: url(tints.svg#Gold);
 }
 .s-Spike.m-MIron .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -96px -384px;
+  left: 8px;
+  top: 12px;
   filter: url(tints.svg#Iron);
 }
 .s-Spike.m-MLead .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -96px -384px;
+  left: 8px;
+  top: 12px;
   filter: url(tints.svg#Lead);
 }
 .s-Spike.m-MMalachite .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -96px -384px;
+  left: 8px;
+  top: 12px;
   filter: url(tints.svg#Malachite);
 }
 .s-Spike.m-MPlatinum .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -96px -384px;
+  left: 8px;
+  top: 12px;
   filter: url(tints.svg#Platinum);
 }
 .s-Spike.m-MRoseGold .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -96px -384px;
+  left: 8px;
+  top: 12px;
   filter: url(tints.svg#RoseGold);
 }
 .s-Spike.m-MSilver .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -96px -384px;
+  left: 8px;
+  top: 12px;
   filter: url(tints.svg#Silver);
 }
 .s-Spike.m-MSteel .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -96px -384px;
+  left: 8px;
+  top: 12px;
   filter: url(tints.svg#Steel);
 }
 .s-Spike.m-MTin .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -96px -384px;
+  left: 8px;
+  top: 12px;
   filter: url(tints.svg#Tin);
 }
 .s-Spike.m-any .layer:nth-child(1),
@@ -14380,71 +14492,95 @@
   animation: anim_4 11s infinite step-end;
   background-image: url(default.png);
   background-position: -96px -384px;
+  left: 8px;
+  top: 12px;
 }
 .s-Screw.m-MBronze .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -512px -352px;
+  left: 8px;
+  top: 16px;
   filter: url(tints.svg#Bronze);
 }
 .s-Screw.m-MCopper .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -512px -352px;
+  left: 8px;
+  top: 16px;
   filter: url(tints.svg#Copper);
 }
 .s-Screw.m-MGold .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -512px -352px;
+  left: 8px;
+  top: 16px;
   filter: url(tints.svg#Gold);
 }
 .s-Screw.m-MIron .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -512px -352px;
+  left: 8px;
+  top: 16px;
   filter: url(tints.svg#Iron);
 }
 .s-Screw.m-MLead .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -512px -352px;
+  left: 8px;
+  top: 16px;
   filter: url(tints.svg#Lead);
 }
 .s-Screw.m-MMalachite .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -512px -352px;
+  left: 8px;
+  top: 16px;
   filter: url(tints.svg#Malachite);
 }
 .s-Screw.m-MPlatinum .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -512px -352px;
+  left: 8px;
+  top: 16px;
   filter: url(tints.svg#Platinum);
 }
 .s-Screw.m-MRoseGold .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -512px -352px;
+  left: 8px;
+  top: 16px;
   filter: url(tints.svg#RoseGold);
 }
 .s-Screw.m-MSilver .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -512px -352px;
+  left: 8px;
+  top: 16px;
   filter: url(tints.svg#Silver);
 }
 .s-Screw.m-MSteel .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -512px -352px;
+  left: 8px;
+  top: 16px;
   filter: url(tints.svg#Steel);
 }
 .s-Screw.m-MTin .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -512px -352px;
+  left: 8px;
+  top: 16px;
   filter: url(tints.svg#Tin);
 }
 .s-Screw.m-any .layer:nth-child(1),
@@ -14453,41 +14589,55 @@
   animation: anim_4 11s infinite step-end;
   background-image: url(default.png);
   background-position: -512px -352px;
+  left: 8px;
+  top: 16px;
 }
 .s-WindmillBlade.m-MAppleWood .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -544px -480px;
+  left: 8px;
+  top: 16px;
   filter: url(tints.svg#AppleWood);
 }
 .s-WindmillBlade.m-MBirch .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -544px -480px;
+  left: 8px;
+  top: 16px;
   filter: url(tints.svg#Birch);
 }
 .s-WindmillBlade.m-MOak .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -544px -480px;
+  left: 8px;
+  top: 16px;
   filter: url(tints.svg#Oak);
 }
 .s-WindmillBlade.m-MOrangeWood .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -544px -480px;
+  left: 8px;
+  top: 16px;
   filter: url(tints.svg#OrangeWood);
 }
 .s-WindmillBlade.m-MPine .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -544px -480px;
+  left: 8px;
+  top: 16px;
   filter: url(tints.svg#Pine);
 }
 .s-WindmillBlade.m-MWillow .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -544px -480px;
+  left: 8px;
+  top: 16px;
   filter: url(tints.svg#Willow);
 }
 .s-WindmillBlade.m-any .layer:nth-child(1),
@@ -14496,6 +14646,8 @@
   animation: anim_3 6s infinite step-end;
   background-image: url(default.png);
   background-position: -544px -480px;
+  left: 8px;
+  top: 16px;
 }
 .s-AutomatonHead.m-MBronze .layer:nth-child(1)
 {
