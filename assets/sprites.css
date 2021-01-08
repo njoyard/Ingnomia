@@ -34,28 +34,6 @@
 .zoomed .layers {
   transform: translate(-50%, -50%) scale(2, 2) translate(50%, 50%);
 }
-.bg-plain {
-  background-image: url(terrain.png);
-  background-position: -32px 0;
-}
-.bg-stone {
-  background-image: url(terrain.png);
-  background-position: -128px -64px;
-  filter: url(tints.svg#Marble);
-}
-.bg-grass {
-  background-image: url(seasonalgrass.png);
-  background-position: -160px -20px;
-}
-.bg-farm {
-  background-image: url(terrain.png);
-  background-position: -256px -64px;
-}
-.bg-wood {
-  background-image: url(terrain.png);
-  background-position: -64px -64px;
-  filter: url(tints.svg#Pine);
-}
 @keyframes anim_0 {
   0.0% {
     filter: url(tints.svg#Clay);
@@ -584,6 +562,32 @@
     filter: url(tints.svg#Tin);
   }
 }
+@keyframes anim_14 {
+  0.0% {
+    filter: url(tints.svg#AppleWood);
+    transform: rotateY(180deg);
+  }
+  16.67% {
+    filter: url(tints.svg#Birch);
+    transform: rotateY(180deg);
+  }
+  33.33% {
+    filter: url(tints.svg#Oak);
+    transform: rotateY(180deg);
+  }
+  50.0% {
+    filter: url(tints.svg#OrangeWood);
+    transform: rotateY(180deg);
+  }
+  66.67% {
+    filter: url(tints.svg#Pine);
+    transform: rotateY(180deg);
+  }
+  83.33% {
+    filter: url(tints.svg#Willow);
+    transform: rotateY(180deg);
+  }
+}
 @keyframes BoneNeedle-TBoneTMetal-1 {
   0.0% {
     filter: url(tints.svg#BadgerBone);
@@ -645,7 +649,7 @@
     filter: url(tints.svg#Yellow);
   }
 }
-@keyframes anim_16 {
+@keyframes anim_17 {
   0.0% {
     background-position: -224px -192px;
     transform: rotate(-90deg);
@@ -955,7 +959,7 @@
     filter: url(tints.svg#Serpentine);
   }
 }
-@keyframes anim_19 {
+@keyframes anim_20 {
   0.0% {
     background-position: -160px -224px;
   }
@@ -969,7 +973,7 @@
     background-position: -256px -224px;
   }
 }
-@keyframes anim_20 {
+@keyframes anim_21 {
   0.0% {
     background-position: -32px -448px;
   }
@@ -983,7 +987,7 @@
     background-position: -128px -448px;
   }
 }
-@keyframes anim_21 {
+@keyframes anim_22 {
   0.0% {
     background-position: -96px -64px;
   }
@@ -997,7 +1001,7 @@
     background-position: -192px -64px;
   }
 }
-@keyframes anim_22 {
+@keyframes anim_23 {
   0.0% {
     background-position: -192px -32px;
   }
@@ -1011,7 +1015,7 @@
     background-position: -288px -32px;
   }
 }
-@keyframes anim_23 {
+@keyframes anim_24 {
   0.0% {
     background-position: -512px -32px;
   }
@@ -1401,135 +1405,135 @@
     filter: url(tints.svg#Tin);
   }
 }
-@keyframes anim_36 {
-  0.0% {
-    background-position: -96px -288px;
-    filter: url(tints.svg#Bronze);
-  }
-  33.33% {
-    background-position: -160px -288px;
-    filter: url(tints.svg#Bronze);
-  }
-  66.67% {
-    background-position: -128px -288px;
-    filter: url(tints.svg#Bronze);
-  }
-}
 @keyframes anim_37 {
   0.0% {
     background-position: -96px -288px;
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Bronze);
   }
   33.33% {
     background-position: -160px -288px;
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Bronze);
   }
   66.67% {
     background-position: -128px -288px;
-    filter: url(tints.svg#Copper);
+    filter: url(tints.svg#Bronze);
   }
 }
 @keyframes anim_38 {
   0.0% {
     background-position: -96px -288px;
-    filter: url(tints.svg#Gold);
+    filter: url(tints.svg#Copper);
   }
   33.33% {
     background-position: -160px -288px;
-    filter: url(tints.svg#Gold);
+    filter: url(tints.svg#Copper);
   }
   66.67% {
     background-position: -128px -288px;
-    filter: url(tints.svg#Gold);
+    filter: url(tints.svg#Copper);
   }
 }
 @keyframes anim_39 {
   0.0% {
     background-position: -96px -288px;
-    filter: url(tints.svg#Iron);
+    filter: url(tints.svg#Gold);
   }
   33.33% {
     background-position: -160px -288px;
-    filter: url(tints.svg#Iron);
+    filter: url(tints.svg#Gold);
   }
   66.67% {
     background-position: -128px -288px;
-    filter: url(tints.svg#Iron);
+    filter: url(tints.svg#Gold);
   }
 }
 @keyframes anim_40 {
   0.0% {
     background-position: -96px -288px;
-    filter: url(tints.svg#Lead);
+    filter: url(tints.svg#Iron);
   }
   33.33% {
     background-position: -160px -288px;
-    filter: url(tints.svg#Lead);
+    filter: url(tints.svg#Iron);
   }
   66.67% {
     background-position: -128px -288px;
-    filter: url(tints.svg#Lead);
+    filter: url(tints.svg#Iron);
   }
 }
 @keyframes anim_41 {
   0.0% {
     background-position: -96px -288px;
-    filter: url(tints.svg#Malachite);
+    filter: url(tints.svg#Lead);
   }
   33.33% {
     background-position: -160px -288px;
-    filter: url(tints.svg#Malachite);
+    filter: url(tints.svg#Lead);
   }
   66.67% {
     background-position: -128px -288px;
-    filter: url(tints.svg#Malachite);
+    filter: url(tints.svg#Lead);
   }
 }
 @keyframes anim_42 {
   0.0% {
     background-position: -96px -288px;
-    filter: url(tints.svg#Platinum);
+    filter: url(tints.svg#Malachite);
   }
   33.33% {
     background-position: -160px -288px;
-    filter: url(tints.svg#Platinum);
+    filter: url(tints.svg#Malachite);
   }
   66.67% {
     background-position: -128px -288px;
-    filter: url(tints.svg#Platinum);
+    filter: url(tints.svg#Malachite);
   }
 }
 @keyframes anim_43 {
   0.0% {
     background-position: -96px -288px;
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Platinum);
   }
   33.33% {
     background-position: -160px -288px;
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Platinum);
   }
   66.67% {
     background-position: -128px -288px;
-    filter: url(tints.svg#RoseGold);
+    filter: url(tints.svg#Platinum);
   }
 }
 @keyframes anim_44 {
   0.0% {
     background-position: -96px -288px;
-    filter: url(tints.svg#Silver);
+    filter: url(tints.svg#RoseGold);
   }
   33.33% {
     background-position: -160px -288px;
-    filter: url(tints.svg#Silver);
+    filter: url(tints.svg#RoseGold);
   }
   66.67% {
     background-position: -128px -288px;
-    filter: url(tints.svg#Silver);
+    filter: url(tints.svg#RoseGold);
   }
 }
 @keyframes anim_45 {
   0.0% {
     background-position: -96px -288px;
+    filter: url(tints.svg#Silver);
+  }
+  33.33% {
+    background-position: -160px -288px;
+    filter: url(tints.svg#Silver);
+  }
+  66.67% {
+    background-position: -128px -288px;
+    filter: url(tints.svg#Silver);
+  }
+}
+@keyframes anim_46 {
+  0.0% {
+    background-position: -96px -288px;
     filter: url(tints.svg#Steel);
   }
   33.33% {
@@ -1541,7 +1545,7 @@
     filter: url(tints.svg#Steel);
   }
 }
-@keyframes anim_46 {
+@keyframes anim_47 {
   0.0% {
     background-position: -96px -288px;
     filter: url(tints.svg#Tin);
@@ -1555,7 +1559,7 @@
     filter: url(tints.svg#Tin);
   }
 }
-@keyframes anim_47 {
+@keyframes anim_48 {
   0.0% {
     background-position: -96px -288px;
     filter: url(tints.svg#Bronze);
@@ -1977,7 +1981,7 @@
     filter: url(tints.svg#Tin);
   }
 }
-@keyframes anim_60 {
+@keyframes anim_61 {
   0.0% {
     background-position: -160px -96px;
   }
@@ -2156,7 +2160,7 @@
     background-position: -32px -288px;
   }
 }
-@keyframes anim_63 {
+@keyframes anim_64 {
   0.0% {
     background-position: -192px -192px;
   }
@@ -2164,7 +2168,7 @@
     background-position: -288px -192px;
   }
 }
-@keyframes anim_64 {
+@keyframes anim_65 {
   0.0% {
     background-position: -0px -192px;
   }
@@ -2175,7 +2179,7 @@
     background-position: -96px -288px;
   }
 }
-@keyframes anim_65 {
+@keyframes anim_66 {
   0.0% {
     background-position: -0px -96px;
     filter: url(tints.svg#Dirt);
@@ -2185,7 +2189,7 @@
     filter: url(tints.svg#Sand);
   }
 }
-@keyframes anim_66 {
+@keyframes anim_67 {
   0.0% {
     background-position: -0px -64px;
     filter: url(tints.svg#Dirt);
@@ -2193,6 +2197,44 @@
   50.0% {
     background-position: -384px -0px;
     filter: url(tints.svg#Sand);
+  }
+}
+@keyframes anim_68 {
+  0.0% {
+    filter: url(tints.svg#Basalt);
+    transform: rotateY(180deg);
+  }
+  11.11% {
+    filter: url(tints.svg#Bauxite);
+    transform: rotateY(180deg);
+  }
+  22.22% {
+    filter: url(tints.svg#Ceramic);
+    transform: rotateY(180deg);
+  }
+  33.33% {
+    filter: url(tints.svg#Granite);
+    transform: rotateY(180deg);
+  }
+  44.44% {
+    filter: url(tints.svg#LapisLazuli);
+    transform: rotateY(180deg);
+  }
+  55.56% {
+    filter: url(tints.svg#Marble);
+    transform: rotateY(180deg);
+  }
+  66.67% {
+    filter: url(tints.svg#Obsidian);
+    transform: rotateY(180deg);
+  }
+  77.78% {
+    filter: url(tints.svg#Sandstone);
+    transform: rotateY(180deg);
+  }
+  88.89% {
+    filter: url(tints.svg#Serpentine);
+    transform: rotateY(180deg);
   }
 }
 @keyframes constr-StoneWallFloor-TStone-1 {
@@ -2601,7 +2643,7 @@
     background-position: -384px -256px;
   }
 }
-@keyframes anim_114 {
+@keyframes anim_116 {
   0.0% {
     background-position: -256px -224px;
   }
@@ -2632,6 +2674,35 @@
   50.0% {
     background-position: -128px -224px;
   }
+}
+.bg-plain
+{
+  background-image: url(terrain.png);
+  background-position: -32px -0px;
+}
+.bg-farm
+{
+  background-image: url(terrain.png);
+  background-position: -288px -64px;
+  filter: url(tints.svg#Dirt);
+}
+.bg-stone
+{
+  background-image: url(terrain.png);
+  background-position: -128px -64px;
+  filter: url(tints.svg#Marble);
+}
+.bg-grass
+{
+  background-image: url(seasonalgrass.png);
+  background-position: -160px -20px;
+  height: 20px;
+}
+.bg-wood
+{
+  background-image: url(terrain.png);
+  background-position: -64px -64px;
+  filter: url(tints.svg#Pine);
 }
 .s-RawSoil.m-MClay .layer:nth-child(1)
 {
@@ -6520,6 +6591,7 @@
   background-image: url(workshops.png);
   background-position: -256px -0px;
   filter: url(tints.svg#AppleWood);
+  transform: rotateY(180deg);
 }
 .s-BellowsWithNozzle.m-any .layer:nth-child(2),
 .s-BellowsWithNozzle.m-MAppleWood .layer:nth-child(2),
@@ -6532,41 +6604,47 @@
 {
   background-image: url(workshops.png);
   background-position: -320px -0px;
+  transform: rotateY(180deg);
 }
 .s-BellowsWithNozzle.m-MBirch .layer:nth-child(1)
 {
   background-image: url(workshops.png);
   background-position: -256px -0px;
   filter: url(tints.svg#Birch);
+  transform: rotateY(180deg);
 }
 .s-BellowsWithNozzle.m-MOak .layer:nth-child(1)
 {
   background-image: url(workshops.png);
   background-position: -256px -0px;
   filter: url(tints.svg#Oak);
+  transform: rotateY(180deg);
 }
 .s-BellowsWithNozzle.m-MOrangeWood .layer:nth-child(1)
 {
   background-image: url(workshops.png);
   background-position: -256px -0px;
   filter: url(tints.svg#OrangeWood);
+  transform: rotateY(180deg);
 }
 .s-BellowsWithNozzle.m-MPine .layer:nth-child(1)
 {
   background-image: url(workshops.png);
   background-position: -256px -0px;
   filter: url(tints.svg#Pine);
+  transform: rotateY(180deg);
 }
 .s-BellowsWithNozzle.m-MWillow .layer:nth-child(1)
 {
   background-image: url(workshops.png);
   background-position: -256px -0px;
   filter: url(tints.svg#Willow);
+  transform: rotateY(180deg);
 }
 .s-BellowsWithNozzle.m-any .layer:nth-child(1),
 .s-BellowsWithNozzle.m-TWood .layer:nth-child(1)
 {
-  animation: anim_3 6s infinite step-end;
+  animation: anim_14 6s infinite step-end;
   background-image: url(workshops.png);
   background-position: -256px -0px;
 }
@@ -7429,41 +7507,47 @@
   background-image: url(workshops.png);
   background-position: -352px -384px;
   filter: url(tints.svg#AppleWood);
+  transform: rotateY(180deg);
 }
 .s-Loom.m-MBirch .layer:nth-child(1)
 {
   background-image: url(workshops.png);
   background-position: -352px -384px;
   filter: url(tints.svg#Birch);
+  transform: rotateY(180deg);
 }
 .s-Loom.m-MOak .layer:nth-child(1)
 {
   background-image: url(workshops.png);
   background-position: -352px -384px;
   filter: url(tints.svg#Oak);
+  transform: rotateY(180deg);
 }
 .s-Loom.m-MOrangeWood .layer:nth-child(1)
 {
   background-image: url(workshops.png);
   background-position: -352px -384px;
   filter: url(tints.svg#OrangeWood);
+  transform: rotateY(180deg);
 }
 .s-Loom.m-MPine .layer:nth-child(1)
 {
   background-image: url(workshops.png);
   background-position: -352px -384px;
   filter: url(tints.svg#Pine);
+  transform: rotateY(180deg);
 }
 .s-Loom.m-MWillow .layer:nth-child(1)
 {
   background-image: url(workshops.png);
   background-position: -352px -384px;
   filter: url(tints.svg#Willow);
+  transform: rotateY(180deg);
 }
 .s-Loom.m-any .layer:nth-child(1),
 .s-Loom.m-TWood .layer:nth-child(1)
 {
-  animation: anim_3 6s infinite step-end;
+  animation: anim_14 6s infinite step-end;
   background-image: url(workshops.png);
   background-position: -352px -384px;
 }
@@ -8004,6 +8088,7 @@
 {
   background-image: url(animals.png);
   background-position: -32px -320px;
+  transform: rotateY(180deg);
 }
 .s-Corpse.m-MBadger .layer:nth-child(1)
 {
@@ -8017,7 +8102,7 @@
 .s-Corpse.m-MDog .layer:nth-child(1),
 .s-Corpse.m-MPig .layer:nth-child(1)
 {
-  animation: anim_16 43s infinite step-end;
+  animation: anim_17 43s infinite step-end;
   background-image: url(animals.png);
 }
 .s-Corpse.m-MBlackBear .layer:nth-child(1)
@@ -8373,7 +8458,7 @@
 .s-Chest.m-any .layer:nth-child(1),
 .s-Chest.m-TWood .layer:nth-child(1)
 {
-  animation: anim_3 6s infinite step-end;
+  animation: anim_14 6s infinite step-end;
   background-image: url(furniture.png);
   background-position: -64px -32px;
   top: 8px;
@@ -9681,7 +9766,7 @@
 .s-GroundTorch.m-MWillow .layer:nth-child(1),
 .s-GroundTorch.m-TWood .layer:nth-child(1)
 {
-  animation: anim_19 1.0s infinite step-end;
+  animation: anim_20 1.0s infinite step-end;
   background-image: url(default.png);
 }
 .s-GroundTorch.m-MAppleWood .layer:nth-child(2)
@@ -9743,7 +9828,7 @@
 .s-WallTorch.m-MWillow .layer:nth-child(2),
 .s-WallTorch.m-TWood .layer:nth-child(2)
 {
-  animation: anim_20 1.0s infinite step-end;
+  animation: anim_21 1.0s infinite step-end;
   background-image: url(furniture.png);
 }
 .s-WallTorch.m-MBirch .layer:nth-child(1)
@@ -9804,7 +9889,7 @@
 .s-BigTorch.m-MTin .layer:nth-child(2),
 .s-BigTorch.m-TMetal .layer:nth-child(2)
 {
-  animation: anim_21 1.0s infinite step-end;
+  animation: anim_22 1.0s infinite step-end;
   background-image: url(furniture.png);
 }
 .s-BigTorch.m-MCopper .layer:nth-child(1)
@@ -9894,7 +9979,7 @@
 .s-Brazier.m-MTin .layer:nth-child(2),
 .s-Brazier.m-TMetal .layer:nth-child(2)
 {
-  animation: anim_22 1.0s infinite step-end;
+  animation: anim_23 1.0s infinite step-end;
   background-image: url(furniture.png);
 }
 .s-Brazier.m-MCopper .layer:nth-child(1)
@@ -10277,7 +10362,7 @@
 .s-SteamEngine.m-MTin .layer:nth-child(2),
 .s-SteamEngine.m-TMetal .layer:nth-child(2)
 {
-  animation: anim_23 1.0s infinite step-end;
+  animation: anim_24 1.0s infinite step-end;
   background-image: url(traps_mechanism.png);
 }
 .s-SteamEngine.m-MCopper .layer:nth-child(1)
@@ -10410,74 +10495,74 @@
 }
 .s-VerticalAxle.m-MBronze .layer:nth-child(1)
 {
-  animation: anim_36 0.75s infinite step-end;
+  animation: anim_37 0.75s infinite step-end;
   background-image: url(traps_mechanism.png);
   top: 4px;
 }
 .s-VerticalAxle.m-MCopper .layer:nth-child(1)
 {
-  animation: anim_37 0.75s infinite step-end;
+  animation: anim_38 0.75s infinite step-end;
   background-image: url(traps_mechanism.png);
   top: 4px;
 }
 .s-VerticalAxle.m-MGold .layer:nth-child(1)
 {
-  animation: anim_38 0.75s infinite step-end;
+  animation: anim_39 0.75s infinite step-end;
   background-image: url(traps_mechanism.png);
   top: 4px;
 }
 .s-VerticalAxle.m-MIron .layer:nth-child(1)
 {
-  animation: anim_39 0.75s infinite step-end;
+  animation: anim_40 0.75s infinite step-end;
   background-image: url(traps_mechanism.png);
   top: 4px;
 }
 .s-VerticalAxle.m-MLead .layer:nth-child(1)
 {
-  animation: anim_40 0.75s infinite step-end;
+  animation: anim_41 0.75s infinite step-end;
   background-image: url(traps_mechanism.png);
   top: 4px;
 }
 .s-VerticalAxle.m-MMalachite .layer:nth-child(1)
 {
-  animation: anim_41 0.75s infinite step-end;
+  animation: anim_42 0.75s infinite step-end;
   background-image: url(traps_mechanism.png);
   top: 4px;
 }
 .s-VerticalAxle.m-MPlatinum .layer:nth-child(1)
 {
-  animation: anim_42 0.75s infinite step-end;
+  animation: anim_43 0.75s infinite step-end;
   background-image: url(traps_mechanism.png);
   top: 4px;
 }
 .s-VerticalAxle.m-MRoseGold .layer:nth-child(1)
 {
-  animation: anim_43 0.75s infinite step-end;
+  animation: anim_44 0.75s infinite step-end;
   background-image: url(traps_mechanism.png);
   top: 4px;
 }
 .s-VerticalAxle.m-MSilver .layer:nth-child(1)
 {
-  animation: anim_44 0.75s infinite step-end;
+  animation: anim_45 0.75s infinite step-end;
   background-image: url(traps_mechanism.png);
   top: 4px;
 }
 .s-VerticalAxle.m-MSteel .layer:nth-child(1)
 {
-  animation: anim_45 0.75s infinite step-end;
+  animation: anim_46 0.75s infinite step-end;
   background-image: url(traps_mechanism.png);
   top: 4px;
 }
 .s-VerticalAxle.m-MTin .layer:nth-child(1)
 {
-  animation: anim_46 0.75s infinite step-end;
+  animation: anim_47 0.75s infinite step-end;
   background-image: url(traps_mechanism.png);
   top: 4px;
 }
 .s-VerticalAxle.m-any .layer:nth-child(1),
 .s-VerticalAxle.m-TMetal .layer:nth-child(1)
 {
-  animation: anim_47 8.25s infinite step-end;
+  animation: anim_48 8.25s infinite step-end;
   background-image: url(traps_mechanism.png);
   top: 4px;
 }
@@ -11816,7 +11901,7 @@
 .s-Fruit.m-any .layer:nth-child(1),
 .s-Fruit.m-TFruit .layer:nth-child(1)
 {
-  animation: anim_60 6s infinite step-end;
+  animation: anim_61 6s infinite step-end;
   background-image: url(plants.png);
   top: 8px;
 }
@@ -11993,7 +12078,7 @@
 .s-Berries.m-any .layer:nth-child(1),
 .s-Berries.m-TBerries .layer:nth-child(1)
 {
-  animation: anim_63 2s infinite step-end;
+  animation: anim_64 2s infinite step-end;
   background-image: url(plants.png);
   top: 12px;
 }
@@ -12462,7 +12547,7 @@
 .s-Leaves.m-MWoad .layer:nth-child(1),
 .s-Leaves.m-TLeaves .layer:nth-child(1)
 {
-  animation: anim_64 3s infinite step-end;
+  animation: anim_65 3s infinite step-end;
   background-image: url(plants.png);
   top: 12px;
 }
@@ -14793,6 +14878,7 @@
   background-image: url(terrain.png);
   background-position: -32px -288px;
   filter: url(tints.svg#Dirt);
+  transform: rotateY(180deg);
 }
 .s-constr-SoilStairs.m-TSandTSoil .layer:nth-child(2)
 {
@@ -14800,6 +14886,7 @@
   background-position: -32px -256px;
   top: -4px;
   filter: url(tints.svg#Dirt);
+  transform: rotateY(180deg);
 }
 .s-constr-SoilRamp.m-TSandTSoil .layer:nth-child(1)
 {
@@ -14817,12 +14904,12 @@
 .s-constr-SoilWall.m-TSandTSoil .layer:nth-child(1),
 .s-constr-SoilWallFloor.m-TSandTSoil .layer:nth-child(1)
 {
-  animation: anim_65 2s infinite step-end;
+  animation: anim_66 2s infinite step-end;
   background-image: url(terrain.png);
 }
 .s-constr-SoilWallFloor.m-TSandTSoil .layer:nth-child(2)
 {
-  animation: anim_66 2s infinite step-end;
+  animation: anim_67 2s infinite step-end;
   background-image: url(terrain.png);
   top: -4px;
 }
@@ -14834,20 +14921,20 @@
 }
 .s-constr-SoilFloor.m-TSandTSoil .layer:nth-child(1)
 {
-  animation: anim_66 2s infinite step-end;
+  animation: anim_67 2s infinite step-end;
   background-image: url(terrain.png);
   top: 16px;
 }
 .s-constr-BlockStairs.m-TStone .layer:nth-child(1),
 .s-constr-StoneStairs.m-TStone .layer:nth-child(1)
 {
-  animation: anim_2 9s infinite step-end;
+  animation: anim_68 9s infinite step-end;
   background-image: url(terrain.png);
   background-position: -160px -288px;
 }
 .s-constr-StoneStairs.m-TStone .layer:nth-child(2)
 {
-  animation: anim_2 9s infinite step-end;
+  animation: anim_68 9s infinite step-end;
   background-image: url(terrain.png);
   background-position: -160px -256px;
   top: -4px;
@@ -15110,7 +15197,7 @@
 }
 .s-constr-BlockStairs.m-TStone .layer:nth-child(2)
 {
-  animation: anim_2 9s infinite step-end;
+  animation: anim_68 9s infinite step-end;
   background-image: url(terrain.png);
   background-position: -160px -256px;
   top: -20px;
@@ -15474,7 +15561,7 @@
 .s-plant-WillowTree.m-any .layer:nth-child(1),
 .s-plant-WillowTree.m-MWillow .layer:nth-child(1)
 {
-  animation: anim_114 2s infinite step-end;
+  animation: anim_116 2s infinite step-end;
   background-image: url(multitrees.png);
 }
 .s-plant-AppleTree.m-any .layer:nth-child(1),
