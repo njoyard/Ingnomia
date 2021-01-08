@@ -10,26 +10,21 @@
 .layers {
   position: absolute;
 }
-.layer {
+.layer,
+.bg {
   display: block;
   position: absolute;
   width: 32px;
   height: 32px;
 }
 .bg {
-  display: block;
-  position: absolute;
-  width: 32px;
   height: 20px;
 }
 .zoomed {
   width: 64px;
   height: 64px;
 }
-.zoomed .bg {
-  transform: translate(-50%, -50%) scale(2, 2) translate(50%, 50%);
-  top: 32px;
-}
+.zoomed .bg,
 .zoomed .layers {
   transform: translate(-50%, -50%) scale(2, 2) translate(50%, 50%);
 }
