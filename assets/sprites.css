@@ -8128,6 +8128,52 @@
   animation: Corpse-TAnimal-1 18s infinite step-end;
   background-image: url(animals.png);
 }
+.s-MonsterCorpse.m-any .layer:nth-child(1),
+.s-MonsterCorpse.m-TGoblin .layer:nth-child(1)
+{
+  background-image: url(goblin.png);
+  background-position: -128px -0px;
+  transform: rotate(-90deg);
+}
+.s-MonsterCorpse.m-any .layer:nth-child(2),
+.s-MonsterCorpse.m-any .layer:nth-child(8),
+.s-MonsterCorpse.m-TGoblin .layer:nth-child(2),
+.s-MonsterCorpse.m-TGoblin .layer:nth-child(8)
+{
+  background-image: url(goblin.png);
+  background-position: -160px -0px;
+  transform: rotate(-90deg);
+}
+.s-MonsterCorpse.m-any .layer:nth-child(3),
+.s-MonsterCorpse.m-TGoblin .layer:nth-child(3)
+{
+  background-image: url(goblin.png);
+  background-position: -64px -0px;
+  transform: rotate(-90deg);
+}
+.s-MonsterCorpse.m-any .layer:nth-child(4),
+.s-MonsterCorpse.m-TGoblin .layer:nth-child(4)
+{
+  background-image: url(goblin.png);
+  background-position: -32px -0px;
+  transform: rotate(-90deg);
+}
+.s-MonsterCorpse.m-any .layer:nth-child(5),
+.s-MonsterCorpse.m-any .layer:nth-child(6),
+.s-MonsterCorpse.m-TGoblin .layer:nth-child(5),
+.s-MonsterCorpse.m-TGoblin .layer:nth-child(6)
+{
+  background-image: url(goblin.png);
+  background-position: -0px -64px;
+  transform: rotate(-90deg);
+}
+.s-MonsterCorpse.m-any .layer:nth-child(7),
+.s-MonsterCorpse.m-TGoblin .layer:nth-child(7)
+{
+  background-image: url(goblin.png);
+  background-position: -96px -0px;
+  transform: rotate(-90deg);
+}
 .s-Fiber.m-any .layer:nth-child(1),
 .s-Fiber.m-MCotton .layer:nth-child(1),
 .s-Fiber.m-TCloth .layer:nth-child(1)
@@ -10192,6 +10238,7 @@
   background-position: -256px -128px;
   top: 16px;
 }
+.s-GearBox.m-any .layer:nth-child(2),
 .s-GearBoxFrame.m-any .layer:nth-child(1),
 .s-GearBoxFrame.m-MBronze .layer:nth-child(1),
 .s-GearBoxFrame.m-MCopper .layer:nth-child(1),
@@ -11676,6 +11723,15 @@
   background-image: url(automatons.png);
   background-position: -96px -0px;
 }
+.s-CrystalShroom.m-any .layer:nth-child(1),
+.s-CrystalShroom.m-TMushroom .layer:nth-child(1),
+.s-plant-GlowShroom.m-any .layer:nth-child(1),
+.s-plant-GlowShroom.m-MMushroom .layer:nth-child(1)
+{
+  background-image: url(mushroom_biome_grass.png);
+  background-position: -96px -160px;
+  top: -8px;
+}
 .s-Meat.m-any .layer:nth-child(1),
 .s-Meat.m-MBadger .layer:nth-child(1),
 .s-Meat.m-MBee .layer:nth-child(1),
@@ -11941,7 +11997,8 @@
   background-image: url(plants.png);
   top: 12px;
 }
-.s-MushroomItem.m-any .layer:nth-child(1)
+.s-MushroomItem.m-any .layer:nth-child(1),
+.s-MushroomItem.m-TMushroom .layer:nth-child(1)
 {
   background-image: url(default.png);
   background-position: -576px -288px;
@@ -11980,6 +12037,7 @@
   left: 8px;
   top: 12px;
 }
+.s-Omelette.m-any .layer:nth-child(1),
 .s-Omelette.m-TAnimal .layer:nth-child(1),
 .s-Omelette.m-TMeat .layer:nth-child(1),
 .s-Omelette.m-TPlant .layer:nth-child(1)
@@ -15460,13 +15518,6 @@
 {
   background-image: url(plants.png);
   background-position: -416px -320px;
-}
-.s-plant-GlowShroom.m-any .layer:nth-child(1),
-.s-plant-GlowShroom.m-MMushroom .layer:nth-child(1)
-{
-  background-image: url(mushroom_biome_grass.png);
-  background-position: -96px -160px;
-  top: -8px;
 }
 /* FIXME find out why this specific sprite does not have correct offsets */
 .s-constr-BlockStairs .layer:nth-child(2) {
