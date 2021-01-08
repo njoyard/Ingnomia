@@ -275,9 +275,6 @@ class Database:
             (id,),
         )
 
-    def workshop_requires(self, id):
-        return
-
     def workshops(self):
         return self.conn.execute("SELECT id, crafts, tab FROM Workshops")
 
