@@ -228,3 +228,23 @@ table.item-materials {
 .entry {
   white-space: nowrap;
 }
+
+.workshop-sprite {
+  float: right;
+}
+
+.workshop-with-sprite {
+  display: inline-flex;
+  flex-flow: column;
+  align-items: center;
+  border-bottom: none !important;
+  margin-right: var(--margin-mid);
+}
+
+a.workshop-with-sprite span.link {
+  border-bottom: 1px dotted var(--color-text);
+}
+
+a.workshop-with-sprite:hover span.link {
+  border-bottom: 1px solid var(--color-hover);
+}
