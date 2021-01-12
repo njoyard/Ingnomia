@@ -118,6 +118,15 @@ nav li {
   list-style: none;
   font-weight: bold;
   font-size: var(--font-size-menu);
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+nav li a {
+  margin-left: var(--margin-mid);
 }
 
 nav .l-32-56 {
@@ -190,6 +199,11 @@ table.plants tr:nth-child(2n + 1) {
 
 table.plants td.seasons {
   text-align: center;
+}
+
+.subsection {
+  margin-top: var(--margin-large);
+  font-weight: bold;
 }
 
 /* Misc */

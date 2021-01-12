@@ -1,4 +1,5 @@
-.zoomed {
+.zoomed .cells {
+  position: absolute;
   transform: translate(-50%, -50%) scale(2, 2) translate(50%, 50%);
 }
 .layout {
@@ -245,7 +246,7 @@
     filter: url(tints.svg#Tin);
   }
 }
-@keyframes i-Axle-MCopper-2-1 {
+@keyframes anim_3 {
   0.0% {
     background-position: -96px -288px;
     filter: url(tints.svg#Copper);
@@ -263,7 +264,7 @@
     filter: url(tints.svg#Copper);
   }
 }
-@keyframes i-Axle-MMalachite-2-1 {
+@keyframes anim_4 {
   0.0% {
     background-position: -96px -288px;
     filter: url(tints.svg#Malachite);
@@ -281,7 +282,7 @@
     filter: url(tints.svg#Malachite);
   }
 }
-@keyframes i-Axle-MTin-2-1 {
+@keyframes anim_5 {
   0.0% {
     background-position: -96px -288px;
     filter: url(tints.svg#Tin);
@@ -299,7 +300,7 @@
     filter: url(tints.svg#Tin);
   }
 }
-@keyframes i-Axle-MBronze-2-1 {
+@keyframes anim_6 {
   0.0% {
     background-position: -96px -288px;
     filter: url(tints.svg#Bronze);
@@ -317,7 +318,7 @@
     filter: url(tints.svg#Bronze);
   }
 }
-@keyframes i-Axle-MIron-2-1 {
+@keyframes anim_7 {
   0.0% {
     background-position: -96px -288px;
     filter: url(tints.svg#Iron);
@@ -335,7 +336,7 @@
     filter: url(tints.svg#Iron);
   }
 }
-@keyframes i-Axle-MSteel-2-1 {
+@keyframes anim_8 {
   0.0% {
     background-position: -96px -288px;
     filter: url(tints.svg#Steel);
@@ -353,7 +354,7 @@
     filter: url(tints.svg#Steel);
   }
 }
-@keyframes i-Axle-MLead-2-1 {
+@keyframes anim_9 {
   0.0% {
     background-position: -96px -288px;
     filter: url(tints.svg#Lead);
@@ -371,7 +372,7 @@
     filter: url(tints.svg#Lead);
   }
 }
-@keyframes i-Axle-MSilver-2-1 {
+@keyframes anim_10 {
   0.0% {
     background-position: -96px -288px;
     filter: url(tints.svg#Silver);
@@ -389,7 +390,7 @@
     filter: url(tints.svg#Silver);
   }
 }
-@keyframes i-Axle-MGold-2-1 {
+@keyframes anim_11 {
   0.0% {
     background-position: -96px -288px;
     filter: url(tints.svg#Gold);
@@ -407,7 +408,7 @@
     filter: url(tints.svg#Gold);
   }
 }
-@keyframes i-Axle-MRoseGold-2-1 {
+@keyframes anim_12 {
   0.0% {
     background-position: -96px -288px;
     filter: url(tints.svg#RoseGold);
@@ -425,7 +426,7 @@
     filter: url(tints.svg#RoseGold);
   }
 }
-@keyframes i-Axle-MPlatinum-2-1 {
+@keyframes anim_13 {
   0.0% {
     background-position: -96px -288px;
     filter: url(tints.svg#Platinum);
@@ -443,7 +444,7 @@
     filter: url(tints.svg#Platinum);
   }
 }
-@keyframes i-Bed-any-2-1 {
+@keyframes anim_14 {
   0.0% {
     background-position: -32px -432px;
     filter: url(tints.svg#AppleWood);
@@ -473,7 +474,7 @@
     filter: url(tints.svg#Willow);
   }
 }
-@keyframes i-Bed-any-2-2 {
+@keyframes anim_15 {
   0.0% {
     background-position: -96px -432px;
   }
@@ -507,7 +508,7 @@
     transform: rotateY(180deg);
   }
 }
-@keyframes i-Berries-any-2-1 {
+@keyframes anim_17 {
   0.0% {
     background-position: -192px -216px;
   }
@@ -798,7 +799,7 @@
     transform: rotate(-90deg);
   }
 }
-@keyframes i-Door-any-2-1 {
+@keyframes anim_25 {
   0.0% {
     background-position: -992px -540px;
     filter: url(tints.svg#AppleWood);
@@ -963,7 +964,7 @@
     filter: url(tints.svg#Willow);
   }
 }
-@keyframes i-Fruit-any-2-1 {
+@keyframes anim_28 {
   0.0% {
     background-position: -256px -540px;
   }
@@ -1012,7 +1013,7 @@
     filter: url(tints.svg#Topaz);
   }
 }
-@keyframes i-Leaves-any-2-1 {
+@keyframes anim_30 {
   0.0% {
     background-position: -96px -324px;
   }
@@ -1023,7 +1024,7 @@
     background-position: -32px -216px;
   }
 }
-@keyframes i-Needle-any-2-1 {
+@keyframes anim_31 {
   0.0% {
     filter: url(tints.svg#BadgerBone);
   }
@@ -1087,7 +1088,7 @@
     background-position: -32px -252px;
   }
 }
-@keyframes i-Pump-any-2-3 {
+@keyframes anim_33 {
   0.0% {
     background-position: -480px -36px;
     filter: url(tints.svg#Bronze);
@@ -1221,7 +1222,7 @@
     filter: url(tints.svg#Tin);
   }
 }
-@keyframes i-Pump-MCopper-2-3 {
+@keyframes anim_34 {
   0.0% {
     background-position: -480px -36px;
     filter: url(tints.svg#Copper);
@@ -1235,7 +1236,7 @@
     filter: url(tints.svg#Copper);
   }
 }
-@keyframes i-Pump-MMalachite-2-3 {
+@keyframes anim_35 {
   0.0% {
     background-position: -480px -36px;
     filter: url(tints.svg#Malachite);
@@ -1249,7 +1250,7 @@
     filter: url(tints.svg#Malachite);
   }
 }
-@keyframes i-Pump-MTin-2-3 {
+@keyframes anim_36 {
   0.0% {
     background-position: -480px -36px;
     filter: url(tints.svg#Tin);
@@ -1263,7 +1264,7 @@
     filter: url(tints.svg#Tin);
   }
 }
-@keyframes i-Pump-MBronze-2-3 {
+@keyframes anim_37 {
   0.0% {
     background-position: -480px -36px;
     filter: url(tints.svg#Bronze);
@@ -1277,7 +1278,7 @@
     filter: url(tints.svg#Bronze);
   }
 }
-@keyframes i-Pump-MIron-2-3 {
+@keyframes anim_38 {
   0.0% {
     background-position: -480px -36px;
     filter: url(tints.svg#Iron);
@@ -1291,7 +1292,7 @@
     filter: url(tints.svg#Iron);
   }
 }
-@keyframes i-Pump-MSteel-2-3 {
+@keyframes anim_39 {
   0.0% {
     background-position: -480px -36px;
     filter: url(tints.svg#Steel);
@@ -1305,7 +1306,7 @@
     filter: url(tints.svg#Steel);
   }
 }
-@keyframes i-Pump-MLead-2-3 {
+@keyframes anim_40 {
   0.0% {
     background-position: -480px -36px;
     filter: url(tints.svg#Lead);
@@ -1319,7 +1320,7 @@
     filter: url(tints.svg#Lead);
   }
 }
-@keyframes i-Pump-MSilver-2-3 {
+@keyframes anim_41 {
   0.0% {
     background-position: -480px -36px;
     filter: url(tints.svg#Silver);
@@ -1333,7 +1334,7 @@
     filter: url(tints.svg#Silver);
   }
 }
-@keyframes i-Pump-MGold-2-3 {
+@keyframes anim_42 {
   0.0% {
     background-position: -480px -36px;
     filter: url(tints.svg#Gold);
@@ -1347,7 +1348,7 @@
     filter: url(tints.svg#Gold);
   }
 }
-@keyframes i-Pump-MRoseGold-2-3 {
+@keyframes anim_43 {
   0.0% {
     background-position: -480px -36px;
     filter: url(tints.svg#RoseGold);
@@ -1361,7 +1362,7 @@
     filter: url(tints.svg#RoseGold);
   }
 }
-@keyframes i-Pump-MPlatinum-2-3 {
+@keyframes anim_44 {
   0.0% {
     background-position: -480px -36px;
     filter: url(tints.svg#Platinum);
@@ -1397,7 +1398,7 @@
     background-position: -512px -144px;
   }
 }
-@keyframes i-Table-any-2-1 {
+@keyframes anim_47 {
   0.0% {
     background-image: url(default.png);
     background-position: -96px -576px;
@@ -1493,7 +1494,7 @@
     background-position: -256px -252px;
   }
 }
-@keyframes i-Vegetable-any-2-1 {
+@keyframes anim_49 {
   0.0% {
     background-position: -224px -216px;
   }
@@ -1564,7 +1565,7 @@
     background-position: -96px -108px;
   }
 }
-@keyframes i-VerticalAxle-any-2-1 {
+@keyframes anim_50 {
   0.0% {
     background-position: -96px -324px;
     filter: url(tints.svg#Bronze);
@@ -1698,7 +1699,7 @@
     filter: url(tints.svg#Tin);
   }
 }
-@keyframes i-VerticalAxle-MCopper-2-1 {
+@keyframes anim_51 {
   0.0% {
     background-position: -96px -324px;
     filter: url(tints.svg#Copper);
@@ -1712,7 +1713,7 @@
     filter: url(tints.svg#Copper);
   }
 }
-@keyframes i-VerticalAxle-MMalachite-2-1 {
+@keyframes anim_52 {
   0.0% {
     background-position: -96px -324px;
     filter: url(tints.svg#Malachite);
@@ -1726,7 +1727,7 @@
     filter: url(tints.svg#Malachite);
   }
 }
-@keyframes i-VerticalAxle-MTin-2-1 {
+@keyframes anim_53 {
   0.0% {
     background-position: -96px -324px;
     filter: url(tints.svg#Tin);
@@ -1740,7 +1741,7 @@
     filter: url(tints.svg#Tin);
   }
 }
-@keyframes i-VerticalAxle-MBronze-2-1 {
+@keyframes anim_54 {
   0.0% {
     background-position: -96px -324px;
     filter: url(tints.svg#Bronze);
@@ -1754,7 +1755,7 @@
     filter: url(tints.svg#Bronze);
   }
 }
-@keyframes i-VerticalAxle-MIron-2-1 {
+@keyframes anim_55 {
   0.0% {
     background-position: -96px -324px;
     filter: url(tints.svg#Iron);
@@ -1768,7 +1769,7 @@
     filter: url(tints.svg#Iron);
   }
 }
-@keyframes i-VerticalAxle-MSteel-2-1 {
+@keyframes anim_56 {
   0.0% {
     background-position: -96px -324px;
     filter: url(tints.svg#Steel);
@@ -1782,7 +1783,7 @@
     filter: url(tints.svg#Steel);
   }
 }
-@keyframes i-VerticalAxle-MLead-2-1 {
+@keyframes anim_57 {
   0.0% {
     background-position: -96px -324px;
     filter: url(tints.svg#Lead);
@@ -1796,7 +1797,7 @@
     filter: url(tints.svg#Lead);
   }
 }
-@keyframes i-VerticalAxle-MSilver-2-1 {
+@keyframes anim_58 {
   0.0% {
     background-position: -96px -324px;
     filter: url(tints.svg#Silver);
@@ -1810,7 +1811,7 @@
     filter: url(tints.svg#Silver);
   }
 }
-@keyframes i-VerticalAxle-MGold-2-1 {
+@keyframes anim_59 {
   0.0% {
     background-position: -96px -324px;
     filter: url(tints.svg#Gold);
@@ -1824,7 +1825,7 @@
     filter: url(tints.svg#Gold);
   }
 }
-@keyframes i-VerticalAxle-MRoseGold-2-1 {
+@keyframes anim_60 {
   0.0% {
     background-position: -96px -324px;
     filter: url(tints.svg#RoseGold);
@@ -1838,7 +1839,7 @@
     filter: url(tints.svg#RoseGold);
   }
 }
-@keyframes i-VerticalAxle-MPlatinum-2-1 {
+@keyframes anim_61 {
   0.0% {
     background-position: -96px -324px;
     filter: url(tints.svg#Platinum);
@@ -1866,7 +1867,7 @@
     background-position: -128px -504px;
   }
 }
-@keyframes p-Artichoke-any-2-1 {
+@keyframes anim_63 {
   0.0% {
     background-image: url(terrain.png);
     background-position: -288px -108px;
@@ -1880,7 +1881,7 @@
     background-position: -224px -288px;
   }
 }
-@keyframes p-Asparagus-any-2-1 {
+@keyframes anim_64 {
   0.0% {
     background-image: url(terrain.png);
     background-position: -288px -108px;
@@ -1894,7 +1895,7 @@
     background-position: -160px -72px;
   }
 }
-@keyframes p-Barley-any-2-1 {
+@keyframes anim_65 {
   0.0% {
     background-image: url(terrain.png);
     background-position: -288px -108px;
@@ -1908,7 +1909,7 @@
     background-position: -192px -396px;
   }
 }
-@keyframes p-Beans-any-2-1 {
+@keyframes anim_66 {
   0.0% {
     background-position: -160px -360px;
   }
@@ -1919,7 +1920,7 @@
     background-position: -160px -288px;
   }
 }
-@keyframes p-BeetRoot-any-2-1 {
+@keyframes anim_67 {
   0.0% {
     background-image: url(terrain.png);
   }
@@ -1927,7 +1928,7 @@
     background-image: url(plants.png);
   }
 }
-@keyframes p-Blackberry-any-2-1 {
+@keyframes anim_68 {
   0.0% {
     background-image: url(terrain.png);
     background-position: -288px -108px;
@@ -1941,7 +1942,7 @@
     background-position: -192px -288px;
   }
 }
-@keyframes p-Bottlegourd-any-2-1 {
+@keyframes anim_69 {
   0.0% {
     background-position: -160px -360px;
   }
@@ -1952,7 +1953,7 @@
     background-position: -256px -288px;
   }
 }
-@keyframes p-Broccoli-any-2-1 {
+@keyframes anim_70 {
   0.0% {
     background-image: url(terrain.png);
     background-position: -288px -108px;
@@ -1966,7 +1967,7 @@
     background-position: -192px -72px;
   }
 }
-@keyframes p-Cabbage-any-2-1 {
+@keyframes anim_71 {
   0.0% {
     background-image: url(terrain.png);
     background-position: -288px -108px;
@@ -1980,7 +1981,7 @@
     background-position: -128px -72px;
   }
 }
-@keyframes p-Capsicum-any-2-1 {
+@keyframes anim_72 {
   0.0% {
     background-position: -160px -324px;
   }
@@ -1991,7 +1992,7 @@
     background-position: -32px -396px;
   }
 }
-@keyframes p-Carrot-any-2-1 {
+@keyframes anim_73 {
   0.0% {
     background-image: url(terrain.png);
     background-position: -288px -108px;
@@ -2005,7 +2006,7 @@
     background-position: -32px -72px;
   }
 }
-@keyframes p-Cauliflower-any-2-1 {
+@keyframes anim_74 {
   0.0% {
     background-image: url(terrain.png);
     background-position: -288px -108px;
@@ -2019,7 +2020,7 @@
     background-position: -224px -72px;
   }
 }
-@keyframes p-Corn-any-2-1 {
+@keyframes anim_75 {
   0.0% {
     background-image: url(terrain.png);
     background-position: -288px -108px;
@@ -2033,7 +2034,7 @@
     background-position: -96px -288px;
   }
 }
-@keyframes p-Cotton-any-2-1 {
+@keyframes anim_76 {
   0.0% {
     background-image: url(terrain.png);
     background-position: -288px -108px;
@@ -2047,7 +2048,7 @@
     background-position: -352px -72px;
   }
 }
-@keyframes p-Cucumber-any-2-1 {
+@keyframes anim_77 {
   0.0% {
     background-image: url(terrain.png);
     background-position: -288px -108px;
@@ -2061,7 +2062,7 @@
     background-position: -256px -72px;
   }
 }
-@keyframes p-DyersWeed-any-2-1 {
+@keyframes anim_78 {
   0.0% {
     background-image: url(terrain.png);
     background-position: -288px -108px;
@@ -2075,7 +2076,7 @@
     background-position: -96px -396px;
   }
 }
-@keyframes p-Flower1-any-2-1 {
+@keyframes anim_79 {
   0.0% {
     background-position: -320px -144px;
   }
@@ -2083,7 +2084,7 @@
     background-position: -320px -180px;
   }
 }
-@keyframes p-Flower2-any-2-1 {
+@keyframes anim_80 {
   0.0% {
     background-position: -352px -144px;
   }
@@ -2091,7 +2092,7 @@
     background-position: -352px -180px;
   }
 }
-@keyframes p-Flower3-any-2-1 {
+@keyframes anim_81 {
   0.0% {
     background-position: -384px -144px;
   }
@@ -2099,7 +2100,7 @@
     background-position: -384px -180px;
   }
 }
-@keyframes p-Flower4-any-2-1 {
+@keyframes anim_82 {
   0.0% {
     background-position: -416px -144px;
   }
@@ -2107,7 +2108,7 @@
     background-position: -416px -180px;
   }
 }
-@keyframes p-Flower5-any-2-1 {
+@keyframes anim_83 {
   0.0% {
     background-position: -448px -144px;
   }
@@ -2115,7 +2116,7 @@
     background-position: -448px -180px;
   }
 }
-@keyframes p-Flower6-any-2-1 {
+@keyframes anim_84 {
   0.0% {
     background-position: -320px -252px;
   }
@@ -2123,7 +2124,7 @@
     background-position: -320px -288px;
   }
 }
-@keyframes p-Flower7-any-2-1 {
+@keyframes anim_85 {
   0.0% {
     background-position: -352px -252px;
   }
@@ -2131,7 +2132,7 @@
     background-position: -352px -288px;
   }
 }
-@keyframes p-Flower8-any-2-1 {
+@keyframes anim_86 {
   0.0% {
     background-position: -384px -252px;
   }
@@ -2139,7 +2140,7 @@
     background-position: -384px -288px;
   }
 }
-@keyframes p-Garlic-any-2-1 {
+@keyframes anim_87 {
   0.0% {
     background-image: url(terrain.png);
     background-position: -288px -108px;
@@ -2153,7 +2154,7 @@
     background-position: -0px -180px;
   }
 }
-@keyframes p-Grape-any-2-1 {
+@keyframes anim_88 {
   0.0% {
     background-position: -160px -396px;
   }
@@ -2164,7 +2165,7 @@
     background-position: -288px -288px;
   }
 }
-@keyframes p-Leek-any-2-1 {
+@keyframes anim_89 {
   0.0% {
     background-image: url(terrain.png);
     background-position: -288px -108px;
@@ -2178,7 +2179,7 @@
     background-position: -128px -288px;
   }
 }
-@keyframes p-Lettuce-any-2-1 {
+@keyframes anim_90 {
   0.0% {
     background-image: url(terrain.png);
     background-position: -288px -108px;
@@ -2192,7 +2193,7 @@
     background-position: -128px -180px;
   }
 }
-@keyframes p-Melon-any-2-1 {
+@keyframes anim_91 {
   0.0% {
     background-image: url(terrain.png);
     background-position: -288px -108px;
@@ -2206,7 +2207,7 @@
     background-position: -160px -180px;
   }
 }
-@keyframes p-Millet-any-2-1 {
+@keyframes anim_92 {
   0.0% {
     background-image: url(terrain.png);
     background-position: -288px -108px;
@@ -2220,7 +2221,7 @@
     background-position: -256px -396px;
   }
 }
-@keyframes p-Oat-any-2-1 {
+@keyframes anim_93 {
   0.0% {
     background-image: url(terrain.png);
     background-position: -288px -108px;
@@ -2234,7 +2235,7 @@
     background-position: -224px -396px;
   }
 }
-@keyframes p-Onion-any-2-1 {
+@keyframes anim_94 {
   0.0% {
     background-image: url(terrain.png);
     background-position: -288px -108px;
@@ -2248,7 +2249,7 @@
     background-position: -64px -72px;
   }
 }
-@keyframes p-Parsnip-any-2-1 {
+@keyframes anim_95 {
   0.0% {
     background-image: url(terrain.png);
     background-position: -288px -108px;
@@ -2262,7 +2263,7 @@
     background-position: -32px -180px;
   }
 }
-@keyframes p-Peas-any-2-1 {
+@keyframes anim_96 {
   0.0% {
     background-image: url(terrain.png);
     background-position: -288px -108px;
@@ -2276,7 +2277,7 @@
     background-position: -256px -180px;
   }
 }
-@keyframes p-Pineapple-any-2-1 {
+@keyframes anim_97 {
   0.0% {
     background-image: url(terrain.png);
     background-position: -288px -108px;
@@ -2290,7 +2291,7 @@
     background-position: -64px -288px;
   }
 }
-@keyframes p-Potato-any-2-1 {
+@keyframes anim_98 {
   0.0% {
     background-image: url(terrain.png);
     background-position: -288px -108px;
@@ -2304,7 +2305,7 @@
     background-position: -96px -72px;
   }
 }
-@keyframes p-Pumpkin-any-2-1 {
+@keyframes anim_99 {
   0.0% {
     background-image: url(terrain.png);
     background-position: -288px -108px;
@@ -2318,7 +2319,7 @@
     background-position: -224px -180px;
   }
 }
-@keyframes p-Radish-any-2-1 {
+@keyframes anim_100 {
   0.0% {
     background-image: url(terrain.png);
     background-position: -288px -108px;
@@ -2332,7 +2333,7 @@
     background-position: -64px -180px;
   }
 }
-@keyframes p-Strawberry-any-2-1 {
+@keyframes anim_101 {
   0.0% {
     background-image: url(terrain.png);
     background-position: -288px -108px;
@@ -2346,7 +2347,7 @@
     background-position: -320px -72px;
   }
 }
-@keyframes p-Sugarbeet-any-2-1 {
+@keyframes anim_102 {
   0.0% {
     background-image: url(terrain.png);
     background-position: -288px -108px;
@@ -2360,7 +2361,7 @@
     background-position: -192px -180px;
   }
 }
-@keyframes p-Tea-any-2-1 {
+@keyframes anim_103 {
   0.0% {
     background-image: url(terrain.png);
     background-position: -288px -108px;
@@ -2374,7 +2375,7 @@
     background-position: -0px -288px;
   }
 }
-@keyframes p-Tobacco-any-2-1 {
+@keyframes anim_104 {
   0.0% {
     background-image: url(terrain.png);
     background-position: -288px -108px;
@@ -2388,7 +2389,7 @@
     background-position: -32px -288px;
   }
 }
-@keyframes p-Tomato-any-2-1 {
+@keyframes anim_105 {
   0.0% {
     background-position: -160px -324px;
   }
@@ -2399,7 +2400,7 @@
     background-position: -0px -396px;
   }
 }
-@keyframes p-Turnip-any-2-1 {
+@keyframes anim_106 {
   0.0% {
     background-image: url(terrain.png);
     background-position: -288px -108px;
@@ -2413,7 +2414,7 @@
     background-position: -96px -180px;
   }
 }
-@keyframes p-Wheat-any-2-1 {
+@keyframes anim_107 {
   0.0% {
     background-image: url(terrain.png);
     background-position: -288px -108px;
@@ -2427,7 +2428,7 @@
     background-position: -288px -396px;
   }
 }
-@keyframes p-Woad-any-2-1 {
+@keyframes anim_108 {
   0.0% {
     background-image: url(terrain.png);
     background-position: -288px -108px;
@@ -2441,39 +2442,7 @@
     background-position: -64px -396px;
   }
 }
-@keyframes p-AppleTree-any-2-1 {
-  0.0% {
-    background-position: -256px -252px;
-  }
-  50.0% {
-    background-position: -96px -252px;
-  }
-}
-@keyframes p-BirchTree-any-2-1 {
-  0.0% {
-    background-position: -256px -252px;
-  }
-  50.0% {
-    background-position: -128px -252px;
-  }
-}
-@keyframes anim_111 {
-  0.0% {
-    background-position: -256px -252px;
-  }
-  50.0% {
-    background-position: -32px -252px;
-  }
-}
-@keyframes p-OrangeTree-any-2-1 {
-  0.0% {
-    background-position: -256px -252px;
-  }
-  50.0% {
-    background-position: -224px -252px;
-  }
-}
-@keyframes anim_113 {
+@keyframes anim_109 {
   0.0% {
     background-position: -0px -72px;
     filter: url(tints.svg#Dirt);
@@ -2483,7 +2452,7 @@
     filter: url(tints.svg#Sand);
   }
 }
-@keyframes anim_114 {
+@keyframes anim_110 {
   0.0% {
     background-position: -0px -108px;
     filter: url(tints.svg#Dirt);
@@ -2493,7 +2462,7 @@
     filter: url(tints.svg#Sand);
   }
 }
-@keyframes anim_115 {
+@keyframes anim_111 {
   0.0% {
     filter: url(tints.svg#Basalt);
     transform: rotateY(180deg);
@@ -2531,7 +2500,7 @@
     transform: rotateY(180deg);
   }
 }
-@keyframes k-StoneWallFloor-any-2-1 {
+@keyframes anim_112 {
   0.0% {
     background-position: -32px -612px;
   }
@@ -2554,7 +2523,7 @@
     background-position: -96px -612px;
   }
 }
-@keyframes k-StoneWallFloor-any-3-1 {
+@keyframes anim_113 {
   0.0% {
     background-position: -32px -576px;
   }
@@ -2577,7 +2546,7 @@
     background-position: -96px -576px;
   }
 }
-@keyframes anim_118 {
+@keyframes anim_114 {
   0.0% {
     filter: url(tints.svg#AppleWood);
   }
@@ -2624,7 +2593,7 @@
     filter: url(tints.svg#Willow);
   }
 }
-@keyframes w-Bonecarver-any-6-1 {
+@keyframes anim_115 {
   0.0% {
     filter: url(tints.svg#AppleWood);
     transform: rotateY(180deg);
@@ -2686,7 +2655,7 @@
     transform: rotateY(180deg);
   }
 }
-@keyframes anim_120 {
+@keyframes anim_116 {
   0.0% {
     background-image: url(default.png);
     background-position: -800px -540px;
@@ -2768,7 +2737,7 @@
     filter: url(tints.svg#Willow);
   }
 }
-@keyframes w-GlassFurnace-any-8-2 {
+@keyframes anim_117 {
   0.0% {
     background-position: -128px -72px;
   }
@@ -2782,7 +2751,7 @@
     background-position: -224px -72px;
   }
 }
-@keyframes w-GlassMaker-any-2-2 {
+@keyframes anim_118 {
   0.0% {
     background-position: -128px -72px;
     transform: rotateY(180deg);
@@ -2800,7 +2769,7 @@
     transform: rotateY(180deg);
   }
 }
-@keyframes w-Metalworker-any-8-1 {
+@keyframes anim_119 {
   0.0% {
     filter: url(tints.svg#Bronze);
     transform: rotateY(180deg);
@@ -2846,7 +2815,7 @@
     transform: rotateY(180deg);
   }
 }
-@keyframes w-Sawmill-any-12-2 {
+@keyframes anim_120 {
   0.0% {
     filter: url(tints.svg#Basalt);
     transform: rotateY(180deg);
@@ -2928,7 +2897,7 @@
     transform: rotateY(180deg);
   }
 }
-@keyframes w-Windmill-any-34-1 {
+@keyframes anim_121 {
   0.0% {
     background-position: -32px -72px;
     filter: url(tints.svg#AppleWood);
@@ -3026,7 +2995,7 @@
     filter: url(tints.svg#Willow);
   }
 }
-@keyframes w-Windmill-any-34-2 {
+@keyframes anim_122 {
   0.0% {
     background-position: -32px -144px;
   }
@@ -3040,7 +3009,7 @@
     background-position: -224px -144px;
   }
 }
-@keyframes w-Windmill-any-36-1 {
+@keyframes anim_123 {
   0.0% {
     background-position: -0px -72px;
     filter: url(tints.svg#AppleWood);
@@ -3138,7 +3107,7 @@
     filter: url(tints.svg#Willow);
   }
 }
-@keyframes w-Windmill-any-36-2 {
+@keyframes anim_124 {
   0.0% {
     background-position: -0px -144px;
   }
@@ -3152,7 +3121,7 @@
     background-position: -192px -144px;
   }
 }
-@keyframes w-Windmill-any-38-1 {
+@keyframes anim_125 {
   0.0% {
     background-position: -32px -36px;
     filter: url(tints.svg#AppleWood);
@@ -3250,7 +3219,7 @@
     filter: url(tints.svg#Willow);
   }
 }
-@keyframes w-Windmill-any-38-2 {
+@keyframes anim_126 {
   0.0% {
     background-position: -32px -108px;
   }
@@ -3264,7 +3233,7 @@
     background-position: -224px -108px;
   }
 }
-@keyframes w-Windmill-any-40-1 {
+@keyframes anim_127 {
   0.0% {
     background-position: -0px -36px;
     filter: url(tints.svg#AppleWood);
@@ -3362,7 +3331,7 @@
     filter: url(tints.svg#Willow);
   }
 }
-@keyframes w-Windmill-any-40-2 {
+@keyframes anim_128 {
   0.0% {
     background-position: -0px -108px;
   }
@@ -3386,11 +3355,12 @@
   width: 64px;
   height: 72px;
 }
-.l-32-36 .cp-0-0-0,
-.l-32-56 .cp-0-0-1
+.l-32-36 .cp-0-0-0
 {
   left: 0px;
   top: 0px;
+  --minx: 0;
+  --miny: 0;
 }
 .i-AlarmBell.m-any .cn-1 .y-1,
 .i-AlarmBell.m-MBronze .cn-1 .y-1,
@@ -6069,6 +6039,7 @@
 .k-ThatchFloor.m-any .cn-1 .y-1,
 .k-ThatchRamp.m-any .cn-1 .y-1,
 .k-ThatchWall.m-any .cn-1 .y-1,
+.k-VerticalAxle.m-any .cn-1 .y-1,
 .k-WallTorch.m-any .cn-1 .y-1,
 .k-WoodFence.m-any .cn-1 .y-1,
 .m-Constructions.m-any .cn-1 .y-1,
@@ -7329,77 +7300,77 @@
 }
 .i-Axle.m-MCopper .cn-2 .y-1
 {
-  animation: i-Axle-MCopper-2-1 1.0s infinite step-end;
+  animation: anim_3 1.0s infinite step-end;
   background-image: url(traps_mechanism.png);
   width: 32px;
   height: 36px;
 }
 .i-Axle.m-MMalachite .cn-2 .y-1
 {
-  animation: i-Axle-MMalachite-2-1 1.0s infinite step-end;
+  animation: anim_4 1.0s infinite step-end;
   background-image: url(traps_mechanism.png);
   width: 32px;
   height: 36px;
 }
 .i-Axle.m-MTin .cn-2 .y-1
 {
-  animation: i-Axle-MTin-2-1 1.0s infinite step-end;
+  animation: anim_5 1.0s infinite step-end;
   background-image: url(traps_mechanism.png);
   width: 32px;
   height: 36px;
 }
 .i-Axle.m-MBronze .cn-2 .y-1
 {
-  animation: i-Axle-MBronze-2-1 1.0s infinite step-end;
+  animation: anim_6 1.0s infinite step-end;
   background-image: url(traps_mechanism.png);
   width: 32px;
   height: 36px;
 }
 .i-Axle.m-MIron .cn-2 .y-1
 {
-  animation: i-Axle-MIron-2-1 1.0s infinite step-end;
+  animation: anim_7 1.0s infinite step-end;
   background-image: url(traps_mechanism.png);
   width: 32px;
   height: 36px;
 }
 .i-Axle.m-MSteel .cn-2 .y-1
 {
-  animation: i-Axle-MSteel-2-1 1.0s infinite step-end;
+  animation: anim_8 1.0s infinite step-end;
   background-image: url(traps_mechanism.png);
   width: 32px;
   height: 36px;
 }
 .i-Axle.m-MLead .cn-2 .y-1
 {
-  animation: i-Axle-MLead-2-1 1.0s infinite step-end;
+  animation: anim_9 1.0s infinite step-end;
   background-image: url(traps_mechanism.png);
   width: 32px;
   height: 36px;
 }
 .i-Axle.m-MSilver .cn-2 .y-1
 {
-  animation: i-Axle-MSilver-2-1 1.0s infinite step-end;
+  animation: anim_10 1.0s infinite step-end;
   background-image: url(traps_mechanism.png);
   width: 32px;
   height: 36px;
 }
 .i-Axle.m-MGold .cn-2 .y-1
 {
-  animation: i-Axle-MGold-2-1 1.0s infinite step-end;
+  animation: anim_11 1.0s infinite step-end;
   background-image: url(traps_mechanism.png);
   width: 32px;
   height: 36px;
 }
 .i-Axle.m-MRoseGold .cn-2 .y-1
 {
-  animation: i-Axle-MRoseGold-2-1 1.0s infinite step-end;
+  animation: anim_12 1.0s infinite step-end;
   background-image: url(traps_mechanism.png);
   width: 32px;
   height: 36px;
 }
 .i-Axle.m-MPlatinum .cn-2 .y-1
 {
-  animation: i-Axle-MPlatinum-2-1 1.0s infinite step-end;
+  animation: anim_13 1.0s infinite step-end;
   background-image: url(traps_mechanism.png);
   width: 32px;
   height: 36px;
@@ -7750,14 +7721,14 @@
 }
 .i-Bed.m-any .cn-2 .y-1
 {
-  animation: i-Bed-any-2-1 7.0s infinite step-end;
+  animation: anim_14 7.0s infinite step-end;
   background-image: url(furniture.png);
   width: 32px;
   height: 36px;
 }
 .i-Bed.m-any .cn-2 .y-2
 {
-  animation: i-Bed-any-2-2 2.0s infinite step-end;
+  animation: anim_15 2.0s infinite step-end;
   background-image: url(furniture.png);
   width: 32px;
   height: 36px;
@@ -8176,7 +8147,7 @@
 }
 .i-Berries.m-any .cn-2 .y-1
 {
-  animation: i-Berries-any-2-1 2.0s infinite step-end;
+  animation: anim_17 2.0s infinite step-end;
   background-image: url(plants.png);
   width: 32px;
   height: 36px;
@@ -11108,7 +11079,7 @@
 }
 .i-Door.m-any .cn-2 .y-1
 {
-  animation: i-Door-any-2-1 15.0s infinite step-end;
+  animation: anim_25 15.0s infinite step-end;
   background-image: url(default.png);
   width: 32px;
   height: 36px;
@@ -12118,7 +12089,7 @@
 }
 .i-Fruit.m-any .cn-2 .y-1
 {
-  animation: i-Fruit-any-2-1 6.0s infinite step-end;
+  animation: anim_28 6.0s infinite step-end;
   background-image: url(plants.png);
   width: 32px;
   height: 36px;
@@ -14219,7 +14190,7 @@
 }
 .i-Leaves.m-any .cn-2 .y-1
 {
-  animation: i-Leaves-any-2-1 3.0s infinite step-end;
+  animation: anim_30 3.0s infinite step-end;
   background-image: url(plants.png);
   width: 32px;
   height: 36px;
@@ -14788,7 +14759,7 @@
 }
 .i-Needle.m-any .cn-2 .y-1
 {
-  animation: i-Needle-any-2-1 12.0s infinite step-end;
+  animation: anim_31 12.0s infinite step-end;
   background-image: url(default.png);
   background-position: -896px -72px;
   width: 32px;
@@ -16771,7 +16742,7 @@
 }
 .i-Pump.m-any .cn-2 .y-3
 {
-  animation: i-Pump-any-2-3 11.000000000000002s infinite step-end;
+  animation: anim_33 11.000000000000002s infinite step-end;
   background-image: url(traps_mechanism.png);
   width: 32px;
   height: 36px;
@@ -16794,7 +16765,7 @@
 }
 .i-Pump.m-MCopper .cn-2 .y-3
 {
-  animation: i-Pump-MCopper-2-3 1.0s infinite step-end;
+  animation: anim_34 1.0s infinite step-end;
   background-image: url(traps_mechanism.png);
   width: 32px;
   height: 36px;
@@ -16817,7 +16788,7 @@
 }
 .i-Pump.m-MMalachite .cn-2 .y-3
 {
-  animation: i-Pump-MMalachite-2-3 1.0s infinite step-end;
+  animation: anim_35 1.0s infinite step-end;
   background-image: url(traps_mechanism.png);
   width: 32px;
   height: 36px;
@@ -16840,7 +16811,7 @@
 }
 .i-Pump.m-MTin .cn-2 .y-3
 {
-  animation: i-Pump-MTin-2-3 1.0s infinite step-end;
+  animation: anim_36 1.0s infinite step-end;
   background-image: url(traps_mechanism.png);
   width: 32px;
   height: 36px;
@@ -16863,7 +16834,7 @@
 }
 .i-Pump.m-MBronze .cn-2 .y-3
 {
-  animation: i-Pump-MBronze-2-3 1.0s infinite step-end;
+  animation: anim_37 1.0s infinite step-end;
   background-image: url(traps_mechanism.png);
   width: 32px;
   height: 36px;
@@ -16886,7 +16857,7 @@
 }
 .i-Pump.m-MIron .cn-2 .y-3
 {
-  animation: i-Pump-MIron-2-3 1.0s infinite step-end;
+  animation: anim_38 1.0s infinite step-end;
   background-image: url(traps_mechanism.png);
   width: 32px;
   height: 36px;
@@ -16909,7 +16880,7 @@
 }
 .i-Pump.m-MSteel .cn-2 .y-3
 {
-  animation: i-Pump-MSteel-2-3 1.0s infinite step-end;
+  animation: anim_39 1.0s infinite step-end;
   background-image: url(traps_mechanism.png);
   width: 32px;
   height: 36px;
@@ -16932,7 +16903,7 @@
 }
 .i-Pump.m-MLead .cn-2 .y-3
 {
-  animation: i-Pump-MLead-2-3 1.0s infinite step-end;
+  animation: anim_40 1.0s infinite step-end;
   background-image: url(traps_mechanism.png);
   width: 32px;
   height: 36px;
@@ -16955,7 +16926,7 @@
 }
 .i-Pump.m-MSilver .cn-2 .y-3
 {
-  animation: i-Pump-MSilver-2-3 1.0s infinite step-end;
+  animation: anim_41 1.0s infinite step-end;
   background-image: url(traps_mechanism.png);
   width: 32px;
   height: 36px;
@@ -16978,7 +16949,7 @@
 }
 .i-Pump.m-MGold .cn-2 .y-3
 {
-  animation: i-Pump-MGold-2-3 1.0s infinite step-end;
+  animation: anim_42 1.0s infinite step-end;
   background-image: url(traps_mechanism.png);
   width: 32px;
   height: 36px;
@@ -17001,7 +16972,7 @@
 }
 .i-Pump.m-MRoseGold .cn-2 .y-3
 {
-  animation: i-Pump-MRoseGold-2-3 1.0s infinite step-end;
+  animation: anim_43 1.0s infinite step-end;
   background-image: url(traps_mechanism.png);
   width: 32px;
   height: 36px;
@@ -17024,7 +16995,7 @@
 }
 .i-Pump.m-MPlatinum .cn-2 .y-3
 {
-  animation: i-Pump-MPlatinum-2-3 1.0s infinite step-end;
+  animation: anim_44 1.0s infinite step-end;
   background-image: url(traps_mechanism.png);
   width: 32px;
   height: 36px;
@@ -19337,7 +19308,7 @@
 }
 .i-Table.m-any .cn-2 .y-1
 {
-  animation: i-Table-any-2-1 16.0s infinite step-end;
+  animation: anim_47 16.0s infinite step-end;
   width: 32px;
   height: 36px;
 }
@@ -19874,7 +19845,7 @@
 }
 .i-Vegetable.m-any .cn-2 .y-1
 {
-  animation: i-Vegetable-any-2-1 23.0s infinite step-end;
+  animation: anim_49 23.0s infinite step-end;
   background-image: url(plants.png);
   width: 32px;
   height: 36px;
@@ -20100,86 +20071,87 @@
   width: 32px;
   height: 36px;
 }
-.i-VerticalAxle.m-any .cn-2 .y-1
+.i-VerticalAxle.m-any .cn-2 .y-1,
+.k-VerticalAxle.m-any .cn-2 .y-1
 {
-  animation: i-VerticalAxle-any-2-1 11.000000000000002s infinite step-end;
+  animation: anim_50 11.000000000000002s infinite step-end;
   background-image: url(traps_mechanism.png);
   width: 32px;
   height: 36px;
 }
 .i-VerticalAxle.m-MCopper .cn-2 .y-1
 {
-  animation: i-VerticalAxle-MCopper-2-1 1.0s infinite step-end;
+  animation: anim_51 1.0s infinite step-end;
   background-image: url(traps_mechanism.png);
   width: 32px;
   height: 36px;
 }
 .i-VerticalAxle.m-MMalachite .cn-2 .y-1
 {
-  animation: i-VerticalAxle-MMalachite-2-1 1.0s infinite step-end;
+  animation: anim_52 1.0s infinite step-end;
   background-image: url(traps_mechanism.png);
   width: 32px;
   height: 36px;
 }
 .i-VerticalAxle.m-MTin .cn-2 .y-1
 {
-  animation: i-VerticalAxle-MTin-2-1 1.0s infinite step-end;
+  animation: anim_53 1.0s infinite step-end;
   background-image: url(traps_mechanism.png);
   width: 32px;
   height: 36px;
 }
 .i-VerticalAxle.m-MBronze .cn-2 .y-1
 {
-  animation: i-VerticalAxle-MBronze-2-1 1.0s infinite step-end;
+  animation: anim_54 1.0s infinite step-end;
   background-image: url(traps_mechanism.png);
   width: 32px;
   height: 36px;
 }
 .i-VerticalAxle.m-MIron .cn-2 .y-1
 {
-  animation: i-VerticalAxle-MIron-2-1 1.0s infinite step-end;
+  animation: anim_55 1.0s infinite step-end;
   background-image: url(traps_mechanism.png);
   width: 32px;
   height: 36px;
 }
 .i-VerticalAxle.m-MSteel .cn-2 .y-1
 {
-  animation: i-VerticalAxle-MSteel-2-1 1.0s infinite step-end;
+  animation: anim_56 1.0s infinite step-end;
   background-image: url(traps_mechanism.png);
   width: 32px;
   height: 36px;
 }
 .i-VerticalAxle.m-MLead .cn-2 .y-1
 {
-  animation: i-VerticalAxle-MLead-2-1 1.0s infinite step-end;
+  animation: anim_57 1.0s infinite step-end;
   background-image: url(traps_mechanism.png);
   width: 32px;
   height: 36px;
 }
 .i-VerticalAxle.m-MSilver .cn-2 .y-1
 {
-  animation: i-VerticalAxle-MSilver-2-1 1.0s infinite step-end;
+  animation: anim_58 1.0s infinite step-end;
   background-image: url(traps_mechanism.png);
   width: 32px;
   height: 36px;
 }
 .i-VerticalAxle.m-MGold .cn-2 .y-1
 {
-  animation: i-VerticalAxle-MGold-2-1 1.0s infinite step-end;
+  animation: anim_59 1.0s infinite step-end;
   background-image: url(traps_mechanism.png);
   width: 32px;
   height: 36px;
 }
 .i-VerticalAxle.m-MRoseGold .cn-2 .y-1
 {
-  animation: i-VerticalAxle-MRoseGold-2-1 1.0s infinite step-end;
+  animation: anim_60 1.0s infinite step-end;
   background-image: url(traps_mechanism.png);
   width: 32px;
   height: 36px;
 }
 .i-VerticalAxle.m-MPlatinum .cn-2 .y-1
 {
-  animation: i-VerticalAxle-MPlatinum-2-1 1.0s infinite step-end;
+  animation: anim_61 1.0s infinite step-end;
   background-image: url(traps_mechanism.png);
   width: 32px;
   height: 36px;
@@ -20810,13 +20782,11 @@
   filter: url(tints.svg#Platinum);
 }
 .m-Plants.m-any .cn-1 .y-1,
-.p-AppleTree.m-any .cn-1 .y-1,
 .p-Artichoke.m-any .cn-1 .y-1,
 .p-Asparagus.m-any .cn-1 .y-1,
 .p-Barley.m-any .cn-1 .y-1,
 .p-Beans.m-any .cn-1 .y-1,
 .p-BeetRoot.m-any .cn-1 .y-1,
-.p-BirchTree.m-any .cn-1 .y-1,
 .p-Blackberry.m-any .cn-1 .y-1,
 .p-Bottlegourd.m-any .cn-1 .y-1,
 .p-Broccoli.m-any .cn-1 .y-1,
@@ -20828,7 +20798,6 @@
 .p-Cotton.m-any .cn-1 .y-1,
 .p-Cucumber.m-any .cn-1 .y-1,
 .p-DyersWeed.m-any .cn-1 .y-1,
-.p-FibreMushroom.m-any .cn-1 .y-1,
 .p-Flower1.m-any .cn-1 .y-1,
 .p-Flower2.m-any .cn-1 .y-1,
 .p-Flower3.m-any .cn-1 .y-1,
@@ -20838,38 +20807,27 @@
 .p-Flower7.m-any .cn-1 .y-1,
 .p-Flower8.m-any .cn-1 .y-1,
 .p-Garlic.m-any .cn-1 .y-1,
-.p-GlowShroom.m-any .cn-1 .y-1,
-.p-GrainMushroom.m-any .cn-1 .y-1,
 .p-Grape.m-any .cn-1 .y-1,
 .p-Leek.m-any .cn-1 .y-1,
 .p-Lettuce.m-any .cn-1 .y-1,
 .p-Melon.m-any .cn-1 .y-1,
 .p-Millet.m-any .cn-1 .y-1,
-.p-Mushroom1.m-any .cn-1 .y-1,
-.p-Mushroom2.m-any .cn-1 .y-1,
-.p-Mushroom3.m-any .cn-1 .y-1,
-.p-OakTree.m-any .cn-1 .y-1,
 .p-Oat.m-any .cn-1 .y-1,
 .p-Onion.m-any .cn-1 .y-1,
-.p-OrangeTree.m-any .cn-1 .y-1,
 .p-Parsnip.m-any .cn-1 .y-1,
 .p-Peas.m-any .cn-1 .y-1,
 .p-Pineapple.m-any .cn-1 .y-1,
-.p-PineTree.m-any .cn-1 .y-1,
 .p-Potato.m-any .cn-1 .y-1,
 .p-Pumpkin.m-any .cn-1 .y-1,
 .p-Radish.m-any .cn-1 .y-1,
 .p-Strawberry.m-any .cn-1 .y-1,
-.p-StrawMushroom.m-any .cn-1 .y-1,
 .p-Sugarbeet.m-any .cn-1 .y-1,
 .p-Tea.m-any .cn-1 .y-1,
 .p-Tobacco.m-any .cn-1 .y-1,
 .p-Tomato.m-any .cn-1 .y-1,
 .p-Turnip.m-any .cn-1 .y-1,
 .p-Wheat.m-any .cn-1 .y-1,
-.p-WillowTree.m-any .cn-1 .y-1,
-.p-Woad.m-any .cn-1 .y-1,
-.p-WoodMushroom.m-any .cn-1 .y-1
+.p-Woad.m-any .cn-1 .y-1
 {
   background-image: url(terrain.png);
   background-position: -288px -72px;
@@ -20879,321 +20837,2352 @@
 }
 .p-Artichoke.m-any .cn-2 .y-1
 {
-  animation: p-Artichoke-any-2-1 3.0s infinite step-end;
+  animation: anim_63 3.0s infinite step-end;
   width: 32px;
   height: 36px;
 }
 .p-Asparagus.m-any .cn-2 .y-1
 {
-  animation: p-Asparagus-any-2-1 3.0s infinite step-end;
+  animation: anim_64 3.0s infinite step-end;
   width: 32px;
   height: 36px;
 }
 .p-Barley.m-any .cn-2 .y-1
 {
-  animation: p-Barley-any-2-1 3.0s infinite step-end;
+  animation: anim_65 3.0s infinite step-end;
   width: 32px;
   height: 36px;
 }
 .p-Beans.m-any .cn-2 .y-1
 {
-  animation: p-Beans-any-2-1 3.0s infinite step-end;
+  animation: anim_66 3.0s infinite step-end;
   background-image: url(plants.png);
   width: 32px;
   height: 36px;
 }
 .p-BeetRoot.m-any .cn-2 .y-1
 {
-  animation: p-BeetRoot-any-2-1 2.0s infinite step-end;
+  animation: anim_67 2.0s infinite step-end;
   background-position: -288px -108px;
   width: 32px;
   height: 36px;
 }
 .p-Blackberry.m-any .cn-2 .y-1
 {
-  animation: p-Blackberry-any-2-1 3.0s infinite step-end;
+  animation: anim_68 3.0s infinite step-end;
   width: 32px;
   height: 36px;
 }
 .p-Bottlegourd.m-any .cn-2 .y-1
 {
-  animation: p-Bottlegourd-any-2-1 3.0s infinite step-end;
+  animation: anim_69 3.0s infinite step-end;
   background-image: url(plants.png);
   width: 32px;
   height: 36px;
 }
 .p-Broccoli.m-any .cn-2 .y-1
 {
-  animation: p-Broccoli-any-2-1 3.0s infinite step-end;
+  animation: anim_70 3.0s infinite step-end;
   width: 32px;
   height: 36px;
 }
 .p-Cabbage.m-any .cn-2 .y-1
 {
-  animation: p-Cabbage-any-2-1 3.0s infinite step-end;
+  animation: anim_71 3.0s infinite step-end;
   width: 32px;
   height: 36px;
 }
 .p-Capsicum.m-any .cn-2 .y-1
 {
-  animation: p-Capsicum-any-2-1 3.0s infinite step-end;
+  animation: anim_72 3.0s infinite step-end;
   background-image: url(plants.png);
   width: 32px;
   height: 36px;
 }
 .p-Carrot.m-any .cn-2 .y-1
 {
-  animation: p-Carrot-any-2-1 3.0s infinite step-end;
+  animation: anim_73 3.0s infinite step-end;
   width: 32px;
   height: 36px;
 }
 .p-Cauliflower.m-any .cn-2 .y-1
 {
-  animation: p-Cauliflower-any-2-1 3.0s infinite step-end;
+  animation: anim_74 3.0s infinite step-end;
   width: 32px;
   height: 36px;
 }
 .p-Corn.m-any .cn-2 .y-1
 {
-  animation: p-Corn-any-2-1 3.0s infinite step-end;
+  animation: anim_75 3.0s infinite step-end;
   width: 32px;
   height: 36px;
 }
 .p-Cotton.m-any .cn-2 .y-1
 {
-  animation: p-Cotton-any-2-1 3.0s infinite step-end;
+  animation: anim_76 3.0s infinite step-end;
   width: 32px;
   height: 36px;
 }
 .p-Cucumber.m-any .cn-2 .y-1
 {
-  animation: p-Cucumber-any-2-1 3.0s infinite step-end;
+  animation: anim_77 3.0s infinite step-end;
   width: 32px;
   height: 36px;
 }
 .p-DyersWeed.m-any .cn-2 .y-1
 {
-  animation: p-DyersWeed-any-2-1 3.0s infinite step-end;
+  animation: anim_78 3.0s infinite step-end;
   width: 32px;
   height: 36px;
 }
 .p-Flower1.m-any .cn-2 .y-1
 {
-  animation: p-Flower1-any-2-1 2.0s infinite step-end;
+  animation: anim_79 2.0s infinite step-end;
   background-image: url(plants.png);
   width: 32px;
   height: 36px;
 }
 .p-Flower2.m-any .cn-2 .y-1
 {
-  animation: p-Flower2-any-2-1 2.0s infinite step-end;
+  animation: anim_80 2.0s infinite step-end;
   background-image: url(plants.png);
   width: 32px;
   height: 36px;
 }
 .p-Flower3.m-any .cn-2 .y-1
 {
-  animation: p-Flower3-any-2-1 2.0s infinite step-end;
+  animation: anim_81 2.0s infinite step-end;
   background-image: url(plants.png);
   width: 32px;
   height: 36px;
 }
 .p-Flower4.m-any .cn-2 .y-1
 {
-  animation: p-Flower4-any-2-1 2.0s infinite step-end;
+  animation: anim_82 2.0s infinite step-end;
   background-image: url(plants.png);
   width: 32px;
   height: 36px;
 }
 .p-Flower5.m-any .cn-2 .y-1
 {
-  animation: p-Flower5-any-2-1 2.0s infinite step-end;
+  animation: anim_83 2.0s infinite step-end;
   background-image: url(plants.png);
   width: 32px;
   height: 36px;
 }
 .p-Flower6.m-any .cn-2 .y-1
 {
-  animation: p-Flower6-any-2-1 2.0s infinite step-end;
+  animation: anim_84 2.0s infinite step-end;
   background-image: url(plants.png);
   width: 32px;
   height: 36px;
 }
 .p-Flower7.m-any .cn-2 .y-1
 {
-  animation: p-Flower7-any-2-1 2.0s infinite step-end;
+  animation: anim_85 2.0s infinite step-end;
   background-image: url(plants.png);
   width: 32px;
   height: 36px;
 }
 .p-Flower8.m-any .cn-2 .y-1
 {
-  animation: p-Flower8-any-2-1 2.0s infinite step-end;
+  animation: anim_86 2.0s infinite step-end;
   background-image: url(plants.png);
   width: 32px;
   height: 36px;
 }
 .p-Garlic.m-any .cn-2 .y-1
 {
-  animation: p-Garlic-any-2-1 3.0s infinite step-end;
+  animation: anim_87 3.0s infinite step-end;
   width: 32px;
   height: 36px;
 }
 .p-Grape.m-any .cn-2 .y-1
 {
-  animation: p-Grape-any-2-1 3.0s infinite step-end;
+  animation: anim_88 3.0s infinite step-end;
   background-image: url(plants.png);
   width: 32px;
   height: 36px;
 }
 .p-Leek.m-any .cn-2 .y-1
 {
-  animation: p-Leek-any-2-1 3.0s infinite step-end;
+  animation: anim_89 3.0s infinite step-end;
   width: 32px;
   height: 36px;
 }
 .p-Lettuce.m-any .cn-2 .y-1
 {
-  animation: p-Lettuce-any-2-1 3.0s infinite step-end;
+  animation: anim_90 3.0s infinite step-end;
   width: 32px;
   height: 36px;
 }
 .p-Melon.m-any .cn-2 .y-1
 {
-  animation: p-Melon-any-2-1 3.0s infinite step-end;
+  animation: anim_91 3.0s infinite step-end;
   width: 32px;
   height: 36px;
 }
 .p-Millet.m-any .cn-2 .y-1
 {
-  animation: p-Millet-any-2-1 3.0s infinite step-end;
+  animation: anim_92 3.0s infinite step-end;
   width: 32px;
   height: 36px;
 }
 .p-Oat.m-any .cn-2 .y-1
 {
-  animation: p-Oat-any-2-1 3.0s infinite step-end;
+  animation: anim_93 3.0s infinite step-end;
   width: 32px;
   height: 36px;
 }
 .p-Onion.m-any .cn-2 .y-1
 {
-  animation: p-Onion-any-2-1 3.0s infinite step-end;
+  animation: anim_94 3.0s infinite step-end;
   width: 32px;
   height: 36px;
 }
 .p-Parsnip.m-any .cn-2 .y-1
 {
-  animation: p-Parsnip-any-2-1 3.0s infinite step-end;
+  animation: anim_95 3.0s infinite step-end;
   width: 32px;
   height: 36px;
 }
 .p-Peas.m-any .cn-2 .y-1
 {
-  animation: p-Peas-any-2-1 3.0s infinite step-end;
+  animation: anim_96 3.0s infinite step-end;
   width: 32px;
   height: 36px;
 }
 .p-Pineapple.m-any .cn-2 .y-1
 {
-  animation: p-Pineapple-any-2-1 3.0s infinite step-end;
+  animation: anim_97 3.0s infinite step-end;
   width: 32px;
   height: 36px;
 }
 .p-Potato.m-any .cn-2 .y-1
 {
-  animation: p-Potato-any-2-1 3.0s infinite step-end;
+  animation: anim_98 3.0s infinite step-end;
   width: 32px;
   height: 36px;
 }
 .p-Pumpkin.m-any .cn-2 .y-1
 {
-  animation: p-Pumpkin-any-2-1 3.0s infinite step-end;
+  animation: anim_99 3.0s infinite step-end;
   width: 32px;
   height: 36px;
 }
 .p-Radish.m-any .cn-2 .y-1
 {
-  animation: p-Radish-any-2-1 3.0s infinite step-end;
+  animation: anim_100 3.0s infinite step-end;
   width: 32px;
   height: 36px;
 }
 .p-Strawberry.m-any .cn-2 .y-1
 {
-  animation: p-Strawberry-any-2-1 3.0s infinite step-end;
+  animation: anim_101 3.0s infinite step-end;
   width: 32px;
   height: 36px;
 }
 .p-Sugarbeet.m-any .cn-2 .y-1
 {
-  animation: p-Sugarbeet-any-2-1 3.0s infinite step-end;
+  animation: anim_102 3.0s infinite step-end;
   width: 32px;
   height: 36px;
 }
 .p-Tea.m-any .cn-2 .y-1
 {
-  animation: p-Tea-any-2-1 3.0s infinite step-end;
+  animation: anim_103 3.0s infinite step-end;
   width: 32px;
   height: 36px;
 }
 .p-Tobacco.m-any .cn-2 .y-1
 {
-  animation: p-Tobacco-any-2-1 3.0s infinite step-end;
+  animation: anim_104 3.0s infinite step-end;
   width: 32px;
   height: 36px;
 }
 .p-Tomato.m-any .cn-2 .y-1
 {
-  animation: p-Tomato-any-2-1 3.0s infinite step-end;
+  animation: anim_105 3.0s infinite step-end;
   background-image: url(plants.png);
   width: 32px;
   height: 36px;
 }
 .p-Turnip.m-any .cn-2 .y-1
 {
-  animation: p-Turnip-any-2-1 3.0s infinite step-end;
+  animation: anim_106 3.0s infinite step-end;
   width: 32px;
   height: 36px;
 }
 .p-Wheat.m-any .cn-2 .y-1
 {
-  animation: p-Wheat-any-2-1 3.0s infinite step-end;
+  animation: anim_107 3.0s infinite step-end;
   width: 32px;
   height: 36px;
 }
 .p-Woad.m-any .cn-2 .y-1
 {
-  animation: p-Woad-any-2-1 3.0s infinite step-end;
+  animation: anim_108 3.0s infinite step-end;
   width: 32px;
   height: 36px;
 }
-.p-AppleTree.m-any .cn-2 .y-1
+.l-96-128
 {
-  animation: p-AppleTree-any-2-1 2.0s infinite step-end;
-  background-image: url(multitrees.png);
-  width: 32px;
-  height: 36px;
+  width: 96px;
+  height: 128px;
 }
-.p-BirchTree.m-any .cn-2 .y-1
+.l-96-128.zoomed
 {
-  animation: p-BirchTree-any-2-1 2.0s infinite step-end;
-  background-image: url(multitrees.png);
+  width: 192px;
+  height: 256px;
+}
+.l-96-128 .cp--1--1-0
+{
+  left: 32px;
+  top: 60px;
+  --minx: -32;
+  --miny: -76;
+}
+.m-Workshops.m-any .cn-1 .y-1,
+.p-AppleTree.m-any .cn-1 .y-1,
+.p-AppleTree.m-any .cn-10 .y-1,
+.p-AppleTree.m-any .cn-2 .y-1,
+.p-AppleTree.m-any .cn-5 .y-1,
+.p-BirchTree.m-any .cn-1 .y-1,
+.p-BirchTree.m-any .cn-2 .y-1,
+.p-BirchTree.m-any .cn-3 .y-1,
+.p-BirchTree.m-any .cn-4 .y-1,
+.p-BirchTree.m-any .cn-7 .y-1,
+.p-OakTree.m-any .cn-10 .y-1,
+.p-OakTree.m-any .cn-4 .y-1,
+.p-OakTree.m-any .cn-7 .y-1,
+.p-OakTree.m-any .cn-8 .y-1,
+.p-OrangeTree.m-any .cn-1 .y-1,
+.p-OrangeTree.m-any .cn-3 .y-1,
+.p-OrangeTree.m-any .cn-8 .y-1,
+.p-OrangeTree.m-any .cn-9 .y-1,
+.p-PineTree.m-any .cn-1 .y-1,
+.p-PineTree.m-any .cn-3 .y-1,
+.p-PineTree.m-any .cn-4 .y-1,
+.p-WillowTree.m-any .cn-10 .y-1,
+.p-WillowTree.m-any .cn-2 .y-1,
+.p-WillowTree.m-any .cn-7 .y-1,
+.p-WillowTree.m-any .cn-8 .y-1,
+.w-Armorer.m-any .cn-11 .y-1,
+.w-Armorer.m-any .cn-17 .y-1,
+.w-Armorer.m-any .cn-3 .y-1,
+.w-Armorer.m-any .cn-5 .y-1,
+.w-Armorer.m-any .cn-7 .y-1,
+.w-Armorer.m-any .cn-9 .y-1,
+.w-Automaton.m-any .cn-1 .y-1,
+.w-Automaton.m-any .cn-11 .y-1,
+.w-Automaton.m-any .cn-13 .y-1,
+.w-Automaton.m-any .cn-15 .y-1,
+.w-Automaton.m-any .cn-17 .y-1,
+.w-Automaton.m-any .cn-3 .y-1,
+.w-Automaton.m-any .cn-5 .y-1,
+.w-Blacksmith.m-any .cn-13 .y-1,
+.w-Blacksmith.m-any .cn-5 .y-1,
+.w-Blacksmith.m-any .cn-7 .y-1,
+.w-Blacksmith.m-any .cn-9 .y-1,
+.w-Bonecarver.m-any .cn-11 .y-1,
+.w-Bonecarver.m-any .cn-13 .y-1,
+.w-Bonecarver.m-any .cn-15 .y-1,
+.w-Bonecarver.m-any .cn-17 .y-1,
+.w-Bonecarver.m-any .cn-9 .y-1,
+.w-Butcher.m-any .cn-1 .y-1,
+.w-Butcher.m-any .cn-13 .y-1,
+.w-Butcher.m-any .cn-3 .y-1,
+.w-Butcher.m-any .cn-9 .y-1,
+.w-Carpenter.m-any .cn-11 .y-1,
+.w-Carpenter.m-any .cn-15 .y-1,
+.w-Carpenter.m-any .cn-17 .y-1,
+.w-Carpenter.m-any .cn-3 .y-1,
+.w-Carpenter.m-any .cn-5 .y-1,
+.w-Carpenter.m-any .cn-9 .y-1,
+.w-Crude.m-any .cn-1 .y-1,
+.w-Crude.m-any .cn-11 .y-1,
+.w-Distillery.m-any .cn-1 .y-1,
+.w-Distillery.m-any .cn-11 .y-1,
+.w-Distillery.m-any .cn-13 .y-1,
+.w-Distillery.m-any .cn-15 .y-1,
+.w-Distillery.m-any .cn-17 .y-1,
+.w-Distillery.m-any .cn-3 .y-1,
+.w-Distillery.m-any .cn-5 .y-1,
+.w-Distillery.m-any .cn-9 .y-1,
+.w-Dyer.m-any .cn-13 .y-1,
+.w-Dyer.m-any .cn-17 .y-1,
+.w-Dyer.m-any .cn-3 .y-1,
+.w-Dyer.m-any .cn-5 .y-1,
+.w-Dyer.m-any .cn-7 .y-1,
+.w-Engineer.m-any .cn-13 .y-1,
+.w-Engineer.m-any .cn-15 .y-1,
+.w-Engineer.m-any .cn-3 .y-1,
+.w-Engineer.m-any .cn-7 .y-1,
+.w-Engineer.m-any .cn-9 .y-1,
+.w-Fishery.m-any .cn-11 .y-1,
+.w-Fishery.m-any .cn-13 .y-1,
+.w-Fishery.m-any .cn-9 .y-1,
+.w-Forge.m-any .cn-1 .y-1,
+.w-Forge.m-any .cn-15 .y-1,
+.w-Forge.m-any .cn-17 .y-1,
+.w-Forge.m-any .cn-5 .y-1,
+.w-Forge.m-any .cn-7 .y-1,
+.w-Forge.m-any .cn-9 .y-1,
+.w-Furnace.m-any .cn-1 .y-1,
+.w-Furnace.m-any .cn-11 .y-1,
+.w-Furnace.m-any .cn-13 .y-1,
+.w-Furnace.m-any .cn-15 .y-1,
+.w-Furnace.m-any .cn-9 .y-1,
+.w-Gemcutter.m-any .cn-11 .y-1,
+.w-Gemcutter.m-any .cn-17 .y-1,
+.w-Gemcutter.m-any .cn-3 .y-1,
+.w-Gemcutter.m-any .cn-7 .y-1,
+.w-GlassFurnace.m-any .cn-13 .y-1,
+.w-GlassFurnace.m-any .cn-17 .y-1,
+.w-GlassFurnace.m-any .cn-3 .y-1,
+.w-GlassFurnace.m-any .cn-9 .y-1,
+.w-GlassMaker.m-any .cn-11 .y-1,
+.w-GlassMaker.m-any .cn-15 .y-1,
+.w-GlassMaker.m-any .cn-17 .y-1,
+.w-GlassMaker.m-any .cn-3 .y-1,
+.w-Jeweler.m-any .cn-1 .y-1,
+.w-Jeweler.m-any .cn-11 .y-1,
+.w-Jeweler.m-any .cn-13 .y-1,
+.w-Jeweler.m-any .cn-15 .y-1,
+.w-Jeweler.m-any .cn-5 .y-1,
+.w-Jeweler.m-any .cn-7 .y-1,
+.w-Kiln.m-any .cn-1 .y-1,
+.w-Kiln.m-any .cn-11 .y-1,
+.w-Kiln.m-any .cn-13 .y-1,
+.w-Kiln.m-any .cn-15 .y-1,
+.w-Kiln.m-any .cn-17 .y-1,
+.w-Kiln.m-any .cn-3 .y-1,
+.w-Kiln.m-any .cn-7 .y-1,
+.w-Kiln.m-any .cn-9 .y-1,
+.w-Kitchen.m-any .cn-13 .y-1,
+.w-Kitchen.m-any .cn-17 .y-1,
+.w-Kitchen.m-any .cn-7 .y-1,
+.w-Leatherworker.m-any .cn-11 .y-1,
+.w-Leatherworker.m-any .cn-13 .y-1,
+.w-Leatherworker.m-any .cn-15 .y-1,
+.w-Leatherworker.m-any .cn-3 .y-1,
+.w-Leatherworker.m-any .cn-7 .y-1,
+.w-Leatherworker.m-any .cn-9 .y-1,
+.w-Loom.m-any .cn-5 .y-1,
+.w-MachineShop.m-any .cn-1 .y-1,
+.w-MachineShop.m-any .cn-13 .y-1,
+.w-MachineShop.m-any .cn-15 .y-1,
+.w-MachineShop.m-any .cn-17 .y-1,
+.w-MachineShop.m-any .cn-3 .y-1,
+.w-MarketStall.m-any .cn-15 .y-1,
+.w-MarketStall.m-any .cn-3 .y-1,
+.w-MarketStall.m-any .cn-5 .y-1,
+.w-MeleeTraining.m-any .cn-11 .y-1,
+.w-MeleeTraining.m-any .cn-21 .y-1,
+.w-MeleeTraining.m-any .cn-27 .y-1,
+.w-MeleeTraining.m-any .cn-29 .y-1,
+.w-MeleeTraining.m-any .cn-3 .y-1,
+.w-MeleeTraining.m-any .cn-37 .y-1,
+.w-MeleeTraining.m-any .cn-41 .y-1,
+.w-MeleeTraining.m-any .cn-43 .y-1,
+.w-MeleeTraining.m-any .cn-45 .y-1,
+.w-MeleeTraining.m-any .cn-47 .y-1,
+.w-MeleeTraining.m-any .cn-5 .y-1,
+.w-MeleeTraining.m-any .cn-9 .y-1,
+.w-Metalworker.m-any .cn-1 .y-1,
+.w-Metalworker.m-any .cn-11 .y-1,
+.w-Metalworker.m-any .cn-13 .y-1,
+.w-Metalworker.m-any .cn-15 .y-1,
+.w-Metalworker.m-any .cn-17 .y-1,
+.w-Metalworker.m-any .cn-3 .y-1,
+.w-Metalworker.m-any .cn-7 .y-1,
+.w-Metalworker.m-any .cn-9 .y-1,
+.w-Prospector.m-any .cn-13 .y-1,
+.w-Prospector.m-any .cn-15 .y-1,
+.w-Prospector.m-any .cn-3 .y-1,
+.w-Prospector.m-any .cn-5 .y-1,
+.w-Prospector.m-any .cn-9 .y-1,
+.w-Sawmill.m-any .cn-11 .y-1,
+.w-Sawmill.m-any .cn-13 .y-1,
+.w-Sawmill.m-any .cn-15 .y-1,
+.w-Sawmill.m-any .cn-3 .y-1,
+.w-Sawmill.m-any .cn-7 .y-1,
+.w-Stonecarver.m-any .cn-13 .y-1,
+.w-Stonecarver.m-any .cn-3 .y-1,
+.w-Stonecarver.m-any .cn-5 .y-1,
+.w-Stonecarver.m-any .cn-7 .y-1,
+.w-Stonecarver.m-any .cn-9 .y-1,
+.w-Stonecutter.m-any .cn-1 .y-1,
+.w-Stonecutter.m-any .cn-11 .y-1,
+.w-Stonecutter.m-any .cn-7 .y-1,
+.w-Stonemason.m-any .cn-1 .y-1,
+.w-Stonemason.m-any .cn-13 .y-1,
+.w-Stonemason.m-any .cn-3 .y-1,
+.w-Stonemason.m-any .cn-5 .y-1,
+.w-Stonemason.m-any .cn-7 .y-1,
+.w-Stonemason.m-any .cn-9 .y-1,
+.w-Tailor.m-any .cn-1 .y-1,
+.w-Tailor.m-any .cn-11 .y-1,
+.w-WasteDisposal.m-any .cn-1 .y-1,
+.w-WasteDisposal.m-any .cn-13 .y-1,
+.w-WasteDisposal.m-any .cn-3 .y-1,
+.w-WasteDisposal.m-any .cn-7 .y-1,
+.w-Weaponsmith.m-any .cn-1 .y-1,
+.w-Weaponsmith.m-any .cn-3 .y-1,
+.w-Weaponsmith.m-any .cn-9 .y-1,
+.w-Windmill.m-any .cn-1 .y-1,
+.w-Windmill.m-any .cn-11 .y-1,
+.w-Windmill.m-any .cn-13 .y-1,
+.w-Windmill.m-any .cn-23 .y-1,
+.w-Windmill.m-any .cn-25 .y-1,
+.w-Windmill.m-any .cn-27 .y-1,
+.w-Windmill.m-any .cn-29 .y-1,
+.w-Windmill.m-any .cn-3 .y-1,
+.w-Woodcarver.m-any .cn-1 .y-1,
+.w-Woodcarver.m-any .cn-15 .y-1,
+.w-Woodcarver.m-any .cn-17 .y-1,
+.w-Woodcarver.m-any .cn-7 .y-1
+{
+  background-image: url(seasonalgrass.png);
+  background-position: -128px -180px;
   width: 32px;
   height: 36px;
 }
+.l-96-128 .cp-0--1-0
+{
+  left: 48px;
+  top: 68px;
+  --minx: -32;
+  --miny: -76;
+}
+.l-96-128 .cp-1--1-0
+{
+  left: 64px;
+  top: 76px;
+  --minx: -32;
+  --miny: -76;
+}
+.p-AppleTree.m-any .cn-3 .y-1,
+.p-AppleTree.m-any .cn-4 .y-1,
+.p-AppleTree.m-any .cn-7 .y-1,
+.p-AppleTree.m-any .cn-8 .y-1,
+.p-AppleTree.m-any .cn-9 .y-1,
+.p-BirchTree.m-any .cn-10 .y-1,
+.p-BirchTree.m-any .cn-5 .y-1,
+.p-BirchTree.m-any .cn-8 .y-1,
+.p-BirchTree.m-any .cn-9 .y-1,
+.p-OakTree.m-any .cn-1 .y-1,
 .p-OakTree.m-any .cn-2 .y-1,
+.p-OakTree.m-any .cn-3 .y-1,
+.p-OakTree.m-any .cn-5 .y-1,
+.p-OakTree.m-any .cn-9 .y-1,
+.p-OrangeTree.m-any .cn-10 .y-1,
+.p-OrangeTree.m-any .cn-2 .y-1,
+.p-OrangeTree.m-any .cn-4 .y-1,
+.p-OrangeTree.m-any .cn-5 .y-1,
+.p-OrangeTree.m-any .cn-7 .y-1,
+.p-PineTree.m-any .cn-10 .y-1,
 .p-PineTree.m-any .cn-2 .y-1,
-.p-WillowTree.m-any .cn-2 .y-1
+.p-PineTree.m-any .cn-5 .y-1,
+.p-PineTree.m-any .cn-7 .y-1,
+.p-PineTree.m-any .cn-8 .y-1,
+.p-PineTree.m-any .cn-9 .y-1,
+.p-WillowTree.m-any .cn-1 .y-1,
+.p-WillowTree.m-any .cn-3 .y-1,
+.p-WillowTree.m-any .cn-4 .y-1,
+.p-WillowTree.m-any .cn-5 .y-1,
+.p-WillowTree.m-any .cn-9 .y-1,
+.w-Armorer.m-any .cn-1 .y-1,
+.w-Armorer.m-any .cn-13 .y-1,
+.w-Armorer.m-any .cn-15 .y-1,
+.w-Automaton.m-any .cn-7 .y-1,
+.w-Automaton.m-any .cn-9 .y-1,
+.w-Blacksmith.m-any .cn-1 .y-1,
+.w-Blacksmith.m-any .cn-11 .y-1,
+.w-Blacksmith.m-any .cn-15 .y-1,
+.w-Blacksmith.m-any .cn-17 .y-1,
+.w-Blacksmith.m-any .cn-3 .y-1,
+.w-Bonecarver.m-any .cn-1 .y-1,
+.w-Bonecarver.m-any .cn-3 .y-1,
+.w-Bonecarver.m-any .cn-5 .y-1,
+.w-Bonecarver.m-any .cn-7 .y-1,
+.w-Butcher.m-any .cn-11 .y-1,
+.w-Butcher.m-any .cn-15 .y-1,
+.w-Butcher.m-any .cn-17 .y-1,
+.w-Butcher.m-any .cn-5 .y-1,
+.w-Butcher.m-any .cn-7 .y-1,
+.w-Carpenter.m-any .cn-1 .y-1,
+.w-Carpenter.m-any .cn-13 .y-1,
+.w-Carpenter.m-any .cn-7 .y-1,
+.w-Crude.m-any .cn-3 .y-1,
+.w-Crude.m-any .cn-5 .y-1,
+.w-Crude.m-any .cn-7 .y-1,
+.w-Crude.m-any .cn-9 .y-1,
+.w-Distillery.m-any .cn-7 .y-1,
+.w-Dyer.m-any .cn-1 .y-1,
+.w-Dyer.m-any .cn-11 .y-1,
+.w-Dyer.m-any .cn-15 .y-1,
+.w-Dyer.m-any .cn-9 .y-1,
+.w-Engineer.m-any .cn-1 .y-1,
+.w-Engineer.m-any .cn-11 .y-1,
+.w-Engineer.m-any .cn-17 .y-1,
+.w-Engineer.m-any .cn-5 .y-1,
+.w-Fishery.m-any .cn-15 .y-1,
+.w-Fishery.m-any .cn-17 .y-1,
+.w-Fishery.m-any .cn-7 .y-1,
+.w-Forge.m-any .cn-11 .y-1,
+.w-Forge.m-any .cn-13 .y-1,
+.w-Forge.m-any .cn-3 .y-1,
+.w-Furnace.m-any .cn-17 .y-1,
+.w-Furnace.m-any .cn-3 .y-1,
+.w-Furnace.m-any .cn-5 .y-1,
+.w-Furnace.m-any .cn-7 .y-1,
+.w-Gemcutter.m-any .cn-1 .y-1,
+.w-Gemcutter.m-any .cn-13 .y-1,
+.w-Gemcutter.m-any .cn-15 .y-1,
+.w-Gemcutter.m-any .cn-5 .y-1,
+.w-Gemcutter.m-any .cn-9 .y-1,
+.w-GlassFurnace.m-any .cn-1 .y-1,
+.w-GlassFurnace.m-any .cn-11 .y-1,
+.w-GlassFurnace.m-any .cn-15 .y-1,
+.w-GlassFurnace.m-any .cn-5 .y-1,
+.w-GlassFurnace.m-any .cn-7 .y-1,
+.w-GlassMaker.m-any .cn-1 .y-1,
+.w-GlassMaker.m-any .cn-13 .y-1,
+.w-GlassMaker.m-any .cn-5 .y-1,
+.w-GlassMaker.m-any .cn-7 .y-1,
+.w-GlassMaker.m-any .cn-9 .y-1,
+.w-Jeweler.m-any .cn-17 .y-1,
+.w-Jeweler.m-any .cn-19 .y-1,
+.w-Jeweler.m-any .cn-3 .y-1,
+.w-Jeweler.m-any .cn-9 .y-1,
+.w-Kiln.m-any .cn-5 .y-1,
+.w-Kitchen.m-any .cn-1 .y-1,
+.w-Kitchen.m-any .cn-11 .y-1,
+.w-Kitchen.m-any .cn-15 .y-1,
+.w-Kitchen.m-any .cn-3 .y-1,
+.w-Kitchen.m-any .cn-5 .y-1,
+.w-Kitchen.m-any .cn-9 .y-1,
+.w-Leatherworker.m-any .cn-1 .y-1,
+.w-Leatherworker.m-any .cn-17 .y-1,
+.w-Leatherworker.m-any .cn-5 .y-1,
+.w-Loom.m-any .cn-1 .y-1,
+.w-Loom.m-any .cn-11 .y-1,
+.w-Loom.m-any .cn-13 .y-1,
+.w-Loom.m-any .cn-15 .y-1,
+.w-Loom.m-any .cn-17 .y-1,
+.w-Loom.m-any .cn-3 .y-1,
+.w-Loom.m-any .cn-7 .y-1,
+.w-Loom.m-any .cn-9 .y-1,
+.w-MachineShop.m-any .cn-11 .y-1,
+.w-MachineShop.m-any .cn-5 .y-1,
+.w-MachineShop.m-any .cn-7 .y-1,
+.w-MachineShop.m-any .cn-9 .y-1,
+.w-MarketStall.m-any .cn-1 .y-1,
+.w-MarketStall.m-any .cn-11 .y-1,
+.w-MarketStall.m-any .cn-13 .y-1,
+.w-MarketStall.m-any .cn-17 .y-1,
+.w-MarketStall.m-any .cn-7 .y-1,
+.w-MarketStall.m-any .cn-9 .y-1,
+.w-MeleeTraining.m-any .cn-1 .y-1,
+.w-MeleeTraining.m-any .cn-13 .y-1,
+.w-MeleeTraining.m-any .cn-15 .y-1,
+.w-MeleeTraining.m-any .cn-17 .y-1,
+.w-MeleeTraining.m-any .cn-19 .y-1,
+.w-MeleeTraining.m-any .cn-23 .y-1,
+.w-MeleeTraining.m-any .cn-25 .y-1,
+.w-MeleeTraining.m-any .cn-31 .y-1,
+.w-MeleeTraining.m-any .cn-33 .y-1,
+.w-MeleeTraining.m-any .cn-35 .y-1,
+.w-MeleeTraining.m-any .cn-39 .y-1,
+.w-MeleeTraining.m-any .cn-49 .y-1,
+.w-MeleeTraining.m-any .cn-7 .y-1,
+.w-Metalworker.m-any .cn-5 .y-1,
+.w-Prospector.m-any .cn-1 .y-1,
+.w-Prospector.m-any .cn-11 .y-1,
+.w-Prospector.m-any .cn-17 .y-1,
+.w-Prospector.m-any .cn-7 .y-1,
+.w-Sawmill.m-any .cn-1 .y-1,
+.w-Sawmill.m-any .cn-17 .y-1,
+.w-Sawmill.m-any .cn-5 .y-1,
+.w-Sawmill.m-any .cn-9 .y-1,
+.w-Stonecarver.m-any .cn-1 .y-1,
+.w-Stonecarver.m-any .cn-11 .y-1,
+.w-Stonecarver.m-any .cn-15 .y-1,
+.w-Stonecarver.m-any .cn-17 .y-1,
+.w-Stonecutter.m-any .cn-13 .y-1,
+.w-Stonecutter.m-any .cn-15 .y-1,
+.w-Stonecutter.m-any .cn-17 .y-1,
+.w-Stonecutter.m-any .cn-3 .y-1,
+.w-Stonecutter.m-any .cn-5 .y-1,
+.w-Stonecutter.m-any .cn-9 .y-1,
+.w-Stonemason.m-any .cn-11 .y-1,
+.w-Stonemason.m-any .cn-15 .y-1,
+.w-Stonemason.m-any .cn-17 .y-1,
+.w-Tailor.m-any .cn-13 .y-1,
+.w-Tailor.m-any .cn-15 .y-1,
+.w-Tailor.m-any .cn-17 .y-1,
+.w-Tailor.m-any .cn-3 .y-1,
+.w-Tailor.m-any .cn-5 .y-1,
+.w-Tailor.m-any .cn-7 .y-1,
+.w-Tailor.m-any .cn-9 .y-1,
+.w-WasteDisposal.m-any .cn-11 .y-1,
+.w-WasteDisposal.m-any .cn-15 .y-1,
+.w-WasteDisposal.m-any .cn-17 .y-1,
+.w-WasteDisposal.m-any .cn-5 .y-1,
+.w-WasteDisposal.m-any .cn-9 .y-1,
+.w-Weaponsmith.m-any .cn-11 .y-1,
+.w-Weaponsmith.m-any .cn-13 .y-1,
+.w-Weaponsmith.m-any .cn-15 .y-1,
+.w-Weaponsmith.m-any .cn-17 .y-1,
+.w-Weaponsmith.m-any .cn-5 .y-1,
+.w-Weaponsmith.m-any .cn-7 .y-1,
+.w-Windmill.m-any .cn-15 .y-1,
+.w-Windmill.m-any .cn-17 .y-1,
+.w-Windmill.m-any .cn-19 .y-1,
+.w-Windmill.m-any .cn-21 .y-1,
+.w-Windmill.m-any .cn-31 .y-1,
+.w-Windmill.m-any .cn-5 .y-1,
+.w-Windmill.m-any .cn-7 .y-1,
+.w-Windmill.m-any .cn-9 .y-1,
+.w-Woodcarver.m-any .cn-11 .y-1,
+.w-Woodcarver.m-any .cn-13 .y-1,
+.w-Woodcarver.m-any .cn-3 .y-1,
+.w-Woodcarver.m-any .cn-5 .y-1,
+.w-Woodcarver.m-any .cn-9 .y-1
 {
-  animation: anim_111 2.0s infinite step-end;
-  background-image: url(multitrees.png);
+  background-image: url(seasonalgrass.png);
+  background-position: -128px -36px;
   width: 32px;
   height: 36px;
 }
-.p-OrangeTree.m-any .cn-2 .y-1
+.l-96-128 .cp--1-0-0
 {
-  animation: p-OrangeTree-any-2-1 2.0s infinite step-end;
+  left: 16px;
+  top: 68px;
+  --minx: -32;
+  --miny: -76;
+}
+.l-96-128 .cp-0-0-0
+{
+  left: 32px;
+  top: 76px;
+  --minx: -32;
+  --miny: -76;
+}
+.p-AppleTree.m-any .cn-6 .y-1
+{
   background-image: url(multitrees.png);
+  background-position: -416px -0px;
+  width: 32px;
+  height: 36px;
+  top: -4px;
+}
+.l-96-128 .cp-1-0-0
+{
+  left: 48px;
+  top: 84px;
+  --minx: -32;
+  --miny: -76;
+}
+.l-96-128 .cp--1-1-0
+{
+  left: 0px;
+  top: 76px;
+  --minx: -32;
+  --miny: -76;
+}
+.l-96-128 .cp-0-1-0
+{
+  left: 16px;
+  top: 84px;
+  --minx: -32;
+  --miny: -76;
+}
+.l-96-128 .cp-1-1-0
+{
+  left: 32px;
+  top: 92px;
+  --minx: -32;
+  --miny: -76;
+}
+.l-96-128 .cp--1--1-1
+{
+  left: 32px;
+  top: 40px;
+  --minx: -32;
+  --miny: -76;
+}
+.p-AppleTree.m-any .cn-11 .y-1,
+.p-AppleTree.m-any .cn-12 .y-1,
+.p-AppleTree.m-any .cn-14 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -96px -0px;
+  width: 32px;
+  height: 36px;
+  top: -8px;
+}
+.l-96-128 .cp-0--1-1
+{
+  left: 48px;
+  top: 48px;
+  --minx: -32;
+  --miny: -76;
+}
+.l-96-128 .cp-1--1-1
+{
+  left: 64px;
+  top: 56px;
+  --minx: -32;
+  --miny: -76;
+}
+.p-AppleTree.m-any .cn-13 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -320px -0px;
+  width: 32px;
+  height: 36px;
+  top: -8px;
+}
+.l-96-128 .cp--1-0-1
+{
+  left: 16px;
+  top: 48px;
+  --minx: -32;
+  --miny: -76;
+}
+.l-96-128 .cp-0-0-1
+{
+  left: 32px;
+  top: 56px;
+  --minx: -32;
+  --miny: -76;
+}
+.p-AppleTree.m-any .cn-15 .y-1,
+.p-AppleTree.m-any .cn-24 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -384px -0px;
+  width: 32px;
+  height: 36px;
+  top: -4px;
+}
+.l-96-128 .cp-1-0-1
+{
+  left: 48px;
+  top: 64px;
+  --minx: -32;
+  --miny: -76;
+}
+.p-AppleTree.m-any .cn-16 .y-1,
+.p-AppleTree.m-any .cn-18 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -352px -0px;
+  width: 32px;
+  height: 36px;
+  top: -8px;
+}
+.l-96-128 .cp--1-1-1
+{
+  left: 0px;
+  top: 56px;
+  --minx: -32;
+  --miny: -76;
+}
+.p-AppleTree.m-any .cn-17 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -256px -0px;
+  width: 32px;
+  height: 36px;
+  top: -8px;
+}
+.l-96-128 .cp-0-1-1
+{
+  left: 16px;
+  top: 64px;
+  --minx: -32;
+  --miny: -76;
+}
+.l-96-128 .cp-1-1-1
+{
+  left: 32px;
+  top: 72px;
+  --minx: -32;
+  --miny: -76;
+}
+.p-AppleTree.m-any .cn-19 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -288px -0px;
+  width: 32px;
+  height: 36px;
+  top: -8px;
+}
+.l-96-128 .cp--1--1-2
+{
+  left: 32px;
+  top: 20px;
+  --minx: -32;
+  --miny: -76;
+}
+.p-AppleTree.m-any .cn-20 .y-1,
+.p-AppleTree.m-any .cn-21 .y-1,
+.p-AppleTree.m-any .cn-22 .y-1,
+.p-AppleTree.m-any .cn-23 .y-1,
+.p-AppleTree.m-any .cn-25 .y-1,
+.p-AppleTree.m-any .cn-26 .y-1,
+.p-AppleTree.m-any .cn-27 .y-1,
+.p-AppleTree.m-any .cn-28 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -96px -0px;
+  width: 32px;
+  height: 36px;
+  top: -4px;
+}
+.l-96-128 .cp-0--1-2
+{
+  left: 48px;
+  top: 28px;
+  --minx: -32;
+  --miny: -76;
+}
+.l-96-128 .cp-1--1-2
+{
+  left: 64px;
+  top: 36px;
+  --minx: -32;
+  --miny: -76;
+}
+.l-96-128 .cp--1-0-2
+{
+  left: 16px;
+  top: 28px;
+  --minx: -32;
+  --miny: -76;
+}
+.l-96-128 .cp-0-0-2
+{
+  left: 32px;
+  top: 36px;
+  --minx: -32;
+  --miny: -76;
+}
+.l-96-128 .cp-1-0-2
+{
+  left: 48px;
+  top: 44px;
+  --minx: -32;
+  --miny: -76;
+}
+.l-96-128 .cp--1-1-2
+{
+  left: 0px;
+  top: 36px;
+  --minx: -32;
+  --miny: -76;
+}
+.l-96-128 .cp-0-1-2
+{
+  left: 16px;
+  top: 44px;
+  --minx: -32;
+  --miny: -76;
+}
+.l-96-128 .cp-1-1-2
+{
+  left: 32px;
+  top: 52px;
+  --minx: -32;
+  --miny: -76;
+}
+.l-96-128 .cp--1--1-3
+{
+  left: 32px;
+  top: 0px;
+  --minx: -32;
+  --miny: -76;
+}
+.p-AppleTree.m-any .cn-29 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -512px -0px;
+  width: 32px;
+  height: 36px;
+}
+.l-96-128 .cp-0--1-3
+{
+  left: 48px;
+  top: 8px;
+  --minx: -32;
+  --miny: -76;
+}
+.p-AppleTree.m-any .cn-30 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -128px -0px;
+  width: 32px;
+  height: 36px;
+}
+.l-96-128 .cp-1--1-3
+{
+  left: 64px;
+  top: 16px;
+  --minx: -32;
+  --miny: -76;
+}
+.p-AppleTree.m-any .cn-31 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -224px -0px;
+  width: 32px;
+  height: 36px;
+}
+.l-96-128 .cp--1-0-3
+{
+  left: 16px;
+  top: 8px;
+  --minx: -32;
+  --miny: -76;
+}
+.p-AppleTree.m-any .cn-32 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -64px -0px;
+  width: 32px;
+  height: 36px;
+}
+.l-96-128 .cp-0-0-3
+{
+  left: 32px;
+  top: 16px;
+  --minx: -32;
+  --miny: -76;
+}
+.p-AppleTree.m-any .cn-33 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -96px -0px;
+  width: 32px;
+  height: 36px;
+}
+.l-96-128 .cp-1-0-3
+{
+  left: 48px;
+  top: 24px;
+  --minx: -32;
+  --miny: -76;
+}
+.p-AppleTree.m-any .cn-34 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -32px -0px;
+  width: 32px;
+  height: 36px;
+}
+.l-96-128 .cp--1-1-3
+{
+  left: 0px;
+  top: 16px;
+  --minx: -32;
+  --miny: -76;
+}
+.p-AppleTree.m-any .cn-35 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -192px -0px;
+  width: 32px;
+  height: 36px;
+}
+.l-96-128 .cp-0-1-3
+{
+  left: 16px;
+  top: 24px;
+  --minx: -32;
+  --miny: -76;
+}
+.p-AppleTree.m-any .cn-36 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -0px -0px;
+  width: 32px;
+  height: 36px;
+}
+.l-96-128 .cp-1-1-3
+{
+  left: 32px;
+  top: 32px;
+  --minx: -32;
+  --miny: -76;
+}
+.p-AppleTree.m-any .cn-37 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -160px -0px;
+  width: 32px;
+  height: 36px;
+}
+.l-96-172
+{
+  width: 96px;
+  height: 172px;
+}
+.l-96-172.zoomed
+{
+  width: 192px;
+  height: 344px;
+}
+.l-96-172 .cp--1--1-0
+{
+  left: 32px;
+  top: 104px;
+  --minx: -32;
+  --miny: -120;
+}
+.l-96-172 .cp-0--1-0
+{
+  left: 48px;
+  top: 112px;
+  --minx: -32;
+  --miny: -120;
+}
+.l-96-172 .cp-1--1-0
+{
+  left: 64px;
+  top: 120px;
+  --minx: -32;
+  --miny: -120;
+}
+.l-96-172 .cp--1-0-0
+{
+  left: 16px;
+  top: 112px;
+  --minx: -32;
+  --miny: -120;
+}
+.l-96-172 .cp-0-0-0
+{
+  left: 32px;
+  top: 120px;
+  --minx: -32;
+  --miny: -120;
+}
+.p-BirchTree.m-any .cn-6 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -0px -288px;
+  width: 32px;
+  height: 36px;
+  top: -4px;
+}
+.l-96-172 .cp-1-0-0
+{
+  left: 48px;
+  top: 128px;
+  --minx: -32;
+  --miny: -120;
+}
+.l-96-172 .cp--1-1-0
+{
+  left: 0px;
+  top: 120px;
+  --minx: -32;
+  --miny: -120;
+}
+.l-96-172 .cp-0-1-0
+{
+  left: 16px;
+  top: 128px;
+  --minx: -32;
+  --miny: -120;
+}
+.l-96-172 .cp-1-1-0
+{
+  left: 32px;
+  top: 136px;
+  --minx: -32;
+  --miny: -120;
+}
+.l-96-172 .cp-0--1-1
+{
+  left: 48px;
+  top: 92px;
+  --minx: -32;
+  --miny: -120;
+}
+.p-BirchTree.m-any .cn-11 .y-1,
+.p-BirchTree.m-any .cn-22 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -224px -288px;
+  width: 32px;
+  height: 36px;
+}
+.l-96-172 .cp--1-0-1
+{
+  left: 16px;
+  top: 92px;
+  --minx: -32;
+  --miny: -120;
+}
+.p-BirchTree.m-any .cn-12 .y-1,
+.p-BirchTree.m-any .cn-24 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -192px -288px;
+  width: 32px;
+  height: 36px;
+}
+.l-96-172 .cp-0-0-1
+{
+  left: 32px;
+  top: 100px;
+  --minx: -32;
+  --miny: -120;
+}
+.p-BirchTree.m-any .cn-13 .y-1,
+.p-BirchTree.m-any .cn-18 .y-1,
+.p-BirchTree.m-any .cn-25 .y-1,
+.p-BirchTree.m-any .cn-32 .y-1,
+.p-BirchTree.m-any .cn-39 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -32px -288px;
+  width: 32px;
+  height: 36px;
+  top: -4px;
+}
+.l-96-172 .cp-1-0-1
+{
+  left: 48px;
+  top: 108px;
+  --minx: -32;
+  --miny: -120;
+}
+.p-BirchTree.m-any .cn-14 .y-1,
+.p-BirchTree.m-any .cn-26 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -256px -288px;
+  width: 32px;
+  height: 36px;
+}
+.l-96-172 .cp-0-1-1
+{
+  left: 16px;
+  top: 108px;
+  --minx: -32;
+  --miny: -120;
+}
+.p-BirchTree.m-any .cn-15 .y-1,
+.p-BirchTree.m-any .cn-28 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -160px -288px;
+  width: 32px;
+  height: 36px;
+}
+.l-96-172 .cp-0--2-2
+{
+  left: 64px;
+  top: 64px;
+  --minx: -32;
+  --miny: -120;
+}
+.p-BirchTree.m-any .cn-16 .y-1,
+.p-BirchTree.m-any .cn-17 .y-1,
+.p-BirchTree.m-any .cn-21 .y-1,
+.p-BirchTree.m-any .cn-23 .y-1,
+.p-BirchTree.m-any .cn-27 .y-1,
+.p-BirchTree.m-any .cn-30 .y-1,
+.p-BirchTree.m-any .cn-31 .y-1,
+.p-BirchTree.m-any .cn-37 .y-1,
+.p-BirchTree.m-any .cn-41 .y-1
+{
+  background-image: url(terrain.png);
+  background-position: -320px -0px;
+  width: 32px;
+  height: 36px;
+  top: 4px;
+}
+.l-96-172 .cp--2-0-2
+{
+  left: 0px;
+  top: 64px;
+  --minx: -32;
+  --miny: -120;
+}
+.l-96-172 .cp-0-0-2
+{
+  left: 32px;
+  top: 80px;
+  --minx: -32;
+  --miny: -120;
+}
+.l-96-172 .cp-2-0-2
+{
+  left: 64px;
+  top: 96px;
+  --minx: -32;
+  --miny: -120;
+}
+.p-BirchTree.m-any .cn-19 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -288px -288px;
+  width: 32px;
+  height: 36px;
+  top: 4px;
+}
+.l-96-172 .cp-0-2-2
+{
+  left: 0px;
+  top: 96px;
+  --minx: -32;
+  --miny: -120;
+}
+.p-BirchTree.m-any .cn-20 .y-1,
+.p-BirchTree.m-any .cn-34 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -128px -288px;
+  width: 32px;
+  height: 36px;
+  top: 4px;
+}
+.l-96-172 .cp--1--1-3
+{
+  left: 32px;
+  top: 44px;
+  --minx: -32;
+  --miny: -120;
+}
+.l-96-172 .cp-0--1-3
+{
+  left: 48px;
+  top: 52px;
+  --minx: -32;
+  --miny: -120;
+}
+.l-96-172 .cp-1--1-3
+{
+  left: 64px;
+  top: 60px;
+  --minx: -32;
+  --miny: -120;
+}
+.l-96-172 .cp--1-0-3
+{
+  left: 16px;
+  top: 52px;
+  --minx: -32;
+  --miny: -120;
+}
+.l-96-172 .cp-0-0-3
+{
+  left: 32px;
+  top: 60px;
+  --minx: -32;
+  --miny: -120;
+}
+.l-96-172 .cp-1-0-3
+{
+  left: 48px;
+  top: 68px;
+  --minx: -32;
+  --miny: -120;
+}
+.l-96-172 .cp--1-1-3
+{
+  left: 0px;
+  top: 60px;
+  --minx: -32;
+  --miny: -120;
+}
+.l-96-172 .cp-0-1-3
+{
+  left: 16px;
+  top: 68px;
+  --minx: -32;
+  --miny: -120;
+}
+.l-96-172 .cp-1-1-3
+{
+  left: 32px;
+  top: 76px;
+  --minx: -32;
+  --miny: -120;
+}
+.p-BirchTree.m-any .cn-29 .y-1,
+.p-BirchTree.m-any .cn-33 .y-1,
+.p-BirchTree.m-any .cn-35 .y-1,
+.p-BirchTree.m-any .cn-36 .y-1,
+.p-BirchTree.m-any .cn-38 .y-1,
+.p-BirchTree.m-any .cn-43 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -320px -288px;
+  width: 32px;
+  height: 36px;
+  top: 4px;
+}
+.l-96-172 .cp-0--2-4
+{
+  left: 64px;
+  top: 24px;
+  --minx: -32;
+  --miny: -120;
+}
+.l-96-172 .cp--2-0-4
+{
+  left: 0px;
+  top: 24px;
+  --minx: -32;
+  --miny: -120;
+}
+.l-96-172 .cp-0-0-4
+{
+  left: 32px;
+  top: 40px;
+  --minx: -32;
+  --miny: -120;
+}
+.l-96-172 .cp-2-0-4
+{
+  left: 64px;
+  top: 56px;
+  --minx: -32;
+  --miny: -120;
+}
+.l-96-172 .cp-0-2-4
+{
+  left: 0px;
+  top: 56px;
+  --minx: -32;
+  --miny: -120;
+}
+.l-96-172 .cp--1--1-5
+{
+  left: 32px;
+  top: 4px;
+  --minx: -32;
+  --miny: -120;
+}
+.l-96-172 .cp-0--1-5
+{
+  left: 48px;
+  top: 12px;
+  --minx: -32;
+  --miny: -120;
+}
+.l-96-172 .cp-1--1-5
+{
+  left: 64px;
+  top: 20px;
+  --minx: -32;
+  --miny: -120;
+}
+.l-96-172 .cp--1-0-5
+{
+  left: 16px;
+  top: 12px;
+  --minx: -32;
+  --miny: -120;
+}
+.l-96-172 .cp-0-0-5
+{
+  left: 32px;
+  top: 20px;
+  --minx: -32;
+  --miny: -120;
+}
+.l-96-172 .cp-1-0-5
+{
+  left: 48px;
+  top: 28px;
+  --minx: -32;
+  --miny: -120;
+}
+.p-BirchTree.m-any .cn-40 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -608px -288px;
+  width: 32px;
+  height: 36px;
+  top: 4px;
+}
+.l-96-172 .cp--1-1-5
+{
+  left: 0px;
+  top: 20px;
+  --minx: -32;
+  --miny: -120;
+}
+.l-96-172 .cp-0-1-5
+{
+  left: 16px;
+  top: 28px;
+  --minx: -32;
+  --miny: -120;
+}
+.p-BirchTree.m-any .cn-42 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -576px -288px;
+  width: 32px;
+  height: 36px;
+  top: 4px;
+}
+.l-96-172 .cp-1-1-5
+{
+  left: 32px;
+  top: 36px;
+  --minx: -32;
+  --miny: -120;
+}
+.l-96-172 .cp-0-0-6
+{
+  left: 32px;
+  top: 0px;
+  --minx: -32;
+  --miny: -120;
+}
+.p-BirchTree.m-any .cn-44 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -448px -288px;
+  width: 32px;
+  height: 36px;
+  top: 8px;
+}
+.p-OakTree.m-any .cn-6 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -0px -216px;
+  width: 32px;
+  height: 36px;
+}
+.p-OakTree.m-any .cn-11 .y-1,
+.p-OakTree.m-any .cn-12 .y-1,
+.p-OakTree.m-any .cn-14 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -160px -180px;
+  width: 32px;
+  height: 36px;
+  top: -8px;
+}
+.p-OakTree.m-any .cn-13 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -128px -180px;
+  width: 32px;
+  height: 36px;
+  top: -8px;
+}
+.p-OakTree.m-any .cn-15 .y-1,
+.p-OakTree.m-any .cn-24 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -32px -216px;
+  width: 32px;
+  height: 36px;
+}
+.p-OakTree.m-any .cn-16 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -96px -180px;
+  width: 32px;
+  height: 36px;
+  top: -8px;
+}
+.p-OakTree.m-any .cn-17 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -0px -180px;
+  width: 32px;
+  height: 36px;
+  top: -8px;
+}
+.p-OakTree.m-any .cn-18 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -32px -180px;
+  width: 32px;
+  height: 36px;
+  top: -8px;
+}
+.p-OakTree.m-any .cn-19 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -64px -180px;
+  width: 32px;
+  height: 36px;
+  top: -8px;
+}
+.p-OakTree.m-any .cn-20 .y-1,
+.p-OakTree.m-any .cn-21 .y-1,
+.p-OakTree.m-any .cn-23 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -352px -180px;
+  width: 32px;
+  height: 36px;
+  top: -4px;
+}
+.p-OakTree.m-any .cn-22 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -320px -180px;
+  width: 32px;
+  height: 36px;
+  top: -4px;
+}
+.p-OakTree.m-any .cn-25 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -288px -180px;
+  width: 32px;
+  height: 36px;
+  top: -4px;
+}
+.p-OakTree.m-any .cn-26 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -192px -180px;
+  width: 32px;
+  height: 36px;
+  top: -4px;
+}
+.p-OakTree.m-any .cn-27 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -224px -180px;
+  width: 32px;
+  height: 36px;
+  top: -4px;
+}
+.p-OakTree.m-any .cn-28 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -256px -180px;
+  width: 32px;
+  height: 36px;
+  top: -4px;
+}
+.p-OakTree.m-any .cn-29 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -320px -216px;
+  width: 32px;
+  height: 36px;
+}
+.p-OakTree.m-any .cn-30 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -288px -216px;
+  width: 32px;
+  height: 36px;
+}
+.p-OakTree.m-any .cn-31 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -192px -216px;
+  width: 32px;
+  height: 36px;
+}
+.p-OakTree.m-any .cn-32 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -224px -216px;
+  width: 32px;
+  height: 36px;
+}
+.p-OakTree.m-any .cn-33 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -256px -216px;
+  width: 32px;
+  height: 36px;
+}
+.p-OakTree.m-any .cn-34 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -160px -216px;
+  width: 32px;
+  height: 36px;
+}
+.p-OakTree.m-any .cn-35 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -64px -216px;
+  width: 32px;
+  height: 36px;
+}
+.p-OakTree.m-any .cn-36 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -96px -216px;
+  width: 32px;
+  height: 36px;
+}
+.p-OakTree.m-any .cn-37 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -128px -216px;
+  width: 32px;
+  height: 36px;
+}
+.p-OrangeTree.m-any .cn-6 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -416px -108px;
+  width: 32px;
+  height: 36px;
+  top: -4px;
+}
+.p-OrangeTree.m-any .cn-11 .y-1,
+.p-OrangeTree.m-any .cn-12 .y-1,
+.p-OrangeTree.m-any .cn-14 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -96px -108px;
+  width: 32px;
+  height: 36px;
+  top: -8px;
+}
+.p-OrangeTree.m-any .cn-13 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -320px -108px;
+  width: 32px;
+  height: 36px;
+  top: -8px;
+}
+.p-OrangeTree.m-any .cn-15 .y-1,
+.p-OrangeTree.m-any .cn-24 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -384px -108px;
+  width: 32px;
+  height: 36px;
+  top: -4px;
+}
+.p-OrangeTree.m-any .cn-16 .y-1,
+.p-OrangeTree.m-any .cn-18 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -352px -108px;
+  width: 32px;
+  height: 36px;
+  top: -8px;
+}
+.p-OrangeTree.m-any .cn-17 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -256px -108px;
+  width: 32px;
+  height: 36px;
+  top: -8px;
+}
+.p-OrangeTree.m-any .cn-19 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -288px -108px;
+  width: 32px;
+  height: 36px;
+  top: -8px;
+}
+.p-OrangeTree.m-any .cn-20 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -96px -144px;
+  width: 32px;
+  height: 36px;
+  top: -4px;
+}
+.p-OrangeTree.m-any .cn-21 .y-1,
+.p-OrangeTree.m-any .cn-23 .y-1,
+.p-OrangeTree.m-any .cn-25 .y-1,
+.p-OrangeTree.m-any .cn-27 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -96px -108px;
+  width: 32px;
+  height: 36px;
+  top: -4px;
+}
+.p-OrangeTree.m-any .cn-22 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -32px -144px;
+  width: 32px;
+  height: 36px;
+  top: -4px;
+}
+.p-OrangeTree.m-any .cn-26 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -0px -144px;
+  width: 32px;
+  height: 36px;
+  top: -4px;
+}
+.p-OrangeTree.m-any .cn-28 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -64px -144px;
+  width: 32px;
+  height: 36px;
+  top: -4px;
+}
+.p-OrangeTree.m-any .cn-29 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -512px -108px;
+  width: 32px;
+  height: 36px;
+}
+.p-OrangeTree.m-any .cn-30 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -128px -108px;
+  width: 32px;
+  height: 36px;
+}
+.p-OrangeTree.m-any .cn-31 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -224px -108px;
+  width: 32px;
+  height: 36px;
+}
+.p-OrangeTree.m-any .cn-32 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -64px -108px;
+  width: 32px;
+  height: 36px;
+}
+.p-OrangeTree.m-any .cn-33 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -96px -108px;
+  width: 32px;
+  height: 36px;
+}
+.p-OrangeTree.m-any .cn-34 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -32px -108px;
+  width: 32px;
+  height: 36px;
+}
+.p-OrangeTree.m-any .cn-35 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -192px -108px;
+  width: 32px;
+  height: 36px;
+}
+.p-OrangeTree.m-any .cn-36 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -0px -108px;
+  width: 32px;
+  height: 36px;
+}
+.p-OrangeTree.m-any .cn-37 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -160px -108px;
+  width: 32px;
+  height: 36px;
+}
+.l-96-132
+{
+  width: 96px;
+  height: 132px;
+}
+.l-96-132.zoomed
+{
+  width: 192px;
+  height: 264px;
+}
+.l-96-132 .cp--1--1-0
+{
+  left: 32px;
+  top: 64px;
+  --minx: -32;
+  --miny: -80;
+}
+.l-96-132 .cp-0--1-0
+{
+  left: 48px;
+  top: 72px;
+  --minx: -32;
+  --miny: -80;
+}
+.l-96-132 .cp-1--1-0
+{
+  left: 64px;
+  top: 80px;
+  --minx: -32;
+  --miny: -80;
+}
+.l-96-132 .cp--1-0-0
+{
+  left: 16px;
+  top: 72px;
+  --minx: -32;
+  --miny: -80;
+}
+.l-96-132 .cp-0-0-0
+{
+  left: 32px;
+  top: 80px;
+  --minx: -32;
+  --miny: -80;
+}
+.p-PineTree.m-any .cn-6 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -192px -36px;
+  width: 32px;
+  height: 36px;
+  top: -4px;
+}
+.l-96-132 .cp-1-0-0
+{
+  left: 48px;
+  top: 88px;
+  --minx: -32;
+  --miny: -80;
+}
+.l-96-132 .cp--1-1-0
+{
+  left: 0px;
+  top: 80px;
+  --minx: -32;
+  --miny: -80;
+}
+.l-96-132 .cp-0-1-0
+{
+  left: 16px;
+  top: 88px;
+  --minx: -32;
+  --miny: -80;
+}
+.l-96-132 .cp-1-1-0
+{
+  left: 32px;
+  top: 96px;
+  --minx: -32;
+  --miny: -80;
+}
+.l-96-132 .cp-0--1-1
+{
+  left: 48px;
+  top: 52px;
+  --minx: -32;
+  --miny: -80;
+}
+.p-PineTree.m-any .cn-11 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -448px -36px;
+  width: 32px;
+  height: 36px;
+  top: -8px;
+}
+.l-96-132 .cp--1-0-1
+{
+  left: 16px;
+  top: 52px;
+  --minx: -32;
+  --miny: -80;
+}
+.p-PineTree.m-any .cn-12 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -416px -36px;
+  width: 32px;
+  height: 36px;
+  top: -8px;
+}
+.l-96-132 .cp-0-0-1
+{
+  left: 32px;
+  top: 60px;
+  --minx: -32;
+  --miny: -80;
+}
+.p-PineTree.m-any .cn-13 .y-1,
+.p-PineTree.m-any .cn-18 .y-1,
+.p-PineTree.m-any .cn-23 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -160px -36px;
+  width: 32px;
+  height: 36px;
+  top: -4px;
+}
+.l-96-132 .cp-1-0-1
+{
+  left: 48px;
+  top: 68px;
+  --minx: -32;
+  --miny: -80;
+}
+.p-PineTree.m-any .cn-14 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -256px -36px;
+  width: 32px;
+  height: 36px;
+  top: -8px;
+}
+.l-96-132 .cp-0-1-1
+{
+  left: 16px;
+  top: 68px;
+  --minx: -32;
+  --miny: -80;
+}
+.p-PineTree.m-any .cn-15 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -224px -36px;
+  width: 32px;
+  height: 36px;
+  top: -8px;
+}
+.l-96-132 .cp-0--1-2
+{
+  left: 48px;
+  top: 32px;
+  --minx: -32;
+  --miny: -80;
+}
+.p-PineTree.m-any .cn-16 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -96px -36px;
+  width: 32px;
+  height: 36px;
+  top: -6px;
+}
+.l-96-132 .cp--1-0-2
+{
+  left: 16px;
+  top: 32px;
+  --minx: -32;
+  --miny: -80;
+}
+.p-PineTree.m-any .cn-17 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -64px -36px;
+  width: 32px;
+  height: 36px;
+  top: -6px;
+}
+.l-96-132 .cp-0-0-2
+{
+  left: 32px;
+  top: 40px;
+  --minx: -32;
+  --miny: -80;
+}
+.l-96-132 .cp-1-0-2
+{
+  left: 48px;
+  top: 48px;
+  --minx: -32;
+  --miny: -80;
+}
+.p-PineTree.m-any .cn-19 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -384px -36px;
+  width: 32px;
+  height: 36px;
+  top: -6px;
+}
+.l-96-132 .cp-0-1-2
+{
+  left: 16px;
+  top: 48px;
+  --minx: -32;
+  --miny: -80;
+}
+.p-PineTree.m-any .cn-20 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -352px -36px;
+  width: 32px;
+  height: 36px;
+  top: -6px;
+}
+.l-96-132 .cp-0--1-3
+{
+  left: 48px;
+  top: 12px;
+  --minx: -32;
+  --miny: -80;
+}
+.p-PineTree.m-any .cn-21 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -320px -36px;
+  width: 32px;
+  height: 36px;
+  top: -4px;
+}
+.l-96-132 .cp--1-0-3
+{
+  left: 16px;
+  top: 12px;
+  --minx: -32;
+  --miny: -80;
+}
+.p-PineTree.m-any .cn-22 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -288px -36px;
+  width: 32px;
+  height: 36px;
+  top: -4px;
+}
+.l-96-132 .cp-0-0-3
+{
+  left: 32px;
+  top: 20px;
+  --minx: -32;
+  --miny: -80;
+}
+.l-96-132 .cp-1-0-3
+{
+  left: 48px;
+  top: 28px;
+  --minx: -32;
+  --miny: -80;
+}
+.p-PineTree.m-any .cn-24 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -32px -36px;
+  width: 32px;
+  height: 36px;
+  top: -4px;
+}
+.l-96-132 .cp-0-1-3
+{
+  left: 16px;
+  top: 28px;
+  --minx: -32;
+  --miny: -80;
+}
+.p-PineTree.m-any .cn-25 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -0px -36px;
+  width: 32px;
+  height: 36px;
+  top: -4px;
+}
+.l-96-132 .cp-0-0-4
+{
+  left: 32px;
+  top: 0px;
+  --minx: -32;
+  --miny: -80;
+}
+.p-PineTree.m-any .cn-26 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -128px -36px;
+  width: 32px;
+  height: 36px;
+}
+.p-WillowTree.m-any .cn-6 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -0px -396px;
+  width: 32px;
+  height: 36px;
+}
+.p-WillowTree.m-any .cn-11 .y-1,
+.p-WillowTree.m-any .cn-12 .y-1,
+.p-WillowTree.m-any .cn-14 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -160px -360px;
+  width: 32px;
+  height: 36px;
+}
+.p-WillowTree.m-any .cn-13 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -128px -360px;
+  width: 32px;
+  height: 36px;
+}
+.p-WillowTree.m-any .cn-15 .y-1,
+.p-WillowTree.m-any .cn-24 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -32px -396px;
+  width: 32px;
+  height: 36px;
+}
+.p-WillowTree.m-any .cn-16 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -96px -360px;
+  width: 32px;
+  height: 36px;
+}
+.p-WillowTree.m-any .cn-17 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -0px -360px;
+  width: 32px;
+  height: 36px;
+}
+.p-WillowTree.m-any .cn-18 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -32px -360px;
+  width: 32px;
+  height: 36px;
+}
+.p-WillowTree.m-any .cn-19 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -64px -360px;
+  width: 32px;
+  height: 36px;
+}
+.p-WillowTree.m-any .cn-20 .y-1,
+.p-WillowTree.m-any .cn-21 .y-1,
+.p-WillowTree.m-any .cn-23 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -352px -360px;
+  width: 32px;
+  height: 36px;
+}
+.p-WillowTree.m-any .cn-22 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -320px -360px;
+  width: 32px;
+  height: 36px;
+}
+.p-WillowTree.m-any .cn-25 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -288px -360px;
+  width: 32px;
+  height: 36px;
+}
+.p-WillowTree.m-any .cn-26 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -192px -360px;
+  width: 32px;
+  height: 36px;
+}
+.p-WillowTree.m-any .cn-27 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -224px -360px;
+  width: 32px;
+  height: 36px;
+}
+.p-WillowTree.m-any .cn-28 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -256px -360px;
+  width: 32px;
+  height: 36px;
+}
+.p-WillowTree.m-any .cn-29 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -320px -396px;
+  width: 32px;
+  height: 36px;
+}
+.p-WillowTree.m-any .cn-30 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -288px -396px;
+  width: 32px;
+  height: 36px;
+}
+.p-WillowTree.m-any .cn-31 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -192px -396px;
+  width: 32px;
+  height: 36px;
+}
+.p-WillowTree.m-any .cn-32 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -224px -396px;
+  width: 32px;
+  height: 36px;
+}
+.p-WillowTree.m-any .cn-33 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -256px -396px;
+  width: 32px;
+  height: 36px;
+}
+.p-WillowTree.m-any .cn-34 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -160px -396px;
+  width: 32px;
+  height: 36px;
+}
+.p-WillowTree.m-any .cn-35 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -64px -396px;
+  width: 32px;
+  height: 36px;
+}
+.p-WillowTree.m-any .cn-36 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -96px -396px;
+  width: 32px;
+  height: 36px;
+}
+.p-WillowTree.m-any .cn-37 .y-1
+{
+  background-image: url(multitrees.png);
+  background-position: -128px -396px;
+  width: 32px;
+  height: 36px;
+}
+.p-FibreMushroom.m-any .cn-1 .y-1,
+.p-Mushroom2.m-any .cn-2 .y-1,
+.p-Mushroom2.m-any .cn-9 .y-1,
+.p-Mushroom3.m-any .cn-1 .y-1,
+.p-Mushroom3.m-any .cn-2 .y-1,
+.p-Mushroom3.m-any .cn-5 .y-1
+{
+  background-image: url(mushroom_biome_grass.png);
+  background-position: -96px -0px;
   width: 32px;
   height: 36px;
 }
@@ -21204,12 +23193,917 @@
   width: 32px;
   height: 36px;
 }
+.p-GlowShroom.m-any .cn-1 .y-1,
+.p-Mushroom2.m-any .cn-10 .y-1,
+.p-Mushroom2.m-any .cn-7 .y-1,
+.p-Mushroom2.m-any .cn-8 .y-1,
+.p-Mushroom3.m-any .cn-3 .y-1,
+.p-Mushroom3.m-any .cn-4 .y-1,
+.p-Mushroom3.m-any .cn-8 .y-1,
+.p-WoodMushroom.m-any .cn-1 .y-1
+{
+  background-image: url(mushroom_biome_grass.png);
+  background-position: -64px -0px;
+  width: 32px;
+  height: 36px;
+}
+.p-GrainMushroom.m-any .cn-1 .y-1,
+.p-Mushroom2.m-any .cn-3 .y-1,
+.p-Mushroom3.m-any .cn-10 .y-1,
+.p-Mushroom3.m-any .cn-7 .y-1,
+.p-Mushroom3.m-any .cn-9 .y-1
+{
+  background-image: url(mushroom_biome_grass.png);
+  background-position: -32px -0px;
+  width: 32px;
+  height: 36px;
+}
 .p-GrainMushroom.m-any .cn-2 .y-1
 {
   background-image: url(plants.png);
   background-position: -416px -360px;
   width: 32px;
   height: 36px;
+}
+.l-32-96
+{
+  width: 32px;
+  height: 96px;
+}
+.l-32-96.zoomed
+{
+  width: 64px;
+  height: 192px;
+}
+.l-32-96 .cp-0-0-0
+{
+  left: 0px;
+  top: 60px;
+  --minx: 0;
+  --miny: -60;
+}
+.p-Mushroom1.m-any .cn-1 .y-1,
+.p-Mushroom2.m-any .cn-1 .y-1,
+.p-Mushroom2.m-any .cn-5 .y-1,
+.p-StrawMushroom.m-any .cn-1 .y-1
+{
+  background-image: url(mushroom_biome_grass.png);
+  background-position: -128px -0px;
+  width: 32px;
+  height: 36px;
+}
+.p-Mushroom1.m-any .cn-2 .y-1
+{
+  background-image: url(mushrooms.png);
+  background-position: -0px -72px;
+  width: 32px;
+  height: 36px;
+  top: -4px;
+}
+.l-32-96 .cp-0-0-1
+{
+  left: 0px;
+  top: 40px;
+  --minx: 0;
+  --miny: -60;
+}
+.p-Mushroom1.m-any .cn-3 .y-1
+{
+  background-image: url(mushrooms.png);
+  background-position: -32px -72px;
+  width: 32px;
+  height: 36px;
+  top: -4px;
+}
+.l-32-96 .cp-0-0-2
+{
+  left: 0px;
+  top: 20px;
+  --minx: 0;
+  --miny: -60;
+}
+.p-Mushroom1.m-any .cn-4 .y-1
+{
+  background-image: url(mushrooms.png);
+  background-position: -64px -72px;
+  width: 32px;
+  height: 36px;
+  top: -4px;
+}
+.l-32-96 .cp-0-0-3
+{
+  left: 0px;
+  top: 0px;
+  --minx: 0;
+  --miny: -60;
+}
+.p-Mushroom1.m-any .cn-5 .y-1
+{
+  background-image: url(mushrooms.png);
+  background-position: -96px -72px;
+  width: 32px;
+  height: 36px;
+  top: -4px;
+}
+.l-160-148
+{
+  width: 160px;
+  height: 148px;
+}
+.l-160-148.zoomed
+{
+  width: 320px;
+  height: 296px;
+}
+.l-160-148 .cp--1--1-0
+{
+  left: 64px;
+  top: 80px;
+  --minx: -64;
+  --miny: -96;
+}
+.l-160-148 .cp-0--1-0
+{
+  left: 80px;
+  top: 88px;
+  --minx: -64;
+  --miny: -96;
+}
+.l-160-148 .cp-1--1-0
+{
+  left: 96px;
+  top: 96px;
+  --minx: -64;
+  --miny: -96;
+}
+.l-160-148 .cp--1-0-0
+{
+  left: 48px;
+  top: 88px;
+  --minx: -64;
+  --miny: -96;
+}
+.p-Mushroom2.m-any .cn-4 .y-1
+{
+  background-image: url(mushroom_biome_grass.png);
+  background-position: -0px -0px;
+  width: 32px;
+  height: 36px;
+}
+.l-160-148 .cp-0-0-0
+{
+  left: 64px;
+  top: 96px;
+  --minx: -64;
+  --miny: -96;
+}
+.p-Mushroom2.m-any .cn-6 .y-1,
+.p-Mushroom3.m-any .cn-6 .y-1
+{
+  background-image: url(mushrooms.png);
+  background-position: -416px -36px;
+  width: 32px;
+  height: 36px;
+  top: -4px;
+}
+.l-160-148 .cp-1-0-0
+{
+  left: 80px;
+  top: 104px;
+  --minx: -64;
+  --miny: -96;
+}
+.l-160-148 .cp--1-1-0
+{
+  left: 32px;
+  top: 96px;
+  --minx: -64;
+  --miny: -96;
+}
+.l-160-148 .cp-0-1-0
+{
+  left: 48px;
+  top: 104px;
+  --minx: -64;
+  --miny: -96;
+}
+.l-160-148 .cp-1-1-0
+{
+  left: 64px;
+  top: 112px;
+  --minx: -64;
+  --miny: -96;
+}
+.l-160-148 .cp-0-0-1
+{
+  left: 64px;
+  top: 76px;
+  --minx: -64;
+  --miny: -96;
+}
+.p-Mushroom2.m-any .cn-11 .y-1,
+.p-Mushroom3.m-any .cn-11 .y-1
+{
+  background-image: url(mushrooms.png);
+  background-position: -672px -36px;
+  width: 32px;
+  height: 36px;
+}
+.l-160-148 .cp-0-0-2
+{
+  left: 64px;
+  top: 56px;
+  --minx: -64;
+  --miny: -96;
+}
+.p-Mushroom2.m-any .cn-12 .y-1
+{
+  background-image: url(mushrooms.png);
+  background-position: -864px -36px;
+  width: 32px;
+  height: 36px;
+  top: 4px;
+}
+.l-160-148 .cp--2--2-3
+{
+  left: 64px;
+  top: 4px;
+  --minx: -64;
+  --miny: -96;
+}
+.p-Mushroom2.m-any .cn-13 .y-1,
+.p-Mushroom2.m-any .cn-14 .y-1,
+.p-Mushroom2.m-any .cn-15 .y-1,
+.p-Mushroom2.m-any .cn-16 .y-1,
+.p-Mushroom2.m-any .cn-17 .y-1,
+.p-Mushroom2.m-any .cn-18 .y-1,
+.p-Mushroom2.m-any .cn-23 .y-1,
+.p-Mushroom2.m-any .cn-28 .y-1,
+.p-Mushroom2.m-any .cn-33 .y-1,
+.p-Mushroom3.m-any .cn-24 .y-1,
+.p-Mushroom3.m-any .cn-25 .y-1
+{
+  background-image: url(terrain.png);
+  background-position: -320px -0px;
+  width: 32px;
+  height: 36px;
+  top: 8px;
+}
+.l-160-148 .cp--1--2-3
+{
+  left: 80px;
+  top: 12px;
+  --minx: -64;
+  --miny: -96;
+}
+.l-160-148 .cp-0--2-3
+{
+  left: 96px;
+  top: 20px;
+  --minx: -64;
+  --miny: -96;
+}
+.l-160-148 .cp-1--2-3
+{
+  left: 112px;
+  top: 28px;
+  --minx: -64;
+  --miny: -96;
+}
+.l-160-148 .cp-2--2-3
+{
+  left: 128px;
+  top: 36px;
+  --minx: -64;
+  --miny: -96;
+}
+.l-160-148 .cp--2--1-3
+{
+  left: 48px;
+  top: 12px;
+  --minx: -64;
+  --miny: -96;
+}
+.l-160-148 .cp--1--1-3
+{
+  left: 64px;
+  top: 20px;
+  --minx: -64;
+  --miny: -96;
+}
+.p-Mushroom2.m-any .cn-19 .y-1
+{
+  background-image: url(mushrooms.png);
+  background-position: -704px -36px;
+  width: 32px;
+  height: 36px;
+  top: 8px;
+}
+.l-160-148 .cp-0--1-3
+{
+  left: 80px;
+  top: 28px;
+  --minx: -64;
+  --miny: -96;
+}
+.p-Mushroom2.m-any .cn-20 .y-1,
+.p-Mushroom2.m-any .cn-24 .y-1,
+.p-Mushroom2.m-any .cn-25 .y-1,
+.p-Mushroom2.m-any .cn-26 .y-1,
+.p-Mushroom2.m-any .cn-30 .y-1,
+.p-Mushroom3.m-any .cn-16 .y-1
+{
+  background-image: url(mushrooms.png);
+  background-position: -480px -36px;
+  width: 32px;
+  height: 36px;
+  top: 8px;
+}
+.l-160-148 .cp-1--1-3
+{
+  left: 96px;
+  top: 36px;
+  --minx: -64;
+  --miny: -96;
+}
+.p-Mushroom2.m-any .cn-21 .y-1
+{
+  background-image: url(mushrooms.png);
+  background-position: -544px -36px;
+  width: 32px;
+  height: 36px;
+  top: 8px;
+}
+.l-160-148 .cp-2--1-3
+{
+  left: 112px;
+  top: 44px;
+  --minx: -64;
+  --miny: -96;
+}
+.p-Mushroom2.m-any .cn-22 .y-1
+{
+  background-image: url(mushrooms.png);
+  background-position: -320px -36px;
+  width: 32px;
+  height: 36px;
+  top: 8px;
+}
+.l-160-148 .cp--2-0-3
+{
+  left: 32px;
+  top: 20px;
+  --minx: -64;
+  --miny: -96;
+}
+.l-160-148 .cp--1-0-3
+{
+  left: 48px;
+  top: 28px;
+  --minx: -64;
+  --miny: -96;
+}
+.l-160-148 .cp-0-0-3
+{
+  left: 64px;
+  top: 36px;
+  --minx: -64;
+  --miny: -96;
+}
+.l-160-148 .cp-1-0-3
+{
+  left: 80px;
+  top: 44px;
+  --minx: -64;
+  --miny: -96;
+}
+.l-160-148 .cp-2-0-3
+{
+  left: 96px;
+  top: 52px;
+  --minx: -64;
+  --miny: -96;
+}
+.p-Mushroom2.m-any .cn-27 .y-1
+{
+  background-image: url(mushrooms.png);
+  background-position: -640px -36px;
+  width: 32px;
+  height: 36px;
+  top: 8px;
+}
+.l-160-148 .cp--2-1-3
+{
+  left: 16px;
+  top: 28px;
+  --minx: -64;
+  --miny: -96;
+}
+.l-160-148 .cp--1-1-3
+{
+  left: 32px;
+  top: 36px;
+  --minx: -64;
+  --miny: -96;
+}
+.p-Mushroom2.m-any .cn-29 .y-1
+{
+  background-image: url(mushrooms.png);
+  background-position: -512px -36px;
+  width: 32px;
+  height: 36px;
+  top: 8px;
+}
+.l-160-148 .cp-0-1-3
+{
+  left: 48px;
+  top: 44px;
+  --minx: -64;
+  --miny: -96;
+}
+.l-160-148 .cp-1-1-3
+{
+  left: 64px;
+  top: 52px;
+  --minx: -64;
+  --miny: -96;
+}
+.p-Mushroom2.m-any .cn-31 .y-1
+{
+  background-image: url(mushrooms.png);
+  background-position: -448px -36px;
+  width: 32px;
+  height: 36px;
+  top: 8px;
+}
+.l-160-148 .cp-2-1-3
+{
+  left: 80px;
+  top: 60px;
+  --minx: -64;
+  --miny: -96;
+}
+.p-Mushroom2.m-any .cn-32 .y-1
+{
+  background-image: url(mushrooms.png);
+  background-position: -352px -36px;
+  width: 32px;
+  height: 36px;
+  top: 8px;
+}
+.l-160-148 .cp--2-2-3
+{
+  left: 0px;
+  top: 36px;
+  --minx: -64;
+  --miny: -96;
+}
+.l-160-148 .cp--1-2-3
+{
+  left: 16px;
+  top: 44px;
+  --minx: -64;
+  --miny: -96;
+}
+.p-Mushroom2.m-any .cn-34 .y-1
+{
+  background-image: url(mushrooms.png);
+  background-position: -256px -36px;
+  width: 32px;
+  height: 36px;
+  top: 8px;
+}
+.l-160-148 .cp-0-2-3
+{
+  left: 32px;
+  top: 52px;
+  --minx: -64;
+  --miny: -96;
+}
+.p-Mushroom2.m-any .cn-35 .y-1,
+.p-Mushroom2.m-any .cn-36 .y-1
+{
+  background-image: url(mushrooms.png);
+  background-position: -96px -36px;
+  width: 32px;
+  height: 36px;
+  top: 8px;
+}
+.l-160-148 .cp-1-2-3
+{
+  left: 48px;
+  top: 60px;
+  --minx: -64;
+  --miny: -96;
+}
+.l-160-148 .cp-2-2-3
+{
+  left: 64px;
+  top: 68px;
+  --minx: -64;
+  --miny: -96;
+}
+.p-Mushroom2.m-any .cn-37 .y-1
+{
+  background-image: url(mushrooms.png);
+  background-position: -288px -36px;
+  width: 32px;
+  height: 36px;
+  top: 8px;
+}
+.l-160-148 .cp--1--1-4
+{
+  left: 64px;
+  top: 0px;
+  --minx: -64;
+  --miny: -96;
+}
+.p-Mushroom2.m-any .cn-38 .y-1
+{
+  background-image: url(terrain.png);
+  background-position: -320px -0px;
+  width: 32px;
+  height: 36px;
+  top: 12px;
+}
+.l-160-148 .cp-0--1-4
+{
+  left: 80px;
+  top: 8px;
+  --minx: -64;
+  --miny: -96;
+}
+.p-Mushroom2.m-any .cn-39 .y-1
+{
+  background-image: url(mushrooms.png);
+  background-position: -128px -36px;
+  width: 32px;
+  height: 36px;
+  top: 12px;
+}
+.l-160-148 .cp-1--1-4
+{
+  left: 96px;
+  top: 16px;
+  --minx: -64;
+  --miny: -96;
+}
+.p-Mushroom2.m-any .cn-40 .y-1
+{
+  background-image: url(mushrooms.png);
+  background-position: -224px -36px;
+  width: 32px;
+  height: 36px;
+  top: 12px;
+}
+.l-160-148 .cp--1-0-4
+{
+  left: 48px;
+  top: 8px;
+  --minx: -64;
+  --miny: -96;
+}
+.p-Mushroom2.m-any .cn-41 .y-1
+{
+  background-image: url(mushrooms.png);
+  background-position: -64px -36px;
+  width: 32px;
+  height: 36px;
+  top: 12px;
+}
+.l-160-148 .cp-0-0-4
+{
+  left: 64px;
+  top: 16px;
+  --minx: -64;
+  --miny: -96;
+}
+.p-Mushroom2.m-any .cn-42 .y-1
+{
+  background-image: url(mushrooms.png);
+  background-position: -576px -36px;
+  width: 32px;
+  height: 36px;
+  top: 12px;
+}
+.l-160-148 .cp-1-0-4
+{
+  left: 80px;
+  top: 24px;
+  --minx: -64;
+  --miny: -96;
+}
+.p-Mushroom2.m-any .cn-43 .y-1
+{
+  background-image: url(mushrooms.png);
+  background-position: -32px -36px;
+  width: 32px;
+  height: 36px;
+  top: 12px;
+}
+.l-160-148 .cp--1-1-4
+{
+  left: 32px;
+  top: 16px;
+  --minx: -64;
+  --miny: -96;
+}
+.p-Mushroom2.m-any .cn-44 .y-1
+{
+  background-image: url(mushrooms.png);
+  background-position: -192px -36px;
+  width: 32px;
+  height: 36px;
+  top: 12px;
+}
+.l-160-148 .cp-0-1-4
+{
+  left: 48px;
+  top: 24px;
+  --minx: -64;
+  --miny: -96;
+}
+.p-Mushroom2.m-any .cn-45 .y-1
+{
+  background-image: url(mushrooms.png);
+  background-position: -0px -36px;
+  width: 32px;
+  height: 36px;
+  top: 12px;
+}
+.l-160-148 .cp-1-1-4
+{
+  left: 64px;
+  top: 32px;
+  --minx: -64;
+  --miny: -96;
+}
+.p-Mushroom2.m-any .cn-46 .y-1
+{
+  background-image: url(mushrooms.png);
+  background-position: -160px -36px;
+  width: 32px;
+  height: 36px;
+  top: 12px;
+}
+.l-96-120
+{
+  width: 96px;
+  height: 120px;
+}
+.l-96-120.zoomed
+{
+  width: 192px;
+  height: 240px;
+}
+.l-96-120 .cp--1--1-0
+{
+  left: 32px;
+  top: 52px;
+  --minx: -32;
+  --miny: -68;
+}
+.l-96-120 .cp-0--1-0
+{
+  left: 48px;
+  top: 60px;
+  --minx: -32;
+  --miny: -68;
+}
+.l-96-120 .cp-1--1-0
+{
+  left: 64px;
+  top: 68px;
+  --minx: -32;
+  --miny: -68;
+}
+.l-96-120 .cp--1-0-0
+{
+  left: 16px;
+  top: 60px;
+  --minx: -32;
+  --miny: -68;
+}
+.l-96-120 .cp-0-0-0
+{
+  left: 32px;
+  top: 68px;
+  --minx: -32;
+  --miny: -68;
+}
+.l-96-120 .cp-1-0-0
+{
+  left: 48px;
+  top: 76px;
+  --minx: -32;
+  --miny: -68;
+}
+.l-96-120 .cp--1-1-0
+{
+  left: 0px;
+  top: 68px;
+  --minx: -32;
+  --miny: -68;
+}
+.l-96-120 .cp-0-1-0
+{
+  left: 16px;
+  top: 76px;
+  --minx: -32;
+  --miny: -68;
+}
+.l-96-120 .cp-1-1-0
+{
+  left: 32px;
+  top: 84px;
+  --minx: -32;
+  --miny: -68;
+}
+.l-96-120 .cp-0-0-1
+{
+  left: 32px;
+  top: 48px;
+  --minx: -32;
+  --miny: -68;
+}
+.l-96-120 .cp--1--1-2
+{
+  left: 32px;
+  top: 12px;
+  --minx: -32;
+  --miny: -68;
+}
+.p-Mushroom3.m-any .cn-12 .y-1
+{
+  background-image: url(mushrooms.png);
+  background-position: -704px -36px;
+  width: 32px;
+  height: 36px;
+  top: 4px;
+}
+.l-96-120 .cp-0--1-2
+{
+  left: 48px;
+  top: 20px;
+  --minx: -32;
+  --miny: -68;
+}
+.p-Mushroom3.m-any .cn-13 .y-1,
+.p-Mushroom3.m-any .cn-15 .y-1
+{
+  background-image: url(mushrooms.png);
+  background-position: -480px -36px;
+  width: 32px;
+  height: 36px;
+  top: 4px;
+}
+.l-96-120 .cp-1--1-2
+{
+  left: 64px;
+  top: 28px;
+  --minx: -32;
+  --miny: -68;
+}
+.p-Mushroom3.m-any .cn-14 .y-1
+{
+  background-image: url(mushrooms.png);
+  background-position: -320px -36px;
+  width: 32px;
+  height: 36px;
+  top: 4px;
+}
+.l-96-120 .cp--1-0-2
+{
+  left: 16px;
+  top: 20px;
+  --minx: -32;
+  --miny: -68;
+}
+.l-96-120 .cp-0-0-2
+{
+  left: 32px;
+  top: 28px;
+  --minx: -32;
+  --miny: -68;
+}
+.l-96-120 .cp-1-0-2
+{
+  left: 48px;
+  top: 36px;
+  --minx: -32;
+  --miny: -68;
+}
+.p-Mushroom3.m-any .cn-17 .y-1
+{
+  background-image: url(mushrooms.png);
+  background-position: -352px -36px;
+  width: 32px;
+  height: 36px;
+  top: 4px;
+}
+.l-96-120 .cp--1-1-2
+{
+  left: 0px;
+  top: 28px;
+  --minx: -32;
+  --miny: -68;
+}
+.p-Mushroom3.m-any .cn-18 .y-1
+{
+  background-image: url(mushrooms.png);
+  background-position: -256px -36px;
+  width: 32px;
+  height: 36px;
+  top: 4px;
+}
+.l-96-120 .cp-0-1-2
+{
+  left: 16px;
+  top: 36px;
+  --minx: -32;
+  --miny: -68;
+}
+.p-Mushroom3.m-any .cn-19 .y-1
+{
+  background-image: url(mushrooms.png);
+  background-position: -96px -36px;
+  width: 32px;
+  height: 36px;
+  top: 4px;
+}
+.l-96-120 .cp-1-1-2
+{
+  left: 32px;
+  top: 44px;
+  --minx: -32;
+  --miny: -68;
+}
+.p-Mushroom3.m-any .cn-20 .y-1
+{
+  background-image: url(mushrooms.png);
+  background-position: -288px -36px;
+  width: 32px;
+  height: 36px;
+  top: 4px;
+}
+.l-96-120 .cp-0--1-3
+{
+  left: 48px;
+  top: 0px;
+  --minx: -32;
+  --miny: -68;
+}
+.p-Mushroom3.m-any .cn-21 .y-1
+{
+  background-image: url(mushrooms.png);
+  background-position: -224px -36px;
+  width: 32px;
+  height: 36px;
+  top: 8px;
+}
+.l-96-120 .cp--1-0-3
+{
+  left: 16px;
+  top: 0px;
+  --minx: -32;
+  --miny: -68;
+}
+.p-Mushroom3.m-any .cn-22 .y-1
+{
+  background-image: url(mushrooms.png);
+  background-position: -192px -36px;
+  width: 32px;
+  height: 36px;
+  top: 8px;
+}
+.l-96-120 .cp-0-0-3
+{
+  left: 32px;
+  top: 8px;
+  --minx: -32;
+  --miny: -68;
+}
+.p-Mushroom3.m-any .cn-23 .y-1
+{
+  background-image: url(mushrooms.png);
+  background-position: -160px -36px;
+  width: 32px;
+  height: 36px;
+  top: 8px;
+}
+.l-96-120 .cp-1-0-3
+{
+  left: 48px;
+  top: 16px;
+  --minx: -32;
+  --miny: -68;
+}
+.l-96-120 .cp-0-1-3
+{
+  left: 16px;
+  top: 16px;
+  --minx: -32;
+  --miny: -68;
 }
 .p-StrawMushroom.m-any .cn-2 .y-1
 {
@@ -21291,6 +24185,8 @@
 {
   left: 0px;
   top: 20px;
+  --minx: 0;
+  --miny: -20;
 }
 .k-ThatchRamp.m-any .cn-2 .y-1
 {
@@ -21298,6 +24194,13 @@
   background-position: -480px -252px;
   width: 32px;
   height: 36px;
+}
+.l-32-56 .cp-0-0-1
+{
+  left: 0px;
+  top: 0px;
+  --minx: 0;
+  --miny: -20;
 }
 .k-ThatchRamp.m-any .cn-3 .y-1
 {
@@ -21324,7 +24227,7 @@
 .k-SoilFloor.m-any .cn-2 .y-1,
 .k-SoilWallFloor.m-any .cn-3 .y-1
 {
-  animation: anim_113 2.0s infinite step-end;
+  animation: anim_109 2.0s infinite step-end;
   background-image: url(terrain.png);
   width: 32px;
   height: 36px;
@@ -21366,7 +24269,7 @@
 .k-SoilWall.m-any .cn-2 .y-1,
 .k-SoilWallFloor.m-any .cn-2 .y-1
 {
-  animation: anim_114 2.0s infinite step-end;
+  animation: anim_110 2.0s infinite step-end;
   background-image: url(terrain.png);
   width: 32px;
   height: 36px;
@@ -21390,7 +24293,7 @@
 .k-BlockStairs.m-any .cn-2 .y-1,
 .k-StoneStairs.m-any .cn-2 .y-1
 {
-  animation: anim_115 9.0s infinite step-end;
+  animation: anim_111 9.0s infinite step-end;
   background-image: url(terrain.png);
   background-position: -160px -324px;
   width: 32px;
@@ -21399,7 +24302,7 @@
 .k-BlockStairs.m-any .cn-3 .y-1,
 .k-StoneStairs.m-any .cn-3 .y-1
 {
-  animation: anim_115 9.0s infinite step-end;
+  animation: anim_111 9.0s infinite step-end;
   background-image: url(terrain.png);
   background-position: -160px -288px;
   width: 32px;
@@ -21575,14 +24478,14 @@
 }
 .k-StoneWallFloor.m-any .cn-2 .y-1
 {
-  animation: k-StoneWallFloor-any-2-1 7.0s infinite step-end;
+  animation: anim_112 7.0s infinite step-end;
   background-image: url(terrain.png);
   width: 32px;
   height: 36px;
 }
 .k-StoneWallFloor.m-any .cn-3 .y-1
 {
-  animation: k-StoneWallFloor-any-3-1 7.0s infinite step-end;
+  animation: anim_113 7.0s infinite step-end;
   background-image: url(terrain.png);
   width: 32px;
   height: 36px;
@@ -21708,373 +24611,29 @@
   width: 192px;
   height: 136px;
 }
-.l-72-48 .cp-0--1-0,
 .l-96-68 .cp--1--1-0,
-.l-96-88 .cp--1--1-0
+.l-96-72 .cp--1--1-0
 {
   left: 32px;
   top: 0px;
+  --minx: -32;
+  --miny: -16;
 }
-.w-Armorer.m-any .cn-1 .y-1,
-.w-Armorer.m-any .cn-11 .y-1,
-.w-Armorer.m-any .cn-13 .y-1,
-.w-Armorer.m-any .cn-17 .y-1,
-.w-Armorer.m-any .cn-3 .y-1,
-.w-Armorer.m-any .cn-9 .y-1,
-.w-Automaton.m-any .cn-11 .y-1,
-.w-Automaton.m-any .cn-13 .y-1,
-.w-Automaton.m-any .cn-15 .y-1,
-.w-Automaton.m-any .cn-3 .y-1,
-.w-Automaton.m-any .cn-7 .y-1,
-.w-Blacksmith.m-any .cn-11 .y-1,
-.w-Blacksmith.m-any .cn-17 .y-1,
-.w-Blacksmith.m-any .cn-3 .y-1,
-.w-Blacksmith.m-any .cn-5 .y-1,
-.w-Bonecarver.m-any .cn-13 .y-1,
-.w-Bonecarver.m-any .cn-3 .y-1,
-.w-Bonecarver.m-any .cn-5 .y-1,
-.w-Butcher.m-any .cn-1 .y-1,
-.w-Butcher.m-any .cn-11 .y-1,
-.w-Butcher.m-any .cn-13 .y-1,
-.w-Butcher.m-any .cn-17 .y-1,
-.w-Carpenter.m-any .cn-1 .y-1,
-.w-Carpenter.m-any .cn-11 .y-1,
-.w-Carpenter.m-any .cn-3 .y-1,
-.w-Carpenter.m-any .cn-5 .y-1,
-.w-Crude.m-any .cn-1 .y-1,
-.w-Crude.m-any .cn-5 .y-1,
-.w-Crude.m-any .cn-7 .y-1,
-.w-Distillery.m-any .cn-1 .y-1,
-.w-Distillery.m-any .cn-13 .y-1,
-.w-Distillery.m-any .cn-5 .y-1,
-.w-Distillery.m-any .cn-9 .y-1,
-.w-Dyer.m-any .cn-17 .y-1,
-.w-Dyer.m-any .cn-5 .y-1,
-.w-Engineer.m-any .cn-11 .y-1,
-.w-Engineer.m-any .cn-13 .y-1,
-.w-Engineer.m-any .cn-15 .y-1,
-.w-Engineer.m-any .cn-3 .y-1,
-.w-Fishery.m-any .cn-11 .y-1,
-.w-Fishery.m-any .cn-17 .y-1,
-.w-Fishery.m-any .cn-9 .y-1,
-.w-Forge.m-any .cn-15 .y-1,
-.w-Furnace.m-any .cn-11 .y-1,
-.w-Furnace.m-any .cn-17 .y-1,
-.w-Furnace.m-any .cn-3 .y-1,
-.w-Furnace.m-any .cn-5 .y-1,
-.w-Gemcutter.m-any .cn-11 .y-1,
-.w-Gemcutter.m-any .cn-13 .y-1,
-.w-Gemcutter.m-any .cn-17 .y-1,
-.w-Gemcutter.m-any .cn-5 .y-1,
-.w-Gemcutter.m-any .cn-7 .y-1,
-.w-GlassFurnace.m-any .cn-1 .y-1,
-.w-GlassFurnace.m-any .cn-11 .y-1,
-.w-GlassFurnace.m-any .cn-15 .y-1,
-.w-GlassFurnace.m-any .cn-3 .y-1,
-.w-GlassFurnace.m-any .cn-7 .y-1,
-.w-GlassMaker.m-any .cn-11 .y-1,
-.w-GlassMaker.m-any .cn-17 .y-1,
-.w-GlassMaker.m-any .cn-7 .y-1,
-.w-Jeweler.m-any .cn-11 .y-1,
-.w-Jeweler.m-any .cn-15 .y-1,
-.w-Jeweler.m-any .cn-17 .y-1,
-.w-Jeweler.m-any .cn-3 .y-1,
-.w-Jeweler.m-any .cn-5 .y-1,
-.w-Jeweler.m-any .cn-9 .y-1,
-.w-Kiln.m-any .cn-11 .y-1,
-.w-Kiln.m-any .cn-13 .y-1,
-.w-Kiln.m-any .cn-17 .y-1,
-.w-Kiln.m-any .cn-5 .y-1,
-.w-Kiln.m-any .cn-9 .y-1,
-.w-Kitchen.m-any .cn-1 .y-1,
-.w-Kitchen.m-any .cn-11 .y-1,
-.w-Kitchen.m-any .cn-13 .y-1,
-.w-Kitchen.m-any .cn-15 .y-1,
-.w-Kitchen.m-any .cn-5 .y-1,
-.w-Kitchen.m-any .cn-9 .y-1,
-.w-Leatherworker.m-any .cn-1 .y-1,
-.w-Leatherworker.m-any .cn-13 .y-1,
-.w-Leatherworker.m-any .cn-17 .y-1,
-.w-Leatherworker.m-any .cn-3 .y-1,
-.w-Leatherworker.m-any .cn-7 .y-1,
-.w-Loom.m-any .cn-11 .y-1,
-.w-Loom.m-any .cn-13 .y-1,
-.w-Loom.m-any .cn-17 .y-1,
-.w-Loom.m-any .cn-3 .y-1,
-.w-Loom.m-any .cn-9 .y-1,
-.w-MachineShop.m-any .cn-1 .y-1,
-.w-MachineShop.m-any .cn-11 .y-1,
-.w-MachineShop.m-any .cn-13 .y-1,
-.w-MachineShop.m-any .cn-17 .y-1,
-.w-MarketStall.m-any .cn-3 .y-1,
-.w-MarketStall.m-any .cn-5 .y-1,
-.w-MarketStall.m-any .cn-9 .y-1,
-.w-MeleeTraining.m-any .cn-11 .y-1,
-.w-MeleeTraining.m-any .cn-13 .y-1,
-.w-MeleeTraining.m-any .cn-15 .y-1,
-.w-MeleeTraining.m-any .cn-17 .y-1,
-.w-MeleeTraining.m-any .cn-21 .y-1,
-.w-MeleeTraining.m-any .cn-23 .y-1,
-.w-MeleeTraining.m-any .cn-27 .y-1,
-.w-MeleeTraining.m-any .cn-29 .y-1,
-.w-MeleeTraining.m-any .cn-3 .y-1,
-.w-MeleeTraining.m-any .cn-33 .y-1,
-.w-MeleeTraining.m-any .cn-35 .y-1,
-.w-MeleeTraining.m-any .cn-37 .y-1,
-.w-MeleeTraining.m-any .cn-41 .y-1,
-.w-MeleeTraining.m-any .cn-43 .y-1,
-.w-MeleeTraining.m-any .cn-45 .y-1,
-.w-MeleeTraining.m-any .cn-49 .y-1,
-.w-MeleeTraining.m-any .cn-7 .y-1,
-.w-Metalworker.m-any .cn-1 .y-1,
-.w-Metalworker.m-any .cn-13 .y-1,
-.w-Metalworker.m-any .cn-15 .y-1,
-.w-Metalworker.m-any .cn-5 .y-1,
-.w-Prospector.m-any .cn-1 .y-1,
-.w-Prospector.m-any .cn-11 .y-1,
-.w-Prospector.m-any .cn-3 .y-1,
-.w-Prospector.m-any .cn-7 .y-1,
-.w-Prospector.m-any .cn-9 .y-1,
-.w-Sawmill.m-any .cn-1 .y-1,
-.w-Sawmill.m-any .cn-17 .y-1,
-.w-Sawmill.m-any .cn-5 .y-1,
-.w-Sawmill.m-any .cn-7 .y-1,
-.w-Sawmill.m-any .cn-9 .y-1,
-.w-Stonecarver.m-any .cn-1 .y-1,
-.w-Stonecarver.m-any .cn-15 .y-1,
-.w-Stonecarver.m-any .cn-17 .y-1,
-.w-Stonecarver.m-any .cn-3 .y-1,
-.w-Stonecarver.m-any .cn-5 .y-1,
-.w-Stonecarver.m-any .cn-7 .y-1,
-.w-Stonecarver.m-any .cn-9 .y-1,
-.w-Stonecutter.m-any .cn-1 .y-1,
-.w-Stonecutter.m-any .cn-17 .y-1,
-.w-Stonecutter.m-any .cn-5 .y-1,
-.w-Stonecutter.m-any .cn-7 .y-1,
-.w-Stonecutter.m-any .cn-9 .y-1,
-.w-Stonemason.m-any .cn-11 .y-1,
-.w-Stonemason.m-any .cn-13 .y-1,
-.w-Stonemason.m-any .cn-17 .y-1,
-.w-Stonemason.m-any .cn-3 .y-1,
-.w-Stonemason.m-any .cn-5 .y-1,
-.w-Stonemason.m-any .cn-7 .y-1,
-.w-Tailor.m-any .cn-1 .y-1,
-.w-Tailor.m-any .cn-13 .y-1,
-.w-Tailor.m-any .cn-3 .y-1,
-.w-Tailor.m-any .cn-5 .y-1,
-.w-Tailor.m-any .cn-7 .y-1,
-.w-WasteDisposal.m-any .cn-1 .y-1,
-.w-WasteDisposal.m-any .cn-13 .y-1,
-.w-WasteDisposal.m-any .cn-15 .y-1,
-.w-WasteDisposal.m-any .cn-3 .y-1,
-.w-WasteDisposal.m-any .cn-5 .y-1,
-.w-Weaponsmith.m-any .cn-11 .y-1,
-.w-Weaponsmith.m-any .cn-13 .y-1,
-.w-Weaponsmith.m-any .cn-15 .y-1,
-.w-Weaponsmith.m-any .cn-17 .y-1,
-.w-Weaponsmith.m-any .cn-3 .y-1,
-.w-Windmill.m-any .cn-1 .y-1,
-.w-Windmill.m-any .cn-17 .y-1,
-.w-Windmill.m-any .cn-27 .y-1,
-.w-Windmill.m-any .cn-29 .y-1,
-.w-Windmill.m-any .cn-31 .y-1,
-.w-Windmill.m-any .cn-5 .y-1,
-.w-Woodcarver.m-any .cn-13 .y-1,
-.w-Woodcarver.m-any .cn-15 .y-1,
-.w-Woodcarver.m-any .cn-3 .y-1,
-.w-Woodcarver.m-any .cn-9 .y-1
-{
-  background-image: url(seasonalgrass.png);
-  background-position: -128px -36px;
-  width: 32px;
-  height: 36px;
-}
-.l-160-100 .cp--2--1-0,
-.l-72-48 .cp-1--1-0,
 .l-96-68 .cp-0--1-0,
-.l-96-88 .cp-0--1-0
+.l-96-72 .cp-0--1-0
 {
   left: 48px;
   top: 8px;
+  --minx: -32;
+  --miny: -16;
 }
-.l-160-100 .cp--1--1-0,
 .l-96-68 .cp-1--1-0,
-.l-96-88 .cp-1--1-0
+.l-96-72 .cp-1--1-0
 {
   left: 64px;
   top: 16px;
-}
-.m-Workshops.m-any .cn-1 .y-1,
-.w-Armorer.m-any .cn-15 .y-1,
-.w-Armorer.m-any .cn-5 .y-1,
-.w-Armorer.m-any .cn-7 .y-1,
-.w-Automaton.m-any .cn-1 .y-1,
-.w-Automaton.m-any .cn-17 .y-1,
-.w-Automaton.m-any .cn-5 .y-1,
-.w-Automaton.m-any .cn-9 .y-1,
-.w-Blacksmith.m-any .cn-1 .y-1,
-.w-Blacksmith.m-any .cn-13 .y-1,
-.w-Blacksmith.m-any .cn-15 .y-1,
-.w-Blacksmith.m-any .cn-7 .y-1,
-.w-Blacksmith.m-any .cn-9 .y-1,
-.w-Bonecarver.m-any .cn-1 .y-1,
-.w-Bonecarver.m-any .cn-11 .y-1,
-.w-Bonecarver.m-any .cn-15 .y-1,
-.w-Bonecarver.m-any .cn-17 .y-1,
-.w-Bonecarver.m-any .cn-7 .y-1,
-.w-Bonecarver.m-any .cn-9 .y-1,
-.w-Butcher.m-any .cn-15 .y-1,
-.w-Butcher.m-any .cn-3 .y-1,
-.w-Butcher.m-any .cn-5 .y-1,
-.w-Butcher.m-any .cn-7 .y-1,
-.w-Butcher.m-any .cn-9 .y-1,
-.w-Carpenter.m-any .cn-13 .y-1,
-.w-Carpenter.m-any .cn-15 .y-1,
-.w-Carpenter.m-any .cn-17 .y-1,
-.w-Carpenter.m-any .cn-7 .y-1,
-.w-Carpenter.m-any .cn-9 .y-1,
-.w-Crude.m-any .cn-11 .y-1,
-.w-Crude.m-any .cn-3 .y-1,
-.w-Crude.m-any .cn-9 .y-1,
-.w-Distillery.m-any .cn-11 .y-1,
-.w-Distillery.m-any .cn-15 .y-1,
-.w-Distillery.m-any .cn-17 .y-1,
-.w-Distillery.m-any .cn-3 .y-1,
-.w-Distillery.m-any .cn-7 .y-1,
-.w-Dyer.m-any .cn-1 .y-1,
-.w-Dyer.m-any .cn-11 .y-1,
-.w-Dyer.m-any .cn-13 .y-1,
-.w-Dyer.m-any .cn-15 .y-1,
-.w-Dyer.m-any .cn-3 .y-1,
-.w-Dyer.m-any .cn-7 .y-1,
-.w-Dyer.m-any .cn-9 .y-1,
-.w-Engineer.m-any .cn-1 .y-1,
-.w-Engineer.m-any .cn-17 .y-1,
-.w-Engineer.m-any .cn-5 .y-1,
-.w-Engineer.m-any .cn-7 .y-1,
-.w-Engineer.m-any .cn-9 .y-1,
-.w-Fishery.m-any .cn-13 .y-1,
-.w-Fishery.m-any .cn-15 .y-1,
-.w-Fishery.m-any .cn-7 .y-1,
-.w-Forge.m-any .cn-1 .y-1,
-.w-Forge.m-any .cn-11 .y-1,
-.w-Forge.m-any .cn-13 .y-1,
-.w-Forge.m-any .cn-17 .y-1,
-.w-Forge.m-any .cn-3 .y-1,
-.w-Forge.m-any .cn-5 .y-1,
-.w-Forge.m-any .cn-7 .y-1,
-.w-Forge.m-any .cn-9 .y-1,
-.w-Furnace.m-any .cn-1 .y-1,
-.w-Furnace.m-any .cn-13 .y-1,
-.w-Furnace.m-any .cn-15 .y-1,
-.w-Furnace.m-any .cn-7 .y-1,
-.w-Furnace.m-any .cn-9 .y-1,
-.w-Gemcutter.m-any .cn-1 .y-1,
-.w-Gemcutter.m-any .cn-15 .y-1,
-.w-Gemcutter.m-any .cn-3 .y-1,
-.w-Gemcutter.m-any .cn-9 .y-1,
-.w-GlassFurnace.m-any .cn-13 .y-1,
-.w-GlassFurnace.m-any .cn-17 .y-1,
-.w-GlassFurnace.m-any .cn-5 .y-1,
-.w-GlassFurnace.m-any .cn-9 .y-1,
-.w-GlassMaker.m-any .cn-1 .y-1,
-.w-GlassMaker.m-any .cn-13 .y-1,
-.w-GlassMaker.m-any .cn-15 .y-1,
-.w-GlassMaker.m-any .cn-3 .y-1,
-.w-GlassMaker.m-any .cn-5 .y-1,
-.w-GlassMaker.m-any .cn-9 .y-1,
-.w-Jeweler.m-any .cn-1 .y-1,
-.w-Jeweler.m-any .cn-13 .y-1,
-.w-Jeweler.m-any .cn-19 .y-1,
-.w-Jeweler.m-any .cn-7 .y-1,
-.w-Kiln.m-any .cn-1 .y-1,
-.w-Kiln.m-any .cn-15 .y-1,
-.w-Kiln.m-any .cn-3 .y-1,
-.w-Kiln.m-any .cn-7 .y-1,
-.w-Kitchen.m-any .cn-17 .y-1,
-.w-Kitchen.m-any .cn-3 .y-1,
-.w-Kitchen.m-any .cn-7 .y-1,
-.w-Leatherworker.m-any .cn-11 .y-1,
-.w-Leatherworker.m-any .cn-15 .y-1,
-.w-Leatherworker.m-any .cn-5 .y-1,
-.w-Leatherworker.m-any .cn-9 .y-1,
-.w-Loom.m-any .cn-1 .y-1,
-.w-Loom.m-any .cn-15 .y-1,
-.w-Loom.m-any .cn-5 .y-1,
-.w-Loom.m-any .cn-7 .y-1,
-.w-MachineShop.m-any .cn-15 .y-1,
-.w-MachineShop.m-any .cn-3 .y-1,
-.w-MachineShop.m-any .cn-5 .y-1,
-.w-MachineShop.m-any .cn-7 .y-1,
-.w-MachineShop.m-any .cn-9 .y-1,
-.w-MarketStall.m-any .cn-1 .y-1,
-.w-MarketStall.m-any .cn-11 .y-1,
-.w-MarketStall.m-any .cn-13 .y-1,
-.w-MarketStall.m-any .cn-15 .y-1,
-.w-MarketStall.m-any .cn-17 .y-1,
-.w-MarketStall.m-any .cn-7 .y-1,
-.w-MeleeTraining.m-any .cn-1 .y-1,
-.w-MeleeTraining.m-any .cn-19 .y-1,
-.w-MeleeTraining.m-any .cn-25 .y-1,
-.w-MeleeTraining.m-any .cn-31 .y-1,
-.w-MeleeTraining.m-any .cn-39 .y-1,
-.w-MeleeTraining.m-any .cn-47 .y-1,
-.w-MeleeTraining.m-any .cn-5 .y-1,
-.w-MeleeTraining.m-any .cn-9 .y-1,
-.w-Metalworker.m-any .cn-11 .y-1,
-.w-Metalworker.m-any .cn-17 .y-1,
-.w-Metalworker.m-any .cn-3 .y-1,
-.w-Metalworker.m-any .cn-7 .y-1,
-.w-Metalworker.m-any .cn-9 .y-1,
-.w-Prospector.m-any .cn-13 .y-1,
-.w-Prospector.m-any .cn-15 .y-1,
-.w-Prospector.m-any .cn-17 .y-1,
-.w-Prospector.m-any .cn-5 .y-1,
-.w-Sawmill.m-any .cn-11 .y-1,
-.w-Sawmill.m-any .cn-13 .y-1,
-.w-Sawmill.m-any .cn-15 .y-1,
-.w-Sawmill.m-any .cn-3 .y-1,
-.w-Stonecarver.m-any .cn-11 .y-1,
-.w-Stonecarver.m-any .cn-13 .y-1,
-.w-Stonecutter.m-any .cn-11 .y-1,
-.w-Stonecutter.m-any .cn-13 .y-1,
-.w-Stonecutter.m-any .cn-15 .y-1,
-.w-Stonecutter.m-any .cn-3 .y-1,
-.w-Stonemason.m-any .cn-1 .y-1,
-.w-Stonemason.m-any .cn-15 .y-1,
-.w-Stonemason.m-any .cn-9 .y-1,
-.w-Tailor.m-any .cn-11 .y-1,
-.w-Tailor.m-any .cn-15 .y-1,
-.w-Tailor.m-any .cn-17 .y-1,
-.w-Tailor.m-any .cn-9 .y-1,
-.w-WasteDisposal.m-any .cn-11 .y-1,
-.w-WasteDisposal.m-any .cn-17 .y-1,
-.w-WasteDisposal.m-any .cn-7 .y-1,
-.w-WasteDisposal.m-any .cn-9 .y-1,
-.w-Weaponsmith.m-any .cn-1 .y-1,
-.w-Weaponsmith.m-any .cn-5 .y-1,
-.w-Weaponsmith.m-any .cn-7 .y-1,
-.w-Weaponsmith.m-any .cn-9 .y-1,
-.w-Windmill.m-any .cn-11 .y-1,
-.w-Windmill.m-any .cn-13 .y-1,
-.w-Windmill.m-any .cn-15 .y-1,
-.w-Windmill.m-any .cn-19 .y-1,
-.w-Windmill.m-any .cn-21 .y-1,
-.w-Windmill.m-any .cn-23 .y-1,
-.w-Windmill.m-any .cn-25 .y-1,
-.w-Windmill.m-any .cn-3 .y-1,
-.w-Windmill.m-any .cn-7 .y-1,
-.w-Windmill.m-any .cn-9 .y-1,
-.w-Woodcarver.m-any .cn-1 .y-1,
-.w-Woodcarver.m-any .cn-11 .y-1,
-.w-Woodcarver.m-any .cn-17 .y-1,
-.w-Woodcarver.m-any .cn-5 .y-1,
-.w-Woodcarver.m-any .cn-7 .y-1
-{
-  background-image: url(seasonalgrass.png);
-  background-position: -128px -180px;
-  width: 32px;
-  height: 36px;
+  --minx: -32;
+  --miny: -16;
 }
 .w-Armorer.m-any .cn-6 .y-1,
 .w-Furnace.m-any .cn-10 .y-1,
@@ -22086,27 +24645,29 @@
   width: 32px;
   height: 36px;
 }
-.l-72-48 .cp-0-0-0,
 .l-96-68 .cp--1-0-0,
-.l-96-88 .cp--1-0-0
+.l-96-72 .cp--1-0-0
 {
   left: 16px;
   top: 8px;
+  --minx: -32;
+  --miny: -16;
 }
-.l-160-100 .cp--2-0-0,
-.l-72-48 .cp-1-0-0,
 .l-96-68 .cp-0-0-0,
-.l-96-88 .cp-0-0-0
+.l-96-72 .cp-0-0-0
 {
   left: 32px;
   top: 16px;
+  --minx: -32;
+  --miny: -16;
 }
-.l-160-100 .cp--1-0-0,
 .l-96-68 .cp-1-0-0,
-.l-96-88 .cp-1-0-0
+.l-96-72 .cp-1-0-0
 {
   left: 48px;
   top: 24px;
+  --minx: -32;
+  --miny: -16;
 }
 .w-Armorer.m-any .cn-12 .y-1,
 .w-Blacksmith.m-any .cn-6 .y-1,
@@ -22120,12 +24681,13 @@
   width: 32px;
   height: 36px;
 }
-.l-72-48 .cp-0-1-0,
 .l-96-68 .cp--1-1-0,
-.l-96-88 .cp--1-1-0
+.l-96-72 .cp--1-1-0
 {
   left: 0px;
   top: 16px;
+  --minx: -32;
+  --miny: -16;
 }
 .w-Armorer.m-any .cn-14 .y-2,
 .w-Blacksmith.m-any .cn-14 .y-2,
@@ -22140,20 +24702,21 @@
   width: 32px;
   height: 36px;
 }
-.l-160-100 .cp--2-1-0,
-.l-72-48 .cp-1-1-0,
 .l-96-68 .cp-0-1-0,
-.l-96-88 .cp-0-1-0
+.l-96-72 .cp-0-1-0
 {
   left: 16px;
   top: 24px;
+  --minx: -32;
+  --miny: -16;
 }
-.l-160-100 .cp--1-1-0,
 .l-96-68 .cp-1-1-0,
-.l-96-88 .cp-1-1-0
+.l-96-72 .cp-1-1-0
 {
   left: 32px;
   top: 32px;
+  --minx: -32;
+  --miny: -16;
 }
 .w-Armorer.m-any .cn-18 .y-1
 {
@@ -22195,7 +24758,7 @@
 .w-Tailor.m-any .cn-2 .y-1,
 .w-Tailor.m-any .cn-8 .y-1
 {
-  animation: anim_118 15.0s infinite step-end;
+  animation: anim_114 15.0s infinite step-end;
   background-image: url(workshops.png);
   background-position: -224px -288px;
   width: 32px;
@@ -22310,7 +24873,7 @@
 }
 .w-Bonecarver.m-any .cn-6 .y-1
 {
-  animation: w-Bonecarver-any-6-1 15.0s infinite step-end;
+  animation: anim_115 15.0s infinite step-end;
   background-image: url(workshops.png);
   background-position: -320px -180px;
   width: 32px;
@@ -22342,7 +24905,7 @@
 .w-Tailor.m-any .cn-10 .y-1,
 .w-Woodcarver.m-any .cn-10 .y-1
 {
-  animation: anim_120 16.0s infinite step-end;
+  animation: anim_116 16.0s infinite step-end;
   width: 32px;
   height: 36px;
 }
@@ -22404,15 +24967,36 @@
   width: 32px;
   height: 36px;
 }
-.l-72-48
+.l-80-60
 {
-  width: 72px;
-  height: 48px;
+  width: 80px;
+  height: 60px;
 }
-.l-72-48.zoomed
+.l-80-60.zoomed
 {
-  width: 144px;
-  height: 96px;
+  width: 160px;
+  height: 120px;
+}
+.l-80-60 .cp-0--1-0
+{
+  left: 32px;
+  top: 0px;
+  --minx: -16;
+  --miny: -8;
+}
+.l-80-60 .cp-1--1-0
+{
+  left: 48px;
+  top: 8px;
+  --minx: -16;
+  --miny: -8;
+}
+.l-80-60 .cp-0-0-0
+{
+  left: 16px;
+  top: 8px;
+  --minx: -16;
+  --miny: -8;
 }
 .w-Crude.m-any .cn-6 .y-1,
 .w-Stonecutter.m-any .cn-12 .y-1
@@ -22422,6 +25006,27 @@
   background-position: -288px -216px;
   width: 32px;
   height: 36px;
+}
+.l-80-60 .cp-1-0-0
+{
+  left: 32px;
+  top: 16px;
+  --minx: -16;
+  --miny: -8;
+}
+.l-80-60 .cp-0-1-0
+{
+  left: 0px;
+  top: 16px;
+  --minx: -16;
+  --miny: -8;
+}
+.l-80-60 .cp-1-1-0
+{
+  left: 16px;
+  top: 24px;
+  --minx: -16;
+  --miny: -8;
 }
 .w-Distillery.m-any .cn-14 .y-1,
 .w-Distillery.m-any .cn-2 .y-1,
@@ -22449,7 +25054,7 @@
 }
 .w-Dyer.m-any .cn-2 .y-1
 {
-  animation: anim_118 15.0s infinite step-end;
+  animation: anim_114 15.0s infinite step-end;
   background-image: url(furniture.png);
   background-position: -288px -144px;
   width: 32px;
@@ -22469,30 +25074,36 @@
   width: 32px;
   height: 36px;
 }
-.l-96-88
+.l-96-72
 {
   width: 96px;
-  height: 88px;
+  height: 72px;
 }
-.l-96-88.zoomed
+.l-96-72.zoomed
 {
   width: 192px;
-  height: 176px;
+  height: 144px;
 }
-.l-96-88 .cp--1--1--1
+.l-96-72 .cp--1--1--1
 {
   left: 32px;
   top: 20px;
+  --minx: -32;
+  --miny: -16;
 }
-.l-96-88 .cp-0--1--1
+.l-96-72 .cp-0--1--1
 {
   left: 48px;
   top: 28px;
+  --minx: -32;
+  --miny: -16;
 }
-.l-96-88 .cp-1--1--1
+.l-96-72 .cp-1--1--1
 {
   left: 64px;
   top: 36px;
+  --minx: -32;
+  --miny: -16;
 }
 .w-Fishery.m-any .cn-8 .y-1
 {
@@ -22530,6 +25141,7 @@
   background-position: -288px -432px;
   width: 32px;
   height: 36px;
+  top: 8px;
 }
 .w-Forge.m-any .cn-6 .y-1
 {
@@ -22605,14 +25217,14 @@
 }
 .w-GlassFurnace.m-any .cn-8 .y-2
 {
-  animation: w-GlassFurnace-any-8-2 1.0s infinite step-end;
+  animation: anim_117 1.0s infinite step-end;
   background-image: url(workshops.png);
   width: 32px;
   height: 36px;
 }
 .w-GlassMaker.m-any .cn-2 .y-1
 {
-  animation: anim_115 9.0s infinite step-end;
+  animation: anim_111 9.0s infinite step-end;
   background-image: url(workshops.png);
   background-position: -128px -36px;
   width: 32px;
@@ -22620,7 +25232,7 @@
 }
 .w-GlassMaker.m-any .cn-2 .y-2
 {
-  animation: w-GlassMaker-any-2-2 1.0s infinite step-end;
+  animation: anim_118 1.0s infinite step-end;
   background-image: url(workshops.png);
   width: 32px;
   height: 36px;
@@ -22704,13 +25316,13 @@
   height: 36px;
   top: -8px;
 }
-.w-Loom.m-any .cn-6 .y-1,
-.w-Tailor.m-any .cn-2 .y-2
+.w-Loom.m-any .cn-6 .y-1
 {
   background-image: url(workshops.png);
   background-position: -0px -504px;
   width: 32px;
   height: 36px;
+  top: 8px;
 }
 .w-MachineShop.m-any .cn-18 .y-2
 {
@@ -22725,7 +25337,7 @@
 .w-MarketStall.m-any .cn-16 .y-1,
 .w-MarketStall.m-any .cn-4 .y-1
 {
-  animation: anim_118 15.0s infinite step-end;
+  animation: anim_114 15.0s infinite step-end;
   background-image: url(default.png);
   background-position: -256px -324px;
   width: 32px;
@@ -22742,7 +25354,7 @@
 }
 .w-MarketStall.m-any .cn-14 .y-1
 {
-  animation: anim_118 15.0s infinite step-end;
+  animation: anim_114 15.0s infinite step-end;
   background-image: url(default.png);
   background-position: -576px -108px;
   width: 32px;
@@ -22759,7 +25371,7 @@
 }
 .w-Metalworker.m-any .cn-8 .y-1
 {
-  animation: w-Metalworker-any-8-1 11.0s infinite step-end;
+  animation: anim_119 11.0s infinite step-end;
   background-image: url(workshops.png);
   background-position: -288px -324px;
   width: 32px;
@@ -22797,7 +25409,7 @@
 }
 .w-Sawmill.m-any .cn-12 .y-2
 {
-  animation: w-Sawmill-any-12-2 20.0s infinite step-end;
+  animation: anim_120 20.0s infinite step-end;
   background-image: url(default.png);
   background-position: -320px -396px;
   width: 32px;
@@ -22817,6 +25429,13 @@
 {
   background-image: url(workshops.png);
   background-position: -384px -180px;
+  width: 32px;
+  height: 36px;
+}
+.w-Tailor.m-any .cn-2 .y-2
+{
+  background-image: url(workshops.png);
+  background-position: -0px -504px;
   width: 32px;
   height: 36px;
 }
@@ -22849,26 +25468,50 @@
 {
   left: 64px;
   top: 0px;
+  --minx: -64;
+  --miny: -32;
 }
 .l-160-100 .cp--1--2-0
 {
   left: 80px;
   top: 8px;
+  --minx: -64;
+  --miny: -32;
 }
 .l-160-100 .cp-0--2-0
 {
   left: 96px;
   top: 16px;
+  --minx: -64;
+  --miny: -32;
 }
 .l-160-100 .cp-1--2-0
 {
   left: 112px;
   top: 24px;
+  --minx: -64;
+  --miny: -32;
 }
 .l-160-100 .cp-2--2-0
 {
   left: 128px;
   top: 32px;
+  --minx: -64;
+  --miny: -32;
+}
+.l-160-100 .cp--2--1-0
+{
+  left: 48px;
+  top: 8px;
+  --minx: -64;
+  --miny: -32;
+}
+.l-160-100 .cp--1--1-0
+{
+  left: 64px;
+  top: 16px;
+  --minx: -64;
+  --miny: -32;
 }
 .w-MeleeTraining.m-any .cn-14 .y-1,
 .w-MeleeTraining.m-any .cn-18 .y-1,
@@ -22884,82 +25527,132 @@
 {
   left: 80px;
   top: 24px;
+  --minx: -64;
+  --miny: -32;
 }
 .l-160-100 .cp-1--1-0
 {
   left: 96px;
   top: 32px;
+  --minx: -64;
+  --miny: -32;
 }
 .l-160-100 .cp-2--1-0
 {
   left: 112px;
   top: 40px;
+  --minx: -64;
+  --miny: -32;
+}
+.l-160-100 .cp--2-0-0
+{
+  left: 32px;
+  top: 16px;
+  --minx: -64;
+  --miny: -32;
+}
+.l-160-100 .cp--1-0-0
+{
+  left: 48px;
+  top: 24px;
+  --minx: -64;
+  --miny: -32;
 }
 .l-160-100 .cp-0-0-0
 {
   left: 64px;
   top: 32px;
+  --minx: -64;
+  --miny: -32;
 }
 .l-160-100 .cp-1-0-0
 {
   left: 80px;
   top: 40px;
+  --minx: -64;
+  --miny: -32;
 }
 .l-160-100 .cp-2-0-0
 {
   left: 96px;
   top: 48px;
+  --minx: -64;
+  --miny: -32;
 }
-.l-128-124 .cp-0-0-0,
+.l-160-100 .cp--2-1-0
+{
+  left: 16px;
+  top: 24px;
+  --minx: -64;
+  --miny: -32;
+}
+.l-160-100 .cp--1-1-0
+{
+  left: 32px;
+  top: 32px;
+  --minx: -64;
+  --miny: -32;
+}
 .l-160-100 .cp-0-1-0
 {
   left: 48px;
   top: 40px;
+  --minx: -64;
+  --miny: -32;
 }
-.l-128-124 .cp-1-0-0,
 .l-160-100 .cp-1-1-0
 {
   left: 64px;
   top: 48px;
+  --minx: -64;
+  --miny: -32;
 }
-.l-128-124 .cp-2-0-0,
 .l-160-100 .cp-2-1-0
 {
   left: 80px;
   top: 56px;
+  --minx: -64;
+  --miny: -32;
 }
 .l-160-100 .cp--2-2-0
 {
   left: 0px;
   top: 32px;
+  --minx: -64;
+  --miny: -32;
 }
 .l-160-100 .cp--1-2-0
 {
   left: 16px;
   top: 40px;
+  --minx: -64;
+  --miny: -32;
 }
-.l-128-124 .cp-0-1-0,
 .l-160-100 .cp-0-2-0
 {
   left: 32px;
   top: 48px;
+  --minx: -64;
+  --miny: -32;
 }
-.l-128-124 .cp-1-1-0,
 .l-160-100 .cp-1-2-0
 {
   left: 48px;
   top: 56px;
+  --minx: -64;
+  --miny: -32;
 }
-.l-128-124 .cp-2-1-0,
 .l-160-100 .cp-2-2-0
 {
   left: 64px;
   top: 64px;
+  --minx: -64;
+  --miny: -32;
 }
 .w-WasteDisposal.m-any .cn-4 .y-1,
 .w-WasteDisposal.m-any .cn-6 .y-1
 {
-  animation: anim_115 9.0s infinite step-end;
+  animation: anim_111 9.0s infinite step-end;
   background-image: url(workshops.png);
   background-position: -224px -360px;
   width: 32px;
@@ -22974,20 +25667,43 @@
   height: 36px;
   transform: rotateY(180deg);
 }
-.l-128-124
+.l-128-108
 {
   width: 128px;
-  height: 124px;
+  height: 108px;
 }
-.l-128-124.zoomed
+.l-128-108.zoomed
 {
   width: 256px;
-  height: 248px;
+  height: 216px;
 }
-.l-128-124 .cp-3-0-0
+.l-128-108 .cp-0-0-0
+{
+  left: 48px;
+  top: 24px;
+  --minx: -48;
+  --miny: -24;
+}
+.l-128-108 .cp-1-0-0
+{
+  left: 64px;
+  top: 32px;
+  --minx: -48;
+  --miny: -24;
+}
+.l-128-108 .cp-2-0-0
+{
+  left: 80px;
+  top: 40px;
+  --minx: -48;
+  --miny: -24;
+}
+.l-128-108 .cp-3-0-0
 {
   left: 96px;
-  top: 64px;
+  top: 48px;
+  --minx: -48;
+  --miny: -24;
 }
 .w-Windmill.m-any .cn-30 .y-1,
 .w-Windmill.m-any .cn-8 .y-1
@@ -22997,6 +25713,20 @@
   width: 32px;
   height: 36px;
 }
+.l-128-108 .cp-0-1-0
+{
+  left: 32px;
+  top: 32px;
+  --minx: -48;
+  --miny: -24;
+}
+.l-128-108 .cp-1-1-0
+{
+  left: 48px;
+  top: 40px;
+  --minx: -48;
+  --miny: -24;
+}
 .w-Windmill.m-any .cn-12 .y-1
 {
   animation: anim_1 6.0s infinite step-end;
@@ -23005,20 +25735,33 @@
   width: 32px;
   height: 36px;
 }
-.l-128-124 .cp-3-1-0
+.l-128-108 .cp-2-1-0
+{
+  left: 64px;
+  top: 48px;
+  --minx: -48;
+  --miny: -24;
+}
+.l-128-108 .cp-3-1-0
 {
   left: 80px;
-  top: 72px;
+  top: 56px;
+  --minx: -48;
+  --miny: -24;
 }
-.l-128-124 .cp-0-2-0
+.l-128-108 .cp-0-2-0
 {
   left: 16px;
-  top: 56px;
+  top: 40px;
+  --minx: -48;
+  --miny: -24;
 }
-.l-128-124 .cp-1-2-0
+.l-128-108 .cp-1-2-0
 {
   left: 32px;
-  top: 64px;
+  top: 48px;
+  --minx: -48;
+  --miny: -24;
 }
 .w-Windmill.m-any .cn-20 .y-1
 {
@@ -23028,15 +25771,19 @@
   width: 32px;
   height: 36px;
 }
-.l-128-124 .cp-2-2-0
+.l-128-108 .cp-2-2-0
 {
   left: 48px;
-  top: 72px;
+  top: 56px;
+  --minx: -48;
+  --miny: -24;
 }
-.l-128-124 .cp-3-2-0
+.l-128-108 .cp-3-2-0
 {
   left: 64px;
-  top: 80px;
+  top: 64px;
+  --minx: -48;
+  --miny: -24;
 }
 .w-Windmill.m-any .cn-24 .y-1
 {
@@ -23046,25 +25793,33 @@
   height: 36px;
   transform: rotateY(180deg);
 }
-.l-128-124 .cp-0-3-0
+.l-128-108 .cp-0-3-0
 {
   left: 0px;
-  top: 64px;
+  top: 48px;
+  --minx: -48;
+  --miny: -24;
 }
-.l-128-124 .cp-1-3-0
+.l-128-108 .cp-1-3-0
 {
   left: 16px;
-  top: 72px;
+  top: 56px;
+  --minx: -48;
+  --miny: -24;
 }
-.l-128-124 .cp-2-3-0
+.l-128-108 .cp-2-3-0
 {
   left: 32px;
-  top: 80px;
+  top: 64px;
+  --minx: -48;
+  --miny: -24;
 }
-.l-128-124 .cp-3-3-0
+.l-128-108 .cp-3-3-0
 {
   left: 48px;
-  top: 88px;
+  top: 72px;
+  --minx: -48;
+  --miny: -24;
 }
 .w-Windmill.m-any .cn-32 .y-1
 {
@@ -23074,10 +25829,12 @@
   width: 32px;
   height: 36px;
 }
-.l-128-124 .cp-1-1-1
+.l-128-108 .cp-1-1-1
 {
   left: 48px;
-  top: 36px;
+  top: 20px;
+  --minx: -48;
+  --miny: -24;
 }
 .w-Windmill.m-any .cn-33 .y-1
 {
@@ -23087,29 +25844,33 @@
   width: 32px;
   height: 36px;
 }
-.l-128-124 .cp-2-1-1
+.l-128-108 .cp-2-1-1
 {
   left: 64px;
-  top: 44px;
+  top: 28px;
+  --minx: -48;
+  --miny: -24;
 }
 .w-Windmill.m-any .cn-34 .y-1
 {
-  animation: w-Windmill-any-34-1 6.0s infinite step-end;
+  animation: anim_121 6.0s infinite step-end;
   background-image: url(windmill.png);
   width: 32px;
   height: 36px;
 }
 .w-Windmill.m-any .cn-34 .y-2
 {
-  animation: w-Windmill-any-34-2 1.0s infinite step-end;
+  animation: anim_122 1.0s infinite step-end;
   background-image: url(windmill.png);
   width: 32px;
   height: 36px;
 }
-.l-128-124 .cp-1-2-1
+.l-128-108 .cp-1-2-1
 {
   left: 32px;
-  top: 44px;
+  top: 28px;
+  --minx: -48;
+  --miny: -24;
 }
 .w-Windmill.m-any .cn-35 .y-1
 {
@@ -23119,29 +25880,33 @@
   width: 32px;
   height: 36px;
 }
-.l-128-124 .cp-2-2-1
+.l-128-108 .cp-2-2-1
 {
   left: 48px;
-  top: 52px;
+  top: 36px;
+  --minx: -48;
+  --miny: -24;
 }
 .w-Windmill.m-any .cn-36 .y-1
 {
-  animation: w-Windmill-any-36-1 6.0s infinite step-end;
+  animation: anim_123 6.0s infinite step-end;
   background-image: url(windmill.png);
   width: 32px;
   height: 36px;
 }
 .w-Windmill.m-any .cn-36 .y-2
 {
-  animation: w-Windmill-any-36-2 1.0s infinite step-end;
+  animation: anim_124 1.0s infinite step-end;
   background-image: url(windmill.png);
   width: 32px;
   height: 36px;
 }
-.l-128-124 .cp-1-1-2
+.l-128-108 .cp-1-1-2
 {
   left: 48px;
-  top: 16px;
+  top: 0px;
+  --minx: -48;
+  --miny: -24;
 }
 .w-Windmill.m-any .cn-37 .y-1
 {
@@ -23151,29 +25916,33 @@
   width: 32px;
   height: 36px;
 }
-.l-128-124 .cp-2-1-2
+.l-128-108 .cp-2-1-2
 {
   left: 64px;
-  top: 24px;
+  top: 8px;
+  --minx: -48;
+  --miny: -24;
 }
 .w-Windmill.m-any .cn-38 .y-1
 {
-  animation: w-Windmill-any-38-1 6.0s infinite step-end;
+  animation: anim_125 6.0s infinite step-end;
   background-image: url(windmill.png);
   width: 32px;
   height: 36px;
 }
 .w-Windmill.m-any .cn-38 .y-2
 {
-  animation: w-Windmill-any-38-2 1.0s infinite step-end;
+  animation: anim_126 1.0s infinite step-end;
   background-image: url(windmill.png);
   width: 32px;
   height: 36px;
 }
-.l-128-124 .cp-1-2-2
+.l-128-108 .cp-1-2-2
 {
   left: 32px;
-  top: 24px;
+  top: 8px;
+  --minx: -48;
+  --miny: -24;
 }
 .w-Windmill.m-any .cn-39 .y-1
 {
@@ -23183,21 +25952,23 @@
   width: 32px;
   height: 36px;
 }
-.l-128-124 .cp-2-2-2
+.l-128-108 .cp-2-2-2
 {
   left: 48px;
-  top: 32px;
+  top: 16px;
+  --minx: -48;
+  --miny: -24;
 }
 .w-Windmill.m-any .cn-40 .y-1
 {
-  animation: w-Windmill-any-40-1 6.0s infinite step-end;
+  animation: anim_127 6.0s infinite step-end;
   background-image: url(windmill.png);
   width: 32px;
   height: 36px;
 }
 .w-Windmill.m-any .cn-40 .y-2
 {
-  animation: w-Windmill-any-40-2 1.0s infinite step-end;
+  animation: anim_128 1.0s infinite step-end;
   background-image: url(windmill.png);
   width: 32px;
   height: 36px;
