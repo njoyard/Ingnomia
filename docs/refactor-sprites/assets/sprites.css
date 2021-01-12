@@ -73,172 +73,172 @@
     filter: url(tints.svg#Bronze);
   }
   2.27% {
-    background-position: -96px -288px;
-    filter: url(tints.svg#Copper);
+    background-position: -128px -288px;
+    filter: url(tints.svg#Bronze);
   }
   4.55% {
-    background-position: -96px -288px;
-    filter: url(tints.svg#Gold);
+    background-position: -160px -288px;
+    filter: url(tints.svg#Bronze);
   }
   6.82% {
-    background-position: -96px -288px;
-    filter: url(tints.svg#Iron);
+    background-position: -192px -288px;
+    filter: url(tints.svg#Bronze);
   }
   9.09% {
     background-position: -96px -288px;
-    filter: url(tints.svg#Lead);
+    filter: url(tints.svg#Copper);
   }
   11.36% {
-    background-position: -96px -288px;
-    filter: url(tints.svg#Malachite);
+    background-position: -128px -288px;
+    filter: url(tints.svg#Copper);
   }
   13.64% {
-    background-position: -96px -288px;
-    filter: url(tints.svg#Platinum);
+    background-position: -160px -288px;
+    filter: url(tints.svg#Copper);
   }
   15.91% {
-    background-position: -96px -288px;
-    filter: url(tints.svg#RoseGold);
+    background-position: -192px -288px;
+    filter: url(tints.svg#Copper);
   }
   18.18% {
     background-position: -96px -288px;
-    filter: url(tints.svg#Silver);
+    filter: url(tints.svg#Gold);
   }
   20.45% {
-    background-position: -96px -288px;
-    filter: url(tints.svg#Steel);
+    background-position: -128px -288px;
+    filter: url(tints.svg#Gold);
   }
   22.73% {
-    background-position: -96px -288px;
-    filter: url(tints.svg#Tin);
+    background-position: -160px -288px;
+    filter: url(tints.svg#Gold);
   }
   25.0% {
-    background-position: -128px -288px;
-    filter: url(tints.svg#Bronze);
+    background-position: -192px -288px;
+    filter: url(tints.svg#Gold);
   }
   27.27% {
-    background-position: -128px -288px;
-    filter: url(tints.svg#Copper);
+    background-position: -96px -288px;
+    filter: url(tints.svg#Iron);
   }
   29.55% {
     background-position: -128px -288px;
-    filter: url(tints.svg#Gold);
+    filter: url(tints.svg#Iron);
   }
   31.82% {
-    background-position: -128px -288px;
+    background-position: -160px -288px;
     filter: url(tints.svg#Iron);
   }
   34.09% {
-    background-position: -128px -288px;
-    filter: url(tints.svg#Lead);
+    background-position: -192px -288px;
+    filter: url(tints.svg#Iron);
   }
   36.36% {
-    background-position: -128px -288px;
-    filter: url(tints.svg#Malachite);
+    background-position: -96px -288px;
+    filter: url(tints.svg#Lead);
   }
   38.64% {
     background-position: -128px -288px;
-    filter: url(tints.svg#Platinum);
+    filter: url(tints.svg#Lead);
   }
   40.91% {
-    background-position: -128px -288px;
-    filter: url(tints.svg#RoseGold);
-  }
-  43.18% {
-    background-position: -128px -288px;
-    filter: url(tints.svg#Silver);
-  }
-  45.45% {
-    background-position: -128px -288px;
-    filter: url(tints.svg#Steel);
-  }
-  47.73% {
-    background-position: -128px -288px;
-    filter: url(tints.svg#Tin);
-  }
-  50.0% {
-    background-position: -160px -288px;
-    filter: url(tints.svg#Bronze);
-  }
-  52.27% {
-    background-position: -160px -288px;
-    filter: url(tints.svg#Copper);
-  }
-  54.55% {
-    background-position: -160px -288px;
-    filter: url(tints.svg#Gold);
-  }
-  56.82% {
-    background-position: -160px -288px;
-    filter: url(tints.svg#Iron);
-  }
-  59.09% {
     background-position: -160px -288px;
     filter: url(tints.svg#Lead);
   }
-  61.36% {
+  43.18% {
+    background-position: -192px -288px;
+    filter: url(tints.svg#Lead);
+  }
+  45.45% {
+    background-position: -96px -288px;
+    filter: url(tints.svg#Malachite);
+  }
+  47.73% {
+    background-position: -128px -288px;
+    filter: url(tints.svg#Malachite);
+  }
+  50.0% {
     background-position: -160px -288px;
     filter: url(tints.svg#Malachite);
   }
-  63.64% {
+  52.27% {
+    background-position: -192px -288px;
+    filter: url(tints.svg#Malachite);
+  }
+  54.55% {
+    background-position: -96px -288px;
+    filter: url(tints.svg#Platinum);
+  }
+  56.82% {
+    background-position: -128px -288px;
+    filter: url(tints.svg#Platinum);
+  }
+  59.09% {
     background-position: -160px -288px;
     filter: url(tints.svg#Platinum);
   }
+  61.36% {
+    background-position: -192px -288px;
+    filter: url(tints.svg#Platinum);
+  }
+  63.64% {
+    background-position: -96px -288px;
+    filter: url(tints.svg#RoseGold);
+  }
   65.91% {
-    background-position: -160px -288px;
+    background-position: -128px -288px;
     filter: url(tints.svg#RoseGold);
   }
   68.18% {
     background-position: -160px -288px;
-    filter: url(tints.svg#Silver);
+    filter: url(tints.svg#RoseGold);
   }
   70.45% {
-    background-position: -160px -288px;
-    filter: url(tints.svg#Steel);
-  }
-  72.73% {
-    background-position: -160px -288px;
-    filter: url(tints.svg#Tin);
-  }
-  75.0% {
-    background-position: -192px -288px;
-    filter: url(tints.svg#Bronze);
-  }
-  77.27% {
-    background-position: -192px -288px;
-    filter: url(tints.svg#Copper);
-  }
-  79.55% {
-    background-position: -192px -288px;
-    filter: url(tints.svg#Gold);
-  }
-  81.82% {
-    background-position: -192px -288px;
-    filter: url(tints.svg#Iron);
-  }
-  84.09% {
-    background-position: -192px -288px;
-    filter: url(tints.svg#Lead);
-  }
-  86.36% {
-    background-position: -192px -288px;
-    filter: url(tints.svg#Malachite);
-  }
-  88.64% {
-    background-position: -192px -288px;
-    filter: url(tints.svg#Platinum);
-  }
-  90.91% {
     background-position: -192px -288px;
     filter: url(tints.svg#RoseGold);
   }
-  93.18% {
+  72.73% {
+    background-position: -96px -288px;
+    filter: url(tints.svg#Silver);
+  }
+  75.0% {
+    background-position: -128px -288px;
+    filter: url(tints.svg#Silver);
+  }
+  77.27% {
+    background-position: -160px -288px;
+    filter: url(tints.svg#Silver);
+  }
+  79.55% {
     background-position: -192px -288px;
     filter: url(tints.svg#Silver);
   }
-  95.45% {
+  81.82% {
+    background-position: -96px -288px;
+    filter: url(tints.svg#Steel);
+  }
+  84.09% {
+    background-position: -128px -288px;
+    filter: url(tints.svg#Steel);
+  }
+  86.36% {
+    background-position: -160px -288px;
+    filter: url(tints.svg#Steel);
+  }
+  88.64% {
     background-position: -192px -288px;
     filter: url(tints.svg#Steel);
+  }
+  90.91% {
+    background-position: -96px -288px;
+    filter: url(tints.svg#Tin);
+  }
+  93.18% {
+    background-position: -128px -288px;
+    filter: url(tints.svg#Tin);
+  }
+  95.45% {
+    background-position: -160px -288px;
+    filter: url(tints.svg#Tin);
   }
   97.73% {
     background-position: -192px -288px;
@@ -1093,128 +1093,128 @@
     filter: url(tints.svg#Bronze);
   }
   3.03% {
-    background-position: -480px -36px;
-    filter: url(tints.svg#Copper);
-  }
-  6.06% {
-    background-position: -480px -36px;
-    filter: url(tints.svg#Gold);
-  }
-  9.09% {
-    background-position: -480px -36px;
-    filter: url(tints.svg#Iron);
-  }
-  12.12% {
-    background-position: -480px -36px;
-    filter: url(tints.svg#Lead);
-  }
-  15.15% {
-    background-position: -480px -36px;
-    filter: url(tints.svg#Malachite);
-  }
-  18.18% {
-    background-position: -480px -36px;
-    filter: url(tints.svg#Platinum);
-  }
-  21.21% {
-    background-position: -480px -36px;
-    filter: url(tints.svg#RoseGold);
-  }
-  24.24% {
-    background-position: -480px -36px;
-    filter: url(tints.svg#Silver);
-  }
-  27.27% {
-    background-position: -480px -36px;
-    filter: url(tints.svg#Steel);
-  }
-  30.3% {
-    background-position: -480px -36px;
-    filter: url(tints.svg#Tin);
-  }
-  33.33% {
     background-position: -480px -72px;
     filter: url(tints.svg#Bronze);
   }
-  36.36% {
+  6.06% {
+    background-position: -480px -108px;
+    filter: url(tints.svg#Bronze);
+  }
+  9.09% {
+    background-position: -480px -36px;
+    filter: url(tints.svg#Copper);
+  }
+  12.12% {
     background-position: -480px -72px;
     filter: url(tints.svg#Copper);
   }
-  39.39% {
+  15.15% {
+    background-position: -480px -108px;
+    filter: url(tints.svg#Copper);
+  }
+  18.18% {
+    background-position: -480px -36px;
+    filter: url(tints.svg#Gold);
+  }
+  21.21% {
     background-position: -480px -72px;
     filter: url(tints.svg#Gold);
   }
-  42.42% {
+  24.24% {
+    background-position: -480px -108px;
+    filter: url(tints.svg#Gold);
+  }
+  27.27% {
+    background-position: -480px -36px;
+    filter: url(tints.svg#Iron);
+  }
+  30.3% {
     background-position: -480px -72px;
     filter: url(tints.svg#Iron);
   }
-  45.45% {
+  33.33% {
+    background-position: -480px -108px;
+    filter: url(tints.svg#Iron);
+  }
+  36.36% {
+    background-position: -480px -36px;
+    filter: url(tints.svg#Lead);
+  }
+  39.39% {
     background-position: -480px -72px;
     filter: url(tints.svg#Lead);
+  }
+  42.42% {
+    background-position: -480px -108px;
+    filter: url(tints.svg#Lead);
+  }
+  45.45% {
+    background-position: -480px -36px;
+    filter: url(tints.svg#Malachite);
   }
   48.48% {
     background-position: -480px -72px;
     filter: url(tints.svg#Malachite);
   }
   51.52% {
-    background-position: -480px -72px;
-    filter: url(tints.svg#Platinum);
-  }
-  54.55% {
-    background-position: -480px -72px;
-    filter: url(tints.svg#RoseGold);
-  }
-  57.58% {
-    background-position: -480px -72px;
-    filter: url(tints.svg#Silver);
-  }
-  60.61% {
-    background-position: -480px -72px;
-    filter: url(tints.svg#Steel);
-  }
-  63.64% {
-    background-position: -480px -72px;
-    filter: url(tints.svg#Tin);
-  }
-  66.67% {
-    background-position: -480px -108px;
-    filter: url(tints.svg#Bronze);
-  }
-  69.7% {
-    background-position: -480px -108px;
-    filter: url(tints.svg#Copper);
-  }
-  72.73% {
-    background-position: -480px -108px;
-    filter: url(tints.svg#Gold);
-  }
-  75.76% {
-    background-position: -480px -108px;
-    filter: url(tints.svg#Iron);
-  }
-  78.79% {
-    background-position: -480px -108px;
-    filter: url(tints.svg#Lead);
-  }
-  81.82% {
     background-position: -480px -108px;
     filter: url(tints.svg#Malachite);
   }
-  84.85% {
+  54.55% {
+    background-position: -480px -36px;
+    filter: url(tints.svg#Platinum);
+  }
+  57.58% {
+    background-position: -480px -72px;
+    filter: url(tints.svg#Platinum);
+  }
+  60.61% {
     background-position: -480px -108px;
     filter: url(tints.svg#Platinum);
   }
-  87.88% {
+  63.64% {
+    background-position: -480px -36px;
+    filter: url(tints.svg#RoseGold);
+  }
+  66.67% {
+    background-position: -480px -72px;
+    filter: url(tints.svg#RoseGold);
+  }
+  69.7% {
     background-position: -480px -108px;
     filter: url(tints.svg#RoseGold);
   }
-  90.91% {
+  72.73% {
+    background-position: -480px -36px;
+    filter: url(tints.svg#Silver);
+  }
+  75.76% {
+    background-position: -480px -72px;
+    filter: url(tints.svg#Silver);
+  }
+  78.79% {
     background-position: -480px -108px;
     filter: url(tints.svg#Silver);
   }
-  93.94% {
+  81.82% {
+    background-position: -480px -36px;
+    filter: url(tints.svg#Steel);
+  }
+  84.85% {
+    background-position: -480px -72px;
+    filter: url(tints.svg#Steel);
+  }
+  87.88% {
     background-position: -480px -108px;
     filter: url(tints.svg#Steel);
+  }
+  90.91% {
+    background-position: -480px -36px;
+    filter: url(tints.svg#Tin);
+  }
+  93.94% {
+    background-position: -480px -72px;
+    filter: url(tints.svg#Tin);
   }
   96.97% {
     background-position: -480px -108px;
@@ -1570,128 +1570,128 @@
     filter: url(tints.svg#Bronze);
   }
   3.03% {
-    background-position: -96px -324px;
-    filter: url(tints.svg#Copper);
-  }
-  6.06% {
-    background-position: -96px -324px;
-    filter: url(tints.svg#Gold);
-  }
-  9.09% {
-    background-position: -96px -324px;
-    filter: url(tints.svg#Iron);
-  }
-  12.12% {
-    background-position: -96px -324px;
-    filter: url(tints.svg#Lead);
-  }
-  15.15% {
-    background-position: -96px -324px;
-    filter: url(tints.svg#Malachite);
-  }
-  18.18% {
-    background-position: -96px -324px;
-    filter: url(tints.svg#Platinum);
-  }
-  21.21% {
-    background-position: -96px -324px;
-    filter: url(tints.svg#RoseGold);
-  }
-  24.24% {
-    background-position: -96px -324px;
-    filter: url(tints.svg#Silver);
-  }
-  27.27% {
-    background-position: -96px -324px;
-    filter: url(tints.svg#Steel);
-  }
-  30.3% {
-    background-position: -96px -324px;
-    filter: url(tints.svg#Tin);
-  }
-  33.33% {
     background-position: -160px -324px;
     filter: url(tints.svg#Bronze);
   }
-  36.36% {
+  6.06% {
+    background-position: -128px -324px;
+    filter: url(tints.svg#Bronze);
+  }
+  9.09% {
+    background-position: -96px -324px;
+    filter: url(tints.svg#Copper);
+  }
+  12.12% {
     background-position: -160px -324px;
     filter: url(tints.svg#Copper);
   }
-  39.39% {
+  15.15% {
+    background-position: -128px -324px;
+    filter: url(tints.svg#Copper);
+  }
+  18.18% {
+    background-position: -96px -324px;
+    filter: url(tints.svg#Gold);
+  }
+  21.21% {
     background-position: -160px -324px;
     filter: url(tints.svg#Gold);
   }
-  42.42% {
+  24.24% {
+    background-position: -128px -324px;
+    filter: url(tints.svg#Gold);
+  }
+  27.27% {
+    background-position: -96px -324px;
+    filter: url(tints.svg#Iron);
+  }
+  30.3% {
     background-position: -160px -324px;
     filter: url(tints.svg#Iron);
   }
-  45.45% {
+  33.33% {
+    background-position: -128px -324px;
+    filter: url(tints.svg#Iron);
+  }
+  36.36% {
+    background-position: -96px -324px;
+    filter: url(tints.svg#Lead);
+  }
+  39.39% {
     background-position: -160px -324px;
     filter: url(tints.svg#Lead);
+  }
+  42.42% {
+    background-position: -128px -324px;
+    filter: url(tints.svg#Lead);
+  }
+  45.45% {
+    background-position: -96px -324px;
+    filter: url(tints.svg#Malachite);
   }
   48.48% {
     background-position: -160px -324px;
     filter: url(tints.svg#Malachite);
   }
   51.52% {
-    background-position: -160px -324px;
-    filter: url(tints.svg#Platinum);
-  }
-  54.55% {
-    background-position: -160px -324px;
-    filter: url(tints.svg#RoseGold);
-  }
-  57.58% {
-    background-position: -160px -324px;
-    filter: url(tints.svg#Silver);
-  }
-  60.61% {
-    background-position: -160px -324px;
-    filter: url(tints.svg#Steel);
-  }
-  63.64% {
-    background-position: -160px -324px;
-    filter: url(tints.svg#Tin);
-  }
-  66.67% {
-    background-position: -128px -324px;
-    filter: url(tints.svg#Bronze);
-  }
-  69.7% {
-    background-position: -128px -324px;
-    filter: url(tints.svg#Copper);
-  }
-  72.73% {
-    background-position: -128px -324px;
-    filter: url(tints.svg#Gold);
-  }
-  75.76% {
-    background-position: -128px -324px;
-    filter: url(tints.svg#Iron);
-  }
-  78.79% {
-    background-position: -128px -324px;
-    filter: url(tints.svg#Lead);
-  }
-  81.82% {
     background-position: -128px -324px;
     filter: url(tints.svg#Malachite);
   }
-  84.85% {
+  54.55% {
+    background-position: -96px -324px;
+    filter: url(tints.svg#Platinum);
+  }
+  57.58% {
+    background-position: -160px -324px;
+    filter: url(tints.svg#Platinum);
+  }
+  60.61% {
     background-position: -128px -324px;
     filter: url(tints.svg#Platinum);
   }
-  87.88% {
+  63.64% {
+    background-position: -96px -324px;
+    filter: url(tints.svg#RoseGold);
+  }
+  66.67% {
+    background-position: -160px -324px;
+    filter: url(tints.svg#RoseGold);
+  }
+  69.7% {
     background-position: -128px -324px;
     filter: url(tints.svg#RoseGold);
   }
-  90.91% {
+  72.73% {
+    background-position: -96px -324px;
+    filter: url(tints.svg#Silver);
+  }
+  75.76% {
+    background-position: -160px -324px;
+    filter: url(tints.svg#Silver);
+  }
+  78.79% {
     background-position: -128px -324px;
     filter: url(tints.svg#Silver);
   }
-  93.94% {
+  81.82% {
+    background-position: -96px -324px;
+    filter: url(tints.svg#Steel);
+  }
+  84.85% {
+    background-position: -160px -324px;
+    filter: url(tints.svg#Steel);
+  }
+  87.88% {
     background-position: -128px -324px;
     filter: url(tints.svg#Steel);
+  }
+  90.91% {
+    background-position: -96px -324px;
+    filter: url(tints.svg#Tin);
+  }
+  93.94% {
+    background-position: -160px -324px;
+    filter: url(tints.svg#Tin);
   }
   96.97% {
     background-position: -128px -324px;
@@ -2934,92 +2934,92 @@
     filter: url(tints.svg#AppleWood);
   }
   4.17% {
-    background-position: -32px -72px;
-    filter: url(tints.svg#Birch);
-  }
-  8.33% {
-    background-position: -32px -72px;
-    filter: url(tints.svg#Oak);
-  }
-  12.5% {
-    background-position: -32px -72px;
-    filter: url(tints.svg#OrangeWood);
-  }
-  16.67% {
-    background-position: -32px -72px;
-    filter: url(tints.svg#Pine);
-  }
-  20.83% {
-    background-position: -32px -72px;
-    filter: url(tints.svg#Willow);
-  }
-  25.0% {
     background-position: -96px -72px;
     filter: url(tints.svg#AppleWood);
   }
-  29.17% {
+  8.33% {
+    background-position: -160px -72px;
+    filter: url(tints.svg#AppleWood);
+  }
+  12.5% {
+    background-position: -224px -72px;
+    filter: url(tints.svg#AppleWood);
+  }
+  16.67% {
+    background-position: -32px -72px;
+    filter: url(tints.svg#Birch);
+  }
+  20.83% {
     background-position: -96px -72px;
     filter: url(tints.svg#Birch);
   }
+  25.0% {
+    background-position: -160px -72px;
+    filter: url(tints.svg#Birch);
+  }
+  29.17% {
+    background-position: -224px -72px;
+    filter: url(tints.svg#Birch);
+  }
   33.33% {
-    background-position: -96px -72px;
+    background-position: -32px -72px;
     filter: url(tints.svg#Oak);
   }
   37.5% {
     background-position: -96px -72px;
-    filter: url(tints.svg#OrangeWood);
+    filter: url(tints.svg#Oak);
   }
   41.67% {
-    background-position: -96px -72px;
-    filter: url(tints.svg#Pine);
+    background-position: -160px -72px;
+    filter: url(tints.svg#Oak);
   }
   45.83% {
-    background-position: -96px -72px;
-    filter: url(tints.svg#Willow);
+    background-position: -224px -72px;
+    filter: url(tints.svg#Oak);
   }
   50.0% {
-    background-position: -160px -72px;
-    filter: url(tints.svg#AppleWood);
+    background-position: -32px -72px;
+    filter: url(tints.svg#OrangeWood);
   }
   54.17% {
-    background-position: -160px -72px;
-    filter: url(tints.svg#Birch);
+    background-position: -96px -72px;
+    filter: url(tints.svg#OrangeWood);
   }
   58.33% {
     background-position: -160px -72px;
-    filter: url(tints.svg#Oak);
+    filter: url(tints.svg#OrangeWood);
   }
   62.5% {
-    background-position: -160px -72px;
+    background-position: -224px -72px;
     filter: url(tints.svg#OrangeWood);
   }
   66.67% {
-    background-position: -160px -72px;
+    background-position: -32px -72px;
     filter: url(tints.svg#Pine);
   }
   70.83% {
-    background-position: -160px -72px;
-    filter: url(tints.svg#Willow);
+    background-position: -96px -72px;
+    filter: url(tints.svg#Pine);
   }
   75.0% {
-    background-position: -224px -72px;
-    filter: url(tints.svg#AppleWood);
+    background-position: -160px -72px;
+    filter: url(tints.svg#Pine);
   }
   79.17% {
     background-position: -224px -72px;
-    filter: url(tints.svg#Birch);
+    filter: url(tints.svg#Pine);
   }
   83.33% {
-    background-position: -224px -72px;
-    filter: url(tints.svg#Oak);
+    background-position: -32px -72px;
+    filter: url(tints.svg#Willow);
   }
   87.5% {
-    background-position: -224px -72px;
-    filter: url(tints.svg#OrangeWood);
+    background-position: -96px -72px;
+    filter: url(tints.svg#Willow);
   }
   91.67% {
-    background-position: -224px -72px;
-    filter: url(tints.svg#Pine);
+    background-position: -160px -72px;
+    filter: url(tints.svg#Willow);
   }
   95.83% {
     background-position: -224px -72px;
@@ -3046,92 +3046,92 @@
     filter: url(tints.svg#AppleWood);
   }
   4.17% {
-    background-position: -0px -72px;
-    filter: url(tints.svg#Birch);
-  }
-  8.33% {
-    background-position: -0px -72px;
-    filter: url(tints.svg#Oak);
-  }
-  12.5% {
-    background-position: -0px -72px;
-    filter: url(tints.svg#OrangeWood);
-  }
-  16.67% {
-    background-position: -0px -72px;
-    filter: url(tints.svg#Pine);
-  }
-  20.83% {
-    background-position: -0px -72px;
-    filter: url(tints.svg#Willow);
-  }
-  25.0% {
     background-position: -64px -72px;
     filter: url(tints.svg#AppleWood);
   }
-  29.17% {
+  8.33% {
+    background-position: -128px -72px;
+    filter: url(tints.svg#AppleWood);
+  }
+  12.5% {
+    background-position: -192px -72px;
+    filter: url(tints.svg#AppleWood);
+  }
+  16.67% {
+    background-position: -0px -72px;
+    filter: url(tints.svg#Birch);
+  }
+  20.83% {
     background-position: -64px -72px;
     filter: url(tints.svg#Birch);
   }
+  25.0% {
+    background-position: -128px -72px;
+    filter: url(tints.svg#Birch);
+  }
+  29.17% {
+    background-position: -192px -72px;
+    filter: url(tints.svg#Birch);
+  }
   33.33% {
-    background-position: -64px -72px;
+    background-position: -0px -72px;
     filter: url(tints.svg#Oak);
   }
   37.5% {
     background-position: -64px -72px;
-    filter: url(tints.svg#OrangeWood);
+    filter: url(tints.svg#Oak);
   }
   41.67% {
-    background-position: -64px -72px;
-    filter: url(tints.svg#Pine);
+    background-position: -128px -72px;
+    filter: url(tints.svg#Oak);
   }
   45.83% {
-    background-position: -64px -72px;
-    filter: url(tints.svg#Willow);
+    background-position: -192px -72px;
+    filter: url(tints.svg#Oak);
   }
   50.0% {
-    background-position: -128px -72px;
-    filter: url(tints.svg#AppleWood);
+    background-position: -0px -72px;
+    filter: url(tints.svg#OrangeWood);
   }
   54.17% {
-    background-position: -128px -72px;
-    filter: url(tints.svg#Birch);
+    background-position: -64px -72px;
+    filter: url(tints.svg#OrangeWood);
   }
   58.33% {
     background-position: -128px -72px;
-    filter: url(tints.svg#Oak);
+    filter: url(tints.svg#OrangeWood);
   }
   62.5% {
-    background-position: -128px -72px;
+    background-position: -192px -72px;
     filter: url(tints.svg#OrangeWood);
   }
   66.67% {
-    background-position: -128px -72px;
+    background-position: -0px -72px;
     filter: url(tints.svg#Pine);
   }
   70.83% {
-    background-position: -128px -72px;
-    filter: url(tints.svg#Willow);
+    background-position: -64px -72px;
+    filter: url(tints.svg#Pine);
   }
   75.0% {
-    background-position: -192px -72px;
-    filter: url(tints.svg#AppleWood);
+    background-position: -128px -72px;
+    filter: url(tints.svg#Pine);
   }
   79.17% {
     background-position: -192px -72px;
-    filter: url(tints.svg#Birch);
+    filter: url(tints.svg#Pine);
   }
   83.33% {
-    background-position: -192px -72px;
-    filter: url(tints.svg#Oak);
+    background-position: -0px -72px;
+    filter: url(tints.svg#Willow);
   }
   87.5% {
-    background-position: -192px -72px;
-    filter: url(tints.svg#OrangeWood);
+    background-position: -64px -72px;
+    filter: url(tints.svg#Willow);
   }
   91.67% {
-    background-position: -192px -72px;
-    filter: url(tints.svg#Pine);
+    background-position: -128px -72px;
+    filter: url(tints.svg#Willow);
   }
   95.83% {
     background-position: -192px -72px;
@@ -3158,92 +3158,92 @@
     filter: url(tints.svg#AppleWood);
   }
   4.17% {
-    background-position: -32px -36px;
-    filter: url(tints.svg#Birch);
-  }
-  8.33% {
-    background-position: -32px -36px;
-    filter: url(tints.svg#Oak);
-  }
-  12.5% {
-    background-position: -32px -36px;
-    filter: url(tints.svg#OrangeWood);
-  }
-  16.67% {
-    background-position: -32px -36px;
-    filter: url(tints.svg#Pine);
-  }
-  20.83% {
-    background-position: -32px -36px;
-    filter: url(tints.svg#Willow);
-  }
-  25.0% {
     background-position: -96px -36px;
     filter: url(tints.svg#AppleWood);
   }
-  29.17% {
+  8.33% {
+    background-position: -160px -36px;
+    filter: url(tints.svg#AppleWood);
+  }
+  12.5% {
+    background-position: -224px -36px;
+    filter: url(tints.svg#AppleWood);
+  }
+  16.67% {
+    background-position: -32px -36px;
+    filter: url(tints.svg#Birch);
+  }
+  20.83% {
     background-position: -96px -36px;
     filter: url(tints.svg#Birch);
   }
+  25.0% {
+    background-position: -160px -36px;
+    filter: url(tints.svg#Birch);
+  }
+  29.17% {
+    background-position: -224px -36px;
+    filter: url(tints.svg#Birch);
+  }
   33.33% {
-    background-position: -96px -36px;
+    background-position: -32px -36px;
     filter: url(tints.svg#Oak);
   }
   37.5% {
     background-position: -96px -36px;
-    filter: url(tints.svg#OrangeWood);
+    filter: url(tints.svg#Oak);
   }
   41.67% {
-    background-position: -96px -36px;
-    filter: url(tints.svg#Pine);
+    background-position: -160px -36px;
+    filter: url(tints.svg#Oak);
   }
   45.83% {
-    background-position: -96px -36px;
-    filter: url(tints.svg#Willow);
+    background-position: -224px -36px;
+    filter: url(tints.svg#Oak);
   }
   50.0% {
-    background-position: -160px -36px;
-    filter: url(tints.svg#AppleWood);
+    background-position: -32px -36px;
+    filter: url(tints.svg#OrangeWood);
   }
   54.17% {
-    background-position: -160px -36px;
-    filter: url(tints.svg#Birch);
+    background-position: -96px -36px;
+    filter: url(tints.svg#OrangeWood);
   }
   58.33% {
     background-position: -160px -36px;
-    filter: url(tints.svg#Oak);
+    filter: url(tints.svg#OrangeWood);
   }
   62.5% {
-    background-position: -160px -36px;
+    background-position: -224px -36px;
     filter: url(tints.svg#OrangeWood);
   }
   66.67% {
-    background-position: -160px -36px;
+    background-position: -32px -36px;
     filter: url(tints.svg#Pine);
   }
   70.83% {
-    background-position: -160px -36px;
-    filter: url(tints.svg#Willow);
+    background-position: -96px -36px;
+    filter: url(tints.svg#Pine);
   }
   75.0% {
-    background-position: -224px -36px;
-    filter: url(tints.svg#AppleWood);
+    background-position: -160px -36px;
+    filter: url(tints.svg#Pine);
   }
   79.17% {
     background-position: -224px -36px;
-    filter: url(tints.svg#Birch);
+    filter: url(tints.svg#Pine);
   }
   83.33% {
-    background-position: -224px -36px;
-    filter: url(tints.svg#Oak);
+    background-position: -32px -36px;
+    filter: url(tints.svg#Willow);
   }
   87.5% {
-    background-position: -224px -36px;
-    filter: url(tints.svg#OrangeWood);
+    background-position: -96px -36px;
+    filter: url(tints.svg#Willow);
   }
   91.67% {
-    background-position: -224px -36px;
-    filter: url(tints.svg#Pine);
+    background-position: -160px -36px;
+    filter: url(tints.svg#Willow);
   }
   95.83% {
     background-position: -224px -36px;
@@ -3270,92 +3270,92 @@
     filter: url(tints.svg#AppleWood);
   }
   4.17% {
-    background-position: -0px -36px;
-    filter: url(tints.svg#Birch);
-  }
-  8.33% {
-    background-position: -0px -36px;
-    filter: url(tints.svg#Oak);
-  }
-  12.5% {
-    background-position: -0px -36px;
-    filter: url(tints.svg#OrangeWood);
-  }
-  16.67% {
-    background-position: -0px -36px;
-    filter: url(tints.svg#Pine);
-  }
-  20.83% {
-    background-position: -0px -36px;
-    filter: url(tints.svg#Willow);
-  }
-  25.0% {
     background-position: -64px -36px;
     filter: url(tints.svg#AppleWood);
   }
-  29.17% {
+  8.33% {
+    background-position: -128px -36px;
+    filter: url(tints.svg#AppleWood);
+  }
+  12.5% {
+    background-position: -192px -36px;
+    filter: url(tints.svg#AppleWood);
+  }
+  16.67% {
+    background-position: -0px -36px;
+    filter: url(tints.svg#Birch);
+  }
+  20.83% {
     background-position: -64px -36px;
     filter: url(tints.svg#Birch);
   }
+  25.0% {
+    background-position: -128px -36px;
+    filter: url(tints.svg#Birch);
+  }
+  29.17% {
+    background-position: -192px -36px;
+    filter: url(tints.svg#Birch);
+  }
   33.33% {
-    background-position: -64px -36px;
+    background-position: -0px -36px;
     filter: url(tints.svg#Oak);
   }
   37.5% {
     background-position: -64px -36px;
-    filter: url(tints.svg#OrangeWood);
+    filter: url(tints.svg#Oak);
   }
   41.67% {
-    background-position: -64px -36px;
-    filter: url(tints.svg#Pine);
+    background-position: -128px -36px;
+    filter: url(tints.svg#Oak);
   }
   45.83% {
-    background-position: -64px -36px;
-    filter: url(tints.svg#Willow);
+    background-position: -192px -36px;
+    filter: url(tints.svg#Oak);
   }
   50.0% {
-    background-position: -128px -36px;
-    filter: url(tints.svg#AppleWood);
+    background-position: -0px -36px;
+    filter: url(tints.svg#OrangeWood);
   }
   54.17% {
-    background-position: -128px -36px;
-    filter: url(tints.svg#Birch);
+    background-position: -64px -36px;
+    filter: url(tints.svg#OrangeWood);
   }
   58.33% {
     background-position: -128px -36px;
-    filter: url(tints.svg#Oak);
+    filter: url(tints.svg#OrangeWood);
   }
   62.5% {
-    background-position: -128px -36px;
+    background-position: -192px -36px;
     filter: url(tints.svg#OrangeWood);
   }
   66.67% {
-    background-position: -128px -36px;
+    background-position: -0px -36px;
     filter: url(tints.svg#Pine);
   }
   70.83% {
-    background-position: -128px -36px;
-    filter: url(tints.svg#Willow);
+    background-position: -64px -36px;
+    filter: url(tints.svg#Pine);
   }
   75.0% {
-    background-position: -192px -36px;
-    filter: url(tints.svg#AppleWood);
+    background-position: -128px -36px;
+    filter: url(tints.svg#Pine);
   }
   79.17% {
     background-position: -192px -36px;
-    filter: url(tints.svg#Birch);
+    filter: url(tints.svg#Pine);
   }
   83.33% {
-    background-position: -192px -36px;
-    filter: url(tints.svg#Oak);
+    background-position: -0px -36px;
+    filter: url(tints.svg#Willow);
   }
   87.5% {
-    background-position: -192px -36px;
-    filter: url(tints.svg#OrangeWood);
+    background-position: -64px -36px;
+    filter: url(tints.svg#Willow);
   }
   91.67% {
-    background-position: -192px -36px;
-    filter: url(tints.svg#Pine);
+    background-position: -128px -36px;
+    filter: url(tints.svg#Willow);
   }
   95.83% {
     background-position: -192px -36px;
@@ -21630,7 +21630,6 @@
 }
 .k-PlankStairs.m-any .cn-2 .y-1
 {
-  animation: anim_1 6.0s infinite step-end;
   background-image: url(terrain.png);
   background-position: -256px -324px;
   width: 32px;
@@ -21716,192 +21715,177 @@
   left: 32px;
   top: 0px;
 }
-.m-Workshops.m-any .cn-1 .y-1,
 .w-Armorer.m-any .cn-1 .y-1,
 .w-Armorer.m-any .cn-11 .y-1,
-.w-Armorer.m-any .cn-7 .y-1,
+.w-Armorer.m-any .cn-13 .y-1,
+.w-Armorer.m-any .cn-17 .y-1,
+.w-Armorer.m-any .cn-3 .y-1,
 .w-Armorer.m-any .cn-9 .y-1,
-.w-Automaton.m-any .cn-1 .y-1,
 .w-Automaton.m-any .cn-11 .y-1,
+.w-Automaton.m-any .cn-13 .y-1,
+.w-Automaton.m-any .cn-15 .y-1,
 .w-Automaton.m-any .cn-3 .y-1,
-.w-Automaton.m-any .cn-9 .y-1,
-.w-Blacksmith.m-any .cn-1 .y-1,
-.w-Blacksmith.m-any .cn-15 .y-1,
+.w-Automaton.m-any .cn-7 .y-1,
+.w-Blacksmith.m-any .cn-11 .y-1,
 .w-Blacksmith.m-any .cn-17 .y-1,
+.w-Blacksmith.m-any .cn-3 .y-1,
 .w-Blacksmith.m-any .cn-5 .y-1,
-.w-Blacksmith.m-any .cn-7 .y-1,
-.w-Blacksmith.m-any .cn-9 .y-1,
-.w-Bonecarver.m-any .cn-1 .y-1,
 .w-Bonecarver.m-any .cn-13 .y-1,
-.w-Bonecarver.m-any .cn-15 .y-1,
 .w-Bonecarver.m-any .cn-3 .y-1,
 .w-Bonecarver.m-any .cn-5 .y-1,
-.w-Bonecarver.m-any .cn-9 .y-1,
+.w-Butcher.m-any .cn-1 .y-1,
 .w-Butcher.m-any .cn-11 .y-1,
-.w-Butcher.m-any .cn-15 .y-1,
-.w-Butcher.m-any .cn-3 .y-1,
-.w-Butcher.m-any .cn-7 .y-1,
-.w-Butcher.m-any .cn-9 .y-1,
+.w-Butcher.m-any .cn-13 .y-1,
+.w-Butcher.m-any .cn-17 .y-1,
 .w-Carpenter.m-any .cn-1 .y-1,
 .w-Carpenter.m-any .cn-11 .y-1,
-.w-Carpenter.m-any .cn-13 .y-1,
-.w-Carpenter.m-any .cn-9 .y-1,
-.w-Crude.m-any .cn-11 .y-1,
+.w-Carpenter.m-any .cn-3 .y-1,
+.w-Carpenter.m-any .cn-5 .y-1,
+.w-Crude.m-any .cn-1 .y-1,
+.w-Crude.m-any .cn-5 .y-1,
+.w-Crude.m-any .cn-7 .y-1,
 .w-Distillery.m-any .cn-1 .y-1,
-.w-Distillery.m-any .cn-11 .y-1,
 .w-Distillery.m-any .cn-13 .y-1,
 .w-Distillery.m-any .cn-5 .y-1,
-.w-Dyer.m-any .cn-11 .y-1,
-.w-Dyer.m-any .cn-13 .y-1,
+.w-Distillery.m-any .cn-9 .y-1,
+.w-Dyer.m-any .cn-17 .y-1,
 .w-Dyer.m-any .cn-5 .y-1,
-.w-Dyer.m-any .cn-7 .y-1,
-.w-Dyer.m-any .cn-9 .y-1,
-.w-Engineer.m-any .cn-17 .y-1,
-.w-Engineer.m-any .cn-9 .y-1,
+.w-Engineer.m-any .cn-11 .y-1,
+.w-Engineer.m-any .cn-13 .y-1,
+.w-Engineer.m-any .cn-15 .y-1,
+.w-Engineer.m-any .cn-3 .y-1,
 .w-Fishery.m-any .cn-11 .y-1,
-.w-Fishery.m-any .cn-15 .y-1,
-.w-Fishery.m-any .cn-7 .y-1,
+.w-Fishery.m-any .cn-17 .y-1,
 .w-Fishery.m-any .cn-9 .y-1,
-.w-Forge.m-any .cn-1 .y-1,
-.w-Forge.m-any .cn-11 .y-1,
-.w-Forge.m-any .cn-13 .y-1,
 .w-Forge.m-any .cn-15 .y-1,
-.w-Forge.m-any .cn-17 .y-1,
-.w-Forge.m-any .cn-3 .y-1,
-.w-Forge.m-any .cn-9 .y-1,
-.w-Furnace.m-any .cn-1 .y-1,
 .w-Furnace.m-any .cn-11 .y-1,
-.w-Furnace.m-any .cn-13 .y-1,
-.w-Furnace.m-any .cn-15 .y-1,
 .w-Furnace.m-any .cn-17 .y-1,
-.w-Gemcutter.m-any .cn-1 .y-1,
+.w-Furnace.m-any .cn-3 .y-1,
+.w-Furnace.m-any .cn-5 .y-1,
+.w-Gemcutter.m-any .cn-11 .y-1,
 .w-Gemcutter.m-any .cn-13 .y-1,
-.w-Gemcutter.m-any .cn-15 .y-1,
-.w-Gemcutter.m-any .cn-3 .y-1,
+.w-Gemcutter.m-any .cn-17 .y-1,
+.w-Gemcutter.m-any .cn-5 .y-1,
+.w-Gemcutter.m-any .cn-7 .y-1,
+.w-GlassFurnace.m-any .cn-1 .y-1,
 .w-GlassFurnace.m-any .cn-11 .y-1,
+.w-GlassFurnace.m-any .cn-15 .y-1,
 .w-GlassFurnace.m-any .cn-3 .y-1,
-.w-GlassFurnace.m-any .cn-9 .y-1,
+.w-GlassFurnace.m-any .cn-7 .y-1,
 .w-GlassMaker.m-any .cn-11 .y-1,
-.w-GlassMaker.m-any .cn-15 .y-1,
-.w-GlassMaker.m-any .cn-5 .y-1,
+.w-GlassMaker.m-any .cn-17 .y-1,
 .w-GlassMaker.m-any .cn-7 .y-1,
-.w-GlassMaker.m-any .cn-9 .y-1,
 .w-Jeweler.m-any .cn-11 .y-1,
-.w-Jeweler.m-any .cn-13 .y-1,
 .w-Jeweler.m-any .cn-15 .y-1,
 .w-Jeweler.m-any .cn-17 .y-1,
+.w-Jeweler.m-any .cn-3 .y-1,
 .w-Jeweler.m-any .cn-5 .y-1,
-.w-Jeweler.m-any .cn-7 .y-1,
 .w-Jeweler.m-any .cn-9 .y-1,
-.w-Kiln.m-any .cn-1 .y-1,
-.w-Kiln.m-any .cn-15 .y-1,
+.w-Kiln.m-any .cn-11 .y-1,
+.w-Kiln.m-any .cn-13 .y-1,
+.w-Kiln.m-any .cn-17 .y-1,
 .w-Kiln.m-any .cn-5 .y-1,
 .w-Kiln.m-any .cn-9 .y-1,
+.w-Kitchen.m-any .cn-1 .y-1,
 .w-Kitchen.m-any .cn-11 .y-1,
+.w-Kitchen.m-any .cn-13 .y-1,
 .w-Kitchen.m-any .cn-15 .y-1,
-.w-Kitchen.m-any .cn-3 .y-1,
 .w-Kitchen.m-any .cn-5 .y-1,
-.w-Kitchen.m-any .cn-7 .y-1,
 .w-Kitchen.m-any .cn-9 .y-1,
 .w-Leatherworker.m-any .cn-1 .y-1,
-.w-Leatherworker.m-any .cn-11 .y-1,
 .w-Leatherworker.m-any .cn-13 .y-1,
-.w-Leatherworker.m-any .cn-15 .y-1,
 .w-Leatherworker.m-any .cn-17 .y-1,
 .w-Leatherworker.m-any .cn-3 .y-1,
 .w-Leatherworker.m-any .cn-7 .y-1,
-.w-Loom.m-any .cn-1 .y-1,
+.w-Loom.m-any .cn-11 .y-1,
 .w-Loom.m-any .cn-13 .y-1,
 .w-Loom.m-any .cn-17 .y-1,
-.w-Loom.m-any .cn-5 .y-1,
-.w-Loom.m-any .cn-7 .y-1,
+.w-Loom.m-any .cn-3 .y-1,
 .w-Loom.m-any .cn-9 .y-1,
 .w-MachineShop.m-any .cn-1 .y-1,
 .w-MachineShop.m-any .cn-11 .y-1,
 .w-MachineShop.m-any .cn-13 .y-1,
 .w-MachineShop.m-any .cn-17 .y-1,
-.w-MachineShop.m-any .cn-3 .y-1,
-.w-MachineShop.m-any .cn-5 .y-1,
-.w-MachineShop.m-any .cn-7 .y-1,
-.w-MarketStall.m-any .cn-15 .y-1,
-.w-MarketStall.m-any .cn-17 .y-1,
 .w-MarketStall.m-any .cn-3 .y-1,
 .w-MarketStall.m-any .cn-5 .y-1,
-.w-MarketStall.m-any .cn-7 .y-1,
 .w-MarketStall.m-any .cn-9 .y-1,
-.w-MeleeTraining.m-any .cn-1 .y-1,
 .w-MeleeTraining.m-any .cn-11 .y-1,
+.w-MeleeTraining.m-any .cn-13 .y-1,
 .w-MeleeTraining.m-any .cn-15 .y-1,
-.w-MeleeTraining.m-any .cn-19 .y-1,
+.w-MeleeTraining.m-any .cn-17 .y-1,
 .w-MeleeTraining.m-any .cn-21 .y-1,
 .w-MeleeTraining.m-any .cn-23 .y-1,
+.w-MeleeTraining.m-any .cn-27 .y-1,
 .w-MeleeTraining.m-any .cn-29 .y-1,
-.w-MeleeTraining.m-any .cn-31 .y-1,
+.w-MeleeTraining.m-any .cn-3 .y-1,
+.w-MeleeTraining.m-any .cn-33 .y-1,
 .w-MeleeTraining.m-any .cn-35 .y-1,
-.w-MeleeTraining.m-any .cn-39 .y-1,
+.w-MeleeTraining.m-any .cn-37 .y-1,
+.w-MeleeTraining.m-any .cn-41 .y-1,
 .w-MeleeTraining.m-any .cn-43 .y-1,
 .w-MeleeTraining.m-any .cn-45 .y-1,
 .w-MeleeTraining.m-any .cn-49 .y-1,
 .w-MeleeTraining.m-any .cn-7 .y-1,
-.w-MeleeTraining.m-any .cn-9 .y-1,
 .w-Metalworker.m-any .cn-1 .y-1,
-.w-Metalworker.m-any .cn-11 .y-1,
+.w-Metalworker.m-any .cn-13 .y-1,
 .w-Metalworker.m-any .cn-15 .y-1,
-.w-Metalworker.m-any .cn-9 .y-1,
+.w-Metalworker.m-any .cn-5 .y-1,
 .w-Prospector.m-any .cn-1 .y-1,
 .w-Prospector.m-any .cn-11 .y-1,
-.w-Prospector.m-any .cn-15 .y-1,
-.w-Prospector.m-any .cn-17 .y-1,
-.w-Prospector.m-any .cn-5 .y-1,
-.w-Sawmill.m-any .cn-11 .y-1,
-.w-Sawmill.m-any .cn-3 .y-1,
+.w-Prospector.m-any .cn-3 .y-1,
+.w-Prospector.m-any .cn-7 .y-1,
+.w-Prospector.m-any .cn-9 .y-1,
+.w-Sawmill.m-any .cn-1 .y-1,
+.w-Sawmill.m-any .cn-17 .y-1,
+.w-Sawmill.m-any .cn-5 .y-1,
 .w-Sawmill.m-any .cn-7 .y-1,
+.w-Sawmill.m-any .cn-9 .y-1,
 .w-Stonecarver.m-any .cn-1 .y-1,
-.w-Stonecarver.m-any .cn-11 .y-1,
+.w-Stonecarver.m-any .cn-15 .y-1,
+.w-Stonecarver.m-any .cn-17 .y-1,
 .w-Stonecarver.m-any .cn-3 .y-1,
+.w-Stonecarver.m-any .cn-5 .y-1,
+.w-Stonecarver.m-any .cn-7 .y-1,
 .w-Stonecarver.m-any .cn-9 .y-1,
-.w-Stonecutter.m-any .cn-11 .y-1,
-.w-Stonecutter.m-any .cn-13 .y-1,
+.w-Stonecutter.m-any .cn-1 .y-1,
 .w-Stonecutter.m-any .cn-17 .y-1,
 .w-Stonecutter.m-any .cn-5 .y-1,
 .w-Stonecutter.m-any .cn-7 .y-1,
-.w-Stonemason.m-any .cn-1 .y-1,
-.w-Stonemason.m-any .cn-15 .y-1,
+.w-Stonecutter.m-any .cn-9 .y-1,
+.w-Stonemason.m-any .cn-11 .y-1,
+.w-Stonemason.m-any .cn-13 .y-1,
+.w-Stonemason.m-any .cn-17 .y-1,
 .w-Stonemason.m-any .cn-3 .y-1,
 .w-Stonemason.m-any .cn-5 .y-1,
 .w-Stonemason.m-any .cn-7 .y-1,
-.w-Stonemason.m-any .cn-9 .y-1,
 .w-Tailor.m-any .cn-1 .y-1,
-.w-Tailor.m-any .cn-11 .y-1,
-.w-Tailor.m-any .cn-15 .y-1,
+.w-Tailor.m-any .cn-13 .y-1,
 .w-Tailor.m-any .cn-3 .y-1,
 .w-Tailor.m-any .cn-5 .y-1,
-.w-WasteDisposal.m-any .cn-11 .y-1,
+.w-Tailor.m-any .cn-7 .y-1,
+.w-WasteDisposal.m-any .cn-1 .y-1,
+.w-WasteDisposal.m-any .cn-13 .y-1,
 .w-WasteDisposal.m-any .cn-15 .y-1,
-.w-WasteDisposal.m-any .cn-17 .y-1,
 .w-WasteDisposal.m-any .cn-3 .y-1,
 .w-WasteDisposal.m-any .cn-5 .y-1,
-.w-WasteDisposal.m-any .cn-7 .y-1,
-.w-Weaponsmith.m-any .cn-1 .y-1,
 .w-Weaponsmith.m-any .cn-11 .y-1,
+.w-Weaponsmith.m-any .cn-13 .y-1,
 .w-Weaponsmith.m-any .cn-15 .y-1,
+.w-Weaponsmith.m-any .cn-17 .y-1,
 .w-Weaponsmith.m-any .cn-3 .y-1,
-.w-Weaponsmith.m-any .cn-7 .y-1,
-.w-Weaponsmith.m-any .cn-9 .y-1,
 .w-Windmill.m-any .cn-1 .y-1,
-.w-Windmill.m-any .cn-11 .y-1,
 .w-Windmill.m-any .cn-17 .y-1,
-.w-Windmill.m-any .cn-21 .y-1,
+.w-Windmill.m-any .cn-27 .y-1,
 .w-Windmill.m-any .cn-29 .y-1,
-.w-Windmill.m-any .cn-3 .y-1,
+.w-Windmill.m-any .cn-31 .y-1,
 .w-Windmill.m-any .cn-5 .y-1,
-.w-Woodcarver.m-any .cn-11 .y-1,
-.w-Woodcarver.m-any .cn-17 .y-1,
-.w-Woodcarver.m-any .cn-5 .y-1,
+.w-Woodcarver.m-any .cn-13 .y-1,
+.w-Woodcarver.m-any .cn-15 .y-1,
+.w-Woodcarver.m-any .cn-3 .y-1,
 .w-Woodcarver.m-any .cn-9 .y-1
 {
   background-image: url(seasonalgrass.png);
-  background-position: -128px -180px;
+  background-position: -128px -36px;
   width: 32px;
   height: 36px;
 }
@@ -21913,169 +21897,184 @@
   left: 48px;
   top: 8px;
 }
-.w-Armorer.m-any .cn-13 .y-1,
-.w-Armorer.m-any .cn-15 .y-1,
-.w-Armorer.m-any .cn-17 .y-1,
-.w-Armorer.m-any .cn-3 .y-1,
-.w-Armorer.m-any .cn-5 .y-1,
-.w-Automaton.m-any .cn-13 .y-1,
-.w-Automaton.m-any .cn-15 .y-1,
-.w-Automaton.m-any .cn-17 .y-1,
-.w-Automaton.m-any .cn-5 .y-1,
-.w-Automaton.m-any .cn-7 .y-1,
-.w-Blacksmith.m-any .cn-11 .y-1,
-.w-Blacksmith.m-any .cn-13 .y-1,
-.w-Blacksmith.m-any .cn-3 .y-1,
-.w-Bonecarver.m-any .cn-11 .y-1,
-.w-Bonecarver.m-any .cn-17 .y-1,
-.w-Bonecarver.m-any .cn-7 .y-1,
-.w-Butcher.m-any .cn-1 .y-1,
-.w-Butcher.m-any .cn-13 .y-1,
-.w-Butcher.m-any .cn-17 .y-1,
-.w-Butcher.m-any .cn-5 .y-1,
-.w-Carpenter.m-any .cn-15 .y-1,
-.w-Carpenter.m-any .cn-17 .y-1,
-.w-Carpenter.m-any .cn-3 .y-1,
-.w-Carpenter.m-any .cn-5 .y-1,
-.w-Carpenter.m-any .cn-7 .y-1,
-.w-Crude.m-any .cn-1 .y-1,
-.w-Crude.m-any .cn-3 .y-1,
-.w-Crude.m-any .cn-5 .y-1,
-.w-Crude.m-any .cn-7 .y-1,
-.w-Crude.m-any .cn-9 .y-1,
-.w-Distillery.m-any .cn-15 .y-1,
-.w-Distillery.m-any .cn-17 .y-1,
-.w-Distillery.m-any .cn-3 .y-1,
-.w-Distillery.m-any .cn-7 .y-1,
-.w-Distillery.m-any .cn-9 .y-1,
-.w-Dyer.m-any .cn-1 .y-1,
-.w-Dyer.m-any .cn-15 .y-1,
-.w-Dyer.m-any .cn-17 .y-1,
-.w-Dyer.m-any .cn-3 .y-1,
-.w-Engineer.m-any .cn-1 .y-1,
-.w-Engineer.m-any .cn-11 .y-1,
-.w-Engineer.m-any .cn-13 .y-1,
-.w-Engineer.m-any .cn-15 .y-1,
-.w-Engineer.m-any .cn-3 .y-1,
-.w-Engineer.m-any .cn-5 .y-1,
-.w-Engineer.m-any .cn-7 .y-1,
-.w-Fishery.m-any .cn-13 .y-1,
-.w-Fishery.m-any .cn-17 .y-1,
-.w-Forge.m-any .cn-5 .y-1,
-.w-Forge.m-any .cn-7 .y-1,
-.w-Furnace.m-any .cn-3 .y-1,
-.w-Furnace.m-any .cn-5 .y-1,
-.w-Furnace.m-any .cn-7 .y-1,
-.w-Furnace.m-any .cn-9 .y-1,
-.w-Gemcutter.m-any .cn-11 .y-1,
-.w-Gemcutter.m-any .cn-17 .y-1,
-.w-Gemcutter.m-any .cn-5 .y-1,
-.w-Gemcutter.m-any .cn-7 .y-1,
-.w-Gemcutter.m-any .cn-9 .y-1,
-.w-GlassFurnace.m-any .cn-1 .y-1,
-.w-GlassFurnace.m-any .cn-13 .y-1,
-.w-GlassFurnace.m-any .cn-15 .y-1,
-.w-GlassFurnace.m-any .cn-17 .y-1,
-.w-GlassFurnace.m-any .cn-5 .y-1,
-.w-GlassFurnace.m-any .cn-7 .y-1,
-.w-GlassMaker.m-any .cn-1 .y-1,
-.w-GlassMaker.m-any .cn-13 .y-1,
-.w-GlassMaker.m-any .cn-17 .y-1,
-.w-GlassMaker.m-any .cn-3 .y-1,
-.w-Jeweler.m-any .cn-1 .y-1,
-.w-Jeweler.m-any .cn-19 .y-1,
-.w-Jeweler.m-any .cn-3 .y-1,
-.w-Kiln.m-any .cn-11 .y-1,
-.w-Kiln.m-any .cn-13 .y-1,
-.w-Kiln.m-any .cn-17 .y-1,
-.w-Kiln.m-any .cn-3 .y-1,
-.w-Kiln.m-any .cn-7 .y-1,
-.w-Kitchen.m-any .cn-1 .y-1,
-.w-Kitchen.m-any .cn-13 .y-1,
-.w-Kitchen.m-any .cn-17 .y-1,
-.w-Leatherworker.m-any .cn-5 .y-1,
-.w-Leatherworker.m-any .cn-9 .y-1,
-.w-Loom.m-any .cn-11 .y-1,
-.w-Loom.m-any .cn-15 .y-1,
-.w-Loom.m-any .cn-3 .y-1,
-.w-MachineShop.m-any .cn-15 .y-1,
-.w-MachineShop.m-any .cn-9 .y-1,
-.w-MarketStall.m-any .cn-1 .y-1,
-.w-MarketStall.m-any .cn-11 .y-1,
-.w-MarketStall.m-any .cn-13 .y-1,
-.w-MeleeTraining.m-any .cn-13 .y-1,
-.w-MeleeTraining.m-any .cn-17 .y-1,
-.w-MeleeTraining.m-any .cn-25 .y-1,
-.w-MeleeTraining.m-any .cn-27 .y-1,
-.w-MeleeTraining.m-any .cn-3 .y-1,
-.w-MeleeTraining.m-any .cn-33 .y-1,
-.w-MeleeTraining.m-any .cn-37 .y-1,
-.w-MeleeTraining.m-any .cn-41 .y-1,
-.w-MeleeTraining.m-any .cn-47 .y-1,
-.w-MeleeTraining.m-any .cn-5 .y-1,
-.w-Metalworker.m-any .cn-13 .y-1,
-.w-Metalworker.m-any .cn-17 .y-1,
-.w-Metalworker.m-any .cn-3 .y-1,
-.w-Metalworker.m-any .cn-5 .y-1,
-.w-Metalworker.m-any .cn-7 .y-1,
-.w-Prospector.m-any .cn-13 .y-1,
-.w-Prospector.m-any .cn-3 .y-1,
-.w-Prospector.m-any .cn-7 .y-1,
-.w-Prospector.m-any .cn-9 .y-1,
-.w-Sawmill.m-any .cn-1 .y-1,
-.w-Sawmill.m-any .cn-13 .y-1,
-.w-Sawmill.m-any .cn-15 .y-1,
-.w-Sawmill.m-any .cn-17 .y-1,
-.w-Sawmill.m-any .cn-5 .y-1,
-.w-Sawmill.m-any .cn-9 .y-1,
-.w-Stonecarver.m-any .cn-13 .y-1,
-.w-Stonecarver.m-any .cn-15 .y-1,
-.w-Stonecarver.m-any .cn-17 .y-1,
-.w-Stonecarver.m-any .cn-5 .y-1,
-.w-Stonecarver.m-any .cn-7 .y-1,
-.w-Stonecutter.m-any .cn-1 .y-1,
-.w-Stonecutter.m-any .cn-15 .y-1,
-.w-Stonecutter.m-any .cn-3 .y-1,
-.w-Stonecutter.m-any .cn-9 .y-1,
-.w-Stonemason.m-any .cn-11 .y-1,
-.w-Stonemason.m-any .cn-13 .y-1,
-.w-Stonemason.m-any .cn-17 .y-1,
-.w-Tailor.m-any .cn-13 .y-1,
-.w-Tailor.m-any .cn-17 .y-1,
-.w-Tailor.m-any .cn-7 .y-1,
-.w-Tailor.m-any .cn-9 .y-1,
-.w-WasteDisposal.m-any .cn-1 .y-1,
-.w-WasteDisposal.m-any .cn-13 .y-1,
-.w-WasteDisposal.m-any .cn-9 .y-1,
-.w-Weaponsmith.m-any .cn-13 .y-1,
-.w-Weaponsmith.m-any .cn-17 .y-1,
-.w-Weaponsmith.m-any .cn-5 .y-1,
-.w-Windmill.m-any .cn-13 .y-1,
-.w-Windmill.m-any .cn-15 .y-1,
-.w-Windmill.m-any .cn-19 .y-1,
-.w-Windmill.m-any .cn-23 .y-1,
-.w-Windmill.m-any .cn-25 .y-1,
-.w-Windmill.m-any .cn-27 .y-1,
-.w-Windmill.m-any .cn-31 .y-1,
-.w-Windmill.m-any .cn-7 .y-1,
-.w-Windmill.m-any .cn-9 .y-1,
-.w-Woodcarver.m-any .cn-1 .y-1,
-.w-Woodcarver.m-any .cn-13 .y-1,
-.w-Woodcarver.m-any .cn-15 .y-1,
-.w-Woodcarver.m-any .cn-3 .y-1,
-.w-Woodcarver.m-any .cn-7 .y-1
-{
-  background-image: url(seasonalgrass.png);
-  background-position: -128px -36px;
-  width: 32px;
-  height: 36px;
-}
 .l-160-100 .cp--1--1-0,
 .l-96-68 .cp-1--1-0,
 .l-96-88 .cp-1--1-0
 {
   left: 64px;
   top: 16px;
+}
+.m-Workshops.m-any .cn-1 .y-1,
+.w-Armorer.m-any .cn-15 .y-1,
+.w-Armorer.m-any .cn-5 .y-1,
+.w-Armorer.m-any .cn-7 .y-1,
+.w-Automaton.m-any .cn-1 .y-1,
+.w-Automaton.m-any .cn-17 .y-1,
+.w-Automaton.m-any .cn-5 .y-1,
+.w-Automaton.m-any .cn-9 .y-1,
+.w-Blacksmith.m-any .cn-1 .y-1,
+.w-Blacksmith.m-any .cn-13 .y-1,
+.w-Blacksmith.m-any .cn-15 .y-1,
+.w-Blacksmith.m-any .cn-7 .y-1,
+.w-Blacksmith.m-any .cn-9 .y-1,
+.w-Bonecarver.m-any .cn-1 .y-1,
+.w-Bonecarver.m-any .cn-11 .y-1,
+.w-Bonecarver.m-any .cn-15 .y-1,
+.w-Bonecarver.m-any .cn-17 .y-1,
+.w-Bonecarver.m-any .cn-7 .y-1,
+.w-Bonecarver.m-any .cn-9 .y-1,
+.w-Butcher.m-any .cn-15 .y-1,
+.w-Butcher.m-any .cn-3 .y-1,
+.w-Butcher.m-any .cn-5 .y-1,
+.w-Butcher.m-any .cn-7 .y-1,
+.w-Butcher.m-any .cn-9 .y-1,
+.w-Carpenter.m-any .cn-13 .y-1,
+.w-Carpenter.m-any .cn-15 .y-1,
+.w-Carpenter.m-any .cn-17 .y-1,
+.w-Carpenter.m-any .cn-7 .y-1,
+.w-Carpenter.m-any .cn-9 .y-1,
+.w-Crude.m-any .cn-11 .y-1,
+.w-Crude.m-any .cn-3 .y-1,
+.w-Crude.m-any .cn-9 .y-1,
+.w-Distillery.m-any .cn-11 .y-1,
+.w-Distillery.m-any .cn-15 .y-1,
+.w-Distillery.m-any .cn-17 .y-1,
+.w-Distillery.m-any .cn-3 .y-1,
+.w-Distillery.m-any .cn-7 .y-1,
+.w-Dyer.m-any .cn-1 .y-1,
+.w-Dyer.m-any .cn-11 .y-1,
+.w-Dyer.m-any .cn-13 .y-1,
+.w-Dyer.m-any .cn-15 .y-1,
+.w-Dyer.m-any .cn-3 .y-1,
+.w-Dyer.m-any .cn-7 .y-1,
+.w-Dyer.m-any .cn-9 .y-1,
+.w-Engineer.m-any .cn-1 .y-1,
+.w-Engineer.m-any .cn-17 .y-1,
+.w-Engineer.m-any .cn-5 .y-1,
+.w-Engineer.m-any .cn-7 .y-1,
+.w-Engineer.m-any .cn-9 .y-1,
+.w-Fishery.m-any .cn-13 .y-1,
+.w-Fishery.m-any .cn-15 .y-1,
+.w-Fishery.m-any .cn-7 .y-1,
+.w-Forge.m-any .cn-1 .y-1,
+.w-Forge.m-any .cn-11 .y-1,
+.w-Forge.m-any .cn-13 .y-1,
+.w-Forge.m-any .cn-17 .y-1,
+.w-Forge.m-any .cn-3 .y-1,
+.w-Forge.m-any .cn-5 .y-1,
+.w-Forge.m-any .cn-7 .y-1,
+.w-Forge.m-any .cn-9 .y-1,
+.w-Furnace.m-any .cn-1 .y-1,
+.w-Furnace.m-any .cn-13 .y-1,
+.w-Furnace.m-any .cn-15 .y-1,
+.w-Furnace.m-any .cn-7 .y-1,
+.w-Furnace.m-any .cn-9 .y-1,
+.w-Gemcutter.m-any .cn-1 .y-1,
+.w-Gemcutter.m-any .cn-15 .y-1,
+.w-Gemcutter.m-any .cn-3 .y-1,
+.w-Gemcutter.m-any .cn-9 .y-1,
+.w-GlassFurnace.m-any .cn-13 .y-1,
+.w-GlassFurnace.m-any .cn-17 .y-1,
+.w-GlassFurnace.m-any .cn-5 .y-1,
+.w-GlassFurnace.m-any .cn-9 .y-1,
+.w-GlassMaker.m-any .cn-1 .y-1,
+.w-GlassMaker.m-any .cn-13 .y-1,
+.w-GlassMaker.m-any .cn-15 .y-1,
+.w-GlassMaker.m-any .cn-3 .y-1,
+.w-GlassMaker.m-any .cn-5 .y-1,
+.w-GlassMaker.m-any .cn-9 .y-1,
+.w-Jeweler.m-any .cn-1 .y-1,
+.w-Jeweler.m-any .cn-13 .y-1,
+.w-Jeweler.m-any .cn-19 .y-1,
+.w-Jeweler.m-any .cn-7 .y-1,
+.w-Kiln.m-any .cn-1 .y-1,
+.w-Kiln.m-any .cn-15 .y-1,
+.w-Kiln.m-any .cn-3 .y-1,
+.w-Kiln.m-any .cn-7 .y-1,
+.w-Kitchen.m-any .cn-17 .y-1,
+.w-Kitchen.m-any .cn-3 .y-1,
+.w-Kitchen.m-any .cn-7 .y-1,
+.w-Leatherworker.m-any .cn-11 .y-1,
+.w-Leatherworker.m-any .cn-15 .y-1,
+.w-Leatherworker.m-any .cn-5 .y-1,
+.w-Leatherworker.m-any .cn-9 .y-1,
+.w-Loom.m-any .cn-1 .y-1,
+.w-Loom.m-any .cn-15 .y-1,
+.w-Loom.m-any .cn-5 .y-1,
+.w-Loom.m-any .cn-7 .y-1,
+.w-MachineShop.m-any .cn-15 .y-1,
+.w-MachineShop.m-any .cn-3 .y-1,
+.w-MachineShop.m-any .cn-5 .y-1,
+.w-MachineShop.m-any .cn-7 .y-1,
+.w-MachineShop.m-any .cn-9 .y-1,
+.w-MarketStall.m-any .cn-1 .y-1,
+.w-MarketStall.m-any .cn-11 .y-1,
+.w-MarketStall.m-any .cn-13 .y-1,
+.w-MarketStall.m-any .cn-15 .y-1,
+.w-MarketStall.m-any .cn-17 .y-1,
+.w-MarketStall.m-any .cn-7 .y-1,
+.w-MeleeTraining.m-any .cn-1 .y-1,
+.w-MeleeTraining.m-any .cn-19 .y-1,
+.w-MeleeTraining.m-any .cn-25 .y-1,
+.w-MeleeTraining.m-any .cn-31 .y-1,
+.w-MeleeTraining.m-any .cn-39 .y-1,
+.w-MeleeTraining.m-any .cn-47 .y-1,
+.w-MeleeTraining.m-any .cn-5 .y-1,
+.w-MeleeTraining.m-any .cn-9 .y-1,
+.w-Metalworker.m-any .cn-11 .y-1,
+.w-Metalworker.m-any .cn-17 .y-1,
+.w-Metalworker.m-any .cn-3 .y-1,
+.w-Metalworker.m-any .cn-7 .y-1,
+.w-Metalworker.m-any .cn-9 .y-1,
+.w-Prospector.m-any .cn-13 .y-1,
+.w-Prospector.m-any .cn-15 .y-1,
+.w-Prospector.m-any .cn-17 .y-1,
+.w-Prospector.m-any .cn-5 .y-1,
+.w-Sawmill.m-any .cn-11 .y-1,
+.w-Sawmill.m-any .cn-13 .y-1,
+.w-Sawmill.m-any .cn-15 .y-1,
+.w-Sawmill.m-any .cn-3 .y-1,
+.w-Stonecarver.m-any .cn-11 .y-1,
+.w-Stonecarver.m-any .cn-13 .y-1,
+.w-Stonecutter.m-any .cn-11 .y-1,
+.w-Stonecutter.m-any .cn-13 .y-1,
+.w-Stonecutter.m-any .cn-15 .y-1,
+.w-Stonecutter.m-any .cn-3 .y-1,
+.w-Stonemason.m-any .cn-1 .y-1,
+.w-Stonemason.m-any .cn-15 .y-1,
+.w-Stonemason.m-any .cn-9 .y-1,
+.w-Tailor.m-any .cn-11 .y-1,
+.w-Tailor.m-any .cn-15 .y-1,
+.w-Tailor.m-any .cn-17 .y-1,
+.w-Tailor.m-any .cn-9 .y-1,
+.w-WasteDisposal.m-any .cn-11 .y-1,
+.w-WasteDisposal.m-any .cn-17 .y-1,
+.w-WasteDisposal.m-any .cn-7 .y-1,
+.w-WasteDisposal.m-any .cn-9 .y-1,
+.w-Weaponsmith.m-any .cn-1 .y-1,
+.w-Weaponsmith.m-any .cn-5 .y-1,
+.w-Weaponsmith.m-any .cn-7 .y-1,
+.w-Weaponsmith.m-any .cn-9 .y-1,
+.w-Windmill.m-any .cn-11 .y-1,
+.w-Windmill.m-any .cn-13 .y-1,
+.w-Windmill.m-any .cn-15 .y-1,
+.w-Windmill.m-any .cn-19 .y-1,
+.w-Windmill.m-any .cn-21 .y-1,
+.w-Windmill.m-any .cn-23 .y-1,
+.w-Windmill.m-any .cn-25 .y-1,
+.w-Windmill.m-any .cn-3 .y-1,
+.w-Windmill.m-any .cn-7 .y-1,
+.w-Windmill.m-any .cn-9 .y-1,
+.w-Woodcarver.m-any .cn-1 .y-1,
+.w-Woodcarver.m-any .cn-11 .y-1,
+.w-Woodcarver.m-any .cn-17 .y-1,
+.w-Woodcarver.m-any .cn-5 .y-1,
+.w-Woodcarver.m-any .cn-7 .y-1
+{
+  background-image: url(seasonalgrass.png);
+  background-position: -128px -180px;
+  width: 32px;
+  height: 36px;
 }
 .w-Armorer.m-any .cn-6 .y-1,
 .w-Furnace.m-any .cn-10 .y-1,
