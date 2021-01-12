@@ -120,6 +120,10 @@ nav li {
   font-size: var(--font-size-menu);
 }
 
+nav .l-32-56 {
+  margin-top: -20px;
+}
+
 /* Tables */
 
 table {

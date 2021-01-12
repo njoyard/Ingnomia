@@ -1,3 +1,6 @@
+.zoomed {
+  transform: translate(-50%, -50%) scale(2, 2) translate(50%, 50%);
+}
 .layout {
   display: inline-block;
   position: relative;
@@ -3378,6 +3381,11 @@
   width: 32px;
   height: 36px;
 }
+.l-32-36.zoomed
+{
+  width: 64px;
+  height: 72px;
+}
 .l-32-36 .cp-0-0-0,
 .l-32-56 .cp-0-0-1
 {
@@ -6062,7 +6070,9 @@
 .k-ThatchRamp.m-any .cn-1 .y-1,
 .k-ThatchWall.m-any .cn-1 .y-1,
 .k-WallTorch.m-any .cn-1 .y-1,
-.k-WoodFence.m-any .cn-1 .y-1
+.k-WoodFence.m-any .cn-1 .y-1,
+.m-Constructions.m-any .cn-1 .y-1,
+.m-Items.m-any .cn-1 .y-1
 {
   background-image: url(terrain.png);
   background-position: -32px -0px;
@@ -10740,7 +10750,8 @@
   height: 36px;
   filter: url(tints.svg#Pine);
 }
-.i-Crate.m-MOak .cn-2 .y-1
+.i-Crate.m-MOak .cn-2 .y-1,
+.m-Items.m-any .cn-2 .y-1
 {
   background-image: url(default.png);
   background-position: -576px -108px;
@@ -17751,7 +17762,8 @@
 .i-ShepherdsPie.m-MRadish .cn-2 .y-1,
 .i-ShepherdsPie.m-MSugarbeet .cn-2 .y-1,
 .i-ShepherdsPie.m-MTomato .cn-2 .y-1,
-.i-ShepherdsPie.m-MTurnip .cn-2 .y-1
+.i-ShepherdsPie.m-MTurnip .cn-2 .y-1,
+.m-Food.m-any .cn-2 .y-1
 {
   background-image: url(food_drink_ingredients.png);
   background-position: -256px -0px;
@@ -20651,7 +20663,8 @@
   width: 32px;
   height: 36px;
 }
-.i-Workbench.m-MPine .cn-2 .y-1
+.i-Workbench.m-MPine .cn-2 .y-1,
+.m-Workshops.m-any .cn-2 .y-1
 {
   background-image: url(workshops.png);
   background-position: -256px -36px;
@@ -20796,6 +20809,7 @@
   height: 36px;
   filter: url(tints.svg#Platinum);
 }
+.m-Plants.m-any .cn-1 .y-1,
 .p-AppleTree.m-any .cn-1 .y-1,
 .p-Artichoke.m-any .cn-1 .y-1,
 .p-Asparagus.m-any .cn-1 .y-1,
@@ -21268,6 +21282,11 @@
   width: 32px;
   height: 56px;
 }
+.l-32-56.zoomed
+{
+  width: 64px;
+  height: 112px;
+}
 .l-32-56 .cp-0-0-0
 {
   left: 0px;
@@ -21611,6 +21630,7 @@
 }
 .k-PlankStairs.m-any .cn-2 .y-1
 {
+  animation: anim_1 6.0s infinite step-end;
   background-image: url(terrain.png);
   background-position: -256px -324px;
   width: 32px;
@@ -21643,7 +21663,7 @@
 }
 .k-Roof.m-any .cn-2 .y-2
 {
-  animation: anim_1 6.0s infinite step-end;
+  animation: anim_19 9.0s infinite step-end;
   background-image: url(terrain.png);
   background-position: -32px -504px;
   width: 32px;
@@ -21661,9 +21681,9 @@
   height: 36px;
 }
 .k-Scaffold.m-any .cn-3 .y-1,
+.w-Fishery.m-any .cn-4 .y-1,
 .w-Fishery.m-any .cn-5 .y-1,
-.w-Fishery.m-any .cn-7 .y-1,
-.w-Fishery.m-any .cn-9 .y-1
+.w-Fishery.m-any .cn-6 .y-1
 {
   animation: anim_1 6.0s infinite step-end;
   background-image: url(terrain.png);
@@ -21684,6 +21704,11 @@
   width: 96px;
   height: 68px;
 }
+.l-96-68.zoomed
+{
+  width: 192px;
+  height: 136px;
+}
 .l-72-48 .cp-0--1-0,
 .l-96-68 .cp--1--1-0,
 .l-96-88 .cp--1--1-0
@@ -21691,171 +21716,189 @@
   left: 32px;
   top: 0px;
 }
+.m-Workshops.m-any .cn-1 .y-1,
 .w-Armorer.m-any .cn-1 .y-1,
 .w-Armorer.m-any .cn-11 .y-1,
-.w-Armorer.m-any .cn-13 .y-1,
-.w-Armorer.m-any .cn-17 .y-1,
-.w-Automaton.m-any .cn-13 .y-1,
-.w-Automaton.m-any .cn-17 .y-1,
+.w-Armorer.m-any .cn-7 .y-1,
+.w-Armorer.m-any .cn-9 .y-1,
+.w-Automaton.m-any .cn-1 .y-1,
+.w-Automaton.m-any .cn-11 .y-1,
+.w-Automaton.m-any .cn-3 .y-1,
 .w-Automaton.m-any .cn-9 .y-1,
-.w-Blacksmith.m-any .cn-11 .y-1,
-.w-Blacksmith.m-any .cn-13 .y-1,
+.w-Blacksmith.m-any .cn-1 .y-1,
+.w-Blacksmith.m-any .cn-15 .y-1,
 .w-Blacksmith.m-any .cn-17 .y-1,
 .w-Blacksmith.m-any .cn-5 .y-1,
 .w-Blacksmith.m-any .cn-7 .y-1,
+.w-Blacksmith.m-any .cn-9 .y-1,
 .w-Bonecarver.m-any .cn-1 .y-1,
-.w-Bonecarver.m-any .cn-11 .y-1,
+.w-Bonecarver.m-any .cn-13 .y-1,
 .w-Bonecarver.m-any .cn-15 .y-1,
-.w-Bonecarver.m-any .cn-17 .y-1,
+.w-Bonecarver.m-any .cn-3 .y-1,
 .w-Bonecarver.m-any .cn-5 .y-1,
-.w-Bonecarver.m-any .cn-7 .y-1,
 .w-Bonecarver.m-any .cn-9 .y-1,
 .w-Butcher.m-any .cn-11 .y-1,
 .w-Butcher.m-any .cn-15 .y-1,
-.w-Butcher.m-any .cn-5 .y-1,
+.w-Butcher.m-any .cn-3 .y-1,
+.w-Butcher.m-any .cn-7 .y-1,
+.w-Butcher.m-any .cn-9 .y-1,
 .w-Carpenter.m-any .cn-1 .y-1,
+.w-Carpenter.m-any .cn-11 .y-1,
 .w-Carpenter.m-any .cn-13 .y-1,
-.w-Carpenter.m-any .cn-5 .y-1,
-.w-Carpenter.m-any .cn-7 .y-1,
-.w-Crude.m-any .cn-5 .y-1,
-.w-Crude.m-any .cn-7 .y-1,
+.w-Carpenter.m-any .cn-9 .y-1,
+.w-Crude.m-any .cn-11 .y-1,
+.w-Distillery.m-any .cn-1 .y-1,
+.w-Distillery.m-any .cn-11 .y-1,
 .w-Distillery.m-any .cn-13 .y-1,
 .w-Distillery.m-any .cn-5 .y-1,
-.w-Distillery.m-any .cn-9 .y-1,
-.w-Dyer.m-any .cn-1 .y-1,
-.w-Dyer.m-any .cn-15 .y-1,
-.w-Dyer.m-any .cn-17 .y-1,
-.w-Dyer.m-any .cn-3 .y-1,
+.w-Dyer.m-any .cn-11 .y-1,
+.w-Dyer.m-any .cn-13 .y-1,
+.w-Dyer.m-any .cn-5 .y-1,
 .w-Dyer.m-any .cn-7 .y-1,
-.w-Engineer.m-any .cn-11 .y-1,
-.w-Engineer.m-any .cn-15 .y-1,
-.w-Engineer.m-any .cn-3 .y-1,
-.w-Engineer.m-any .cn-5 .y-1,
-.w-Engineer.m-any .cn-7 .y-1,
+.w-Dyer.m-any .cn-9 .y-1,
+.w-Engineer.m-any .cn-17 .y-1,
 .w-Engineer.m-any .cn-9 .y-1,
-.w-Fishery.m-any .cn-10 .y-1,
-.w-Fishery.m-any .cn-12 .y-1,
-.w-Fishery.m-any .cn-16 .y-1,
-.w-Fishery.m-any .cn-18 .y-1,
-.w-Fishery.m-any .cn-4 .y-1,
+.w-Fishery.m-any .cn-11 .y-1,
+.w-Fishery.m-any .cn-15 .y-1,
+.w-Fishery.m-any .cn-7 .y-1,
+.w-Fishery.m-any .cn-9 .y-1,
+.w-Forge.m-any .cn-1 .y-1,
 .w-Forge.m-any .cn-11 .y-1,
 .w-Forge.m-any .cn-13 .y-1,
 .w-Forge.m-any .cn-15 .y-1,
+.w-Forge.m-any .cn-17 .y-1,
 .w-Forge.m-any .cn-3 .y-1,
-.w-Forge.m-any .cn-5 .y-1,
+.w-Forge.m-any .cn-9 .y-1,
 .w-Furnace.m-any .cn-1 .y-1,
-.w-Furnace.m-any .cn-7 .y-1,
-.w-Furnace.m-any .cn-9 .y-1,
+.w-Furnace.m-any .cn-11 .y-1,
+.w-Furnace.m-any .cn-13 .y-1,
+.w-Furnace.m-any .cn-15 .y-1,
+.w-Furnace.m-any .cn-17 .y-1,
+.w-Gemcutter.m-any .cn-1 .y-1,
 .w-Gemcutter.m-any .cn-13 .y-1,
 .w-Gemcutter.m-any .cn-15 .y-1,
-.w-Gemcutter.m-any .cn-17 .y-1,
 .w-Gemcutter.m-any .cn-3 .y-1,
-.w-Gemcutter.m-any .cn-5 .y-1,
-.w-GlassFurnace.m-any .cn-1 .y-1,
-.w-GlassFurnace.m-any .cn-13 .y-1,
-.w-GlassFurnace.m-any .cn-17 .y-1,
+.w-GlassFurnace.m-any .cn-11 .y-1,
 .w-GlassFurnace.m-any .cn-3 .y-1,
-.w-GlassFurnace.m-any .cn-5 .y-1,
-.w-GlassFurnace.m-any .cn-7 .y-1,
 .w-GlassFurnace.m-any .cn-9 .y-1,
-.w-GlassMaker.m-any .cn-1 .y-1,
 .w-GlassMaker.m-any .cn-11 .y-1,
 .w-GlassMaker.m-any .cn-15 .y-1,
-.w-GlassMaker.m-any .cn-17 .y-1,
+.w-GlassMaker.m-any .cn-5 .y-1,
 .w-GlassMaker.m-any .cn-7 .y-1,
 .w-GlassMaker.m-any .cn-9 .y-1,
+.w-Jeweler.m-any .cn-11 .y-1,
 .w-Jeweler.m-any .cn-13 .y-1,
+.w-Jeweler.m-any .cn-15 .y-1,
 .w-Jeweler.m-any .cn-17 .y-1,
-.w-Jeweler.m-any .cn-19 .y-1,
-.w-Jeweler.m-any .cn-3 .y-1,
-.w-Kiln.m-any .cn-13 .y-1,
+.w-Jeweler.m-any .cn-5 .y-1,
+.w-Jeweler.m-any .cn-7 .y-1,
+.w-Jeweler.m-any .cn-9 .y-1,
+.w-Kiln.m-any .cn-1 .y-1,
 .w-Kiln.m-any .cn-15 .y-1,
+.w-Kiln.m-any .cn-5 .y-1,
 .w-Kiln.m-any .cn-9 .y-1,
-.w-Kitchen.m-any .cn-17 .y-1,
+.w-Kitchen.m-any .cn-11 .y-1,
+.w-Kitchen.m-any .cn-15 .y-1,
 .w-Kitchen.m-any .cn-3 .y-1,
 .w-Kitchen.m-any .cn-5 .y-1,
 .w-Kitchen.m-any .cn-7 .y-1,
 .w-Kitchen.m-any .cn-9 .y-1,
+.w-Leatherworker.m-any .cn-1 .y-1,
+.w-Leatherworker.m-any .cn-11 .y-1,
+.w-Leatherworker.m-any .cn-13 .y-1,
 .w-Leatherworker.m-any .cn-15 .y-1,
-.w-Leatherworker.m-any .cn-9 .y-1,
+.w-Leatherworker.m-any .cn-17 .y-1,
+.w-Leatherworker.m-any .cn-3 .y-1,
+.w-Leatherworker.m-any .cn-7 .y-1,
+.w-Loom.m-any .cn-1 .y-1,
 .w-Loom.m-any .cn-13 .y-1,
-.w-Loom.m-any .cn-15 .y-1,
-.w-Loom.m-any .cn-3 .y-1,
+.w-Loom.m-any .cn-17 .y-1,
 .w-Loom.m-any .cn-5 .y-1,
 .w-Loom.m-any .cn-7 .y-1,
 .w-Loom.m-any .cn-9 .y-1,
+.w-MachineShop.m-any .cn-1 .y-1,
+.w-MachineShop.m-any .cn-11 .y-1,
 .w-MachineShop.m-any .cn-13 .y-1,
-.w-MachineShop.m-any .cn-15 .y-1,
+.w-MachineShop.m-any .cn-17 .y-1,
 .w-MachineShop.m-any .cn-3 .y-1,
+.w-MachineShop.m-any .cn-5 .y-1,
 .w-MachineShop.m-any .cn-7 .y-1,
-.w-MachineShop.m-any .cn-9 .y-1,
-.w-MarketStall.m-any .cn-11 .y-1,
 .w-MarketStall.m-any .cn-15 .y-1,
+.w-MarketStall.m-any .cn-17 .y-1,
 .w-MarketStall.m-any .cn-3 .y-1,
 .w-MarketStall.m-any .cn-5 .y-1,
-.w-MeleeTraining.m-any .cn-13 .y-1,
+.w-MarketStall.m-any .cn-7 .y-1,
+.w-MarketStall.m-any .cn-9 .y-1,
+.w-MeleeTraining.m-any .cn-1 .y-1,
+.w-MeleeTraining.m-any .cn-11 .y-1,
 .w-MeleeTraining.m-any .cn-15 .y-1,
+.w-MeleeTraining.m-any .cn-19 .y-1,
 .w-MeleeTraining.m-any .cn-21 .y-1,
 .w-MeleeTraining.m-any .cn-23 .y-1,
-.w-MeleeTraining.m-any .cn-27 .y-1,
+.w-MeleeTraining.m-any .cn-29 .y-1,
+.w-MeleeTraining.m-any .cn-31 .y-1,
 .w-MeleeTraining.m-any .cn-35 .y-1,
-.w-MeleeTraining.m-any .cn-37 .y-1,
+.w-MeleeTraining.m-any .cn-39 .y-1,
+.w-MeleeTraining.m-any .cn-43 .y-1,
 .w-MeleeTraining.m-any .cn-45 .y-1,
-.w-MeleeTraining.m-any .cn-47 .y-1,
 .w-MeleeTraining.m-any .cn-49 .y-1,
-.w-MeleeTraining.m-any .cn-5 .y-1,
+.w-MeleeTraining.m-any .cn-7 .y-1,
+.w-MeleeTraining.m-any .cn-9 .y-1,
+.w-Metalworker.m-any .cn-1 .y-1,
 .w-Metalworker.m-any .cn-11 .y-1,
-.w-Metalworker.m-any .cn-13 .y-1,
 .w-Metalworker.m-any .cn-15 .y-1,
-.w-Metalworker.m-any .cn-5 .y-1,
-.w-Metalworker.m-any .cn-7 .y-1,
-.w-Prospector.m-any .cn-13 .y-1,
-.w-Prospector.m-any .cn-9 .y-1,
+.w-Metalworker.m-any .cn-9 .y-1,
+.w-Prospector.m-any .cn-1 .y-1,
+.w-Prospector.m-any .cn-11 .y-1,
+.w-Prospector.m-any .cn-15 .y-1,
+.w-Prospector.m-any .cn-17 .y-1,
+.w-Prospector.m-any .cn-5 .y-1,
+.w-Sawmill.m-any .cn-11 .y-1,
 .w-Sawmill.m-any .cn-3 .y-1,
 .w-Sawmill.m-any .cn-7 .y-1,
-.w-Sawmill.m-any .cn-9 .y-1,
-.w-Stonecarver.m-any .cn-17 .y-1,
+.w-Stonecarver.m-any .cn-1 .y-1,
+.w-Stonecarver.m-any .cn-11 .y-1,
 .w-Stonecarver.m-any .cn-3 .y-1,
-.w-Stonecarver.m-any .cn-5 .y-1,
-.w-Stonecarver.m-any .cn-7 .y-1,
-.w-Stonecutter.m-any .cn-1 .y-1,
+.w-Stonecarver.m-any .cn-9 .y-1,
 .w-Stonecutter.m-any .cn-11 .y-1,
-.w-Stonecutter.m-any .cn-3 .y-1,
+.w-Stonecutter.m-any .cn-13 .y-1,
+.w-Stonecutter.m-any .cn-17 .y-1,
+.w-Stonecutter.m-any .cn-5 .y-1,
 .w-Stonecutter.m-any .cn-7 .y-1,
-.w-Stonecutter.m-any .cn-9 .y-1,
 .w-Stonemason.m-any .cn-1 .y-1,
 .w-Stonemason.m-any .cn-15 .y-1,
-.w-Stonemason.m-any .cn-17 .y-1,
 .w-Stonemason.m-any .cn-3 .y-1,
 .w-Stonemason.m-any .cn-5 .y-1,
+.w-Stonemason.m-any .cn-7 .y-1,
+.w-Stonemason.m-any .cn-9 .y-1,
 .w-Tailor.m-any .cn-1 .y-1,
 .w-Tailor.m-any .cn-11 .y-1,
+.w-Tailor.m-any .cn-15 .y-1,
 .w-Tailor.m-any .cn-3 .y-1,
 .w-Tailor.m-any .cn-5 .y-1,
-.w-WasteDisposal.m-any .cn-1 .y-1,
 .w-WasteDisposal.m-any .cn-11 .y-1,
-.w-WasteDisposal.m-any .cn-13 .y-1,
 .w-WasteDisposal.m-any .cn-15 .y-1,
+.w-WasteDisposal.m-any .cn-17 .y-1,
 .w-WasteDisposal.m-any .cn-3 .y-1,
+.w-WasteDisposal.m-any .cn-5 .y-1,
 .w-WasteDisposal.m-any .cn-7 .y-1,
-.w-WasteDisposal.m-any .cn-9 .y-1,
+.w-Weaponsmith.m-any .cn-1 .y-1,
 .w-Weaponsmith.m-any .cn-11 .y-1,
 .w-Weaponsmith.m-any .cn-15 .y-1,
-.w-Weaponsmith.m-any .cn-17 .y-1,
 .w-Weaponsmith.m-any .cn-3 .y-1,
 .w-Weaponsmith.m-any .cn-7 .y-1,
+.w-Weaponsmith.m-any .cn-9 .y-1,
 .w-Windmill.m-any .cn-1 .y-1,
+.w-Windmill.m-any .cn-11 .y-1,
 .w-Windmill.m-any .cn-17 .y-1,
-.w-Windmill.m-any .cn-19 .y-1,
-.w-Windmill.m-any .cn-23 .y-1,
-.w-Windmill.m-any .cn-25 .y-1,
+.w-Windmill.m-any .cn-21 .y-1,
 .w-Windmill.m-any .cn-29 .y-1,
 .w-Windmill.m-any .cn-3 .y-1,
-.w-Windmill.m-any .cn-31 .y-1,
-.w-Windmill.m-any .cn-7 .y-1,
-.w-Woodcarver.m-any .cn-1 .y-1,
-.w-Woodcarver.m-any .cn-3 .y-1,
-.w-Woodcarver.m-any .cn-7 .y-1
+.w-Windmill.m-any .cn-5 .y-1,
+.w-Woodcarver.m-any .cn-11 .y-1,
+.w-Woodcarver.m-any .cn-17 .y-1,
+.w-Woodcarver.m-any .cn-5 .y-1,
+.w-Woodcarver.m-any .cn-9 .y-1
 {
   background-image: url(seasonalgrass.png);
   background-position: -128px -180px;
@@ -21870,177 +21913,157 @@
   left: 48px;
   top: 8px;
 }
+.w-Armorer.m-any .cn-13 .y-1,
 .w-Armorer.m-any .cn-15 .y-1,
+.w-Armorer.m-any .cn-17 .y-1,
 .w-Armorer.m-any .cn-3 .y-1,
 .w-Armorer.m-any .cn-5 .y-1,
-.w-Armorer.m-any .cn-7 .y-1,
-.w-Armorer.m-any .cn-9 .y-1,
-.w-Automaton.m-any .cn-1 .y-1,
-.w-Automaton.m-any .cn-11 .y-1,
+.w-Automaton.m-any .cn-13 .y-1,
 .w-Automaton.m-any .cn-15 .y-1,
-.w-Automaton.m-any .cn-3 .y-1,
+.w-Automaton.m-any .cn-17 .y-1,
 .w-Automaton.m-any .cn-5 .y-1,
 .w-Automaton.m-any .cn-7 .y-1,
-.w-Blacksmith.m-any .cn-1 .y-1,
-.w-Blacksmith.m-any .cn-15 .y-1,
+.w-Blacksmith.m-any .cn-11 .y-1,
+.w-Blacksmith.m-any .cn-13 .y-1,
 .w-Blacksmith.m-any .cn-3 .y-1,
-.w-Blacksmith.m-any .cn-9 .y-1,
-.w-Bonecarver.m-any .cn-13 .y-1,
-.w-Bonecarver.m-any .cn-3 .y-1,
+.w-Bonecarver.m-any .cn-11 .y-1,
+.w-Bonecarver.m-any .cn-17 .y-1,
+.w-Bonecarver.m-any .cn-7 .y-1,
 .w-Butcher.m-any .cn-1 .y-1,
 .w-Butcher.m-any .cn-13 .y-1,
 .w-Butcher.m-any .cn-17 .y-1,
-.w-Butcher.m-any .cn-3 .y-1,
-.w-Butcher.m-any .cn-7 .y-1,
-.w-Butcher.m-any .cn-9 .y-1,
-.w-Carpenter.m-any .cn-11 .y-1,
+.w-Butcher.m-any .cn-5 .y-1,
 .w-Carpenter.m-any .cn-15 .y-1,
 .w-Carpenter.m-any .cn-17 .y-1,
 .w-Carpenter.m-any .cn-3 .y-1,
-.w-Carpenter.m-any .cn-9 .y-1,
+.w-Carpenter.m-any .cn-5 .y-1,
+.w-Carpenter.m-any .cn-7 .y-1,
 .w-Crude.m-any .cn-1 .y-1,
-.w-Crude.m-any .cn-11 .y-1,
 .w-Crude.m-any .cn-3 .y-1,
+.w-Crude.m-any .cn-5 .y-1,
+.w-Crude.m-any .cn-7 .y-1,
 .w-Crude.m-any .cn-9 .y-1,
-.w-Distillery.m-any .cn-1 .y-1,
-.w-Distillery.m-any .cn-11 .y-1,
 .w-Distillery.m-any .cn-15 .y-1,
 .w-Distillery.m-any .cn-17 .y-1,
 .w-Distillery.m-any .cn-3 .y-1,
 .w-Distillery.m-any .cn-7 .y-1,
-.w-Dyer.m-any .cn-11 .y-1,
-.w-Dyer.m-any .cn-13 .y-1,
-.w-Dyer.m-any .cn-5 .y-1,
-.w-Dyer.m-any .cn-9 .y-1,
+.w-Distillery.m-any .cn-9 .y-1,
+.w-Dyer.m-any .cn-1 .y-1,
+.w-Dyer.m-any .cn-15 .y-1,
+.w-Dyer.m-any .cn-17 .y-1,
+.w-Dyer.m-any .cn-3 .y-1,
 .w-Engineer.m-any .cn-1 .y-1,
+.w-Engineer.m-any .cn-11 .y-1,
 .w-Engineer.m-any .cn-13 .y-1,
-.w-Engineer.m-any .cn-17 .y-1,
-.w-Fishery.m-any .cn-14 .y-1,
-.w-Fishery.m-any .cn-20 .y-1,
-.w-Fishery.m-any .cn-6 .y-1,
-.w-Fishery.m-any .cn-8 .y-1,
-.w-Forge.m-any .cn-1 .y-1,
-.w-Forge.m-any .cn-17 .y-1,
+.w-Engineer.m-any .cn-15 .y-1,
+.w-Engineer.m-any .cn-3 .y-1,
+.w-Engineer.m-any .cn-5 .y-1,
+.w-Engineer.m-any .cn-7 .y-1,
+.w-Fishery.m-any .cn-13 .y-1,
+.w-Fishery.m-any .cn-17 .y-1,
+.w-Forge.m-any .cn-5 .y-1,
 .w-Forge.m-any .cn-7 .y-1,
-.w-Forge.m-any .cn-9 .y-1,
-.w-Furnace.m-any .cn-11 .y-1,
-.w-Furnace.m-any .cn-13 .y-1,
-.w-Furnace.m-any .cn-15 .y-1,
-.w-Furnace.m-any .cn-17 .y-1,
 .w-Furnace.m-any .cn-3 .y-1,
 .w-Furnace.m-any .cn-5 .y-1,
-.w-Gemcutter.m-any .cn-1 .y-1,
+.w-Furnace.m-any .cn-7 .y-1,
+.w-Furnace.m-any .cn-9 .y-1,
 .w-Gemcutter.m-any .cn-11 .y-1,
+.w-Gemcutter.m-any .cn-17 .y-1,
+.w-Gemcutter.m-any .cn-5 .y-1,
 .w-Gemcutter.m-any .cn-7 .y-1,
 .w-Gemcutter.m-any .cn-9 .y-1,
-.w-GlassFurnace.m-any .cn-11 .y-1,
+.w-GlassFurnace.m-any .cn-1 .y-1,
+.w-GlassFurnace.m-any .cn-13 .y-1,
 .w-GlassFurnace.m-any .cn-15 .y-1,
+.w-GlassFurnace.m-any .cn-17 .y-1,
+.w-GlassFurnace.m-any .cn-5 .y-1,
+.w-GlassFurnace.m-any .cn-7 .y-1,
+.w-GlassMaker.m-any .cn-1 .y-1,
 .w-GlassMaker.m-any .cn-13 .y-1,
+.w-GlassMaker.m-any .cn-17 .y-1,
 .w-GlassMaker.m-any .cn-3 .y-1,
-.w-GlassMaker.m-any .cn-5 .y-1,
 .w-Jeweler.m-any .cn-1 .y-1,
-.w-Jeweler.m-any .cn-11 .y-1,
-.w-Jeweler.m-any .cn-15 .y-1,
-.w-Jeweler.m-any .cn-5 .y-1,
-.w-Jeweler.m-any .cn-7 .y-1,
-.w-Jeweler.m-any .cn-9 .y-1,
-.w-Kiln.m-any .cn-1 .y-1,
+.w-Jeweler.m-any .cn-19 .y-1,
+.w-Jeweler.m-any .cn-3 .y-1,
 .w-Kiln.m-any .cn-11 .y-1,
+.w-Kiln.m-any .cn-13 .y-1,
 .w-Kiln.m-any .cn-17 .y-1,
 .w-Kiln.m-any .cn-3 .y-1,
-.w-Kiln.m-any .cn-5 .y-1,
 .w-Kiln.m-any .cn-7 .y-1,
 .w-Kitchen.m-any .cn-1 .y-1,
-.w-Kitchen.m-any .cn-11 .y-1,
 .w-Kitchen.m-any .cn-13 .y-1,
-.w-Kitchen.m-any .cn-15 .y-1,
-.w-Leatherworker.m-any .cn-1 .y-1,
-.w-Leatherworker.m-any .cn-11 .y-1,
-.w-Leatherworker.m-any .cn-13 .y-1,
-.w-Leatherworker.m-any .cn-17 .y-1,
-.w-Leatherworker.m-any .cn-3 .y-1,
+.w-Kitchen.m-any .cn-17 .y-1,
 .w-Leatherworker.m-any .cn-5 .y-1,
-.w-Leatherworker.m-any .cn-7 .y-1,
-.w-Loom.m-any .cn-1 .y-1,
+.w-Leatherworker.m-any .cn-9 .y-1,
 .w-Loom.m-any .cn-11 .y-1,
-.w-Loom.m-any .cn-17 .y-1,
-.w-MachineShop.m-any .cn-1 .y-1,
-.w-MachineShop.m-any .cn-11 .y-1,
-.w-MachineShop.m-any .cn-17 .y-1,
-.w-MachineShop.m-any .cn-5 .y-1,
+.w-Loom.m-any .cn-15 .y-1,
+.w-Loom.m-any .cn-3 .y-1,
+.w-MachineShop.m-any .cn-15 .y-1,
+.w-MachineShop.m-any .cn-9 .y-1,
 .w-MarketStall.m-any .cn-1 .y-1,
+.w-MarketStall.m-any .cn-11 .y-1,
 .w-MarketStall.m-any .cn-13 .y-1,
-.w-MarketStall.m-any .cn-17 .y-1,
-.w-MarketStall.m-any .cn-7 .y-1,
-.w-MarketStall.m-any .cn-9 .y-1,
-.w-MeleeTraining.m-any .cn-1 .y-1,
-.w-MeleeTraining.m-any .cn-11 .y-1,
+.w-MeleeTraining.m-any .cn-13 .y-1,
 .w-MeleeTraining.m-any .cn-17 .y-1,
-.w-MeleeTraining.m-any .cn-19 .y-1,
 .w-MeleeTraining.m-any .cn-25 .y-1,
-.w-MeleeTraining.m-any .cn-29 .y-1,
+.w-MeleeTraining.m-any .cn-27 .y-1,
 .w-MeleeTraining.m-any .cn-3 .y-1,
-.w-MeleeTraining.m-any .cn-31 .y-1,
 .w-MeleeTraining.m-any .cn-33 .y-1,
-.w-MeleeTraining.m-any .cn-39 .y-1,
+.w-MeleeTraining.m-any .cn-37 .y-1,
 .w-MeleeTraining.m-any .cn-41 .y-1,
-.w-MeleeTraining.m-any .cn-43 .y-1,
-.w-MeleeTraining.m-any .cn-7 .y-1,
-.w-MeleeTraining.m-any .cn-9 .y-1,
-.w-Metalworker.m-any .cn-1 .y-1,
+.w-MeleeTraining.m-any .cn-47 .y-1,
+.w-MeleeTraining.m-any .cn-5 .y-1,
+.w-Metalworker.m-any .cn-13 .y-1,
 .w-Metalworker.m-any .cn-17 .y-1,
 .w-Metalworker.m-any .cn-3 .y-1,
-.w-Metalworker.m-any .cn-9 .y-1,
-.w-Prospector.m-any .cn-1 .y-1,
-.w-Prospector.m-any .cn-11 .y-1,
-.w-Prospector.m-any .cn-15 .y-1,
-.w-Prospector.m-any .cn-17 .y-1,
+.w-Metalworker.m-any .cn-5 .y-1,
+.w-Metalworker.m-any .cn-7 .y-1,
+.w-Prospector.m-any .cn-13 .y-1,
 .w-Prospector.m-any .cn-3 .y-1,
-.w-Prospector.m-any .cn-5 .y-1,
 .w-Prospector.m-any .cn-7 .y-1,
+.w-Prospector.m-any .cn-9 .y-1,
 .w-Sawmill.m-any .cn-1 .y-1,
-.w-Sawmill.m-any .cn-11 .y-1,
 .w-Sawmill.m-any .cn-13 .y-1,
 .w-Sawmill.m-any .cn-15 .y-1,
 .w-Sawmill.m-any .cn-17 .y-1,
 .w-Sawmill.m-any .cn-5 .y-1,
-.w-Stonecarver.m-any .cn-1 .y-1,
-.w-Stonecarver.m-any .cn-11 .y-1,
+.w-Sawmill.m-any .cn-9 .y-1,
 .w-Stonecarver.m-any .cn-13 .y-1,
 .w-Stonecarver.m-any .cn-15 .y-1,
-.w-Stonecarver.m-any .cn-9 .y-1,
-.w-Stonecutter.m-any .cn-13 .y-1,
+.w-Stonecarver.m-any .cn-17 .y-1,
+.w-Stonecarver.m-any .cn-5 .y-1,
+.w-Stonecarver.m-any .cn-7 .y-1,
+.w-Stonecutter.m-any .cn-1 .y-1,
 .w-Stonecutter.m-any .cn-15 .y-1,
-.w-Stonecutter.m-any .cn-17 .y-1,
-.w-Stonecutter.m-any .cn-5 .y-1,
+.w-Stonecutter.m-any .cn-3 .y-1,
+.w-Stonecutter.m-any .cn-9 .y-1,
 .w-Stonemason.m-any .cn-11 .y-1,
 .w-Stonemason.m-any .cn-13 .y-1,
-.w-Stonemason.m-any .cn-7 .y-1,
-.w-Stonemason.m-any .cn-9 .y-1,
+.w-Stonemason.m-any .cn-17 .y-1,
 .w-Tailor.m-any .cn-13 .y-1,
-.w-Tailor.m-any .cn-15 .y-1,
 .w-Tailor.m-any .cn-17 .y-1,
 .w-Tailor.m-any .cn-7 .y-1,
 .w-Tailor.m-any .cn-9 .y-1,
-.w-WasteDisposal.m-any .cn-17 .y-1,
-.w-WasteDisposal.m-any .cn-5 .y-1,
-.w-Weaponsmith.m-any .cn-1 .y-1,
+.w-WasteDisposal.m-any .cn-1 .y-1,
+.w-WasteDisposal.m-any .cn-13 .y-1,
+.w-WasteDisposal.m-any .cn-9 .y-1,
 .w-Weaponsmith.m-any .cn-13 .y-1,
+.w-Weaponsmith.m-any .cn-17 .y-1,
 .w-Weaponsmith.m-any .cn-5 .y-1,
-.w-Weaponsmith.m-any .cn-9 .y-1,
-.w-Windmill.m-any .cn-11 .y-1,
 .w-Windmill.m-any .cn-13 .y-1,
 .w-Windmill.m-any .cn-15 .y-1,
-.w-Windmill.m-any .cn-21 .y-1,
+.w-Windmill.m-any .cn-19 .y-1,
+.w-Windmill.m-any .cn-23 .y-1,
+.w-Windmill.m-any .cn-25 .y-1,
 .w-Windmill.m-any .cn-27 .y-1,
-.w-Windmill.m-any .cn-5 .y-1,
+.w-Windmill.m-any .cn-31 .y-1,
+.w-Windmill.m-any .cn-7 .y-1,
 .w-Windmill.m-any .cn-9 .y-1,
-.w-Woodcarver.m-any .cn-11 .y-1,
+.w-Woodcarver.m-any .cn-1 .y-1,
 .w-Woodcarver.m-any .cn-13 .y-1,
 .w-Woodcarver.m-any .cn-15 .y-1,
-.w-Woodcarver.m-any .cn-17 .y-1,
-.w-Woodcarver.m-any .cn-5 .y-1,
-.w-Woodcarver.m-any .cn-9 .y-1
+.w-Woodcarver.m-any .cn-3 .y-1,
+.w-Woodcarver.m-any .cn-7 .y-1
 {
   background-image: url(seasonalgrass.png);
   background-position: -128px -36px;
@@ -22164,6 +22187,7 @@
 .w-Kitchen.m-any .cn-12 .y-1,
 .w-Kitchen.m-any .cn-18 .y-1,
 .w-Kitchen.m-any .cn-6 .y-1,
+.w-Leatherworker.m-any .cn-12 .y-1,
 .w-Leatherworker.m-any .cn-6 .y-1,
 .w-Prospector.m-any .cn-14 .y-1,
 .w-Prospector.m-any .cn-2 .y-1,
@@ -22173,14 +22197,6 @@
 .w-Tailor.m-any .cn-8 .y-1
 {
   animation: anim_118 15.0s infinite step-end;
-  background-image: url(workshops.png);
-  background-position: -224px -288px;
-  width: 32px;
-  height: 36px;
-}
-.w-Carpenter.m-any .cn-12 .y-1,
-.w-Leatherworker.m-any .cn-12 .y-1
-{
   background-image: url(workshops.png);
   background-position: -224px -288px;
   width: 32px;
@@ -22205,6 +22221,7 @@
 .w-Automaton.m-any .cn-18 .y-1,
 .w-Automaton.m-any .cn-6 .y-1,
 .w-Blacksmith.m-any .cn-12 .y-1,
+.w-Carpenter.m-any .cn-12 .y-1,
 .w-Carpenter.m-any .cn-6 .y-1,
 .w-Engineer.m-any .cn-12 .y-1,
 .w-Engineer.m-any .cn-18 .y-1,
@@ -22241,20 +22258,22 @@
 .w-Automaton.m-any .cn-12 .y-2,
 .w-Engineer.m-any .cn-12 .y-2
 {
+  animation: anim_0 11.0s infinite step-end;
   background-image: url(workshops.png);
   background-position: -64px -396px;
   width: 32px;
   height: 36px;
-  top: 6px;
+  top: -8px;
 }
 .w-Automaton.m-any .cn-18 .y-2,
 .w-Engineer.m-any .cn-18 .y-2
 {
+  animation: anim_0 11.0s infinite step-end;
   background-image: url(default.png);
   background-position: -224px -144px;
   width: 32px;
   height: 36px;
-  top: 8px;
+  top: -8px;
 }
 .w-Blacksmith.m-any .cn-2 .y-1
 {
@@ -22391,6 +22410,11 @@
   width: 72px;
   height: 48px;
 }
+.l-72-48.zoomed
+{
+  width: 144px;
+  height: 96px;
+}
 .w-Crude.m-any .cn-6 .y-1,
 .w-Stonecutter.m-any .cn-12 .y-1
 {
@@ -22451,6 +22475,11 @@
   width: 96px;
   height: 88px;
 }
+.l-96-88.zoomed
+{
+  width: 192px;
+  height: 176px;
+}
 .l-96-88 .cp--1--1--1
 {
   left: 32px;
@@ -22466,14 +22495,14 @@
   left: 64px;
   top: 36px;
 }
-.w-Fishery.m-any .cn-11 .y-1
+.w-Fishery.m-any .cn-8 .y-1
 {
   background-image: url(workshops.png);
   background-position: -32px -72px;
   width: 32px;
   height: 36px;
 }
-.w-Fishery.m-any .cn-15 .y-1
+.w-Fishery.m-any .cn-12 .y-1
 {
   animation: anim_1 6.0s infinite step-end;
   background-image: url(workshops.png);
@@ -22481,14 +22510,14 @@
   width: 32px;
   height: 36px;
 }
-.w-Fishery.m-any .cn-15 .y-2
+.w-Fishery.m-any .cn-12 .y-2
 {
   background-image: url(workshops.png);
   background-position: -32px -0px;
   width: 32px;
   height: 36px;
 }
-.w-Fishery.m-any .cn-21 .y-1
+.w-Fishery.m-any .cn-18 .y-1
 {
   animation: anim_1 6.0s infinite step-end;
   background-image: url(workshops.png);
@@ -22569,6 +22598,7 @@
 }
 .w-GlassFurnace.m-any .cn-8 .y-1
 {
+  animation: anim_19 9.0s infinite step-end;
   background-image: url(workshops.png);
   background-position: -128px -36px;
   width: 32px;
@@ -22583,11 +22613,11 @@
 }
 .w-GlassMaker.m-any .cn-2 .y-1
 {
+  animation: anim_115 9.0s infinite step-end;
   background-image: url(workshops.png);
   background-position: -128px -36px;
   width: 32px;
   height: 36px;
-  transform: rotateY(180deg);
 }
 .w-GlassMaker.m-any .cn-2 .y-2
 {
@@ -22685,11 +22715,12 @@
 }
 .w-MachineShop.m-any .cn-18 .y-2
 {
+  animation: anim_23 20.0s infinite step-end;
   background-image: url(default.png);
   background-position: -832px -36px;
   width: 32px;
   height: 36px;
-  top: 6px;
+  top: -8px;
 }
 .w-MarketStall.m-any .cn-10 .y-1,
 .w-MarketStall.m-any .cn-16 .y-1,
@@ -22720,6 +22751,7 @@
 }
 .w-Metalworker.m-any .cn-6 .y-2
 {
+  animation: anim_0 11.0s infinite step-end;
   background-image: url(default.png);
   background-position: -288px -432px;
   width: 32px;
@@ -22808,6 +22840,11 @@
 {
   width: 160px;
   height: 100px;
+}
+.l-160-100.zoomed
+{
+  width: 320px;
+  height: 200px;
 }
 .l-160-100 .cp--2--2-0
 {
@@ -22942,6 +22979,11 @@
 {
   width: 128px;
   height: 124px;
+}
+.l-128-124.zoomed
+{
+  width: 256px;
+  height: 248px;
 }
 .l-128-124 .cp-3-0-0
 {
@@ -23160,4 +23202,37 @@
   background-image: url(windmill.png);
   width: 32px;
   height: 36px;
+}
+.m-Food.m-any .cn-1 .y-1
+{
+  background-image: url(terrain.png);
+  background-position: -64px -72px;
+  width: 32px;
+  height: 36px;
+  filter: url(tints.svg#Pine);
+}
+.m-Plants.m-any .cn-2 .y-1
+{
+  background-image: url(plants.png);
+  background-position: -0px -396px;
+  width: 32px;
+  height: 36px;
+}
+.m-Constructions.m-any .cn-2 .y-1
+{
+  background-image: url(terrain.png);
+  background-position: -160px -324px;
+  width: 32px;
+  height: 36px;
+  filter: url(tints.svg#Marble);
+  transform: rotateY(180deg);
+}
+.m-Constructions.m-any .cn-3 .y-1
+{
+  background-image: url(terrain.png);
+  background-position: -160px -288px;
+  width: 32px;
+  height: 36px;
+  filter: url(tints.svg#Marble);
+  transform: rotateY(180deg);
 }
