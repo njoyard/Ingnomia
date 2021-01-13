@@ -1,0 +1,22 @@
+.tilesheet {
+  position: relative;
+}
+
+.basesprite {
+  position: absolute;
+  background-color: rgba(0, 0, 255, 0.1);
+}
+
+.basesprite:hover {
+  background-color: rgba(255, 0, 255, 0.1);
+}
+
+.info {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  display: none;
+  border: 2px solid #ddd;
+  background-color: #eee;
+  padding: 0.5rem;
+}
