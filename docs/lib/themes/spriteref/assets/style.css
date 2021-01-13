@@ -1,14 +1,67 @@
-.tilesheet {
+body {
+  font-family: sans-serif;
+}
+
+.controls {
+  font-size: 0.8rem;
+}
+
+button {
+  padding: 0;
+}
+
+h1 {
+  font-size: 1.3rem;
+}
+
+[data-dirty='true'] h1:after {
+  content: '(modified)';
+}
+
+canvas {
+  background-image: url(bg.png);
+}
+
+.tilesheet,
+.controls {
+  display: none;
+}
+
+.tilesheet-container {
   position: relative;
 }
 
 .basesprite {
   position: absolute;
+}
+
+.overlays .basesprite {
   background-color: rgba(0, 0, 255, 0.1);
 }
 
-.basesprite:hover {
+.unused {
+  position: absolute;
+  width: 32px;
+  height: 36px;
+}
+
+.overlays .unused {
+  background-color: rgba(0, 255, 0, 0.1);
+}
+
+.basesprite.moved,
+.unused.cleared {
+  background-color: rgba(255, 127, 0, 0.1);
+}
+
+.basesprite:hover,
+.unused:hover {
   background-color: rgba(255, 0, 255, 0.1);
+}
+
+.selected {
+  box-sizing: border-box;
+  border: 2px solid #08c;
 }
 
 .info {
@@ -19,4 +72,43 @@
   border: 2px solid #ddd;
   background-color: #eee;
   padding: 0.5rem;
+
+  font-size: 0.8rem;
+}
+
+.info .title {
+  font-weight: bold;
+}
+
+.info .use {
+  padding-left: 0.5rem;
+  font-style: italic;
+}
+
+.info .action {
+  color: #08c;
+}
+
+.code {
+  position: fixed;
+  top: 2rem;
+  left: 2rem;
+  right: 2rem;
+  bottom: 2rem;
+
+  border: 2px solid #ddd;
+  background-color: #eee;
+
+  display: none;
+  overflow: auto;
+}
+
+.code .code-controls {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.code code {
+  white-space: pre;
 }
