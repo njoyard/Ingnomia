@@ -1,0 +1,49 @@
+name: Sprite Reference
+
+on:
+  push:
+    branches:
+      - '*'
+  workflow_dispatch:
+
+jobs:
+  spriterefs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+      - uses: dschep/install-pipenv-action@v1
+      - uses: actions/checkout@v2
+
+      - name: Download Tilesheets
+        uses: carlosperate/download-file-action@v1.0.3
+        id: download-tilesheet
+        with:
+          file-url: 'https://github.com/rschurade/IngnomiaBuildDeps/raw/master/tilesheet.zip'
+
+      - name: Unpack Tilesheets
+        uses: DuckSoft/extract-7z-action@v1.0
+        with:
+          pathSource: ${{ steps.download-tilesheet.outputs.file-path }}
+          pathTarget: content
+
+      - name: Setup venv
+        working-directory: docs
+        run: |
+          pipenv install
+
+      - name: Generate docs
+        working-directory: docs
+        run: |
+          pipenv run ./generate.py --output docs/spriteref --theme spriteref
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs/spriteref
+          cname: ${{ secrets.DOCS_DOMAIN }}
+          keep_files: true
+          destination_dir: spriteref
