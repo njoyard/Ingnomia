@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" type="text/css" href="assets/style.css" />
+</head>
+<body>
+  {% for tilesheet in tilesheets %}
+    <h1>{{ tilesheet.filename }}</h1>
+
+    <div class="tilesheet">
+      <img src="assets/{{ tilesheet.filename }}">
+      {% for bs in tilesheet.basesprites %}
+        {% set rect = bs.rect %}
+        <div
+          class="basesprite"
+          data-id="{{ bs.id }}"
+          data-tilesheet="{{ bs.tilesheet }}"
+          data-rect="{{ rect.x }} {{ rect.y }} {{ rect.w }} {{ rect.h }}"
+          style="
+            left: {{ rect.x }}px;
+            top: {{ rect.y }}px;
+            height: {{ rect.h }}px;
+            width: {{ rect.w }}px;"></div>
+      {% endfor %}
+    </div>
+  {% endfor %}
+
+  <div class="info"></div>
+  <script src="assets/spriteref.js"></script>
+</body>
