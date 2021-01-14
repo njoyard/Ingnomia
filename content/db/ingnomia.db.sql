@@ -13548,7 +13548,6 @@ INSERT INTO "BaseSprites" ("ID","SourceRectangle","Tilesheet") VALUES ('UprightW
 INSERT INTO "BaseSprites" ("ID","SourceRectangle","Tilesheet") VALUES ('UprightWeaponStandBL','224 432 32 36','workshops.png');
 INSERT INTO "BaseSprites" ("ID","SourceRectangle","Tilesheet") VALUES ('HammerTableTopFR','384 396 32 36','workshops.png');
 INSERT INTO "BaseSprites" ("ID","SourceRectangle","Tilesheet") VALUES ('HammerTableTopBL','352 396 32 36','workshops.png');
-INSERT INTO "BaseSprites" ("ID","SourceRectangle","Tilesheet") VALUES ('CoalPile','480 108 32 36','default.png');
 INSERT INTO "BaseSprites" ("ID","SourceRectangle","Tilesheet") VALUES ('BellowsFL','256 0 32 36','workshops.png');
 INSERT INTO "BaseSprites" ("ID","SourceRectangle","Tilesheet") VALUES ('BellowsBR','224 0 32 36','workshops.png');
 INSERT INTO "BaseSprites" ("ID","SourceRectangle","Tilesheet") VALUES ('Forge','224 324 32 36','workshops.png');
@@ -13694,7 +13693,6 @@ INSERT INTO "BaseSprites" ("ID","SourceRectangle","Tilesheet") VALUES ('PetRock'
 INSERT INTO "BaseSprites" ("ID","SourceRectangle","Tilesheet") VALUES ('Gear','224 144 32 36','default.png');
 INSERT INTO "BaseSprites" ("ID","SourceRectangle","Tilesheet") VALUES ('Spring','256 432 32 36','default.png');
 INSERT INTO "BaseSprites" ("ID","SourceRectangle","Tilesheet") VALUES ('GnomeTorchRight','448 216 32 36','default.png');
-INSERT INTO "BaseSprites" ("ID","SourceRectangle","Tilesheet") VALUES ('GnomeTorchLeft','416 216 32 36','default.png');
 INSERT INTO "BaseSprites" ("ID","SourceRectangle","Tilesheet") VALUES ('GnomeBattleAxe','608 144 32 36','default.png');
 INSERT INTO "BaseSprites" ("ID","SourceRectangle","Tilesheet") VALUES ('BattleAxeHead','896 36 32 36','default.png');
 INSERT INTO "BaseSprites" ("ID","SourceRectangle","Tilesheet") VALUES ('GnomeWarhammer','544 216 32 36','default.png');
