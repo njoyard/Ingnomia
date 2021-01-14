@@ -81,6 +81,8 @@ function showInfo(ts, rect) {
   let title = elem('div', { class: 'title', text: `${ts} @${rect}` })
   state.info.appendChild(title)
 
+  let hasBase = false
+
   for (let match of [
     ...document.querySelectorAll(
       `.basesprite[data-tilesheet="${ts}"][data-rect="${rect}"]`
@@ -97,6 +99,10 @@ function showInfo(ts, rect) {
       state.info.appendChild(u)
     }
 
+    hasBase = true
+  }
+
+  if (hasBase) {
     let a = elem('div', {
       class: 'action',
       text: 'Click to select'
@@ -317,6 +323,7 @@ function setupUI() {
     }
   })
 
+  document.querySelector('.controls').style.display = 'block'
   document.querySelector('.loading').style.display = 'none'
   document
     .querySelector('.download')

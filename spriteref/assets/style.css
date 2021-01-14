@@ -15,7 +15,8 @@ canvas {
   background-image: url(bg.png);
 }
 
-.tilesheet {
+.tilesheet,
+.controls {
   display: none;
 }
 
