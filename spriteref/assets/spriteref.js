@@ -96,6 +96,13 @@ function showInfo(ts, rect) {
       let u = elem('div', { class: 'use', text: use })
       state.info.appendChild(u)
     }
+
+    let a = elem('div', {
+      class: 'action',
+      text: 'Click to select'
+    })
+
+    state.info.appendChild(a)
   }
 
   for (let match of [
@@ -230,6 +237,18 @@ function moveSelectedTo(unused) {
   }
 }
 
+function clearSprite() {
+  if (state.hover) {
+    if (state.hover.classList.contains('unused')) {
+      let [left, top] = state.hover.dataset.rect.split(' ')
+      let canvas = state.tilesheet.querySelector('canvas')
+      let ctx = canvas.getContext('2d')
+
+      ctx.clearRect(left, top, TILEW, TILEH)
+    }
+  }
+}
+
 function downloadTilesheet() {
   let canvas = state.tilesheet.querySelector('canvas')
   let data = canvas.toDataURL('image/png')
@@ -250,22 +269,33 @@ const KEYS = [
   { keyCode: 79, shift: false, handler: toggleOverlays },
 
   // D => dump basesprites
-  { keyCode: 68, shift: false, handler: dumpBaseSprites }
+  { keyCode: 68, shift: false, handler: dumpBaseSprites },
+
+  // C => clear sprite under cursor
+  { keyCode: 67, shift: false, handler: clearSprite }
 ]
 
 function setupBasespriteEvents(basesprite) {
   basesprite.addEventListener('mouseenter', (e) => {
+    state.hover = e.target
     showInfo(e.target.dataset.tilesheet, e.target.dataset.rect)
   })
-  basesprite.addEventListener('mouseout', hideInfo)
+  basesprite.addEventListener('mouseout', () => {
+    state.hover = null
+    hideInfo()
+  })
   basesprite.addEventListener('click', (e) => selectBaseSprite(e.target))
 }
 
 function setupUnusedEvents(unused) {
   unused.addEventListener('mouseenter', (e) => {
+    state.hover = e.target
     showInfo(e.target.dataset.tilesheet, e.target.dataset.rect)
   })
-  unused.addEventListener('mouseout', hideInfo)
+  unused.addEventListener('mouseout', () => {
+    state.hover = null
+    hideInfo()
+  })
   unused.addEventListener('click', (e) => moveSelectedTo(e.target))
 }
 

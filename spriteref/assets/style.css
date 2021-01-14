@@ -2,8 +2,17 @@ body {
   font-family: sans-serif;
 }
 
+.controls {
+  font-size: 0.8rem;
+  border-bottom: 1px solid #ddd;
+}
+
 h1 {
   font-size: 1.3rem;
+}
+
+canvas {
+  background-image: url(bg.png);
 }
 
 .tilesheet {
@@ -68,6 +77,5 @@ h1 {
 }
 
 .info .action {
-  font-weight: bold;
   color: #08c;
 }
