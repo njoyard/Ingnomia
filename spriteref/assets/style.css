@@ -4,11 +4,18 @@ body {
 
 .controls {
   font-size: 0.8rem;
-  border-bottom: 1px solid #ddd;
+}
+
+.controls button {
+  padding: 0;
 }
 
 h1 {
   font-size: 1.3rem;
+}
+
+[data-dirty='true'] h1:after {
+  content: '(modified)';
 }
 
 canvas {

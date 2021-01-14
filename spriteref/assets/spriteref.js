@@ -214,6 +214,7 @@ function moveSelectedTo(unused) {
 
     // Copy pixels
     to_ctx.putImageData(from_data, to_left, to_top)
+    to_parent.parentNode.dataset.dirty = 'true'
 
     // Update and move basesprite element
     bs.dataset.tilesheet = to_ts
@@ -251,6 +252,7 @@ function clearSprite() {
       let ctx = canvas.getContext('2d')
 
       ctx.clearRect(left, top, TILEW, TILEH)
+      state.tilesheet.dataset.dirty = 'true'
     }
   }
 }
@@ -266,19 +268,24 @@ function downloadTilesheet() {
 const KEYS = [
   // Tab => switch tilesheets
   { keyCode: 9, shift: true, handler: () => selectTilesheet(-1) },
-  { keyCode: 9, shift: false, handler: () => selectTilesheet(1) },
+  {
+    keyCode: 9,
+    shift: false,
+    handler: () => selectTilesheet(1),
+    button: '#tilesheet'
+  },
 
   // Esc => cancel selection
-  { keyCode: 27, shift: false, handler: cancelSelection },
+  { keyCode: 27, shift: false, handler: cancelSelection, button: '#unselect' },
 
   // O => toggle color overlays
-  { keyCode: 79, shift: false, handler: toggleOverlays },
+  { keyCode: 79, shift: false, handler: toggleOverlays, button: '#overlays' },
 
   // D => dump basesprites
-  { keyCode: 68, shift: false, handler: dumpBaseSprites },
+  { keyCode: 68, shift: false, handler: dumpBaseSprites, button: '#dump' },
 
   // C => clear sprite under cursor
-  { keyCode: 67, shift: false, handler: clearSprite }
+  { keyCode: 67, shift: false, handler: clearSprite, button: '#clear' }
 ]
 
 function setupBasespriteEvents(basesprite) {
@@ -312,6 +319,14 @@ function setupUI() {
   state.tilesheet = cur
   state.download = document.querySelector('.download')
 
+  for (let { button, handler } of KEYS) {
+    if (button) {
+      document
+        .querySelector(`.controls ${button}`)
+        .addEventListener('click', handler)
+    }
+  }
+
   document.addEventListener('keydown', (e) => {
     let match = KEYS.find(
       (k) => k.keyCode === e.keyCode && k.shift === e.shiftKey
@@ -332,6 +347,17 @@ function setupUI() {
   for (let basesprite of [...document.querySelectorAll('.basesprite')]) {
     setupBasespriteEvents(basesprite)
   }
+
+  window.addEventListener('beforeunload', (e) => {
+    let dirty = [...document.querySelectorAll('[data-dirty="true"]')].map(
+      (t) => t.dataset.tilesheet
+    )
+
+    if (dirty.length) {
+      e.preventDefault()
+      e.returnValue = ''
+    }
+  })
 }
 
 ;(async function () {
