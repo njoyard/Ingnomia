@@ -207,6 +207,7 @@ function moveSelectedTo(unused) {
     bs.dataset.rect = to_rect
     bs.style.left = `${to_left}px`
     bs.style.top = `${to_top}px`
+    bs.classList.add('moved')
     from_parent.removeChild(bs)
     to_parent.appendChild(bs)
 

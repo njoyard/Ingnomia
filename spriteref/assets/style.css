@@ -32,6 +32,10 @@ h1 {
   background-color: rgba(0, 255, 0, 0.1);
 }
 
+.basesprite.moved {
+  background-color: rgba(255, 127, 0, 0.1);
+}
+
 .basesprite:hover,
 .unused:hover {
   background-color: rgba(255, 0, 255, 0.1);
