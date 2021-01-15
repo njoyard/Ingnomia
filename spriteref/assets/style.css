@@ -6,7 +6,7 @@ body {
   font-size: 0.8rem;
 }
 
-.controls button {
+button {
   padding: 0;
 }
 
@@ -86,4 +86,28 @@ canvas {
 
 .info .action {
   color: #08c;
+}
+
+.code {
+  position: fixed;
+  top: 2rem;
+  left: 2rem;
+  right: 2rem;
+  bottom: 2rem;
+
+  border: 2px solid #ddd;
+  background-color: #eee;
+
+  display: none;
+  overflow: auto;
+}
+
+.code .code-controls {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.code code {
+  white-space: pre;
 }

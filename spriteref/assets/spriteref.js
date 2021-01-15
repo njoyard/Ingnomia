@@ -75,6 +75,21 @@ function loadTilesheet(ts) {
   })
 }
 
+function showCode(code) {
+  state.code.querySelector('code').textContent = code
+  state.code.style.display = 'block'
+}
+
+async function copyCode() {
+  await navigator.clipboard.writeText(
+    state.code.querySelector('code').textContent
+  )
+}
+
+function hideCode() {
+  state.code.style.display = 'none'
+}
+
 function showInfo(ts, rect) {
   state.info.innerHTML = ''
 
@@ -173,7 +188,11 @@ function dumpBaseSprites() {
     )
   }
 
-  console.log(lines.join('\n'))
+  showCode(lines.join('\n'))
+}
+
+function dumpImageOps() {
+  showCode(state.imageOps.join('\n'))
 }
 
 function selectBaseSprite(bs) {
@@ -240,6 +259,11 @@ function moveSelectedTo(unused) {
       from_parent.appendChild(unused)
     }
 
+    state.imageOps.push(
+      `# Copy sprite from ${from_ts}@${from_left},${from_top} to ${to_ts}@${to_left}x${to_top}`,
+      `convert ${to_ts} \\( ${from_ts} -crop ${TILEW}x${TILEH}+${from_left}+${from_top} \\) -geometry +${to_left}+${to_top} -compose copy -composite ${to_ts}`
+    )
+
     cancelSelection()
   }
 }
@@ -247,22 +271,20 @@ function moveSelectedTo(unused) {
 function clearSprite() {
   if (state.hover) {
     if (state.hover.classList.contains('unused')) {
+      let ts = state.tilesheet.dataset.tilesheet
       let [left, top] = state.hover.dataset.rect.split(' ')
       let canvas = state.tilesheet.querySelector('canvas')
       let ctx = canvas.getContext('2d')
 
       ctx.clearRect(left, top, TILEW, TILEH)
       state.tilesheet.dataset.dirty = 'true'
+
+      state.imageOps.push(
+        `# Clear sprite at ${ts}@${left},${top}`,
+        `convert ${ts} \\( -size ${TILEW}x${TILEH} xc:none \\) -alpha set -geometry +${left}+${top} -compose copy -composite ${ts}`
+      )
     }
   }
-}
-
-function downloadTilesheet() {
-  let canvas = state.tilesheet.querySelector('canvas')
-  let data = canvas.toDataURL('image/png')
-
-  state.download.download = state.tilesheet.dataset.tilesheet
-  state.download.href = data
 }
 
 const KEYS = [
@@ -283,6 +305,9 @@ const KEYS = [
 
   // D => dump basesprites
   { keyCode: 68, shift: false, handler: dumpBaseSprites, button: '#dump' },
+
+  // I => dump image ops
+  { keyCode: 73, shift: false, handler: dumpImageOps, button: '#imgops' },
 
   // C => clear sprite under cursor
   { keyCode: 67, shift: false, handler: clearSprite, button: '#clear' }
@@ -316,8 +341,12 @@ function setupUI() {
   let cur = state.tilesheets[0]
   cur.style.display = 'block'
 
+  state.imageOps = []
   state.tilesheet = cur
-  state.download = document.querySelector('.download')
+  state.code = document.querySelector('.code')
+
+  state.code.querySelector('#hide').addEventListener('click', hideCode)
+  state.code.querySelector('#copy').addEventListener('click', copyCode)
 
   for (let { button, handler } of KEYS) {
     if (button) {
@@ -340,9 +369,6 @@ function setupUI() {
 
   document.querySelector('.controls').style.display = 'block'
   document.querySelector('.loading').style.display = 'none'
-  document
-    .querySelector('.download')
-    .addEventListener('click', downloadTilesheet)
 
   for (let basesprite of [...document.querySelectorAll('.basesprite')]) {
     setupBasespriteEvents(basesprite)
