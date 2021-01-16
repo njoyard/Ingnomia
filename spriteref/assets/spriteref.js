@@ -260,7 +260,6 @@ function moveSelectedTo(unused) {
     }
 
     state.imageOps.push(
-      `# Copy sprite from ${from_ts}@${from_left},${from_top} to ${to_ts}@${to_left}x${to_top}`,
       `convert ${to_ts} \\( ${from_ts} -crop ${TILEW}x${TILEH}+${from_left}+${from_top} \\) -geometry +${to_left}+${to_top} -compose copy -composite ${to_ts}`
     )
 
@@ -280,7 +279,6 @@ function clearSprite() {
       state.tilesheet.dataset.dirty = 'true'
 
       state.imageOps.push(
-        `# Clear sprite at ${ts}@${left},${top}`,
         `convert ${ts} \\( -size ${TILEW}x${TILEH} xc:none \\) -alpha set -geometry +${left}+${top} -compose copy -composite ${ts}`
       )
     }
