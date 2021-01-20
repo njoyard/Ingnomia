@@ -281,6 +281,8 @@ function clearSprite() {
       state.imageOps.push(
         `convert ${ts} \\( -size ${TILEW}x${TILEH} xc:none \\) -alpha set -geometry +${left}+${top} -compose copy -composite ${ts}`
       )
+
+      state.hover.classList.add('cleared')
     }
   }
 }
