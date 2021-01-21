@@ -236,6 +236,7 @@ void GameManager::postCreationInit()
 
 	m_eventConnector->aggregatorAgri()->init( m_game );
 	m_eventConnector->aggregatorCreatureInfo()->init( m_game );
+	m_eventConnector->aggregatorDebug()->init( m_game );
 	m_eventConnector->aggregatorInventory()->init( m_game );
 	m_eventConnector->aggregatorMilitary()->init( m_game );
 	m_eventConnector->aggregatorNeighbors()->init( m_game );
@@ -281,6 +282,7 @@ void GameManager::postCreationInit()
 	Global::sel->updateGui();
 
 	m_eventConnector->aggregatorInventory()->update();
+	m_eventConnector->aggregatorDebug()->update();
 
 	m_eventConnector->emitPause( m_game->paused() );
 	m_eventConnector->emitStartGame();

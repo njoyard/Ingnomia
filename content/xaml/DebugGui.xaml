@@ -50,6 +50,14 @@
 							<TextBlock Text="{StaticResource DebugPage_More}"></TextBlock>
 						</StackPanel>
 					</Button>
+					<Button Style="{StaticResource SquareButton}"
+						Command="{Binding PageCmd}"
+						CommandParameter="Sprites">
+						<StackPanel>
+							<Image Source="buttons/mechanics.png" Stretch="None" />
+							<TextBlock Text="{StaticResource DebugPage_Sprites}"></TextBlock>
+						</StackPanel>
+					</Button>
 				</StackPanel>
 			</Border>
 
@@ -101,6 +109,56 @@
 						</Grid.ColumnDefinitions>
 
 						<TextBlock Text="{StaticResource DebugPage_DebugThirdPage}" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="20" Grid.Row="0" />
+					</Grid>
+
+					<Grid x:Name="LayoutProfEdit" Visibility="{Binding ShowSprites}">
+						<Grid.RowDefinitions>
+							<RowDefinition Height="Auto" />
+							<RowDefinition Height="1*" />
+						</Grid.RowDefinitions>
+						<Grid.ColumnDefinitions>
+							<ColumnDefinition Width="Auto" />
+							<ColumnDefinition Width="1*" />
+						</Grid.ColumnDefinitions>
+
+						<TextBlock Text="{StaticResource DebugPage_Sprites}" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="20" Grid.Row="0" />
+						<StackPanel Grid.Row="1" Grid.Column="0">
+							<ComboBox VerticalAlignment="Center" Margin="2"
+								ItemsSource="{Binding Tilesheets}"
+								SelectedItem="{Binding SelectedTilesheet, Mode=TwoWay}"
+								ItemTemplate="{StaticResource ItemTemplate}" />
+
+							<Border Style="{StaticResource TilesheetBorder}">
+								<Border.Background>
+									<ImageBrush ImageSource="Images/TilesheetBackground.png" Stretch="None" TileMode="Tile" />
+								</Border.Background>
+
+								<ItemsControl ItemsSource="{Binding SelectedTilesheet.BaseSprites}">
+									<ItemsControl.ItemsPanel>
+										<ItemsPanelTemplate>
+											<Canvas Width="{Binding SelectedTilesheet.Width}" Height="{Binding SelectedTilesheet.Height}">
+												<Canvas.Background>
+													<ImageBrush ImageSource="{Binding SelectedTilesheet.BitmapSource}" Stretch="None" TileMode="None" />
+												</Canvas.Background>
+											</Canvas>
+										</ItemsPanelTemplate>
+									</ItemsControl.ItemsPanel>
+
+									<ItemsControl.ItemContainerStyle>
+										<Style TargetType="ContentPresenter">
+											<Setter Property="Canvas.Left" Value="{Binding X}" />
+											<Setter Property="Canvas.Top" Value="{Binding Y}" />
+										</Style>
+									</ItemsControl.ItemContainerStyle>
+
+									<ItemsControl.ItemTemplate>
+										<DataTemplate>
+											<Rectangle Width="{Binding DimX}" Height="{Binding DimY}" Fill="{StaticResource DebugBaseSpriteOverlay}" />
+										</DataTemplate>
+									</ItemsControl.ItemTemplate>
+								</ItemsControl>
+							</Border>
+						</StackPanel>
 					</Grid>
 				</Grid>
 			</Border>

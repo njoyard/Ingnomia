@@ -71,6 +71,7 @@
 	<system:String x:Key="DebugPage_Misc">DebugPage_Misc</system:String>
 	<system:String x:Key="DebugPage_Stuff">DebugPage_Stuff</system:String>
 	<system:String x:Key="DebugPage_More">DebugPage_More</system:String>
+	<system:String x:Key="DebugPage_Sprites">DebugPage_Sprites</system:String>
 	<system:String x:Key="DebugPage_DebugFirstPage">DebugPage_DebugFirstPage</system:String>
 	<system:String x:Key="DebugPage_SpawnGnome">DebugPage_SpawnGnome</system:String>
 	<system:String x:Key="DebugPage_SpawnTrader">DebugPage_SpawnTrader</system:String>

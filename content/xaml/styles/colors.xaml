@@ -20,7 +20,8 @@
     <Color x:Key="ForegroundColor">#FFFFFFFF</Color>
     <Color x:Key="PanelBackgroundColorBlack">#FF000000</Color>
 	<Color x:Key="PanelBackgroundColorGrey">#FF404040</Color>
-	
+    <Color x:Key="DebugBaseSpriteOverlay">#400000FF</Color>
+
 	<Color x:Key="ButtonNormalColor">#FF2B333B</Color>
 	<SolidColorBrush x:Key="ButtonNormalBrush" Color="{StaticResource ButtonNormalColor}"/>
 

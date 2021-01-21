@@ -1,4 +1,4 @@
-/*	
+/*
 	This file is part of Ingnomia https://github.com/rschurade/Ingnomia
     Copyright (C) 2017-2020  Ralph Schurade, Ingnomia Team
 
@@ -31,6 +31,8 @@
 #include <NsCore/ReflectionDeclareEnum.h>
 #include <NsCore/String.h>
 #include <NsGui/Collection.h>
+#include <NsGui/ImageSource.h>
+#include <NsGui/BitmapSource.h>
 
 class DebugProxy;
 
@@ -47,28 +49,63 @@ enum class DebugPage
 {
 	First,
 	Second,
-	Third
+	Third,
+  Sprites
 };
 
 struct WSEntry : public Noesis::BaseComponent
 {
 public:
-	WSEntry( int width, int height );
+  WSEntry( int width, int height );
 
-	Noesis::String m_name;
-	int m_width;
-	int m_height;
+  Noesis::String m_name;
+  int m_width;
+  int m_height;
 
     const char* getName() const;
-	
-	NS_DECLARE_REFLECTION( WSEntry, BaseComponent )
+
+  NS_DECLARE_REFLECTION( WSEntry, BaseComponent )
 };
+
+struct BasespriteEntry : public Noesis::BaseComponent
+{
+public:
+  BasespriteEntry( const QVariantMap& row );
+
+  Noesis::String m_id;
+  int m_x;
+  int m_y;
+  int m_dimX;
+  int m_dimY;
+
+  const char* getName() const;
+
+  NS_DECLARE_REFLECTION( BasespriteEntry, BaseComponent )
+};
+
+struct TilesheetEntry : public Noesis::BaseComponent
+{
+public:
+  TilesheetEntry( const GuiTilesheet& gts );
+
+  Noesis::String m_name;
+  int m_width;
+  int m_height;
+  Noesis::Ptr<Noesis::BitmapSource> m_pic;
+  Noesis::Ptr<Noesis::ObservableCollection<BasespriteEntry>> m_basesprites;
+
+  const char* getName() const;
+
+  NS_DECLARE_REFLECTION( TilesheetEntry, BaseComponent )
+};
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 class DebugModel final : public NoesisApp::NotifyPropertyChangedBase
 {
 public:
 	DebugModel();
 
+  void updateTilesheets( const QList<GuiTilesheet>& tilesheets );
 
 private:
 	DebugProxy* m_proxy = nullptr;
@@ -77,7 +114,8 @@ private:
 
 	const char* GetShowFirst() const;
 	const char* GetShowSecond() const;
-	const char* GetShowThird() const;
+  const char* GetShowThird() const;
+  const char* GetShowSprites() const;
 
 	void onPageCmd( BaseComponent* param );
 	const NoesisApp::DelegateCommand* GetPageCmd() const
@@ -93,14 +131,20 @@ private:
 	}
 	NoesisApp::DelegateCommand m_spawnCmd;
 
-	Noesis::ObservableCollection<WSEntry>* getWindowSizes() const;
-	void setWindowSize( WSEntry* item );
-	WSEntry* getWindowSize() const;
+  Noesis::ObservableCollection<WSEntry>* getWindowSizes() const;
+  void setWindowSize( WSEntry* item );
+  WSEntry* getWindowSize() const;
 
-	Noesis::Ptr<Noesis::ObservableCollection<WSEntry>> m_windowSizes;
+  Noesis::Ptr<Noesis::ObservableCollection<WSEntry>> m_windowSizes;
     WSEntry* m_selectedWindowSize = nullptr;;
 
 
+  Noesis::ObservableCollection<TilesheetEntry>* getTilesheets() const;
+  void setTilesheet( TilesheetEntry* item );
+  TilesheetEntry* getTilesheet() const;
+
+  Noesis::Ptr<Noesis::ObservableCollection<TilesheetEntry>> m_tilesheets;
+  TilesheetEntry* m_selectedTilesheet = nullptr;
 
 	NS_DECLARE_REFLECTION( DebugModel, NotifyPropertyChangedBase )
 };

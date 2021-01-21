@@ -1,4 +1,4 @@
-/*	
+/*
 	This file is part of Ingnomia https://github.com/rschurade/Ingnomia
     Copyright (C) 2017-2020  Ralph Schurade, Ingnomia Team
 
@@ -21,6 +21,7 @@
 #include "debugmodel.h"
 
 #include <QObject>
+#include <QPixmap>
 
 class DebugProxy : public QObject
 {
@@ -34,14 +35,16 @@ public:
 
     void setWindowSize( int width, int height );
 
+    void requestTilesheets();
+
 private:
 	IngnomiaGUI::DebugModel* m_parent = nullptr;
 
-
-
 private slots:
+    void onTilesheetUpdate( const QList<GuiTilesheet>& tilesheets );
 
 signals:
 	void signalSpawnCreature( QString type );
     void signalSetWindowSize( int width, int height );
+    void signalRequestTilesheets();
 };

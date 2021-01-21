@@ -1,4 +1,4 @@
-/*	
+/*
 	This file is part of Ingnomia https://github.com/rschurade/Ingnomia
     Copyright (C) 2017-2020  Ralph Schurade, Ingnomia Team
 
@@ -27,6 +27,9 @@ DebugProxy::DebugProxy( QObject* parent ) :
 {
 	connect( this, &DebugProxy::signalSpawnCreature, Global::eventConnector->aggregatorDebug(), &AggregatorDebug::onSpawnCreature, Qt::QueuedConnection );
     connect( this, &DebugProxy::signalSetWindowSize, Global::eventConnector->aggregatorDebug(), &AggregatorDebug::onSetWindowSize, Qt::QueuedConnection );
+
+    connect( Global::eventConnector->aggregatorDebug(), &AggregatorDebug::signalDebugTilesheets, this, &DebugProxy::onTilesheetUpdate, Qt::QueuedConnection );
+    connect( this, &DebugProxy::signalRequestTilesheets, Global::eventConnector->aggregatorDebug(), &AggregatorDebug::onRequestTilesheets, Qt::QueuedConnection );
 }
 
 void DebugProxy::setParent( IngnomiaGUI::DebugModel* parent )
@@ -42,4 +45,17 @@ void DebugProxy::spawnCreature( QString type )
 void DebugProxy::setWindowSize( int width, int height )
 {
     emit signalSetWindowSize( width, height );
+}
+
+void DebugProxy::requestTilesheets()
+{
+    emit signalRequestTilesheets();
+}
+
+void DebugProxy::onTilesheetUpdate( const QList<GuiTilesheet>& tilesheets )
+{
+    if( m_parent )
+    {
+        m_parent->updateTilesheets( tilesheets );
+    }
 }

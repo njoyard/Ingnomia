@@ -1,4 +1,4 @@
-/*	
+/*
 	This file is part of Ingnomia https://github.com/rschurade/Ingnomia
     Copyright (C) 2017-2020  Ralph Schurade, Ingnomia Team
 
@@ -17,6 +17,8 @@
 */
 #include "debugmodel.h"
 #include "debugproxy.h"
+
+#include "../../base/db.h"
 
 #include <NsApp/Application.h>
 #include <NsCore/Log.h>
@@ -42,7 +44,48 @@ WSEntry::WSEntry( int width, int height ) :
 
 const char* WSEntry::getName() const
 {
-	return m_name.Str();
+  return m_name.Str();
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+TilesheetEntry::TilesheetEntry( const GuiTilesheet& gts )
+{
+  m_name = gts.name.toStdString().c_str();
+  m_width = gts.width;
+  m_height = gts.height;
+  m_pic = BitmapImage::Create( gts.width, gts.height, 96, 96, gts.pic.data(), 4 * gts.width, BitmapSource::Format::Format_RGBA8 );
+  m_basesprites = *new ObservableCollection<BasespriteEntry>();
+
+  for ( auto row : DB::selectRows( "BaseSprites", "Tilesheet", gts.name ) )
+  {
+    m_basesprites->Add( MakePtr<BasespriteEntry>( row ) );
+  }
+}
+
+const char* TilesheetEntry::getName() const
+{
+  return m_name.Str();
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+BasespriteEntry::BasespriteEntry( const QVariantMap& row )
+{
+  m_id = row.value( "ID" ).toString().toStdString().c_str();
+  QString rect = row.value( "SourceRectangle" ).toString();
+
+  QStringList rl = rect.split( " " );
+  if ( rl.size() == 4 )
+  {
+    m_x    = rl[0].toInt();
+    m_y    = rl[1].toInt();
+    m_dimX = rl[2].toInt();
+    m_dimY = rl[3].toInt();
+  }
+}
+
+const char* BasespriteEntry::getName() const
+{
+  return m_id.Str();
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -57,6 +100,8 @@ DebugModel::DebugModel()
 	m_windowSizes = *new ObservableCollection<WSEntry>();
 	m_windowSizes->Add( MakePtr<WSEntry>( 1920, 1080 ) );
 	m_windowSizes->Add( MakePtr<WSEntry>( 1360, 768 ) );
+
+  m_tilesheets = *new ObservableCollection<TilesheetEntry>();
 }
 
 const char* DebugModel::GetShowFirst() const
@@ -67,7 +112,7 @@ const char* DebugModel::GetShowFirst() const
 	}
 	return "Hidden";
 }
-	
+
 const char* DebugModel::GetShowSecond() const
 {
 	if ( m_page == DebugPage::Second )
@@ -79,11 +124,20 @@ const char* DebugModel::GetShowSecond() const
 
 const char* DebugModel::GetShowThird() const
 {
-	if ( m_page == DebugPage::Third )
-	{
-		return "Visible";
-	}
-	return "Hidden";
+  if ( m_page == DebugPage::Third )
+  {
+    return "Visible";
+  }
+  return "Hidden";
+}
+
+const char* DebugModel::GetShowSprites() const
+{
+  if ( m_page == DebugPage::Sprites )
+  {
+    return "Visible";
+  }
+  return "Hidden";
 }
 
 void DebugModel::onPageCmd( BaseComponent* param )
@@ -96,14 +150,19 @@ void DebugModel::onPageCmd( BaseComponent* param )
 	{
 		m_page = DebugPage::Second;
 	}
-	else
+	else if( param->ToString() == "Third" )
 	{
 		m_page = DebugPage::Third;
 	}
-	
+  else
+  {
+    m_page = DebugPage::Sprites;
+  }
+
 	OnPropertyChanged( "ShowFirst" );
 	OnPropertyChanged( "ShowSecond" );
-	OnPropertyChanged( "ShowThird" );
+  OnPropertyChanged( "ShowThird" );
+  OnPropertyChanged( "ShowSprites" );
 }
 
 void DebugModel::onSpawnCmd( BaseComponent* param )
@@ -130,6 +189,40 @@ WSEntry* DebugModel::getWindowSize() const
     return m_selectedWindowSize;
 }
 
+void DebugModel::updateTilesheets( const QList<GuiTilesheet>& tilesheets )
+{
+    m_tilesheets->Clear();
+    for ( const auto& gts : tilesheets )
+    {
+        m_tilesheets->Add( MakePtr<TilesheetEntry>( gts ) );
+    }
+
+    OnPropertyChanged( "Tilesheets" );
+
+    if ( m_selectedTilesheet == nullptr ) {
+        setTilesheet(m_tilesheets->Get(0));
+    }
+}
+
+Noesis::ObservableCollection<TilesheetEntry>* DebugModel::getTilesheets() const
+{
+    return m_tilesheets;
+}
+
+void DebugModel::setTilesheet( TilesheetEntry* item )
+{
+    if( item && m_selectedTilesheet != item )
+    {
+        m_selectedTilesheet = item;
+        OnPropertyChanged( "SelectedTilesheet" );
+    }
+}
+
+TilesheetEntry* DebugModel::getTilesheet() const
+{
+    return m_selectedTilesheet;
+}
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 NS_BEGIN_COLD_REGION
 
@@ -138,16 +231,37 @@ NS_IMPLEMENT_REFLECTION( DebugModel, "IngnomiaGUI.DebugModel" )
 	NsProp( "PageCmd", &DebugModel::GetPageCmd );
 	NsProp( "ShowFirst", &DebugModel::GetShowFirst );
 	NsProp( "ShowSecond", &DebugModel::GetShowSecond );
-	NsProp( "ShowThird", &DebugModel::GetShowThird );
+  NsProp( "ShowThird", &DebugModel::GetShowThird );
+  NsProp( "ShowSprites", &DebugModel::GetShowSprites );
 
 	NsProp( "SpawnCmd", &DebugModel::GetSpawnCmd );
 
-	NsProp( "WindowSizes", &DebugModel::getWindowSizes );
-	NsProp( "SelectedWindowSize", &DebugModel::getWindowSize, &DebugModel::setWindowSize );
+  NsProp( "WindowSizes", &DebugModel::getWindowSizes );
+  NsProp( "SelectedWindowSize", &DebugModel::getWindowSize, &DebugModel::setWindowSize );
 
+  NsProp( "Tilesheets", &DebugModel::getTilesheets );
+  NsProp( "SelectedTilesheet", &DebugModel::getTilesheet, &DebugModel::setTilesheet );
 }
 
 NS_IMPLEMENT_REFLECTION( WSEntry )
 {
-	NsProp( "Name", &WSEntry::getName );
+  NsProp( "Name", &WSEntry::getName );
+}
+
+NS_IMPLEMENT_REFLECTION( TilesheetEntry )
+{
+  NsProp( "Name", &TilesheetEntry::getName );
+  NsProp( "Width", &TilesheetEntry::m_width );
+  NsProp( "Height", &TilesheetEntry::m_height );
+  NsProp( "BitmapSource", &TilesheetEntry::m_pic );
+  NsProp( "BaseSprites", &TilesheetEntry::m_basesprites );
+}
+
+NS_IMPLEMENT_REFLECTION( BasespriteEntry )
+{
+  NsProp( "Name", &BasespriteEntry::getName );
+  NsProp( "X", &BasespriteEntry::m_x );
+  NsProp( "Y", &BasespriteEntry::m_y );
+  NsProp( "DimX", &BasespriteEntry::m_dimX );
+  NsProp( "DimY", &BasespriteEntry::m_dimY );
 }

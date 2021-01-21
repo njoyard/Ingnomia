@@ -1,4 +1,4 @@
-/*	
+/*
 	This file is part of Ingnomia https://github.com/rschurade/Ingnomia
     Copyright (C) 2017-2020  Ralph Schurade, Ingnomia Team
 
@@ -20,8 +20,19 @@
 #include "../game/creature.h"
 #include "../game/eventmanager.h"
 
-
 #include <QObject>
+#include <QPixmap>
+
+class Game;
+
+struct GuiTilesheet
+{
+    QString name = "";
+    int width;
+    int height;
+    std::vector<unsigned char> pic;
+};
+Q_DECLARE_METATYPE( GuiTilesheet )
 
 class AggregatorDebug : public QObject
 {
@@ -31,13 +42,20 @@ public:
 	AggregatorDebug( QObject* parent = nullptr );
 	~AggregatorDebug();
 
+    void init( Game* game );
+    void update();
+
 private:
-	
+    QPointer<Game> g;
+    QList<GuiTilesheet> m_tilesheets;
+
 public slots:
 	void onSpawnCreature( QString type );
     void onSetWindowSize( int width, int height );
+    void onRequestTilesheets();
 
 signals:
 	void signalTriggerEvent( EventType type, QVariantMap args );
     void signalSetWindowSize( int width, int height );
+    void signalDebugTilesheets( const QList<GuiTilesheet>& tilesheets );
 };

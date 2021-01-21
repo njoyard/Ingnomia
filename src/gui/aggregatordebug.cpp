@@ -1,4 +1,4 @@
-/*	
+/*
 	This file is part of Ingnomia https://github.com/rschurade/Ingnomia
     Copyright (C) 2017-2020  Ralph Schurade, Ingnomia Team
 
@@ -17,16 +17,30 @@
 */
 #include "aggregatordebug.h"
 
+#include "../base/util.h"
+#include "../game/game.h"
+#include "../gfx/spritefactory.h"
+
 #include <QDebug>
 
 AggregatorDebug::AggregatorDebug( QObject* parent ) :
 	QObject(parent)
 {
-	
+
 }
 
 AggregatorDebug::~AggregatorDebug()
 {
+}
+
+void AggregatorDebug::init( Game* game )
+{
+  g = game;
+}
+
+void AggregatorDebug::update()
+{
+  onRequestTilesheets();
 }
 
 void AggregatorDebug::onSpawnCreature( QString type )
@@ -42,7 +56,7 @@ void AggregatorDebug::onSpawnCreature( QString type )
 	}
 	else if( type == "Goblin" )
 	{
-		QVariantMap args; 
+		QVariantMap args;
 		args.insert( "Amount", 1 );
 		args.insert( "Type", "Goblin" );
 		emit signalTriggerEvent( EventType::INVASION, args );
@@ -53,4 +67,33 @@ void AggregatorDebug::onSpawnCreature( QString type )
 void AggregatorDebug::onSetWindowSize( int width, int height )
 {
 	emit signalSetWindowSize( width, height );
+}
+
+void AggregatorDebug::onRequestTilesheets()
+{
+    if( !g ) return;
+
+    QStringList tsns;
+
+    for ( const auto& ts : g->sf()->pixmaps() )
+    {
+        tsns.append(ts);
+    }
+
+    tsns.sort();
+
+    m_tilesheets.clear();
+
+    for ( const auto& ts : tsns )
+    {
+        QPixmap pm = g->sf()->pixmap( ts );
+
+        std::vector<unsigned char> buffer;
+        Global::util->createBufferForNoesisImage( pm, buffer, true );
+
+        GuiTilesheet gts { ts, pm.width(), pm.height(), buffer };
+        m_tilesheets.append( gts );
+    }
+
+    emit signalDebugTilesheets( m_tilesheets );
 }

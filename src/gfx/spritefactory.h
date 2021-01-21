@@ -1,4 +1,4 @@
-/*	
+/*
 	This file is part of Ingnomia https://github.com/rschurade/Ingnomia
     Copyright (C) 2017-2020  Ralph Schurade, Ingnomia Team
 
@@ -142,11 +142,8 @@ private:
 	QPixmap getTintedBaseSprite( QString baseSprite, QString material );
 
 	Sprite* createSprite2( const QString itemSID, QStringList materialSID, const QMap<int, int>& random = QMap<int, int>() );
-	
-	void printDebug();
 
-	QStringList pixmaps();
-	QPixmap pixmap( QString name );
+	void printDebug();
 
 	QPixmap baseSprite( QString id );
 
@@ -158,7 +155,7 @@ public:
 	SpriteFactory();
 	~SpriteFactory();
 
-	
+
 
 	Sprite* createSprite( const QString itemSID, QStringList materialSID, const QMap<int, int>& random = QMap<int, int>() );
 	Sprite* createAnimalSprite( const QString spriteSID, const QMap<int, int>& random = QMap<int, int>() );
@@ -175,7 +172,8 @@ public:
 
 	void createSprites( QList<SpriteCreation> scl );
 
-	
+	QPixmap pixmap( QString name );
+	QStringList pixmaps();
 
 	bool textureAdded();
 	bool creatureTextureAdded();
@@ -185,11 +183,11 @@ public:
 	void addPixmapSource( QString name, QString path );
 
 	unsigned int thoughtBubbleID( QString sid );
-	
+
 	int texesUsed();
-	
+
 	unsigned int size();
-	
+
 	QVector<uint8_t> pixelData( int index );
-	
+
 };

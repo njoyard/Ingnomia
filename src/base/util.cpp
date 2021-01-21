@@ -1049,7 +1049,7 @@ QStringList Util::possibleMaterials( QString allowedMaterials, QString allowedMa
 	return out;
 }
 
-void Util::createBufferForNoesisImage( const QPixmap& pm, std::vector<unsigned char>& buffer )
+void Util::createBufferForNoesisImage( const QPixmap& pm, std::vector<unsigned char>& buffer, bool keepAlpha )
 {
 	int w = pm.width();
 	int h = pm.height();
@@ -1065,7 +1065,7 @@ void Util::createBufferForNoesisImage( const QPixmap& pm, std::vector<unsigned c
 			buffer[( x + y * w ) * 4]     = color.red();
 			buffer[( x + y * w ) * 4 + 1] = color.green();
 			buffer[( x + y * w ) * 4 + 2] = color.blue();
-			buffer[( x + y * w ) * 4 + 3] = 255;
+			buffer[( x + y * w ) * 4 + 3] = keepAlpha ? color.alpha() : 255;
 		}
 	}
 }

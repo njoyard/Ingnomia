@@ -127,7 +127,7 @@ public:
 	QPixmap createConstructionImage( const QString& constructionID, const QStringList& mats );
 	Sprite* getSprite( int x, int y, const QList<QVariantMap>& comps, unsigned char& rot, const QStringList& mats );
 
-	void createBufferForNoesisImage( const QPixmap& pm, std::vector<unsigned char>& buffer );
+	void createBufferForNoesisImage( const QPixmap& pm, std::vector<unsigned char>& buffer, bool keepAlpha = false );
 
 	QStringList possibleMaterialsForItem( QString itemSID );
 	QStringList possibleMaterials( QString allowedMaterials, QString allowedMaterialTypes );
